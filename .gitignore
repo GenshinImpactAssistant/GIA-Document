@@ -1,0 +1,8 @@
+base/*.pygettext
+base/dev/*.pygettext
+base/dev/abandoned/*.pygettext
+en_US_old
+markdown_i18n/locale/en_US/LC_MESSAGES/en_US.pot
+markdown_i18n/locale/zh_CN/LC_MESSAGES/zh_CN.pot
+markdown_i18n/locale/en_US/LC_MESSAGES/en_US.mo
+markdown_i18n/locale/zh_CN/LC_MESSAGES/zh_CN.mo
