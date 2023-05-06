@@ -1,14 +1,18 @@
 # Mission
 
+
 ## 介绍
+
 
 mission是用于执行原神类任务的类型，包括自动采集，自动委托，自动任务等。
 
 ## 使用
 
+
 从MissionExecutor类继承。
 
 ## 方法
+
 
 MissionExecutor有以下方法：
 
@@ -86,8 +90,6 @@ pickup_points: 是否在指定坐标拾取。若是，则填入坐标，否则�
 停止识别并采集。
 
 
-## 写一个Mission
-
 首先，继承MissionExecutor。
 
 ```python
@@ -122,6 +124,7 @@ if __name__ == '__main__':
 运行该文件即可。
 
 ## 添加你的Mission
+
 
 运行mission/index_generator.py。
 

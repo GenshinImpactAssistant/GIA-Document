@@ -1,6 +1,8 @@
 # Auto Combat Assist
 
+
 ## Introduction
+
 
 - Location: `config/settings/tactic` or CombatSetting in GUI.
 
@@ -21,155 +23,153 @@ Auto Combat Assist support the following tactic:
 |---------------|--------------------------------|
 | `>` | Skip to next group immediately |
 | `@e?A:B` | Detect whether the Elemental Skill is in effetc. If it take effect, execute A. Otherwise, execute B. |
-| `e?A:B`       | 元素战技是否就绪。就绪执行A，否则执行B。          |
-| `q?A:B`       | 元素爆发是否就绪。就绪执行A，否则执行B。          |
-| `#@e?A:B`     | 元素战技是否正在持续，如果正在持续，循环执行A,否则执行B。 |
-| `#@q?A:B`     | 元素爆发是否正在持续，如果正在持续，循环执行A,否则执行B。 |
-| `a`/`a~`/`da` | 普通攻击/重击/下落攻击                   |
-| `e`/`e~`      | 使用元素战技（点按/长按）                  |
-| `j`           | 跳跃                             |
-| `ja`          | 跳跃攻击                           |
-| `sp`          | 冲刺                             |
-| 数字            | 延时，单位为`毫秒`                     |
+| `e?A:B` | Detect whether the Elemental Skill is ready. If ready, execute A, otherwise execute B. |
+| `q?A:B` | Detect whether the Elemental Burst is ready. If ready, execute A, otherwise execute B. |
+| `#@e?A:B` | Detect whether Elemental Skill is ongoing. If it is ongoing, loop execute A, otherwise execute B. |
+| `#@q?A:B` | Detect whether Elemental is ongoing. If it is ongoing, loop execute A, otherwise execute B. |
+| `a`/`a~`/`da` | Normal Attack/Heavy Attack/Drop Attack |
+| `e`/`e~` | Use Elemental Skill (short/long) |
+| `j` | jump |
+| `ja` | jump and attack |
+| `sp` | Sprint |
+| num | delay, unit is milliseconds. |
 
-每个策略关键字用`,`分隔；不同策略组用`;`分隔。当一组策略执行完毕后，执行下一个策略组。
+Each tactic keyword is separated by `,`; different policy groups are separated by `;`. When the execution of a group of policies is finished, execute the next policy group.
 
-注意：
+Attantion:
 
-- 瞄准射箭的角色可以用重击代替。
-- 自动瞄准在射箭蓄力状态下，会被巨大的蓄力特效所干扰，导致识别混乱。所以尽量少使用单体伤害弓箭类角色，甘雨等范围伤害角色除外。
-- 不能添加空格。
+- Aiming-to-shoot character can use heavy attack instead.
+- Auto Aim will be
+- Cannot include space.
 
-- 在判断表达式中，策略关键字之间用`.`分隔。
-- 在判断表达式中，策略关键字之间用`.`分隔。
-- 在判断表达式中，策略关键字之间用`.`分隔。
+- In the judgment expressions, the tactic keyword shoule be separated by `.` .
+- In the judgment expressions, the tactic keyword shoule be separated by `.` .
+- In the judgment expressions, the tactic keyword shoule be separated by `.` .
 
-含有`?`的策略关键字用法与三元运算符相近，如：
+A tactic keyword containing `?` tactic keyword usage is similar to the ternary operator, e.g:
 
-`@e?e:a;`：当元素战技准备时执行e，否则执行a。
+`@e?e:a;`: When Elemental is ready, execute `e`(use Elemental Skill), otherwise execute `a`(normal attack)
 
-`@e?e.a.a:none;`：当元素战技准备时执行`e,a,a`，否则不执行。
+`@e?e.a.a:none;`：When Elemental is ready, execute`e,a,a`，otherwise not execute anything.
 
-其中，`none` 可以为其他任何无意义字符，表示不执行任何动作。
+Where `none` can be any other meaningless character, indicating that no action is performed.
 
-注意：
+Attantion:
 
-- 判断表达式中，不能嵌套判断表达式；
-- 判断表达式最好以分号结束，后面不再接策略关键字。
+- judgment expressions in which judgment expressions cannot be nested;
+- Judgment expressions should preferably end with a semicolon and not be followed by any tactic keywords.
 
-示例：
+Example:
 
-| 角色      | 策略                   |
+| Character | Tactic |
 |---------|----------------------|
 | zhongli | `e?e~:none;q?q:none` |
-| yunjin  | `e?e~:none;q?q:none` |
-| yoimiya | `e?e:none;#@e?a:q;`  |
+| Yun Jin | `e?e~:none;q?q:none` |
+| Yoimiya | `e?e:none;#@e?a:q;`  |
 
-## 触发器 trigger
+## Trigger
 
-触发器条件成立时，允许切换至该角色。
 
-| 触发器       | 说明                 |
+Allows switching to the character when trigger condition is established.
+
+| trigger type | description |
 |-----------|--------------------|
-| `e_ready` | 当角色的元素战技准备就绪时，可以切换 |
-| `q_ready` | 当角色的元素爆发准备就绪时，可以切换 |
-| `idle`    | 始终触发               |
+| `e_ready` | When a character Elemental Skill is ready, switching is allowed |
+| `q_ready` | When a character Burst Skill is ready, switching is allowed |
+| `idle` | always enable |
 
-可以使用多个触发器，触发器之间用逗号分隔。不能有空格。
-当多个角色的触发条件成立时，切换角色的顺序由优先级决定。
+Multiple triggers can be used, with commas sparating the trigger. There can be no space.
+When the trigger conditions of multiple characters are established, the order of switching is determinded by the priority.
 
-## 角色定位 position
+## Position
 
-角色定位是角色在队伍中的作用。
-| 类型       | 说明|
+
+Position is the role of the character in the team.
+| type | description |
 |-----------|--------------------|
-| `Main` | 当角色的元素战技准备就绪时，可以切换 |
-| `Shield` | 当角色的元素爆发准备就绪时，可以切换 |
-| `Support`    | 始终触发|
-| `Recovery` | 回血类角色|
+| `Main` | Main damage character |
+| `Shield` | Shield character |
+| `Support` | Support character |
+| `Recovery` | Recovery character |
 
-角色定位的设置会影响自动战斗的部分功能。
-## 优先级 priority
 
-优先级从小到大依次降低，0为最高优先级。
-优先级可以同级。
+The priority decreases from smallest to largest, with 0 being the highest priority.
+The priority can be the same level.
 
-这是GIA的默认优先级配置：
+This is the GIA default priority setting:
 
-n=角色在队伍中的位置, n∈{1,2,3,4}
+n is the character id in the team, n∈{1,2,3,4}
 
 - `Shield`:1000+n
 - `Recovery`:1500+n
 - `Support`:3000+n
 - `Main`:2000+n
 
-你可以不使用基于千位数的值，这只是用于区分配置是否自动生成。
+You may not use values based on thousands of digits, this is only used to distinguish whether the configuration is automatically generated or not.
 
-## 其他设置
+## Other Settings
 
-| 设置项               | 介绍                       |
+
+| Settings | Introduction |
 |-------------------|--------------------------|
-| `Elast_time`      | E技能持续时间，没有则为0            |
-| `Qlast_time`      | Q技能持续时间，没有则为0            |
-| `E_short_cd_time` | 短Ecd时间，不能为0              |
-| `Epress_time`     | 长按E的时间，没有则为0             |
-| `E_long_cd_time`  | 长Ecd时间，没有则为0             |
-| `Qcd_time`| Q技能冷却时间|
-| `n`               | 角色在队伍中的位置（1~4），不可重复，不可为0 |
+| `Elast_time` | E skill duration, or 0 if none |
+| `Qlast_time` | Q skill duration, or 0 if none |
+| `E_short_cd_time` | Short Ecd time, can't be 0 |
+| `Epress_time` | the time to press and hold E, or 0 if none |
+| `E_long_cd_time` | long Ecd time, or 0 if none |
+| `Qcd_time`| Q skill cooldown time|
+| `n` | The position of the character in the team (1~4), cannot be repeated, cannot be 0 |
 
-## 自动配置team文件
+## Auto-configure TEAM files
 
-在GUI中，新建team文件，输入角色名后按下自动填充，所有空输入框和标记为-1的输入框会被自动填充。
 
-角色在队伍中的位置、角色优先级和部分角色的触发器不会自动填充。
+In the GUI, create a new TEAM file, enter the character name and press AutoFill, all empty input boxes and input boxes marked with -1 will be filled automatically.
 
-[支持的角色列表](../../assets/characters_data/characters_parameters.json)
+The character's position in the team, character priority, and some of the character's triggers will not be automatically populated.
 
-[角色名文件 感谢xicri/genshin-dictionary](../../assets/characters_data/characters_name.json)
+[List of supported roles](../../assets/characters_data/characters_parameters.json)
 
-欢迎贡献角色参数(ﾉﾟ∀ﾟ)ﾉ
+[Character names file Thanks for xicri/genshin-dictionary](../../assets/characters_data/characters_name.json)
 
-## 自动生成team文件
+Welcome to contribute character parameters (ﾟ∀ﾟ)ノ
 
-如果在设置中启用了自动生成team文件，则会在战斗开始前扫描角色列表并扫描tactic下的所有策略文件，选择符合的策略文件。
+## Automatically generate TEAM files
 
-如果没有符合的策略文件吗，则根据[支持的角色列表](../../assets/characters_data/characters_parameters.json)自动生成一套战斗策略。
 
-如果角色不存在于[支持的角色列表](../../assets/characters_data/characters_parameters.json)则会使用默认的team文件。
+If automatic TEAM file generation is enabled in the settings, the character list will be scanned and all tactic files under tactic folder will be scanned before the battle starts and the matching tactic files will be selected.
 
-## 角色元素战技、元素爆发图片设置
+If there is no matching tactic file, then according to [list of supported roles](... /... /assets/characters_data/characters_parameters.json) to automatically generate a set of battle tactic.
 
-自新版本起，无需设置图片。
+If the character does not exist in the [list of supported characters](... /... /assets/characters_data/characters_parameters.json) then the default TEAM file will be used.
 
-## 其他注意事项
+## Character elemental battle technique, elemental burst picture setting
 
-- 角色名称可在`config/character_dist.json`中查找，每个角色的首项即为该角色名称，其余为角色别名，如：
 
-`["albedo","Albedo","阿贝多","アルベド"]`中，角色名称为`albedo`，其他为别名。
+Since the new version, there is no need to set up images.
 
-- 角色血量过低或有角色死亡时，程序可能暂停运行。
-- 不在合适的界面时，程序可能暂停运行。
+## Other Notes
 
-由于~~是个非酋~~能力有限，角色较少，上述配置并非最优方案，如果你有更好的方案，随时`issue`
 
-如果遇到无法解决的问题，也可提交`issue`。
+- The program may pause when the character's blood level is too low or when a character dies.
+- The program may pause when it is not in the right interface.
 
-如果有好的角色输出手法可以发`issue`或者在q群分享~
+Due to limited capacity and fewer characters, the above configuration is not the optimal solution, if you have a better plan, feel free to `issue`.
 
-## team.json文件示例
+If you encounter a problem that cannot be solved, you can also submit an `issue`.
 
-你可以新建新的策略文件并将设置中的`teamfile`修改为你自己的文件.
+If you have a good character tactic group, welcome to send `issue` too.
 
-不能在`示例json`中直接修改，否则你的修改将在下一次启动后清除。
 
-文件示例：
+You can create a new tactic file and change the `teamfile` in the CombatSettings to your own file.
 
-[文件示例1 宵宫 钟离 班尼特 云堇](./team_example1.json)
+You cannot modify it directly in the `example json`, otherwise your changes will be cleared after the next startup.
 
-[文件示例2 凝光 钟离 班尼特 云堇](./team_example2.json)
+File Example:
 
-[文件示例3 凌人 钟离 班尼特 纳西妲](./team_example3.json)
+[File example 1: Yoimiya, Zhongli Bennett Yun Jin](./team_example1.json)
 
-在tactic文件夹中也有该示例文件。
+[File example 3](./team_example3.json)
+
+The example file is also available in the tactic folder.
 
 

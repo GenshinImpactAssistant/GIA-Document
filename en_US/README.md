@@ -1,4 +1,5 @@
-# genshin_impact_assistant 原神助手
+# Genshin Impact Assistant
+
 <div align="center">
 
 A multi-functional auto-assist based on image recognition and keystroke simulation, including auto combat, auto domain and auto claim materials in Teyvat world
@@ -20,11 +21,13 @@ The aim of GIA is: let the program play Genshin, and you just need to selected c
 
 ## Introduction
 
+
 An Genshin automatic operation assistance based on image recognization and similated keyboard operation. Does not involve not-allowed operation.
 
 To those who have not used github: the blue text in the docs is a hyperlink that can be clicked.
 
 ## Demo Video
+
 
 <https://www.bilibili.com/video/BV1RV4y157m6>(hung up)
 
@@ -32,7 +35,9 @@ Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be
 
 ## Function Introduction
 
+
 ### 1. [Auto Combat Assist](./combat_assi.md)
+
 
 - Switch Function to AutoCombat and wait for the module to be imported.
 
@@ -41,6 +46,7 @@ Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be
 For other settings, see [Auto Combat Assist introduction](./combat_assi.md).
 
 ### 2. [Auto Domain Assist](./domain_assi.md)
+
 
 1. Set the number of challenges and other settings in the config, see [config settings](./config.md).
 2. select the party manually, then enter the domain.
@@ -53,6 +59,7 @@ For other settings, sett [Auto Domain Assist introduction](./domain_assi.md).
 
 ### 3. [Auto Collect Assist](./collector_assi.md)
 
+
 Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 
 - Switch the Mission Group to AutoCollectorMission.json in GUI.
@@ -64,6 +71,7 @@ Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 For other settings, see[Auto Collector Assist introduction](./collector_assi.md).
 
 ### 4. [Auto Daily Commission Assist](./commission_assi.md)
+
 **In Early Access, pls use it with caution and report any error occuring. **
 
 > For now, it can only complete this request: ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger.
@@ -71,24 +79,31 @@ For other settings, see[Auto Collector Assist introduction](./collector_assi.md)
 For more detiles, see [Auto Daily Commission Assist introduction](./commission_assi.md).
 
 ### 5. [Claim Daily Reward](./claim_reward.md)
-see [Claim Daily Reward introduction](./commission_assi.md).
+
+See [Claim Daily Reward introduction](./commission_assi.md).
 
 ### 6. [Auto Ley Line Outcrop Assist](./ley_line_ourcrop.md)
+
 See [Auto Ley Line Outcrop Assist introduction](./commission_assi.md).
 
 ## How to use
 
+
 ### Quick installation
+
 
 See [GIA Launcher Auto Installer Tutorial](install.md).
 
 ### Run from source code
 
+
 See [Source code running tutorial](git_install.md)
 
 ## Pre-use settings
 
+
 ### Genshin window settings
+
 
 - Need to run GIA after the Genshin Impact starts.
 
@@ -97,6 +112,7 @@ See [Source code running tutorial](git_install.md)
 - The focus of windows shoule be on Genshin window. If the focus window is switched to another window, the program will pause all the operation of keyboard and mouse and wait.
 
 ### Config configuration
+
 
 Before use, these configuration elements shoule be noted:
 
@@ -110,7 +126,9 @@ For other configurations, see the notes of settings within the GUI.
 
 ### GUI Tutorials
 
+
 #### Main window
+
 
 - click `main` button to enter.
 - Task List: select the task to be executed, can only be active in the GUI.
@@ -120,6 +138,7 @@ For other configurations, see the notes of settings within the GUI.
 
 #### Setting page
 
+
 - click button to enter
 
 - Select the corresponding item in the drop-down list to configure.
@@ -128,9 +147,11 @@ Other features such as remote control, see the [GUI guide](./gui.md)
 
 ### Auto combat, auto collect settings windows
 
+
 - Click the corresponding button to enter and follow the instructions.
 
 ## Bug report
+
 
 If you encounter ploblems in using, you can create an issue or give a feedback in qq group or discord.
 
@@ -140,10 +161,9 @@ Please send the log file in the Logs folder when you feedback.
 
 ## ERR Code
 
+
 If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding information in [ERROR_CODE](error_code.md).
 
-
-## Frequently ask question
 
 If you enconter any problem when using, you can take a look at FAQ frist:
 
@@ -151,21 +171,27 @@ If you enconter any problem when using, you can take a look at FAQ frist:
 
 ## Known issues
 
+
 [Known issues](known_issues.md)
 
 ## Performance requirements
+
 
 - This program requires at least `2.5G` RAM and `3G` storage space (full installation).
 
 ## Acknowledgements
 
+
 ### Special Thanks
+
 
 - [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)
 
 #### Open Source Library
 
+
 ### Genshin Related
+
 
 - [GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)
 
@@ -175,6 +201,7 @@ If you enconter any problem when using, you can take a look at FAQ frist:
 
 #### Open source library
 
+
 - [opencv](https://github.com/opencv/opencv)
 - [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)
 - [yolox](https://github.com/Megvii-BaseDetection/YOLOX)
@@ -182,22 +209,11 @@ If you enconter any problem when using, you can take a look at FAQ frist:
 
 #### Others
 
+
 - [GIS](https://github.com/phonowell/genshin-impact-script)
 
 ### Other Contributors
 
+
 - Dataset labeling: [nɡ.](https://space.bilibili.com/396023811)
-
-## Announcement
-
-- 本软件开源免费,仅供学习交流使用,请勿用于非法用途.使用本软件进行代练的商家所收取的费用均为商家的人工/设备费用,产生的**任何问题**与本软件无关.
-
-> 用别怂,怂别用 --unknown
-## 广告
-
-QQ group:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
-
-Developers' Communication Group: [680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
-(Make sure you already know how to use git and github)
-
 

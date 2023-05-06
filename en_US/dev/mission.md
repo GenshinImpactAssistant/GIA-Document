@@ -1,14 +1,18 @@
 # Mission
 
+
 ## Introduction
+
 
 mission is a common template executed in Genshin Teyvat world , including auto collect, auto commission and auto request, etc.
 
 ## Usage
 
+
 ## Inherited from the MissionExecutor class.
 
 ## Methods
+
 
 MissionExecutor has the following methods:
 
@@ -86,8 +90,6 @@ pickup_points: 是否在指定坐标拾取。若是，则填入坐标，否则�
 停止识别并采集。
 
 
-## 写一个Mission
-
 首先，继承MissionExecutor。
 
 ```python
@@ -122,6 +124,7 @@ if __name__ == '__main__':
 运行该文件即可。
 
 ## 添加你的Mission
+
 
 运行mission/index_generator.py。
 

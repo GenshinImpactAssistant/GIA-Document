@@ -3,10 +3,12 @@
 ## 无法运行
 
 Q: 程序崩溃？
+
 - 检查文件路径是否为全英文或下划线
 - 检查submodule是否clone成功
 
-Q: 启动GIA Launcher后跳出大量文字卡住怎么办？  
+Q: 启动GIA Launcher后跳出大量文字卡住怎么办？
+
 - 是pip正在复制文件, 如果没有报错, 等待即可.
 - 注意窗口是否出现 `选择：GIA Launcher`的<strong>选择</strong>字样。如果出现，请按下回车以继续程序。 GIA Launcher的本体是bat批处理文件，在点击命令窗口后会暂停，所以不要点击命令行界面。
 

@@ -1,5 +1,5 @@
-- 秘境开局会点两下
-- 太靠近地图边界会有图像识别问题
-- 自动委托如果在到达目的地之前遇到了敌人会失败
+- Domain opening will click twice
+- Too close to the map boundary will have image recognition problems
+- Auto Commission will fail if an enemy is encountered before reaching the destination
 - PigeonsGoAWOL
 

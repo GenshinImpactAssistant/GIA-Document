@@ -1,43 +1,50 @@
 # GUI
 
-GIA 的GUI由PyWebIO实现。包含以下功能：
 
-- 选择自动辅助模式，状态显示
+GIA's GUI is implemented by PyWebIO. The following functions are included:
 
-- 启动/停止
+- Select auto assist mode, status display
 
-- 设置配置
+- Start/Stop
 
-- 远程操作
+- Set Configuration
 
-## 功能使用
+- Remote Control
+
+## Function usage
+
 
 ### Task
-Task是GIA执行的基本模块，所有的全自动功能从Task里启动。
 
-启动时，在对应功能的复选框打钩，然后按下按钮。停止时按下同样按钮。
+Task is the basic module of GIA execution, all fully automated functions are started from Task.
+
+When starting, check the checkbox for the corresponding function and press the button. Press the same button when stopping.
 
 ### Mission
-Mission是GIA中在大世界执行功能的便携集成化单元，使用统一的接口，编写简单。
 
-Mission可以实现的功能包括采集、战斗、NPC对话(正在制作)与行走。通过功能的组合可以实现固定路线采集、任务自动化等功能。
+Mission is a portable, integrated unit in GIA that performs functions in the Teyvat world, using a unified interface that is simple to write and use.
 
-Mission的组织调用形式是MissionGroup。一个MissionGroup可以包括多个Mission和MissionGroup。在Main界面选择要进行的MissionGroup，然后在Task里启动Mission就可以运行MissionGroup。MissionGroup的下方有该Group功能的简单介绍。
+Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) and walking. The combination of functions allows for fixed route gathering, mission automation and more.
 
-## 辅助功能
+The organizational call form for Mission is MissionGroup. A MissionGroup can include multiple Missions and MissionGroup. Select the MissionGroup to be run in the Main screen, and then start the Mission in Task to run the MissionGroup. A brief description of the features of the Group is available at the bottom of the MissionGroup.
 
-辅助功能是一些半自动的功能模块，能够自动辅助部分操作。
+## Auxiliary Functions
 
-在原神中按下快捷键(默认为`[`)即可启动/停止。
 
-## 设置配置
+The auxiliary functions are some semi-automatic function modules that can automatically assist some operations.
 
-在设置页面可以配置设置。
+Press the hotkey (default is `[`) in the Genshin to start/stop.
 
-在下拉框中选择要配置的文件，按照提示配置。
+## Setup Configuration
 
-## 远程操作
 
-在`main`界面按下`获取ip`即可获取局域网连接ip，可以在电脑上输入该ip，连接到GIA控制面板，操作另一台电脑上的GIA。
+You can configure the settings in the settings page.
+
+Select the file to be configured in the drop-down box and follow the prompts to configure it.
+
+## Remote Control
+
+
+Press `Get ip` in the `main` screen to get the LAN connection ip, you can enter that ip on your computer to connect to the GIA control panel and operate the GIA on another computer.
 
 

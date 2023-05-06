@@ -1,30 +1,34 @@
 # FAQ
 
-## 无法运行
 
-Q: 程序崩溃？
-- 检查文件路径是否为全英文或下划线
-- 检查submodule是否clone成功
+## Not working
+
+
+Q: Program crashed?
+
+- Check if the file path is fully English or underscored
+- Check if the submodule is successfully cloned
 
 Q: What should I do if I get stuck with a lot of text popping up after launching GIA Launcher?
 
 - It is pip copying files, if no error is reported, just wait.
 - Notice if the **Select: GIA Launcher** words `Select` appear in the window. If it appears, press enter to continue the program. The base of GIA Launcher is a bat file and will pause when you click on the command window, so do no click on the command line interface.
 
-## 运行时问题
+## Runtime issues
+
 
 Q: It shows "ERROR: Screenshot failed". What should I do?
 
-- 若shape=0,0,4 ,那么请确认原神窗口没有最小化。
-- 若shape=xxx,xxx,4, 那么请确认原神分辨率为1080p，同时确认原神启动器窗口关闭。
-- 如果系统是Windows11，请按照这个[issue](https://github.com/GengGode/cvAutoTrack/issues/9)设置
+- If `shape=0,0,4`, pls confirm your Genshin Window not minimized.
+- If shape=xxx,xxx,4, please make sure that the Genshin window resolution is 1080p and that the Genshin launcher window is closed.
+- If the system is Windows 11, please follow this [issue](https://github.com/GengGode/cvAutoTrack/issues/9) setting 
 
 Q: What if I set up a strategy during battle but do not switch to a character whose Q skill is already ready?
 
 - Check if the effets are medium or above.
 
-Q: 在大地图总是点歪怎么办？
+Q: What should I do if I always point crookedly in the big map?
 
-- 看看有没有设置readme中的`使用前config配置`。
-- 目前对传送至周本式秘境，稻妻地图的支持尚不完备。将来会适配。
+- See if the `pre-use configuration` in the readme is set.
+- Currently, support for teleporting to the weekly style domain and the Inazuma is not yet complete. It will be adapted in the future.
 

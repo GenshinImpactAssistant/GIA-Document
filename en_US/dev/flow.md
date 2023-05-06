@@ -1,10 +1,13 @@
 # 流程控制单元
 
+
 ## FlowTemplate
+
 
 基本流程单元。
 
 ### 基本概念：
+
 Flow id: 存储于模块ST。
 
 Flow Code: 存储于模块FC。
@@ -19,7 +22,8 @@ upper：流程连接器（FlowConnector）单元。
 
 flow_id: 流程代码：
 
-## 流程代码
+### Flow Code
+
 
 以自动秘境为例，它有以下流程码：
 
@@ -55,6 +59,7 @@ rfc：return flow code。有以下6个值：0,1,2,3,4,5
 5: 流程结束标志码。即FC.OVER
 
 ### 状态执行函数：
+
 state_init, state_before, state_in, state_after, state_end。
 
 其中，state_init与state_end为单次执行函数，即在一个Flow单元中的一次执行中只执行一次。
@@ -86,6 +91,7 @@ state_in是循环状态，即如果该流程的一些代码需要循环执行，
 
 ## FlowConnector
 
+
 流程连接器。
 
 所有的流程变量都应该存放在这里，方便重置与设置。
@@ -93,6 +99,7 @@ state_in是循环状态，即如果该流程的一些代码需要循环执行，
 一个FlowController必须有且仅有一个FlowConnector。
 
 ## FlowController
+
 
 流程控制器。
 
@@ -115,6 +122,7 @@ current_flow_id: 初始流程id。
 |set_current_flow_id()|设置流程id|
 
 ## EndFlowTemplate
+
 
 同FlowTemplate。区别是
 

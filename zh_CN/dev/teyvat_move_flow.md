@@ -1,6 +1,8 @@
 # TMF TeyvatMoveFlow 提瓦特移动控制流
 
+
 ## 参数
+
 
 TeyvatMoveController(MODE:str = None,
     stop_rule:int = None,
@@ -39,11 +41,14 @@ precise_arrive: 是否精准抵达（将目标）。默认为False。
 
 ## 工作原理
 
+
 ### AUTO模式
+
 
 AUTO模式会朝着目标坐标方向直行。在走路状态下每2s按2次空格。
 
 ### PATH模式
+
 
 PATH模式会沿着坐标前进。在循环过程中，执行以下3个步骤：
 

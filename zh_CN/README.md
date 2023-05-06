@@ -1,4 +1,5 @@
 # genshin_impact_assistant 原神助手
+
 <div align="center">
 
 基于图像识别和模拟按键的多功能原神自动辅助操作,包括自动战斗,自动刷秘境,自动刷大世界材料。
@@ -20,11 +21,13 @@ GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛�
 
 # 介绍
 
+
 基于图像识别的原神自动操作辅助.使用图片识别与模拟键盘操作,不涉及违规操作.
 
 To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打开的.
 
 ## 演示视频
+
 
 <https://www.bilibili.com/video/BV1RV4y157m6>(挂了)
 
@@ -32,7 +35,9 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## 功能介绍
 
+
 ### 1. [自动战斗辅助](./combat_assi.md)
+
 
 - 在GUI中将FlowMode切换到AutoCombat，等待模块导入
 
@@ -41,6 +46,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 其他设置参见[自动战斗辅助介绍](./combat_assi.md).
 
 ### 2. [自动秘境辅助](./domain_assi.md)
+
 
 1. 在config中设置挑战秘境的次数与其他设置,详见[config设置](./config.md).
 2. 手动选择队伍,配置队伍,进入秘境.
@@ -53,6 +59,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ### 3. [自动采集辅助](./collector_assi.md)
 
+
 演示视频：<https://www.bilibili.com/video/BV163411Q7fD>
 
 - 在GUI中将Mission Group切换到AutoCollectorMission.json
@@ -64,6 +71,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 其他设置参见[自动采集辅助介绍](./collector_assi.md).
 
 ### 4. [自动每日委托辅助](./commission_assi.md)
+
 **正在早期测试，请谨慎开启并汇报遇到的错误。**
 
 > 目前仅能完成以下委托：ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger.
@@ -71,24 +79,31 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 详情参见[自动每日委托辅助介绍](./commission_assi.md).
 
 ### 5. [每日领取凯瑟琳](./claim_reward.md)
+
 参见[领取日常奖励](./commission_assi.md).
 
 ### 6. [自动地脉衍出辅助](./ley_line_ourcrop.md)
+
 参见[自动地脉衍出辅助介绍](./ley_line_ourcrop.md).
 
 ## 使用方法
 
+
 ### 快速安装
+
 
 请参见[GIA Launcher自动安装器使用方法](install.md).
 
 ### 从源代码构建
 
+
 请参见[源代码安装方法](git_install.md)
 
 ## 使用前设置
 
+
 ### 原神窗口设置
+
 
 - 需要在原神启动后再运行程序.
 
@@ -97,6 +112,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 - 窗口焦点应在原神窗口上。如果切换焦点窗口，程序会暂停所有键鼠操作并等待。
 
 ### config配置
+
 
 在使用前，需要注意这些配置内容：
 
@@ -110,7 +126,9 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ### GUI使用
 
+
 #### main窗口
+
 
 - 点击main按钮进入
 - Task List：选择要执行的任务，只能从GUI里启动
@@ -120,6 +138,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 #### 设置页面
 
+
 - 点击按钮进入
 
 - 在下拉列表中选择对应的项目，进行配置。
@@ -128,9 +147,11 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ### 自动战斗，自动采集设置窗口
 
+
 - 点击对应按钮进入，按照提示操作
 
 ## 错误报告
+
 
 如果在使用中遇到问题，可以提交issue或在Q群中反馈。
 
@@ -140,10 +161,9 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## 错误码
 
+
 如果日志输出了`ERR_CODE`或`WARN_CODE`，可以在[ERROR_CODE](error_code.md)中查看对应的信息：
 
-
-## 常见问题 FAQ
 
 如果在使用时遇到问题，可以先看看FAQ：
 
@@ -151,21 +171,27 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## 已知问题 Known Issues
 
+
 [Known issues](known_issues.md)
 
 ## 性能需求
+
 
 - 此程序至少需要`2.5G内存`与`3G存储空间`(完整安装).
 
 ## 鸣谢
 
+
 ### 特别感谢
+
 
 - [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)
 
 ### 开源库
 
+
 #### 原神相关
+
 
 - [原神-基于图像算法的坐标定位 GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)
 
@@ -175,6 +201,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 #### 开源库调用
 
+
 - [opencv](https://github.com/opencv/opencv)
 - [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)
 - [yolox](https://github.com/Megvii-BaseDetection/YOLOX)
@@ -182,22 +209,11 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 #### 其他
 
+
 - [GIS 参考了自动战斗脚本的格式](https://github.com/phonowell/genshin-impact-script)
 
 ### 其他贡献/参与者
 
+
 - 数据集标注: [nɡ.](https://space.bilibili.com/396023811)
-
-## 声明
-
-- 本软件开源免费,仅供学习交流使用,请勿用于非法用途.使用本软件进行代练的商家所收取的费用均为商家的人工/设备费用,产生的**任何问题**与本软件无关.
-
-> 用别怂,怂别用 --unknown
-## 广告
-
-qq群:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
-
-开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
-(请确保你已经会使用git以及github)
-
 
