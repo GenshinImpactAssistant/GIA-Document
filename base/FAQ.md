@@ -6,6 +6,7 @@ Q: 程序崩溃？
 
 - 检查文件路径是否为全英文或下划线
 - 检查submodule是否clone成功
+- 如果提示`no module name win32gui`, 请重启GIA Launcher。
 
 Q: 启动GIA Launcher后跳出大量文字卡住怎么办？
 
