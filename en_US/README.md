@@ -177,7 +177,7 @@ If you enconter any problem when using, you can take a look at FAQ frist:
 ## Performance requirements
 
 
-- 此程序至少需要`2.5G内存`与`4G存储空间`(完整安装).
+- This program requires at least `2.5G` RAM and `4G` storage space (full installation).
 
 ## Internationalization
 

@@ -2,13 +2,14 @@
 
 
 <strong>Note: This is run from source code and requires some programming skills. For quick start, see
-[GIA Launcher Usage](doc/install.md)</strong>
+[GIA Launcher Usage](./install.md)</strong>
 
 Require:
 
 - python version [3.7.6](https://www.python.org/downloads/release/python-376/).
 - [git](https://git-scm.com/download/win).
-- **Open the command prompt and your IDE with administrator privileges!!! **
+
+**Open the command prompt and your IDE with administrator privileges!!!**
 
 ## Installation
 
@@ -31,7 +32,7 @@ Require:
    python genshin_assistant.py
    ```
 
-~~ (recommended to use VsCode, so your run and debug will have several shortcuts to run, fat good! And variable coloring Oh (doge))~~
+~~(recommended to use VsCode, so your run and debug will have several shortcuts to run, fat good! And variable coloring Oh (doge))~~
 
 ## Update
 

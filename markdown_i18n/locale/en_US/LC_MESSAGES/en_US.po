@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-08 21:04+0800\n"
-"PO-Revision-Date: 2023-05-08 21:07+0800\n"
+"POT-Creation-Date: 2023-05-08 23:55+0800\n"
+"PO-Revision-Date: 2023-05-08 23:56+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.2\n"
 
 #: ../doc\base\FAQ.pygettext:8
 msgid "# FAQ"
@@ -493,39 +493,55 @@ msgid "## 性能需求"
 msgstr "## Performance requirements"
 
 #: ../doc\base\README.pygettext:175
-msgid "- 此程序至少需要`2.5G内存`与`3G存储空间`(完整安装)."
+msgid "- 此程序至少需要`2.5G内存`与`4G存储空间`(完整安装)."
 msgstr ""
-"- This program requires at least `2.5G` RAM and `3G` storage space (full "
+"- This program requires at least `2.5G` RAM and `4G` storage space (full "
 "installation)."
 
 #: ../doc\base\README.pygettext:177
+msgid "## Internationalization"
+msgstr ""
+
+#: ../doc\base\README.pygettext:180
+msgid ""
+"GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and "
+"English(other) now."
+msgstr ""
+
+#: ../doc\base\README.pygettext:182
+msgid ""
+"English language support may not be comprehensive. If you are experiencing "
+"problems, please submit an issue for feedback."
+msgstr ""
+
+#: ../doc\base\README.pygettext:184
 msgid "## 鸣谢"
 msgstr "## Acknowledgements"
 
-#: ../doc\base\README.pygettext:180
+#: ../doc\base\README.pygettext:187
 msgid "### 特别感谢"
 msgstr "### Special Thanks"
 
-#: ../doc\base\README.pygettext:183
+#: ../doc\base\README.pygettext:190
 msgid "- [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)"
 msgstr "- [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)"
 
-#: ../doc\base\README.pygettext:185
+#: ../doc\base\README.pygettext:192
 msgid "### 开源库"
 msgstr "#### Open Source Library"
 
-#: ../doc\base\README.pygettext:188
+#: ../doc\base\README.pygettext:195
 msgid "#### 原神相关"
 msgstr "### Genshin Related"
 
-#: ../doc\base\README.pygettext:191
+#: ../doc\base\README.pygettext:198
 msgid ""
 "- [原神-基于图像算法的坐标定位 GenshinImpact AutoTrack DLL](https://github."
 "com/GengGode/cvAutoTrack)"
 msgstr ""
 "- [GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)"
 
-#: ../doc\base\README.pygettext:193
+#: ../doc\base\README.pygettext:200
 msgid ""
 "- [空荧酒馆原神地图 kongying-tavern/yuan-shen-map](https://github.com/"
 "kongying-tavern/yuan-shen-map)"
@@ -533,48 +549,48 @@ msgstr ""
 "- [kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-"
 "shen-map)"
 
-#: ../doc\base\README.pygettext:195
+#: ../doc\base\README.pygettext:202
 msgid ""
 "- [原神英語・中国語辞典 xicri/genshin-dictionary](https://github.com/xicri/"
 "genshin-dictionary)"
 msgstr ""
 "- [xicri/genshin-dictionary](https://github.com/xicri/genshin-dictionary)"
 
-#: ../doc\base\README.pygettext:197
+#: ../doc\base\README.pygettext:204
 msgid "#### 开源库调用"
 msgstr "#### Open source library"
 
-#: ../doc\base\README.pygettext:200
+#: ../doc\base\README.pygettext:207
 msgid "- [opencv](https://github.com/opencv/opencv)"
 msgstr "- [opencv](https://github.com/opencv/opencv)"
 
-#: ../doc\base\README.pygettext:201
+#: ../doc\base\README.pygettext:208
 msgid "- [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)"
 msgstr "- [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)"
 
-#: ../doc\base\README.pygettext:202
+#: ../doc\base\README.pygettext:209
 msgid "- [yolox](https://github.com/Megvii-BaseDetection/YOLOX)"
 msgstr "- [yolox](https://github.com/Megvii-BaseDetection/YOLOX)"
 
-#: ../doc\base\README.pygettext:203
+#: ../doc\base\README.pygettext:210
 msgid "- [pyinstaller](https://github.com/pyinstaller/pyinstaller)"
 msgstr "- [pyinstaller](https://github.com/pyinstaller/pyinstaller)"
 
-#: ../doc\base\README.pygettext:205
+#: ../doc\base\README.pygettext:212
 msgid "#### 其他"
 msgstr "#### Others"
 
-#: ../doc\base\README.pygettext:208
+#: ../doc\base\README.pygettext:215
 msgid ""
 "- [GIS 参考了自动战斗脚本的格式](https://github.com/phonowell/genshin-impact-"
 "script)"
 msgstr "- [GIS](https://github.com/phonowell/genshin-impact-script)"
 
-#: ../doc\base\README.pygettext:210
+#: ../doc\base\README.pygettext:217
 msgid "### 其他贡献/参与者"
 msgstr "### Other Contributors"
 
-#: ../doc\base\README.pygettext:213
+#: ../doc\base\README.pygettext:220
 msgid "- 数据集标注: [nɡ.](https://space.bilibili.com/396023811)"
 msgstr "- Dataset labeling: [nɡ.](https://space.bilibili.com/396023811)"
 
@@ -673,7 +689,7 @@ msgid "- 推荐在GUI中编辑"
 msgstr "- Recommanded editing in the GUI"
 
 #: ../doc\base\collector_assi.pygettext:45
-#: ../doc\base\collector_assi.pygettext:56
+#: ../doc\base\collector_assi.pygettext:55
 msgid "| key         | item             |"
 msgstr "| key | item |"
 
@@ -687,73 +703,65 @@ msgid ""
 "`ENEMY`（战斗掉落物）|"
 msgstr ""
 "| collection_type | type of collection，devided into `COLLECTION`（general "
-"collection）和`ENEMY`（combat drops）|"
+"collection）and `ENEMY`（combat drops）|"
 
-#: ../doc\base\collector_assi.pygettext:49
-msgid ""
-"| minimum_times_mask_col_id | 自动生成黑名单时，采集失败次数超过该值即录入黑"
-"名单，不再采集|"
-msgstr ""
-"| minimum_times_mask_col_id | 自动生成黑名单时，采集失败次数超过该值即录入黑"
-"名单，不再采集|"
-
-#: ../doc\base\collector_assi.pygettext:51
+#: ../doc\base\collector_assi.pygettext:50
 msgid "## 采集日志"
 msgstr "## Collector Log"
 
-#: ../doc\base\collector_assi.pygettext:54
+#: ../doc\base\collector_assi.pygettext:53
 msgid "采集日志(collection_log.json)是自动采集辅助产生的日志文件，包括："
 msgstr ""
 "Coollector Log(collection_log.json) is the log file generated by Auto "
 "Collector, including:"
 
-#: ../doc\base\collector_assi.pygettext:58
+#: ../doc\base\collector_assi.pygettext:57
 msgid "| time        | 采集时间             |"
 msgstr "| time | collect time |"
 
-#: ../doc\base\collector_assi.pygettext:59
+#: ../doc\base\collector_assi.pygettext:58
 msgid "| id          | 采集物id         |"
 msgstr "| id | collection id |"
 
-#: ../doc\base\collector_assi.pygettext:60
+#: ../doc\base\collector_assi.pygettext:59
 msgid "| error_code  | 退出原因             |"
 msgstr "| err_code | reason for exit |"
 
-#: ../doc\base\collector_assi.pygettext:61
+#: ../doc\base\collector_assi.pygettext:60
 msgid "| picked item | 在该次采集过程中采集到的所有物品 |"
 msgstr "| picked item | All items collected during that collect |"
 
-#: ../doc\base\collector_assi.pygettext:63
+#: ../doc\base\collector_assi.pygettext:62
 msgid "## 采集物选择优先级"
 msgstr "## Collection Selection Priority"
 
-#: ../doc\base\collector_assi.pygettext:66
+#: ../doc\base\collector_assi.pygettext:65
 msgid "采集物有多个地点时，按照历史采集成功率和距离远近计算权重。"
 msgstr ""
 "When there are multiple locations of the collection, the weights are "
 "calculated accroding to the historical collection success rate and distance "
 "of collection."
 
-#: ../doc\base\collector_assi.pygettext:68
+#: ../doc\base\collector_assi.pygettext:67
 msgid "## 已采集地点"
 msgstr "## Collected Locations"
 
-#: ../doc\base\collector_assi.pygettext:71
+#: ../doc\base\collector_assi.pygettext:70
 msgid "已采集地点(collected.json)保存了采集过的物品的id。自动生成。"
 msgstr ""
 "Collected location including the id of collected items. Automatic generated."
 
-#: ../doc\base\collector_assi.pygettext:73
+#: ../doc\base\collector_assi.pygettext:72
 msgid "## 黑名单设置"
 msgstr "## Blacklist Settings"
 
-#: ../doc\base\collector_assi.pygettext:76
+#: ../doc\base\collector_assi.pygettext:75
 msgid "在对应项的列表中加入id即可屏蔽这些采集项。"
 msgstr ""
 "Add the id to the list of corresponding items to block these collection "
 "items."
 
-#: ../doc\base\collector_assi.pygettext:78
+#: ../doc\base\collector_assi.pygettext:77
 msgid "如果有些id的采集常常失败，可以加入黑名单，在下次采集时将会自动跳过。"
 msgstr ""
 "If the collection of some ids often fails, you can add them to the blacklist "
@@ -1785,8 +1793,8 @@ msgid ""
 "3. 角色移动方向改变超过3°时，会记录一次break position。break position之间的距"
 "离最小为5。\n"
 "4. 走完之后，再次按下`\\`键。提示`ready to stop recording`。\n"
-"5. 在1秒内应该会提示`recording save as {jsonname}`。如果没有，就再按一次"
-"`\\`。\n"
+"5. 在1秒内应该会提示`recording save as {jsonname}`。如果没有，就再按一次`"
+"\\`。\n"
 "6. json文件将在`assets/TeyvatMovePath`保存为`name+timestamp.json`。如果想继续"
 "记录，就重复这些步骤。"
 msgstr ""
@@ -1937,11 +1945,11 @@ msgstr "### Install from source code"
 #: ../doc\base\git_install.pygettext:11
 msgid ""
 "<strong>注意: 这里是从源代码运行,需要一定编程基础.快速使用请参见:\n"
-"[GIA Launcher自动安装器使用方法](doc/install.md)</strong>"
+"[GIA Launcher自动安装器使用方法](./install.md)</strong>"
 msgstr ""
 "<strong>Note: This is run from source code and requires some programming "
 "skills. For quick start, see\n"
-"[GIA Launcher Usage](doc/install.md)</strong>"
+"[GIA Launcher Usage](./install.md)</strong>"
 
 #: ../doc\base\git_install.pygettext:13
 msgid "要求:"
@@ -1959,29 +1967,33 @@ msgid "- [git](https://git-scm.com/download/win)."
 msgstr "- [git](https://git-scm.com/download/win)."
 
 #: ../doc\base\git_install.pygettext:17
+msgid "- "
+msgstr ""
+
+#: ../doc\base\git_install.pygettext:18
 msgid "- **使用管理员权限打开命令提示符和你的代码编写器(IDE)!!!**"
 msgstr ""
 "- **Open the command prompt and your IDE with administrator privileges!!! **"
 
-#: ../doc\base\git_install.pygettext:19
+#: ../doc\base\git_install.pygettext:20
 msgid "## 安装"
 msgstr "## Installation"
 
-#: ../doc\base\git_install.pygettext:22
+#: ../doc\base\git_install.pygettext:23
 msgid "1. 输入以下命令以完成源码和依赖的下载:"
 msgstr ""
 "1. Enter the following command to complete the download of the source code "
 "and dependencies."
 
-#: ../doc\base\git_install.pygettext:26
+#: ../doc\base\git_install.pygettext:27
 msgid "   **注意子模块(submodule)是否同时clone成功！**"
 msgstr "   **Notice if the submodule clones successfully at the same time! **"
 
-#: ../doc\base\git_install.pygettext:28
+#: ../doc\base\git_install.pygettext:29
 msgid "2. 输入以下命令运行程序:"
 msgstr "2. Enter the following command to run the program."
 
-#: ../doc\base\git_install.pygettext:32
+#: ../doc\base\git_install.pygettext:33
 msgid ""
 "~~（推荐使用VsCode，这样你的运行和调试就会有几个快捷运行方式，肥肠好用！还有"
 "变量着色哦(doge)）~~"
@@ -1989,7 +2001,7 @@ msgstr ""
 "~~ (recommended to use VsCode, so your run and debug will have several "
 "shortcuts to run, fat good! And variable coloring Oh (doge))~~"
 
-#: ../doc\base\git_install.pygettext:34
+#: ../doc\base\git_install.pygettext:35
 msgid "## 更新"
 msgstr "## Update"
 
@@ -2276,6 +2288,13 @@ msgstr "## Run"
 #: ../doc\base\ley_line_ourcrop.pygettext:27
 msgid "在Task list中选择地脉衍出，启动任务。"
 msgstr "Select the Ley Line Outcrop in the Task list and start the task."
+
+#~ msgid ""
+#~ "| minimum_times_mask_col_id | 自动生成黑名单时，采集失败次数超过该值即录入"
+#~ "黑名单，不再采集|"
+#~ msgstr ""
+#~ "| minimum_times_mask_col_id | 自动生成黑名单时，采集失败次数超过该值即录入"
+#~ "黑名单，不再采集|"
 
 #, fuzzy
 #~ msgid ""
