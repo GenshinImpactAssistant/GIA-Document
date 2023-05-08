@@ -4,28 +4,28 @@
 ## Introduction
 
 
-- 能够自动连续刷大部分秘境，包括自动开始挑战、自动战斗和自动领取奖励。
+- The ability to automatically and continuously brush most of Domain, including automatically starting challenges, automatically fighting and automatically collecting rewards.
 
-- 进入秘境后，在GUI TaskList中选中DomainTask，点击启动任务
+- After entering the Domain, select DomainTask in the GUI TaskList and click Start Task
 
-- 自动秘境功能开始前请先配置好自动战斗阵容。自动战斗的部分参见[自动战斗辅助](combat_assi.md)
+- Please configure the auto-combat before starting the auto-domain function. See [autocombat assist](combat_assi.md) for the auto-battle section
 
 - Require the Genshin to run in 1080p windowing. Not recommend to set color filters.
 
 ## How to use
 
 
-1. 在config中设置挑战秘境的次数与其他设置，详见[config设置](config.md)
+1. Set the number of challenges and other settings in the config.
 
-2. 手动选择队伍，配置队伍，进入秘境。
+2. Configure the team and enter the secret area.
 
-3. 进入秘境后，开始刷刷刷~
+3. Enter the Domain and start function.
 
-## 注意事项
+## Caution
 
 
-1. 先选好队伍，进入秘境后再启动。
+1. Choose a team first and start it after entering the domain.
 
-2. 挑战在璃月或部分石化古树被墙壁阻挡视野的秘境时，请在`config.json`中将`isLiYueDomain`设置为`true`。
+2. When you challenge a domain where the view of tree is blocked by walls , please set `isLiYueDomain` to `true` in domain setting.
 
 

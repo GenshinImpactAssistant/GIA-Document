@@ -1,6 +1,11 @@
 # FAQ
 
 
+## Windows11 related
+
+
+If you are using Windows 11, please Google the solution for Bitblt screenshot black or white screen under Win22H2, or check this [issue](https://github.com/GengGode/cvAutoTrack/issues/9)
+
 ## Not working
 
 
@@ -8,6 +13,7 @@ Q: Program crashed?
 
 - Check if the file path is fully English or underscored
 - Check if the submodule is successfully cloned
+- If prompted with `No module name win32gui`, please restart GIA Launcher.
 
 Q: What should I do if I get stuck with a lot of text popping up after launching GIA Launcher?
 

@@ -1,21 +1,21 @@
 # Auto Ley Line Outcrop Assist
 
 
-自动刷`地脉衍出·启示之花`和`地脉衍出·藏金之花`。
+Auto obtain Blossom of Wealth or Revelation.
 
-## 依赖
-
-
-- 自动战斗辅助
-
-## 设置
+## Dependency
 
 
-- 在地脉衍出设置中选择你要刷的花。
-- 在地脉衍出设置中选择你要刷的次数。
+# Auto Combat Assist
+
+## Setup
+
+
+- Select the Blossom type you want to brush in the LeyLineOutcrop settings.
+- Select the number of times you want to obtain in the LeyLineOutcrop settings.
 
 ## Run
 
 
-在Task list中选择地脉衍出，启动任务。
+Select the Ley Line Outcrop in the Task list and start the task.
 

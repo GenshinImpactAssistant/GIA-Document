@@ -20,9 +20,9 @@ Double click on `GIA Launcher.exe` to run it.
 ## Configuration file
 
 
-对中国用户来说，可以使用`installer_config_cn.json`配置文件，已经根据中国特色网络环境进行了单独配置。
+<!-- pot none -->
 
-使用方法：删除`installer_config.json`，保留`installer_config_cn.json`即自动启用`installer_config_cn.json`。
+<!-- pot none -->
 
 Specific configuration.
 

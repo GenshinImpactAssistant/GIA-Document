@@ -1,6 +1,11 @@
 # FAQ
 
 
+## Windows11相关
+
+
+如果你正在使用Windows11，请Google搜索 Win22H2下Bitblt截图黑屏或白屏 的解决方案，或查看这个[issue](https://github.com/GengGode/cvAutoTrack/issues/9)
+
 ## 无法运行
 
 
@@ -8,6 +13,7 @@ Q: 程序崩溃？
 
 - 检查文件路径是否为全英文或下划线
 - 检查submodule是否clone成功
+- 如果提示`no module name win32gui`, 请重启GIA Launcher。
 
 Q: 启动GIA Launcher后跳出大量文字卡住怎么办？
 
