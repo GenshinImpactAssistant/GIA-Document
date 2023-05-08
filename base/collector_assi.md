@@ -34,7 +34,6 @@
 |-------------|------------------|
 | collection_name        | 需要采集的物品名称             |
 | collection_type    | 采集的物品类型，分为`COLLECTION`（一般采集物）和`ENEMY`（战斗掉落物）|
-| minimum_times_mask_col_id | 自动生成黑名单时，采集失败次数超过该值即录入黑名单，不再采集|
 
 ## 采集日志
 

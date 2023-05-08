@@ -39,7 +39,6 @@ Start the Auto Collector from the GUI.
 |-------------|------------------|
 | collection_name | name of the item to be collected |
 | collection_type | type of collection，devided into `COLLECTION`（general collection）和`ENEMY`（combat drops）|
-| minimum_times_mask_col_id | 自动生成黑名单时，采集失败次数超过该值即录入黑名单，不再采集|
 
 ## Collector Log
 

@@ -177,7 +177,14 @@ If you enconter any problem when using, you can take a look at FAQ frist:
 ## Performance requirements
 
 
-- This program requires at least `2.5G` RAM and `3G` storage space (full installation).
+- 此程序至少需要`2.5G内存`与`4G存储空间`(完整安装).
+
+## Internationalization
+
+
+GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
+
+English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
 
 ## Acknowledgements
 

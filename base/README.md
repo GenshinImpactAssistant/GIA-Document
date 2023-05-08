@@ -155,7 +155,12 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## 性能需求
 
-- 此程序至少需要`2.5G内存`与`3G存储空间`(完整安装).
+- 此程序至少需要`2.5G内存`与`4G存储空间`(完整安装).
+
+## Internationalization
+
+GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.  
+English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
 
 ## 鸣谢
 
