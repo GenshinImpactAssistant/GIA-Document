@@ -49,7 +49,6 @@ next_flow_id: 该流程结束后运行的下一个流程的Flow id
 
 flow_timeout_time: 流程超时时间。负数则为无限。
 
-
 变量：
 
 rfc：return flow code。有以下6个值：0,1,2,3,4,5
@@ -128,6 +127,5 @@ current_flow_id: 初始流程id。
 
 1. 需要填写err_code。ERR_PASS即为无错误。
 2. 流程ID必须包含$END$。
-
 
 

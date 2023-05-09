@@ -89,6 +89,8 @@ pickup_points: 是否在指定坐标拾取。若是，则填入坐标，否则�
 
 停止识别并采集。
 
+## 写一个Mission
+
 
 首先，继承MissionExecutor。
 

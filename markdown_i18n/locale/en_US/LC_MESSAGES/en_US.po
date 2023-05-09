@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-08 23:55+0800\n"
-"PO-Revision-Date: 2023-05-08 23:56+0800\n"
+"POT-Creation-Date: 2023-05-09 17:11+0800\n"
+"PO-Revision-Date: 2023-05-09 17:12+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ../doc\base\FAQ.pygettext:8
 msgid "# FAQ"
@@ -471,77 +471,81 @@ msgstr ""
 "If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding "
 "information in [ERROR_CODE](error_code.md)."
 
-#: ../doc\base\README.pygettext:163
+#: ../doc\base\README.pygettext:162
+msgid "## 常见问题 FAQ"
+msgstr "## Frequently ask question"
+
+#: ../doc\base\README.pygettext:165
 msgid "如果在使用时遇到问题，可以先看看FAQ："
 msgstr ""
 "If you enconter any problem when using, you can take a look at FAQ frist:"
 
-#: ../doc\base\README.pygettext:165
+#: ../doc\base\README.pygettext:167
 msgid "[FAQ](FAQ.md)"
 msgstr "[FAQ](FAQ.md)"
 
-#: ../doc\base\README.pygettext:167
+#: ../doc\base\README.pygettext:169
 msgid "## 已知问题 Known Issues"
 msgstr "## Known issues"
 
-#: ../doc\base\README.pygettext:170
+#: ../doc\base\README.pygettext:172
 msgid "[Known issues](known_issues.md)"
 msgstr "[Known issues](known_issues.md)"
 
-#: ../doc\base\README.pygettext:172
+#: ../doc\base\README.pygettext:174
 msgid "## 性能需求"
 msgstr "## Performance requirements"
 
-#: ../doc\base\README.pygettext:175
+#: ../doc\base\README.pygettext:177
 msgid "- 此程序至少需要`2.5G内存`与`4G存储空间`(完整安装)."
 msgstr ""
 "- This program requires at least `2.5G` RAM and `4G` storage space (full "
 "installation)."
 
-#: ../doc\base\README.pygettext:177
+#: ../doc\base\README.pygettext:179
 msgid "## Internationalization"
 msgstr ""
 
-#: ../doc\base\README.pygettext:180
+#: ../doc\base\README.pygettext:182
 msgid ""
 "GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and "
 "English(other) now."
 msgstr ""
 
-#: ../doc\base\README.pygettext:182
+#: ../doc\base\README.pygettext:184
 msgid ""
 "English language support may not be comprehensive. If you are experiencing "
 "problems, please submit an issue for feedback."
 msgstr ""
 
-#: ../doc\base\README.pygettext:184
+#: ../doc\base\README.pygettext:186
 msgid "## 鸣谢"
 msgstr "## Acknowledgements"
 
-#: ../doc\base\README.pygettext:187
+#: ../doc\base\README.pygettext:189
 msgid "### 特别感谢"
 msgstr "### Special Thanks"
 
-#: ../doc\base\README.pygettext:190
+#: ../doc\base\README.pygettext:192
 msgid "- [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)"
 msgstr "- [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)"
 
-#: ../doc\base\README.pygettext:192
+#: ../doc\base\README.pygettext:194
 msgid "### 开源库"
 msgstr "#### Open Source Library"
 
-#: ../doc\base\README.pygettext:195
+#: ../doc\base\README.pygettext:197
 msgid "#### 原神相关"
 msgstr "### Genshin Related"
 
-#: ../doc\base\README.pygettext:198
+#: ../doc\base\README.pygettext:200
 msgid ""
 "- [原神-基于图像算法的坐标定位 GenshinImpact AutoTrack DLL](https://github."
 "com/GengGode/cvAutoTrack)"
 msgstr ""
 "- [GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)"
 
-#: ../doc\base\README.pygettext:200
+#: ../doc\base\README.pygettext:202
 msgid ""
 "- [空荧酒馆原神地图 kongying-tavern/yuan-shen-map](https://github.com/"
 "kongying-tavern/yuan-shen-map)"
@@ -549,48 +553,48 @@ msgstr ""
 "- [kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-"
 "shen-map)"
 
-#: ../doc\base\README.pygettext:202
+#: ../doc\base\README.pygettext:204
 msgid ""
 "- [原神英語・中国語辞典 xicri/genshin-dictionary](https://github.com/xicri/"
 "genshin-dictionary)"
 msgstr ""
 "- [xicri/genshin-dictionary](https://github.com/xicri/genshin-dictionary)"
 
-#: ../doc\base\README.pygettext:204
+#: ../doc\base\README.pygettext:206
 msgid "#### 开源库调用"
 msgstr "#### Open source library"
 
-#: ../doc\base\README.pygettext:207
+#: ../doc\base\README.pygettext:209
 msgid "- [opencv](https://github.com/opencv/opencv)"
 msgstr "- [opencv](https://github.com/opencv/opencv)"
 
-#: ../doc\base\README.pygettext:208
+#: ../doc\base\README.pygettext:210
 msgid "- [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)"
 msgstr "- [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)"
 
-#: ../doc\base\README.pygettext:209
+#: ../doc\base\README.pygettext:211
 msgid "- [yolox](https://github.com/Megvii-BaseDetection/YOLOX)"
 msgstr "- [yolox](https://github.com/Megvii-BaseDetection/YOLOX)"
 
-#: ../doc\base\README.pygettext:210
+#: ../doc\base\README.pygettext:212
 msgid "- [pyinstaller](https://github.com/pyinstaller/pyinstaller)"
 msgstr "- [pyinstaller](https://github.com/pyinstaller/pyinstaller)"
 
-#: ../doc\base\README.pygettext:212
+#: ../doc\base\README.pygettext:214
 msgid "#### 其他"
 msgstr "#### Others"
 
-#: ../doc\base\README.pygettext:215
+#: ../doc\base\README.pygettext:217
 msgid ""
 "- [GIS 参考了自动战斗脚本的格式](https://github.com/phonowell/genshin-impact-"
 "script)"
 msgstr "- [GIS](https://github.com/phonowell/genshin-impact-script)"
 
-#: ../doc\base\README.pygettext:217
+#: ../doc\base\README.pygettext:219
 msgid "### 其他贡献/参与者"
 msgstr "### Other Contributors"
 
-#: ../doc\base\README.pygettext:220
+#: ../doc\base\README.pygettext:222
 msgid "- 数据集标注: [nɡ.](https://space.bilibili.com/396023811)"
 msgstr "- Dataset labeling: [nɡ.](https://space.bilibili.com/396023811)"
 
@@ -1313,6 +1317,17 @@ msgstr ""
 msgid "例如:"
 msgstr "For example:"
 
+#: ../doc\base\dev\config_doc_writing_guide.pygettext:45
+msgid ""
+"  itemname: \n"
+"    select_items: [\n"
+"      甜甜花 - 蒙德,\n"
+"      霓裳花 - 璃月,\n"
+"      鸣草 - 稻妻\n"
+"    ],\n"
+"    doc: 物品名"
+msgstr ""
+
 #: ../doc\base\dev\config_doc_writing_guide.pygettext:49
 msgid "## Special Key"
 msgstr "## Special Key"
@@ -1321,12 +1336,16 @@ msgstr "## Special Key"
 msgid "用于执行特殊方法的标记，包括"
 msgstr ""
 
-#: ../doc\base\dev\config_doc_writing_guide.pygettext:55
+#: ../doc\base\dev\config_doc_writing_guide.pygettext:54
+msgid "## 其他"
+msgstr "## Others"
+
+#: ../doc\base\dev\config_doc_writing_guide.pygettext:57
 msgid ""
 "- 如果你觉得有一些不必要翻译那可以删掉键值对,程序会自动使用配置的值作为标题."
 msgstr ""
 
-#: ../doc\base\dev\config_doc_writing_guide.pygettext:56
+#: ../doc\base\dev\config_doc_writing_guide.pygettext:58
 msgid "- <strong>请不要写入无法解析的yaml文档!!!</strong>"
 msgstr ""
 
@@ -1417,9 +1436,7 @@ msgid "flow_timeout_time: 流程超时时间。负数则为无限。"
 msgstr ""
 
 #: ../doc\base\dev\flow.pygettext:55
-msgid ""
-"\n"
-"变量："
+msgid "变量："
 msgstr ""
 
 #: ../doc\base\dev\flow.pygettext:57
@@ -1726,31 +1743,35 @@ msgstr ""
 msgid "停止识别并采集。"
 msgstr ""
 
-#: ../doc\base\dev\mission.pygettext:85
+#: ../doc\base\dev\mission.pygettext:84
+msgid "## 写一个Mission"
+msgstr "### Write a Mission"
+
+#: ../doc\base\dev\mission.pygettext:87
 msgid "首先，继承MissionExecutor。"
 msgstr ""
 
-#: ../doc\base\dev\mission.pygettext:91
+#: ../doc\base\dev\mission.pygettext:93
 msgid "然后，实现exec_mission方法。"
 msgstr ""
 
-#: ../doc\base\dev\mission.pygettext:95
+#: ../doc\base\dev\mission.pygettext:97
 msgid "这是一个示例。"
 msgstr ""
 
-#: ../doc\base\dev\mission.pygettext:97
+#: ../doc\base\dev\mission.pygettext:99
 msgid "最后，如果你要调试你的mission，在下方加入以下代码："
 msgstr ""
 
-#: ../doc\base\dev\mission.pygettext:101
+#: ../doc\base\dev\mission.pygettext:103
 msgid "运行该文件即可。"
 msgstr ""
 
-#: ../doc\base\dev\mission.pygettext:103
+#: ../doc\base\dev\mission.pygettext:105
 msgid "## 添加你的Mission"
 msgstr ""
 
-#: ../doc\base\dev\mission.pygettext:106
+#: ../doc\base\dev\mission.pygettext:108
 msgid "运行mission/index_generator.py。"
 msgstr ""
 
@@ -1793,8 +1814,8 @@ msgid ""
 "3. 角色移动方向改变超过3°时，会记录一次break position。break position之间的距"
 "离最小为5。\n"
 "4. 走完之后，再次按下`\\`键。提示`ready to stop recording`。\n"
-"5. 在1秒内应该会提示`recording save as {jsonname}`。如果没有，就再按一次`"
-"\\`。\n"
+"5. 在1秒内应该会提示`recording save as {jsonname}`。如果没有，就再按一次"
+"`\\`。\n"
 "6. json文件将在`assets/TeyvatMovePath`保存为`name+timestamp.json`。如果想继续"
 "记录，就重复这些步骤。"
 msgstr ""
@@ -1966,14 +1987,10 @@ msgstr ""
 msgid "- [git](https://git-scm.com/download/win)."
 msgstr "- [git](https://git-scm.com/download/win)."
 
-#: ../doc\base\git_install.pygettext:17
-msgid "- "
-msgstr ""
-
 #: ../doc\base\git_install.pygettext:18
-msgid "- **使用管理员权限打开命令提示符和你的代码编写器(IDE)!!!**"
+msgid "**使用管理员权限打开命令提示符和你的代码编写器(IDE)!!!**"
 msgstr ""
-"- **Open the command prompt and your IDE with administrator privileges!!! **"
+"**Open the command prompt and your IDE with administrator privileges!!! **"
 
 #: ../doc\base\git_install.pygettext:20
 msgid "## 安装"
@@ -1986,8 +2003,8 @@ msgstr ""
 "and dependencies."
 
 #: ../doc\base\git_install.pygettext:27
-msgid "   **注意子模块(submodule)是否同时clone成功！**"
-msgstr "   **Notice if the submodule clones successfully at the same time! **"
+msgid "**注意子模块(submodule)是否同时clone成功！**"
+msgstr "**Notice if the submodule clones successfully at the same time! **"
 
 #: ../doc\base\git_install.pygettext:29
 msgid "2. 输入以下命令运行程序:"
@@ -2289,6 +2306,9 @@ msgstr "## Run"
 msgid "在Task list中选择地脉衍出，启动任务。"
 msgstr "Select the Ley Line Outcrop in the Task list and start the task."
 
+#~ msgid "- "
+#~ msgstr "- "
+
 #~ msgid ""
 #~ "| minimum_times_mask_col_id | 自动生成黑名单时，采集失败次数超过该值即录入"
 #~ "黑名单，不再采集|"
@@ -2301,13 +2321,6 @@ msgstr "Select the Ley Line Outcrop in the Task list and start the task."
 #~ "## 依赖\n"
 #~ "- 自动战斗辅助"
 #~ msgstr "### 1. [Auto Combat Assist](./combat_assi.md)"
-
-#~ msgid ""
-#~ "\n"
-#~ "## 常见问题 FAQ"
-#~ msgstr ""
-#~ "\n"
-#~ "## Frequently ask question"
 
 #~ msgid ""
 #~ "角色定位的设置会影响自动战斗的部分功能。\n"
@@ -2323,13 +2336,6 @@ msgstr "Select the Ley Line Outcrop in the Task list and start the task."
 #~ msgstr ""
 #~ "\n"
 #~ "## team.json file example"
-
-#~ msgid ""
-#~ "\n"
-#~ "## 其他"
-#~ msgstr ""
-#~ "\n"
-#~ "## Others"
 
 #~ msgid "# add_pripority_waypoints"
 #~ msgstr "# add_pripority_waypoints"

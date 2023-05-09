@@ -164,6 +164,8 @@ Please send the log file in the Logs folder when you feedback.
 
 If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding information in [ERROR_CODE](error_code.md).
 
+## 常见问题 FAQ
+
 
 If you enconter any problem when using, you can take a look at FAQ frist:
 

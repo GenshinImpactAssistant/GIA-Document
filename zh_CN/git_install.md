@@ -8,7 +8,7 @@
 
 - python版本[3.7.6](https://www.python.org/downloads/release/python-376/).
 - [git](https://git-scm.com/download/win).
-- 
+
 **使用管理员权限打开命令提示符和你的代码编写器(IDE)!!!**
 
 ## 安装
