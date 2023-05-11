@@ -39,6 +39,6 @@
    python setup.py update&git submodule update
    ```
    Windows Powershell
-    ```shell
+   ```powershell
    python setup.py update;git submodule init;git submodule update
    ```

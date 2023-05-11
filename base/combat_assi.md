@@ -158,8 +158,8 @@ n=角色在队伍中的位置, n∈{1,2,3,4}
 
 文件示例：
 
-[文件示例1 宵宫 钟离 班尼特 云堇](./team_example1.json)
+[文件示例1 宵宫 钟离 班尼特 云堇](../team_example_1.json)
 
-[文件示例3 凌人 钟离 班尼特 纳西妲](./team_example3.json)
+[文件示例3 凌人 钟离 班尼特 纳西妲](../team_example_3.json)
 
 在tactic文件夹中也有该示例文件。

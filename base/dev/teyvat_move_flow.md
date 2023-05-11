@@ -20,6 +20,7 @@ stop_rule：停止条件。有以下两种：
 0：到达目标停止。  
 1：识别到F停止。  
 默认为0。  
+
 target_posi：目标坐标。使用AUTO模式时填写。按照TIanLi坐标格式。  
 path_dict：TeyvatMovePath格式文件。使用PATH模式时传入。  
 is_tp：是否在移动前传送。默认为False。  
@@ -30,7 +31,8 @@ precise_arrive: 是否精准抵达（将目标）。默认为False。
 
 ### AUTO模式
 
-AUTO模式会朝着目标坐标方向直行。在走路状态下每2s按2次空格。
+AUTO模式会朝着目标坐标方向直行。在走路状态下每1.6s按2次空格。  
+如果启用了TLPS(TianLi Positioning System),会使用TLPS进行辅助导航。具体参见[TLPS](./TianLiPositioningSystem.md)
 
 ### PATH模式
 

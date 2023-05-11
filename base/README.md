@@ -56,9 +56,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 演示视频：<https://www.bilibili.com/video/BV163411Q7fD>
 
 - 在GUI中将Mission Group切换到AutoCollectorMission.json
-
 - 选中Task List -> Mission，启动Task
-
 - 注意阅读[collector_assi.md](./collector_assi.md)中的注意事项.
 
 其他设置参见[自动采集辅助介绍](./collector_assi.md).
@@ -88,12 +86,15 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## 使用前设置
 
+### 原神游戏进度
+
+- 需要解锁`层岩巨渊 地下矿区`的地图。
+- 需要解锁璃月与蒙德的所有传送锚点
+
 ### 原神窗口设置
 
 - 需要在原神启动后再运行程序.
-
 - 原神需要以1080p窗口化运行(全屏也可以),设置抗锯齿为SMAA,中或以上特效.
-
 - 窗口焦点应在原神窗口上。如果切换焦点窗口，程序会暂停所有键鼠操作并等待。
 
 ### config配置
@@ -121,7 +122,6 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 #### 设置页面
 
 - 点击按钮进入
-
 - 在下拉列表中选择对应的项目，进行配置。
 
 远程操作等更多GUI使用方法，参考[GUI使用](./gui.md)
@@ -132,16 +132,13 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## 错误报告
 
-如果在使用中遇到问题，可以提交issue或在Q群中反馈。
-
-反馈错误前，请务必确认您已经阅读文档和[FAQ](FAQ.md)中的已知问题与解决方案。
-
+如果在使用中遇到问题，可以提交issue或在Q群中反馈。  
+反馈错误前，请务必确认您已经阅读文档和[FAQ](FAQ.md)中的已知问题与解决方案。  
 反馈错误时，请一并提交 Logs 文件夹中的日志文件。
 
 ## 错误码
 
 如果日志输出了`ERR_CODE`或`WARN_CODE`，可以在[ERROR_CODE](error_code.md)中查看对应的信息：
-
 
 ## 常见问题 FAQ
 
@@ -161,6 +158,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.  
 English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
+GIA is using `py-gettext-markdown` to support document internationalization. The en-version of docs may be delayed.
 
 ## 鸣谢
 

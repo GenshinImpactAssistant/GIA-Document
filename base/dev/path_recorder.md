@@ -6,11 +6,9 @@
 
 ### 加载
 
-1. 运行path_recorder_flow.py。
-
-2. 等待加载，会出现`input your path name`提示，输入你的path名。
-
-3. 等待提示`Load over.` `ready to start.` 即准备完成。
+1. 运行path_recorder_flow.py。  
+2. 等待加载，会出现`input your path name`提示，输入你的path名。  
+3. 等待提示`Load over.` `ready to start.` 即准备完成。  
 
 ### 运行
 
