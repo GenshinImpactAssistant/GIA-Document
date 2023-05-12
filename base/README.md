@@ -24,28 +24,39 @@ GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛�
 
 To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打开的.
 
+## 我是急急国王
+
+如果你啥都不想看就想开始用，按照[这个方法](./jijiking.md)操作：
+
 ## 演示视频
 
 <https://www.bilibili.com/video/BV1RV4y157m6>(挂了)
 
 补档 <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能部分过期
 
+## 常见问题 FAQ
+
+如果在使用时遇到问题，先看看FAQ：  
+[FAQ](FAQ.md)
+
 ## 功能介绍
 
 ### 1. [自动战斗辅助](./combat_assi.md)
 
 - 在GUI中将FlowMode切换到AutoCombat，等待模块导入
-
 - 按下`[`键启动/停止功能。可在`keymap.json`中更改。
 
 其他设置参见[自动战斗辅助介绍](./combat_assi.md).
 
 ### 2. [自动秘境辅助](./domain_assi.md)
 
+- GIA目前最好用的功能~!
+
 1. 在config中设置挑战秘境的次数与其他设置,详见[config设置](./config.md).
 2. 手动选择队伍,配置队伍,进入秘境.
 3. 进入秘境后(也可以在大世界),在GUI TaskList中选中DomainTask，点击启动任务
 4. 等待导入完成后切换到原神
+5. 双手离开键盘
 
 - 注意阅读[domain_assi.md](./domain_assi.md)中的注意事项.
 
@@ -139,12 +150,6 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 ## 错误码
 
 如果日志输出了`ERR_CODE`或`WARN_CODE`，可以在[ERROR_CODE](error_code.md)中查看对应的信息：
-
-## 常见问题 FAQ
-
-如果在使用时遇到问题，可以先看看FAQ：
-
-[FAQ](FAQ.md)
 
 ## 已知问题 Known Issues
 

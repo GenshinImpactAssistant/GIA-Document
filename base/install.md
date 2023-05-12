@@ -19,7 +19,7 @@ GIA提供了自动安装/更新器。
 
 使用方法：删除`installer_config.json`，保留`installer_config_cn.json`即自动启用`installer_config_cn.json`。
 
-具体配置：
+具体配置(可选)：
 
 | 项目                  | 内容                                    |
 |---------------------|-----------------------------|
