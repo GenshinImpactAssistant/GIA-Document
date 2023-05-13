@@ -24,7 +24,7 @@ Double click on `GIA Launcher.exe` to run it.
 
 <!-- pot none -->
 
-Specific configuration.
+具体配置(可选)：
 
 | name | content |
 |---------------------|-----------------------------|

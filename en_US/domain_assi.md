@@ -26,6 +26,7 @@
 
 1. Choose a team first and start it after entering the domain.
 
-2. When you challenge a domain where the view of tree is blocked by walls , please set `isLiYueDomain` to `true` in domain setting.
+2. 挑战在璃月或部分石化古树被墙壁阻挡视野的秘境时，请将`IsObscuredDomain`设置为`true`。
+2. 挑战在璃月或部分石化古树被墙壁阻挡视野的秘境时，请将`IsObscuredDomain`设置为`true`。
 
 

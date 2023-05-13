@@ -1,7 +1,7 @@
 # Auto Ley Line Outcrop Assist
 
 
-Auto obtain Blossom of Wealth or Revelation.
+自动刷位于**蒙德**的`地脉衍出·启示之花`和`地脉衍出·藏金之花`。
 
 ## Dependency
 

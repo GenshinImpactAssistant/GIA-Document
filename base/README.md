@@ -87,6 +87,10 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 Mission组目前主要用于自动采集材料，你可以在下拉选项卡中看到有多少支持的Mission组。
 
+### 7. launch genshin
+
+帮你点击`点击进入`按钮，不能帮你启动原神。
+
 ### -1. [自动采集辅助](./collector_assi.md)
 > 非常垃圾，但是通用
 
@@ -173,7 +177,8 @@ Mission组目前主要用于自动采集材料，你可以在下拉选项卡中�
 
 GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.  
 English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
-GIA is using `py-gettext-markdown` to support document internationalization. The en-version of docs may be delayed.
+
+GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
 
 ## 鸣谢
 

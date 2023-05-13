@@ -1,6 +1,8 @@
 # Auto Combat Assist
 
 
+注：自动配置战斗文件默认开启，如果你不想配置，可以不看下面的配置介绍，或者只看`自动配置team文件`项目。
+
 ## Introduction
 
 
@@ -166,9 +168,9 @@ You cannot modify it directly in the `example json`, otherwise your changes will
 
 File Example:
 
-[File example 1: Yoimiya, Zhongli Bennett Yun Jin](./team_example1.json)
+[File example 1: Yoimiya, Zhongli Bennett Yun Jin](../team_example_1.json)
 
-[File example 3](./team_example3.json)
+[File example 3](../team_example_3.json)
 
 The example file is also available in the tactic folder.
 

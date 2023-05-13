@@ -49,6 +49,7 @@ next_flow_id: 该流程结束后运行的下一个流程的Flow id
 
 flow_timeout_time: 流程超时时间。负数则为无限。
 
+
 变量：
 
 rfc：return flow code。有以下6个值：0,1,2,3,4,5
@@ -57,19 +58,18 @@ rfc：return flow code。有以下6个值：0,1,2,3,4,5
 
 5: 流程结束标志码。即FC.OVER
 
-### 状态执行函数：
-
-state_init, state_before, state_in, state_after, state_end。
 
 其中，state_init与state_end为单次执行函数，即在一个Flow单元中的一次执行中只执行一次。
 
 state_before和state_after可以来回切换，例如：
+
 
 ```python
 def state_after(self):
     ...
     self._set_rfc(FC.BEFORE)
 ```
+
 从而切换回before状态。
 
 state_in是循环状态，即如果该流程的一些代码需要循环执行，写在这里。

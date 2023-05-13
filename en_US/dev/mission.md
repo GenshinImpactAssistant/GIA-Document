@@ -4,7 +4,13 @@
 ## Introduction
 
 
-mission is a common template executed in Genshin Teyvat world , including auto collect, auto commission and auto request, etc.
+Mission is a portable, integrated unit in GIA that performs functions in the Teyvat world, using a unified interface that is simple to write and use.
+
+Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) and walking. The combination of functions allows for fixed route gathering, mission automation and more.
+
+Mission的组织调用形式是MissionGroup。一个MissionGroup可以包括多个Mission和MissionGroup。
+
+**这个类将会重构, 但是方法名称不会改变。**
 
 ## Usage
 
@@ -16,6 +22,55 @@ mission is a common template executed in Genshin Teyvat world , including auto c
 
 MissionExecutor has the following methods:
 
+1.  move(MODE:str = None,
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
 1.  move(MODE:str = None,
     stop_rule:int = None,
     target_posi:list = None,
@@ -60,6 +115,42 @@ path：填写TMP格式文件。仅需填写文件名，不用后缀。
 打一架。打完就润。
 
 5. collect(self, MODE = None,
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
+5. collect(self, MODE = None,
                 collection_name =  None,
                 collector_type =  None,
                 is_combat =  None,
@@ -89,7 +180,7 @@ pickup_points: 是否在指定坐标拾取。若是，则填入坐标，否则�
 
 停止识别并采集。
 
-## 写一个Mission
+### Write a Mission
 
 
 首先，继承MissionExecutor。

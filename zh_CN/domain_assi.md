@@ -26,6 +26,7 @@
 
 1. 先选好队伍，进入秘境后再启动。
 
-2. 挑战在璃月或部分石化古树被墙壁阻挡视野的秘境时，请在`config.json`中将`isLiYueDomain`设置为`true`。
+2. 挑战在璃月或部分石化古树被墙壁阻挡视野的秘境时，请将`IsObscuredDomain`设置为`true`。
+2. 挑战在璃月或部分石化古树被墙壁阻挡视野的秘境时，请将`IsObscuredDomain`设置为`true`。
 
 

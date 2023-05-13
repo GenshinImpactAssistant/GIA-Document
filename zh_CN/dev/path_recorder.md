@@ -15,8 +15,6 @@
 
 3. 等待提示`Load over.` `ready to start.` 即准备完成。
 
-### 运行
-
 
 1. 按下`\`键，提示`ready to start recording`。如果没有，就再按一次。
 2. 一通操作后，提示`start recording`,就可以开始移动了。

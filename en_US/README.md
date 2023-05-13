@@ -26,65 +26,99 @@ An Genshin automatic operation assistance based on image recognization and simil
 
 To those who have not used github: the blue text in the docs is a hyperlink that can be clicked.
 
+## 我是急急国王
+
+
+如果你啥都不想看就想开始用，按照[这个方法](./jijiking.md)操作：
+
 ## Demo Video
 
 
-<https://www.bilibili.com/video/BV1RV4y157m6>(hung up)
+<https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能过期
 
-Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be partially out of date.
+## [常见问题 FAQ](FAQ.md)
+
+
+如果在使用时遇到问题，先看看[FAQ](FAQ.md)：
+
+[FAQ](FAQ.md)
 
 ## Function Introduction
 
 
-### 1. [Auto Combat Assist](./combat_assi.md)
+### 1. [战斗辅助](./combat_assi.md)
 
 
 - Switch Function to AutoCombat and wait for the module to be imported.
-
 - Press `[` key to start/stop function. Can be edited in `keymap`.
 
 For other settings, see [Auto Combat Assist introduction](./combat_assi.md).
 
-### 2. [Auto Domain Assist](./domain_assi.md)
+> 单拉出来的一个核心功能(
+
+### 2. [自动秘境](./domain_assi.md)
 
 
-1. Set the number of challenges and other settings in the config, see [config settings](./config.md).
-2. select the party manually, then enter the domain.
-3. After enter domain(also in the Teyvat world ), select the DomainTask in GUI Tasklist, then click `start task` button.
-4. Switch to Genshin window after imported.
+- 目前最好用的功能~!
+
+1. GUI 设置页面中设置挑战秘境的次数等.
+2. Configure the team and enter the domain.
+3. 进入秘境后(也可以在大世界,但要正确设置秘境名和关卡名),在GUI TaskList中选中DomainTask，点击启动任务
+4. 等待导入完成后切换到原神
+5. 双手离开键盘
 
 Be careful to read the notes in [domain_assi.md](./domain_assi.md).
 
 For other settings, sett [Auto Domain Assist introduction](./domain_assi.md).
 
-### 3. [Auto Collect Assist](./collector_assi.md)
+> 冰本的地板会把人冻死，记得多带点奶...
+
+### 3. [自动每日委托](./commission_assi.md)
 
 
-Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
-
-- Switch the Mission Group to AutoCollectorMission.json in GUI.
-
-- Select Mission in Task List, then start Task.
-
-- Be careful to read the notes in [collector_assi.md](./collector_assi.md).
-
-For other settings, see[Auto Collector Assist introduction](./collector_assi.md).
-
-### 4. [Auto Daily Commission Assist](./commission_assi.md)
-
-**In Early Access, pls use it with caution and report any error occuring. **
+Automatically search and execute daily commissions located in **Mondstadt**. Currently only some commissions that require only combat can be executed.
 
 > For now, it can only complete this request: ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger.
 
 For more detiles, see [Auto Daily Commission Assist introduction](./commission_assi.md).
 
-### 5. [Claim Daily Reward](./claim_reward.md)
+### 4. [领取日常奖励](./claim_reward.md)
 
-See [Claim Daily Reward introduction](./commission_assi.md).
 
-### 6. [Auto Ley Line Outcrop Assist](./ley_line_ourcrop.md)
+在Task list中选择领取日常奖励，启动任务。
 
-See [Auto Ley Line Outcrop Assist introduction](./commission_assi.md).
+> 最稳定的功能(因为简单..)
+
+### 5. [自动地脉衍出](./ley_line_ourcrop.md)
+
+自动刷位于**蒙德**的`地脉衍出·启示之花`和`地脉衍出·藏金之花`。
+
+在设置页面中设置次数和类型。
+
+Select the Ley Line Outcrop in the Task list and start the task.
+
+### 6. [Mission(素材收集)](./mission.md)
+
+在GUI主菜单的Mission下选择你要运行的Mission组，选中之后下方会有该Mission组的介绍。在Task中选中Mission任务，然后启动Task即可运行。
+
+Mission组目前主要用于自动采集材料，你可以在下拉选项卡中看到有多少支持的Mission组。
+
+### 7. launch genshin
+
+
+帮你点击`点击进入`按钮，不能帮你启动原神。
+
+### -1. [自动采集辅助](./collector_assi.md)
+
+> 非常垃圾，但是通用
+
+Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
+
+- Switch the Mission Group to AutoCollectorMission.json in GUI.
+- Select Mission in Task List, then start Task.
+- Be careful to read the notes in [collector_assi.md](./collector_assi.md).
+
+For other settings, see[Auto Collector Assist introduction](./collector_assi.md).
 
 ## How to use
 
@@ -102,13 +136,17 @@ See [Source code running tutorial](git_install.md)
 ## Pre-use settings
 
 
+### Progress in Genshin
+
+
+- 需要解锁`层岩巨渊 地下矿区`的地图。
+- 需要解锁璃月与蒙德的所有传送锚点，副本式秘境
+
 ### Genshin window settings
 
 
 - Need to run GIA after the Genshin Impact starts.
-
 - The Genshin needs to run in 1080p window (full screen is also possible), set anti-aliasing to SMAA, effects to meduim or above.
-
 - The focus of windows shoule be on Genshin window. If the focus window is switched to another window, the program will pause all the operation of keyboard and mouse and wait.
 
 ### Config configuration
@@ -123,6 +161,19 @@ Before use, these configuration elements shoule be noted:
 Can be modified in the GUI or directly from the file.
 
 For other configurations, see the notes of settings within the GUI.
+
+## Bug report
+
+
+如果在使用中遇到问题，可以提交issue反馈。
+
+Please make sure you have read the document and [FAQ](FAQ.md) before feedback bugs.
+
+反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。
+
+> Troubleshooting any problems without the error log is like driving with your eyes closed.
+
+> -- Apache Official Document: Getting Start
 
 ### GUI Tutorials
 
@@ -140,36 +191,14 @@ For other configurations, see the notes of settings within the GUI.
 
 
 - click button to enter
-
 - Select the corresponding item in the drop-down list to configure.
 
 Other features such as remote control, see the [GUI guide](./gui.md)
-
-### Auto combat, auto collect settings windows
-
-
-- Click the corresponding button to enter and follow the instructions.
-
-## Bug report
-
-
-If you encounter ploblems in using, you can create an issue or give a feedback in qq group or discord.
-
-Please make sure you have read the document and [FAQ](FAQ.md) before feedback bugs.
-
-Please send the log file in the Logs folder when you feedback.
 
 ## ERR Code
 
 
 If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding information in [ERROR_CODE](error_code.md).
-
-## 常见问题 FAQ
-
-
-If you enconter any problem when using, you can take a look at FAQ frist:
-
-[FAQ](FAQ.md)
 
 ## Known issues
 
@@ -187,6 +216,8 @@ If you enconter any problem when using, you can take a look at FAQ frist:
 GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
 
 English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
+
+GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
 
 ## Acknowledgements
 

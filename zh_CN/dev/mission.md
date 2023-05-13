@@ -4,7 +4,13 @@
 ## 介绍
 
 
-mission是用于执行原神类任务的类型，包括自动采集，自动委托，自动任务等。
+Mission是GIA中在大世界执行功能的便携集成化单元，使用统一的接口，编写简单，使用方便。
+
+Mission可以实现的功能包括采集、战斗、NPC对话(正在制作)与行走。通过功能的组合可以实现固定路线采集、任务自动化等功能。
+
+Mission的组织调用形式是MissionGroup。一个MissionGroup可以包括多个Mission和MissionGroup。
+
+**这个类将会重构, 但是方法名称不会改变。**
 
 ## 使用
 
@@ -16,6 +22,55 @@ mission是用于执行原神类任务的类型，包括自动采集，自动委�
 
 MissionExecutor有以下方法：
 
+1.  move(MODE:str = None,
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
+1.  move(MODE:str = None,
+    stop_rule:int = None,
+    target_posi:list = None,
+    path_dict:dict = None,
+    to_next_posi_offset:float = None,
+    special_keys_posi_offset:float = None,
+    reaction_to_enemy:str = None,
+    is_tp:bool=None)
 1.  move(MODE:str = None,
     stop_rule:int = None,
     target_posi:list = None,
@@ -59,6 +114,42 @@ path：填写TMP格式文件。仅需填写文件名，不用后缀。
 
 打一架。打完就润。
 
+5. collect(self, MODE = None,
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
+5. collect(self, MODE = None,
+                collection_name =  None,
+                collector_type =  None,
+                is_combat =  None,
+                is_activate_pickup = None,
+                pickup_points = None
+                )
 5. collect(self, MODE = None,
                 collection_name =  None,
                 collector_type =  None,

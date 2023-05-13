@@ -16,11 +16,8 @@ This function intergrates Auto Combat Assist, Auto Move Assist, Auto Pickup Assi
 
 
 - Specify the collection, GIA will select the cloest collection from the database and start-up.
-
 - Can collect resource/enemy
-
 - Automatic continuous collect
-
 - Revive at the State when somebody died.
 
 ## Quick Start
