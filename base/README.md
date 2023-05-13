@@ -30,31 +30,31 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## 演示视频
 
-<https://www.bilibili.com/video/BV1RV4y157m6>(挂了)
+<https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能过期
 
-补档 <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能部分过期
+## [常见问题 FAQ](FAQ.md)
 
-## 常见问题 FAQ
-
-如果在使用时遇到问题，先看看FAQ：  
+如果在使用时遇到问题，先看看[FAQ](FAQ.md)：  
 [FAQ](FAQ.md)
 
 ## 功能介绍
 
-### 1. [自动战斗辅助](./combat_assi.md)
+### 1. [战斗辅助](./combat_assi.md)
 
 - 在GUI中将FlowMode切换到AutoCombat，等待模块导入
 - 按下`[`键启动/停止功能。可在`keymap.json`中更改。
 
 其他设置参见[自动战斗辅助介绍](./combat_assi.md).
 
-### 2. [自动秘境辅助](./domain_assi.md)
+> 单拉出来的一个核心功能(
 
-- GIA目前最好用的功能~!
+### 2. [自动秘境](./domain_assi.md)
 
-1. 在config中设置挑战秘境的次数与其他设置,详见[config设置](./config.md).
+- 目前最好用的功能~!
+
+1. GUI 设置页面中设置挑战秘境的次数等.
 2. 手动选择队伍,配置队伍,进入秘境.
-3. 进入秘境后(也可以在大世界),在GUI TaskList中选中DomainTask，点击启动任务
+3. 进入秘境后(也可以在大世界,但要正确设置秘境名和关卡名),在GUI TaskList中选中DomainTask，点击启动任务
 4. 等待导入完成后切换到原神
 5. 双手离开键盘
 
@@ -62,7 +62,33 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 其他设置参见[自动秘境辅助介绍](./domain_assi.md).
 
-### 3. [自动采集辅助](./collector_assi.md)
+> 冰本的地板会把人冻死，记得多带点奶...
+
+### 3. [自动每日委托](./commission_assi.md)
+
+自动搜索并执行位于**蒙德**的每日委托。目前仅可执行部分仅需要战斗的委托。
+
+> 目前仅能完成以下委托：ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger.
+
+详情参见[自动每日委托辅助介绍](./commission_assi.md).
+
+### 4. [领取日常奖励](./claim_reward.md)
+
+在Task list中选择领取日常奖励，启动任务。  
+> 最稳定的功能(因为简单..)
+
+### 5. [自动地脉衍出](./ley_line_ourcrop.md)
+自动刷位于**蒙德**的`地脉衍出·启示之花`和`地脉衍出·藏金之花`。  
+在设置页面中设置次数和类型。  
+在Task list中选择地脉衍出，启动任务。
+
+### 6. [Mission(素材收集)](./mission.md)
+在GUI主菜单的Mission下选择你要运行的Mission组，选中之后下方会有该Mission组的介绍。在Task中选中Mission任务，然后启动Task即可运行。
+
+Mission组目前主要用于自动采集材料，你可以在下拉选项卡中看到有多少支持的Mission组。
+
+### -1. [自动采集辅助](./collector_assi.md)
+> 非常垃圾，但是通用
 
 演示视频：<https://www.bilibili.com/video/BV163411Q7fD>
 
@@ -71,19 +97,6 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 - 注意阅读[collector_assi.md](./collector_assi.md)中的注意事项.
 
 其他设置参见[自动采集辅助介绍](./collector_assi.md).
-
-### 4. [自动每日委托辅助](./commission_assi.md)
-**正在早期测试，请谨慎开启并汇报遇到的错误。**
-
-> 目前仅能完成以下委托：ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger.
-
-详情参见[自动每日委托辅助介绍](./commission_assi.md).
-
-### 5. [每日领取凯瑟琳](./claim_reward.md)
-参见[领取日常奖励](./commission_assi.md).
-
-### 6. [自动地脉衍出辅助](./ley_line_ourcrop.md)
-参见[自动地脉衍出辅助介绍](./ley_line_ourcrop.md).
 
 ## 使用方法
 
@@ -100,7 +113,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 ### 原神游戏进度
 
 - 需要解锁`层岩巨渊 地下矿区`的地图。
-- 需要解锁璃月与蒙德的所有传送锚点
+- 需要解锁璃月与蒙德的所有传送锚点，副本式秘境
 
 ### 原神窗口设置
 
@@ -116,9 +129,16 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 |----|----|----|
 |config/settings/config.json| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
 
-可以在GUI或直接从文件中修改。
-
+可以在GUI或直接从文件中修改。  
 更多其他配置项，参见GUI内的设置介绍。
+
+## 错误报告
+
+如果在使用中遇到问题，可以提交issue反馈。  
+反馈错误前，请务必确认您已经阅读文档和[FAQ](FAQ.md)中的已知问题与解决方案。  
+反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。  
+> Troubleshooting any problems without the error log is like driving with your eyes closed.  
+> -- Apache Official Document: Getting Start
 
 ### GUI使用
 
@@ -136,16 +156,6 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 - 在下拉列表中选择对应的项目，进行配置。
 
 远程操作等更多GUI使用方法，参考[GUI使用](./gui.md)
-
-### 自动战斗，自动采集设置窗口
-
-- 点击对应按钮进入，按照提示操作
-
-## 错误报告
-
-如果在使用中遇到问题，可以提交issue或在Q群中反馈。  
-反馈错误前，请务必确认您已经阅读文档和[FAQ](FAQ.md)中的已知问题与解决方案。  
-反馈错误时，请一并提交 Logs 文件夹中的日志文件。
 
 ## 错误码
 
