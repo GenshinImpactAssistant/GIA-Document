@@ -102,6 +102,9 @@ Mission组目前主要用于自动采集材料，你可以在下拉选项卡中�
 
 其他设置参见[自动采集辅助介绍](./collector_assi.md).
 
+## 参与开发
+如果你想参与GIA的开发，可以从[GIA Dev Document](./dev/readme.md)开始。
+
 ## 使用方法
 
 ### 快速安装

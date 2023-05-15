@@ -1,12 +1,16 @@
 # 流程控制单元
 
-## FlowTemplate
+## 什么是Flow？  
+Flow可以理解为状态机，Flow由Flow Unit（Flow Template）组成，一个Flow Unit可以切换到另一个Flow Unit。  
+Flow Unit内部有5个状态，可以在状态间切换。  
+通过Flow Unit的切换与Unit内部的切换，可以根据不同条件切换不同的状态。  
+目前，Flow用于自动采集，自动行走和路径记录。你应该不需要写新的Flow，所以可以仅了解它。
 
+## FlowTemplate  
 基本流程单元。
 
-### 基本概念：
-Flow id: 存储于模块ST。
-
+### 基本概念：  
+Flow id: 存储于模块ST。  
 Flow Code: 存储于模块FC。
 
 ```python
@@ -15,8 +19,7 @@ class FlowTemplate():
 ```
 
 介绍：
-upper：流程连接器（FlowConnector）单元。
-
+upper：流程连接器（FlowConnector）单元。  
 flow_id: 流程代码：
 
 ## 流程代码
@@ -106,6 +109,6 @@ current_flow_id: 初始流程id。
 同FlowTemplate。区别是
 
 1. 需要填写err_code。ERR_PASS即为无错误。
-2. 流程ID必须包含$END$。
+2. 流程ID必须包含`$END$`。
 
 
