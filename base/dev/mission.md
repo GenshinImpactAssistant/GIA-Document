@@ -52,12 +52,21 @@ META={
     'name':{
         'zh_CN':'your-mission-name-in-zh_CN',
         'en_US':'your-mission-name-in-en_US'
-    }
+    },
+    'author':'your-github-account-name',
+    'time':'when-you-create-the-mission',
+    'note':'what-you-want-to-say'
 }
 ```
 VERSION用于标出该Mission的版本。目前(2023.5.20~)使用`1.0.0`进行标记。Mission格式可能会发生修改，若有，将会在文档中说明。
 Mission META使用python的字典格式。你可能需要先了解什么是python的字典。  
-对于快速开始，我们只需复制上面的代码，将`your-mission-name-in-zh_CN`改为你的Mission的中文名称，将`your-mission-name-in-en_US`改为你的Mission的英文名称。  
+对于快速开始，我们只需
+- 复制上面的代码
+- 将`your-mission-name-in-zh_CN`改为你的Mission的中文名称，将`your-mission-name-in-en_US`改为你的Mission的英文名称。
+- 将`your-github-username`改为你的Github用户名(或者你的任意其他名称)
+- 将`when-you-create-the-mission`改为你创建这个Mission的时间(格式：`UTCxxx yyyy-mm-dd`. 例如：`UTC+08 2023-05-03`)
+- 将`what-you-want-to-say`改为你想要说的话(路径位置、说明、鸣谢等)
+
 如果META中缺少name或缺少对应语言，则会自动使用mission名。
 
 ## 创建Mission类

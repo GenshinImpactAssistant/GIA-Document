@@ -8,7 +8,7 @@
 
 TLPS是基于OpenCV的小地图定位算法，小地图视角识别算法，小地图方向识别算法，大地图定位算法和相关的集成功能。
 
-你可以在source/map中找到相关代码。
+你可以在source/map中找到相关代码。如果你想要获得更多信息并参与开发，提交issue或联系我们。
 
 # TianLiNavigator
 
@@ -17,10 +17,10 @@ TLPS是基于OpenCV的小地图定位算法，小地图视角识别算法，小�
 
 TLN是基于A-star寻路的导航算法，工作原理如下：1. 人工标记适合行走的点位路线2. TeyvatMove中根据开始点与结束点搜索适宜节点3. 优先按照路线行走，路线结束后朝目标直线行走。
 
-## TianLiNavigatorDev TLNDev
+## TianLiNavigatorDev
 
 
-TLND是用于人工编辑路线的工具，位于`source/dev_tool/tianli_navigator.py`
+TLNDev是用于人工编辑路线的工具，位于`source/dev_tool/tianli_navigator.py`
 
 ### TLNDev基本介绍
 

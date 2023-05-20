@@ -1,12 +1,18 @@
 # 视频转路径(video to path, or V2P)
 
-根据视频生成路径。  
+
+根据视频生成路径。
+
 位置：`source/dev_tool/video2path.py`
 
 ## 介绍
-通过视频生成TLPP(TianLiPositioningPath)文件。原理和[路径记录器](./path_recorder.md)基本一致,但用法不同。  
-运行source/dev_tool/video2path.py文件以开始分析视频。  
-有关更多TLPP的信息，请参阅[TLPP介绍](./tianli_positioning_path.md)  
+
+通过视频生成TLPP(TianLiPositioningPath)文件。原理和[路径记录器](./path_recorder.md)基本一致,但用法不同。
+
+运行source/dev_tool/video2path.py文件以开始分析视频。
+
+有关更多TLPP的信息，请参阅[TLPP介绍](./tianli_positioning_path.md)
+
 演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y
 
 ## 参数
@@ -41,4 +47,6 @@ IS_PICKUP_MODE = True # 是否为采集路径模式
 - 记录路径时，播放速度(fps)应当与真实移动速度接近。
 
 ## TLPP文件格式
+
 运行结束后，V2P会生成xxx+timestamp+xxx.pydict文件。将该文件中的内容复制粘贴到你的自定义任务的代码中对应的位置即可。
+
