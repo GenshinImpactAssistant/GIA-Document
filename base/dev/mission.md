@@ -22,12 +22,17 @@ META={
         'en_US':'Collect Qing xin 1'
     }
 }
+
 class MissionMain(MissionJustCollect):
     def __init__(self):
-        super().__init__("QXV220230513083258i0", "MissionQingXin1")
+        super().__init__(TLPP_FILE, "MissionQingXin1")
+
+TLPP_FILE = ...
 ```
 
-这一段代码的目标是告诉GIA使用`QXV220230513083258i0`这一TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](./video2path.md)
+你可以在`missions/MissionQingXin1.py`中找到源代码。
+
+这一段代码的目标是告诉GIA使用`TLPP_FILE`字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](./video2path.md)
 
 我们将从这一段代码开始，介绍Mission的各个组成部分。
 
@@ -59,11 +64,11 @@ Mission META使用python的字典格式。你可能需要先了解什么是pytho
 和示例一样，对于采集自定义任务，使用
 ```python
     def __init__(self):
-        super().__init__("your-TLPP-file-name", "your-mission-name")
+        super().__init__(TLPP_FILE, "your-mission-name")
 ```
 就可以创建init函数。  
 
-其中，`your-TLPP-file-name`是你的TLPP文件名(不需要加.json扩展名)  
+其中，TLPP_FILE是你的TLPP字典(不需要加.json扩展名)  
 `your-mission-name`是你的Mission名。  
 mission的命名规则如下：  
 1. mission必须为英文
@@ -85,7 +90,9 @@ META={
 }
 class MissionMain(MissionJustCollect):
     def __init__(self):
-        super().__init__("your-TLPP-file-name", "your-mission-name")
+        super().__init__(TLPP_FILE, "your-mission-name")
+
+TLPP_FILE = ...
 ```  
 要使用这个Mission，我们需要将它加入GIA的Mission Index来让GIA识别这个mission。方法如下：  
 1. 把你创建的`your-mission-name.py`文件放置到`./missions`目录下
