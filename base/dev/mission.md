@@ -1,14 +1,106 @@
-# Mission
+# Mission(自定义任务)
 
 ## 介绍
 
-Mission是GIA中在大世界执行功能的便携集成化单元，使用统一的接口，编写简单，使用方便。  
-Mission可以实现的功能包括采集、战斗、NPC对话(正在制作)与行走。通过功能的组合可以实现固定路线采集、任务自动化等功能。  
-Mission的组织调用形式是MissionGroup。一个MissionGroup可以包括多个Mission和MissionGroup。  
-Mission是GIA目前添加新功能的重要基础。
+Mission(自定义任务)是GIA中在大世界执行功能的便携集成化单元，使用统一的接口，编写简单，使用方便。  
+自定义任务可以实现的功能包括行走、采集、战斗、NPC对话(半成品)。通过功能的组合可以实现固定路线采集、任务自动化等功能。  
+自定义任务是GIA目前添加新功能的重要方向。更精准的自动采集和自动委托都依赖于Mission。
 
-**这个类将会重构, 但是方法名称和使用方法不会改变。**
+# 设计你的第一个Mission(快速开始)
 
+目前，简单的Mission主要用于自动采集。因此，下面我们介绍一个简单Mission的编写以开始。创建更复杂的Mission可以参阅之后的介绍。  
+你需要一丁点最基本的python知识以开始。如果你对使用python一无所知，参考[vscode&anaconda python 简单教程](./vscode_python.md)
+
+## 示例
+
+这是一个最简单的Mission代码：  
+```python
+from source.mission.template.mission_just_collect import MissionJustCollect
+META={
+    'name':{
+        'zh_CN':'采集清心1',
+        'en_US':'Collect Qing xin 1'
+    }
+}
+class MissionMain(MissionJustCollect):
+    def __init__(self):
+        super().__init__("QXV220230513083258i0", "MissionQingXin1")
+```
+
+这一段代码的目标是告诉GIA使用`QXV220230513083258i0`这一TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](./video2path.md)
+
+我们将从这一段代码开始，介绍Mission的各个组成部分。
+
+## 导入Mission模板
+对于简单的采集自定义任务，应当使用  
+```python  
+from source.mission.template.mission_just_collect import MissionJustCollect
+```  
+导入MissionJustCollect模板类。
+
+## 创建Mission META信息
+在导入模板类之后，输入以下代码：
+```python
+META={
+    'name':{
+        'zh_CN':'your-mission-name-in-zh_CN',
+        'en_US':'your-mission-name-in-en_US'
+    }
+}
+```
+Mission META使用python的字典格式。你可能需要先了解什么是python的字典。  
+对于快速开始，我们只需复制上面的代码，将`your-mission-name-in-zh_CN`改为你的Mission的中文名称，将`your-mission-name-in-en_US`改为你的Mission的英文名称。  
+如果META中缺少name或缺少对应语言，则会自动使用mission名。
+
+## 创建Mission类
+和示例一样，输入`class MissionMain(MissionJustCollect):`来创建你的Mission类。  
+
+## 创建init函数
+和示例一样，对于采集自定义任务，使用
+```python
+    def __init__(self):
+        super().__init__("your-TLPP-file-name", "your-mission-name")
+```
+就可以创建init函数。  
+
+其中，`your-TLPP-file-name`是你的TLPP文件名(不需要加.json扩展名)  
+`your-mission-name`是你的Mission名。  
+mission的命名规则如下：  
+1. mission必须为英文
+2. mission各个单词的英文首字母应当大写
+3. mission应当以你的作者名开头以防止混淆(最好是Github用户名)。GIA自带的Mission没有作者名。
+
+只需指定你要运行的TLPP文件，MissionJustCollect会将它扩展为完整Mission，并调用MissionTemplate类来执行它。
+
+## 将Mission加入GIA
+目前，我们就完成了一个Mission的创建。  
+回顾一下它的样子：  
+```python
+from source.mission.template.mission_just_collect import MissionJustCollect
+META={
+    'name':{
+        'zh_CN':'your-mission-name-in-zh_CN',
+        'en_US':'your-mission-name-in-en_US'
+    }
+}
+class MissionMain(MissionJustCollect):
+    def __init__(self):
+        super().__init__("your-TLPP-file-name", "your-mission-name")
+```  
+要使用这个Mission，我们需要将它加入GIA的Mission Index来让GIA识别这个mission。方法如下：  
+1. 把你创建的`your-mission-name.py`文件放置到`./missions`目录下
+2. 打开GIA GUI，在`自定义任务配置`页面，点击`编译自定义任务`按钮，完成后按照提示重启GIA
+3. 你现在应该可以在重启后的GIA中看到你的Mission了。按照使用一般Mission的方法使用它。
+
+## 结束
+到这里，你应该成功创建并运行了你的第一个采集类自定义任务。
+
+> 如果你在阅读`快速开始`文档时，遇到混淆、阻碍或错误，请联系我们或提交issue反馈。
+
+# Mission详细介绍
+这是面向有一定python基础的开发者。  
+你需要掌握python的基础语法。(不需要特别高深的python知识)
+> 以下内容未完成，正在编写中...
 ## 使用
 
 从MissionExecutor类继承。
