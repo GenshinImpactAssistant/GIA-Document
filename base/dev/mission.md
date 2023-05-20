@@ -16,6 +16,7 @@ Mission(自定义任务)是GIA中在大世界执行功能的便携集成化单�
 这是一个最简单的Mission代码：  
 ```python
 from source.mission.template.mission_just_collect import MissionJustCollect
+VERSION='1.0.0'
 META={
     'name':{
         'zh_CN':'采集清心1',
@@ -43,9 +44,10 @@ from source.mission.template.mission_just_collect import MissionJustCollect
 ```  
 导入MissionJustCollect模板类。
 
-## 创建Mission META信息
+## 创建Mission信息
 在导入模板类之后，输入以下代码：
 ```python
+VERSION='1.0.0'
 META={
     'name':{
         'zh_CN':'your-mission-name-in-zh_CN',
@@ -53,6 +55,7 @@ META={
     }
 }
 ```
+VERSION用于标出该Mission的版本。目前(2023.5.20~)使用`1.0.0`进行标记。Mission格式可能会发生修改，若有，将会在文档中说明。
 Mission META使用python的字典格式。你可能需要先了解什么是python的字典。  
 对于快速开始，我们只需复制上面的代码，将`your-mission-name-in-zh_CN`改为你的Mission的中文名称，将`your-mission-name-in-en_US`改为你的Mission的英文名称。  
 如果META中缺少name或缺少对应语言，则会自动使用mission名。
@@ -65,10 +68,12 @@ Mission META使用python的字典格式。你可能需要先了解什么是pytho
 ```python
     def __init__(self):
         super().__init__(TLPP_FILE, "your-mission-name")
+
+TLPP_FILE = ...
 ```
 就可以创建init函数。  
 
-其中，TLPP_FILE是你的TLPP字典(不需要加.json扩展名)  
+其中，TLPP_FILE是你的TLPP字典, 将V2P中得到的TLPP字典替换`...`。  
 `your-mission-name`是你的Mission名。  
 mission的命名规则如下：  
 1. mission必须为英文
@@ -197,12 +202,12 @@ pickup_points: 是否在指定坐标拾取。若是，则填入坐标，否则�
 ```python
 from source.mission.mission_template import MissionExecutor
 
-class MissionTest(MissionExecutor):
+class MissionMain(MissionExecutor):
     def __init__(self):
         super().__init__()
         self.setName("MissionTest")
 ```
-注意，类名和文件名必须相同。使用开头大写命名格式。
+注意，类名必须为MissionMain。使用首字母大写命名格式。
 
 然后，实现exec_mission方法。
 
@@ -227,4 +232,4 @@ if __name__ == '__main__':
 
 ## 添加你的Mission
 
-运行mission/index_generator.py。
+同上

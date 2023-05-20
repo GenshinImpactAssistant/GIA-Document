@@ -120,6 +120,10 @@ Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 
 For other settings, see[Auto Collector Assist introduction](./collector_assi.md).
 
+## 参与开发
+
+如果你想参与GIA的开发，可以从[GIA Dev Document](./dev/readme.md)开始。
+
 ## How to use
 
 
