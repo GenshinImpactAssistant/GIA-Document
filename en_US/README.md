@@ -99,9 +99,9 @@ Select the Ley Line Outcrop in the Task list and start the task.
 
 ### 6. [Mission(素材收集)](./mission.md)
 
-在GUI主菜单的Mission下选择你要运行的Mission组，选中之后下方会有该Mission组的介绍。在Task中选中Mission任务，然后启动Task即可运行。
+在自定义任务中启用你要运行的自定义任务，按照提示填写参数，保存后在主界面选择自定义任务，启动GIA。
 
-Mission组目前主要用于自动采集材料，你可以在下拉选项卡中看到有多少支持的Mission组。
+关于创建自定义任务，参见[创建自定义任务](./dev/mission.md)
 
 ### 7. launch genshin
 
@@ -112,11 +112,9 @@ Mission组目前主要用于自动采集材料，你可以在下拉选项卡中�
 
 > 非常垃圾，但是通用
 
-Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 
-- Switch the Mission Group to AutoCollectorMission.json in GUI.
-- Select Mission in Task List, then start Task.
-- Be careful to read the notes in [collector_assi.md](./collector_assi.md).
+- 在自定义任务中选择通用自动采集，启动自定义任务
+- 注意阅读[collector_assi.md](./collector_assi.md)中的注意事项.
 
 For other settings, see[Auto Collector Assist introduction](./collector_assi.md).
 
@@ -166,6 +164,9 @@ Can be modified in the GUI or directly from the file.
 
 For other configurations, see the notes of settings within the GUI.
 
+### [GUI使用](./gui.md)
+
+
 ## Bug report
 
 
@@ -179,30 +180,9 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 > -- Apache Official Document: Getting Start
 
-### GUI Tutorials
+<!-- ## 错误码
 
-
-#### Main window
-
-
-- click `main` button to enter.
-- Task List: select the task to be executed, can only be active in the GUI.
-- FlowMode: Select the function to be enable, can only be activated by hotkey.
-- Mission: select the mission group to be started, then select the `Mission` in `Task List` to start task list.
-- Log: output logs.
-
-#### Setting page
-
-
-- click button to enter
-- Select the corresponding item in the drop-down list to configure.
-
-Other features such as remote control, see the [GUI guide](./gui.md)
-
-## ERR Code
-
-
-If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding information in [ERROR_CODE](error_code.md).
+如果日志输出了`ERR_CODE`或`WARN_CODE`，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->
 
 ## Known issues
 
