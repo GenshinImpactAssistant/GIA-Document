@@ -26,6 +26,8 @@ GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛�
 
 To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打开的.
 
+> 这里是文档仓库，点star请到主仓库 ~~(如果你需要star文档仓库也可以)~~
+
 ## 我是急急国王
 
 
@@ -54,7 +56,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 其他设置参见[自动战斗辅助介绍](./combat_assi.md).
 
-> 单拉出来的一个核心功能(
+> ~~单拉出来的一个核心功能,只有这个不是全自动~~
 
 ### 2. [自动秘境](./domain_assi.md)
 
@@ -71,7 +73,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 其他设置参见[自动秘境辅助介绍](./domain_assi.md).
 
-> 冰本的地板会把人冻死，记得多带点奶...
+> ~~冰本的地板会把人冻死，记得多带点奶...~~
 
 ### 3. [自动每日委托](./commission_assi.md)
 
@@ -120,7 +122,16 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## 参与开发
 
-如果你想参与GIA的开发，可以从[GIA Dev Document](./dev/readme.md)开始。
+非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](./dev/readme.md)开始。
+
+## Internationalization
+
+
+GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
+
+English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
+
+GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
 
 ## 使用方法
 
@@ -194,15 +205,6 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 - 此程序至少需要`2.5G内存`与`4G存储空间`(完整安装).
 
-## Internationalization
-
-
-GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
-
-English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
-
-GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
-
 ## 鸣谢
 
 
@@ -218,10 +220,9 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 
 - [原神-基于图像算法的坐标定位 GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)
-
 - [空荧酒馆原神地图 kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)
-
 - [原神英語・中国語辞典 xicri/genshin-dictionary](https://github.com/xicri/genshin-dictionary)
+- [GIS 参考了自动战斗脚本的格式](https://github.com/phonowell/genshin-impact-script)
 
 #### 开源库调用
 
@@ -229,12 +230,6 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 - [opencv](https://github.com/opencv/opencv)
 - [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)
 - [yolox](https://github.com/Megvii-BaseDetection/YOLOX)
-- [pyinstaller](https://github.com/pyinstaller/pyinstaller)
-
-#### 其他
-
-
-- [GIS 参考了自动战斗脚本的格式](https://github.com/phonowell/genshin-impact-script)
 
 ### 其他贡献/参与者
 

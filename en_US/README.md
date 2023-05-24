@@ -26,6 +26,8 @@ An Genshin automatic operation assistance based on image recognization and simil
 
 To those who have not used github: the blue text in the docs is a hyperlink that can be clicked.
 
+> 这里是文档仓库，点star请到主仓库 ~~(如果你需要star文档仓库也可以)~~
+
 ## 我是急急国王
 
 
@@ -54,7 +56,7 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 
 For other settings, see [Auto Combat Assist introduction](./combat_assi.md).
 
-> 单拉出来的一个核心功能(
+> ~~单拉出来的一个核心功能,只有这个不是全自动~~
 
 ### 2. [自动秘境](./domain_assi.md)
 
@@ -71,7 +73,7 @@ Be careful to read the notes in [domain_assi.md](./domain_assi.md).
 
 For other settings, sett [Auto Domain Assist introduction](./domain_assi.md).
 
-> 冰本的地板会把人冻死，记得多带点奶...
+> ~~冰本的地板会把人冻死，记得多带点奶...~~
 
 ### 3. [自动每日委托](./commission_assi.md)
 
@@ -120,7 +122,16 @@ For other settings, see[Auto Collector Assist introduction](./collector_assi.md)
 
 ## 参与开发
 
-如果你想参与GIA的开发，可以从[GIA Dev Document](./dev/readme.md)开始。
+非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](./dev/readme.md)开始。
+
+## Internationalization
+
+
+GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
+
+English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
+
+GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
 
 ## How to use
 
@@ -194,15 +205,6 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 - This program requires at least `2.5G` RAM and `4G` storage space (full installation).
 
-## Internationalization
-
-
-GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
-
-English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
-
-GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
-
 ## Acknowledgements
 
 
@@ -218,10 +220,9 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 
 - [GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)
-
 - [kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)
-
 - [xicri/genshin-dictionary](https://github.com/xicri/genshin-dictionary)
+- [GIS](https://github.com/phonowell/genshin-impact-script)
 
 #### Open source library
 
@@ -229,12 +230,6 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 - [opencv](https://github.com/opencv/opencv)
 - [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)
 - [yolox](https://github.com/Megvii-BaseDetection/YOLOX)
-- [pyinstaller](https://github.com/pyinstaller/pyinstaller)
-
-#### Others
-
-
-- [GIS](https://github.com/phonowell/genshin-impact-script)
 
 ### Other Contributors
 
