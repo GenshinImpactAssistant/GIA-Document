@@ -219,8 +219,8 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 ### Genshin Related
 
 
-- [GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)
 - [kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)
+- [原神-天理坐标系](https://github.com/GengGode/cvAutoTrack)
 - [xicri/genshin-dictionary](https://github.com/xicri/genshin-dictionary)
 - [GIS](https://github.com/phonowell/genshin-impact-script)
 

@@ -174,8 +174,8 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 #### 原神相关
 
-- [原神-基于图像算法的坐标定位 GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)
 - [空荧酒馆原神地图 kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)
+- [原神-天理坐标系](https://github.com/GengGode/cvAutoTrack)
 - [原神英語・中国語辞典 xicri/genshin-dictionary](https://github.com/xicri/genshin-dictionary)
 - [GIS 参考了自动战斗脚本的格式](https://github.com/phonowell/genshin-impact-script)
 
