@@ -6,7 +6,7 @@
 ## 介绍
 通过视频生成TLPP(TianLiPositioningPath)文件。原理和[路径记录器](./path_recorder.md)基本一致,但用法不同。  
 运行source/dev_tool/video2path.py文件以开始分析视频。  
-有关更多TLPP的信息，请参阅[TLPP介绍](./tianli_positioning_path.md)  
+有关更多TLPP的信息，请参阅[TLPP介绍](./TianLiPositioningPath.md)  
 演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y
 
 ## 参数
@@ -36,7 +36,7 @@ IS_PICKUP_MODE = True # 是否为采集路径模式
 - 一条采集路线将要结束时，按下`]`以结束记录。TLPP文件会保存在`./dev/tlpp`目录下。注意看控制台的提示。`./dev/tlpp/QXV220230513083258i0.pydict`是一个示例文件。
 
 ## 注意
-- 连续的路径的开头必须从传送锚点开始
+- 一个连续的路径的开头应该从传送锚点开始
 - 必须是完整流畅的原神游戏录屏
 - 记录路径时，播放速度(fps)应当与真实移动速度接近。
 
