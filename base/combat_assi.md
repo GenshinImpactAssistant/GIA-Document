@@ -1,20 +1,15 @@
 # 自动战斗辅助
 
-注：自动配置战斗文件默认开启，如果你不想配置，可以不看下面的配置介绍，或者只看`自动配置team文件`项目。
+注：自动配置战斗文件默认开启，如果你不想配置，可以不看下面的配置介绍，或者只看`自动配置team文件`。
 
 ## 简介
 
 - 位置：`config/settings/tactic`
-
 - 自动战斗辅助可以按照设定的角色、策略、优先级、触发条件等自动切换角色和执行攻击，使用元素战技和元素爆发。
-
 - 适用于不需要手动瞄准的角色并配合护盾角色使用。（要瞄准的勉强也能用，只是勉强）
-
 - 需要原神以1080p窗口化运行。不建议设置色彩滤镜。
-
 - 需要设置`team.json`文件，设置方法如下所示。
-
-- 推荐带一个钟离，如果没有钟离可以带4个护盾角色。
+- 非常推荐带一个钟离，如果没有钟离可以带4个护盾角色。
 ## 策略组 tactic_group
 
 自动战斗辅助支持以下策略：
@@ -125,19 +120,17 @@ n=角色在队伍中的位置, n∈{1,2,3,4}
 
 角色在队伍中的位置、角色优先级和部分角色的触发器不会自动填充。
 
-[支持的角色列表](../../assets/characters_data/characters_parameters.json)
+完全支持的角色列表：  
+```['Albedo', 'Bennett', 'Ningguang', 'Yoimiya', 'Yun Jin', 'Zhongli', 'Ganyu', 'Yelan', 'Kamisato Ayaka', 'Diona', 'Xiangling', 'Shenhe', 'Kaedehara Kazuha', 'Raiden Shogun', 'Hu Tao', 'Mona', 'Qiqi', 'Keqing', 'Sangonomiya Kokomi', 'Xingqiu', 'Lisa']```
 
-[角色名文件 感谢xicri/genshin-dictionary](../../assets/characters_data/characters_name.json)
-
-欢迎贡献角色参数(ﾉﾟ∀ﾟ)ﾉ
+其余角色只有基本参数，没有经过核对与适配。如果你有兴趣，欢迎贡献角色参数(ﾉﾟ∀ﾟ)ﾉ  
+默认角色参数文件位置：`assets/characters_data/characters_parameters.json`
 
 ## 自动生成team文件
 
-如果在设置中启用了自动生成team文件，则会在战斗开始前扫描角色列表并扫描tactic下的所有策略文件，选择符合的策略文件。
+如果在设置中启用了自动生成team文件，则会在战斗开始前扫描角色列表并**优先扫描tactic下的所有策略文件**，选择符合的策略文件。
 
-如果没有符合的策略文件吗，则根据[支持的角色列表](../../assets/characters_data/characters_parameters.json)自动生成一套战斗策略。
-
-如果角色不存在于[支持的角色列表](../../assets/characters_data/characters_parameters.json)则会使用默认的team文件。
+如果没有符合的策略文件，则自动生成一套战斗策略。
 
 ## 角色元素战技、元素爆发图片设置
 
@@ -148,7 +141,7 @@ n=角色在队伍中的位置, n∈{1,2,3,4}
 - 角色血量过低或有角色死亡时，程序可能暂停运行。
 - 不在合适的界面时，程序可能暂停运行。
 
-由于~~是个非酋~~能力有限，角色较少，上述配置并非最优方案，如果你有更好的方案，随时`issue`  
+由于~~是个非酋~~能力有限，角色较少，默认战斗配置并非最优方案，如果你有更好的方案，随时`issue`  
 如果遇到无法解决的问题，也可提交`issue`。  
 如果有好的角色输出手法可以发`issue`或者在q群分享~  
 
