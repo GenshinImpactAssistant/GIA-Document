@@ -10,3 +10,28 @@
 - 多显示器适配非常混乱，如果截图失败试试单显示器
 - 如果你的系统是Windows11，看[issue](https://github.com/GengGode/cvAutoTrack/issues/9)
 
+# 注意以下配置
+
+
+### Config configuration
+
+
+Before use, these configuration elements shoule be noted:
+
+|Path|Configuration|Content|
+|----|----|----|
+|config/settings/config.json| `BorderlessWindow` | When using boradless window or full screen, set to true.|
+
+### Genshin window settings
+
+
+- Need to run GIA after the Genshin Impact starts.
+- The Genshin needs to run in 1080p window (full screen is also possible), set anti-aliasing to SMAA, effects to meduim or above.
+- The focus of windows shoule be on Genshin window. If the focus window is switched to another window, the program will pause all the operation of keyboard and mouse and wait.
+
+### Progress in Genshin
+
+
+- 需要解锁`层岩巨渊 地下矿区`的地图。
+- 需要解锁璃月与蒙德的大部分传送锚点，副本式秘境
+

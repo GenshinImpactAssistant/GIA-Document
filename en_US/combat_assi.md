@@ -1,22 +1,17 @@
 # Auto Combat Assist
 
 
-注：自动配置战斗文件默认开启，如果你不想配置，可以不看下面的配置介绍，或者只看`自动配置team文件`项目。
+注：自动配置战斗文件默认开启，如果你不想配置，可以不看下面的配置介绍，或者只看`自动配置team文件`。
 
 ## Introduction
 
 
 - Location: `config/settings/tactic` or CombatSetting in GUI.
-
 - Auto Combat Assist can automatic switch characters, do attack, use E and Q skill accroding to set character name, tactic group, priorities, tiggers, etc.
-
 - Suitable for characters who do not need to manually aim and use with shield characters. (Barely works with those who need to aim, just barely)
-
 - Require the Genshin to run in 1080p windowing. Not recommend to set color filters.
-
 - Need to set `team.json` file. The setting method is shown below.
-
-- Recommend to bring Zhongli, if not can bring 3~4 shield characters.
+- 非常推荐带一个钟离，如果没有钟离可以带4个护盾角色。
 ## tactic_group
 
 Auto Combat Assist support the following tactic:
@@ -129,20 +124,20 @@ In the GUI, create a new TEAM file, enter the character name and press AutoFill,
 
 The character's position in the team, character priority, and some of the character's triggers will not be automatically populated.
 
-[List of supported roles](../../assets/characters_data/characters_parameters.json)
+完全支持的角色列表：
 
-[Character names file Thanks for xicri/genshin-dictionary](../../assets/characters_data/characters_name.json)
+```['Albedo', 'Bennett', 'Ningguang', 'Yoimiya', 'Yun Jin', 'Zhongli', 'Ganyu', 'Yelan', 'Kamisato Ayaka', 'Diona', 'Xiangling', 'Shenhe', 'Kaedehara Kazuha', 'Raiden Shogun', 'Hu Tao', 'Mona', 'Qiqi', 'Keqing', 'Sangonomiya Kokomi', 'Xingqiu', 'Lisa']```
 
-Welcome to contribute character parameters (ﾟ∀ﾟ)ノ
+其余角色只有基本参数，没有经过核对与适配。如果你有兴趣，欢迎贡献角色参数(ﾉﾟ∀ﾟ)ﾉ
+
+默认角色参数文件位置：`assets/characters_data/characters_parameters.json`
 
 ## Automatically generate TEAM files
 
 
-If automatic TEAM file generation is enabled in the settings, the character list will be scanned and all tactic files under tactic folder will be scanned before the battle starts and the matching tactic files will be selected.
+如果在设置中启用了自动生成team文件，则会在战斗开始前扫描角色列表并**优先扫描tactic下的所有策略文件**，选择符合的策略文件。
 
-If there is no matching tactic file, then according to [list of supported roles](... /... /assets/characters_data/characters_parameters.json) to automatically generate a set of battle tactic.
-
-If the character does not exist in the [list of supported characters](... /... /assets/characters_data/characters_parameters.json) then the default TEAM file will be used.
+如果没有符合的策略文件，则自动生成一套战斗策略。
 
 ## Character elemental battle technique, elemental burst picture setting
 
@@ -155,7 +150,7 @@ Since the new version, there is no need to set up images.
 - The program may pause when the character's blood level is too low or when a character dies.
 - The program may pause when it is not in the right interface.
 
-Due to limited capacity and fewer characters, the above configuration is not the optimal solution, if you have a better plan, feel free to `issue`.
+由于~~是个非酋~~能力有限，角色较少，默认战斗配置并非最优方案，如果你有更好的方案，随时`issue`
 
 If you encounter a problem that cannot be solved, you can also submit an `issue`.
 

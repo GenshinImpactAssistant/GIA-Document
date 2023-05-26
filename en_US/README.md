@@ -45,80 +45,12 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 
 [FAQ](FAQ.md)
 
-## Function Introduction
+## [功能介绍](./functions_detail.md)
 
 
-### 1. [战斗辅助](./combat_assi.md)
+绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
 
-
-- Switch Function to AutoCombat and wait for the module to be imported.
-- Press `[` key to start/stop function. Can be edited in `keymap`.
-
-For other settings, see [Auto Combat Assist introduction](./combat_assi.md).
-
-> ~~单拉出来的一个核心功能,只有这个不是全自动~~
-
-### 2. [自动秘境](./domain_assi.md)
-
-
-- 目前最好用的功能~!
-
-1. GUI 设置页面中设置挑战秘境的次数等.
-2. Configure the team and enter the domain.
-3. 进入秘境后(也可以在大世界,但要正确设置秘境名和关卡名),在GUI TaskList中选中DomainTask，点击启动任务
-4. 等待导入完成后切换到原神
-5. 双手离开键盘
-
-Be careful to read the notes in [domain_assi.md](./domain_assi.md).
-
-For other settings, sett [Auto Domain Assist introduction](./domain_assi.md).
-
-> ~~冰本的地板会把人冻死，记得多带点奶...~~
-
-### 3. [自动每日委托](./commission_assi.md)
-
-
-Automatically search and execute daily commissions located in **Mondstadt**. Currently only some commissions that require only combat can be executed.
-
-> For now, it can only complete this request: ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger.
-
-For more detiles, see [Auto Daily Commission Assist introduction](./commission_assi.md).
-
-### 4. [领取日常奖励](./claim_reward.md)
-
-
-在Task list中选择领取日常奖励，启动任务。
-
-> 最稳定的功能(因为简单..)
-
-### 5. [自动地脉衍出](./ley_line_ourcrop.md)
-
-自动刷位于**蒙德**的`地脉衍出·启示之花`和`地脉衍出·藏金之花`。
-
-在设置页面中设置次数和类型。
-
-Select the Ley Line Outcrop in the Task list and start the task.
-
-### 6. [Mission(素材收集)](./mission.md)
-
-在自定义任务中启用你要运行的自定义任务，按照提示填写参数，保存后在主界面选择自定义任务，启动GIA。
-
-关于创建自定义任务，参见[创建自定义任务](./dev/mission.md)
-
-### 7. launch genshin
-
-
-帮你点击`点击进入`按钮，不能帮你启动原神。
-
-### -1. [自动采集辅助](./collector_assi.md)
-
-> 非常垃圾，但是通用
-
-
-- 在自定义任务中选择通用自动采集，启动自定义任务
-- 注意阅读[collector_assi.md](./collector_assi.md)中的注意事项.
-
-For other settings, see[Auto Collector Assist introduction](./collector_assi.md).
+如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](./functions_detail.md)
 
 ## 参与开发
 
@@ -195,7 +127,7 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 如果日志输出了`ERR_CODE`或`WARN_CODE`，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->
 
-## Known issues
+## [已知问题 Known Issues](known_issues.md)
 
 
 [Known issues](known_issues.md)
@@ -207,6 +139,10 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 ## Acknowledgements
 
+
+感谢所有参与到开发/测试中的朋友们 (\*´▽｀)ノノ
+
+[![Contributors](https://contributors-img.web.app/image?repo=infstellar/genshin_impact_assistant)](https://github.com/infstellar/genshin_impact_assistant/graphs/contributors)
 
 ### Special Thanks
 
