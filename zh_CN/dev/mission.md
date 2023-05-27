@@ -151,13 +151,17 @@ TLPP_FILE = ...
 
 这是面向有一定python基础的开发者。
 
+你需要掌握python的基础语法。(不需要特别高深的python知识)
+
+## 使用
+
 
 从MissionExecutor类继承。
 
 ## 方法
 
 
-你可以到`./source/mission/mission.py`查看方法与介绍。
+你可以在[`source/mission/mission.py`](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看方法与介绍。
 
 ## 写一个Mission
 
@@ -194,6 +198,31 @@ if __name__ == '__main__':
 ```
 
 运行该文件即可。
+
+你可以通过组合函数以执行功能.有关mission提供的函数,请参阅下方的函数文档.
+
+## 函数文档
+
+你可以在[`source/mission/mission.py`](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看所有使用方法和介绍. 如果不清晰或想要添加新的功能以适配你的想法,请提交issue.
+
+## 示例
+
+你可以在`source/mission/missions`,`source/commission/commissions`中找到一些范例.
+
+这里提供一个MissionJustCollect类的具体实现以供参考.
+```python
+class MissionJustCollect(Mission):
+    def __init__(self, dictname, name):
+        super().__init__(is_CFCF=True,is_PUO=True,is_TMCF=True)
+        self.dictname = dictname
+        self.setName(name)
+  
+
+    def exec_mission(self):
+        self.start_pickup()
+        self.move_along(self.dictname, is_tp=True, is_precise_arrival=False)
+        self.stop_pickup()
+```
 
 ## 添加你的Mission
 
