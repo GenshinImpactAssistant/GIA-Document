@@ -209,7 +209,7 @@ if __name__ == '__main__':
 
 你可以在`source/mission/missions`,`source/commission/commissions`中找到一些范例.
 
-这里提供一个MissionJustCollect类的具体实现以供参考.
+示例1: MissionJustCollect类的具体实现.
 ```python
 class MissionJustCollect(Mission):
     def __init__(self, dictname, name):
@@ -221,6 +221,20 @@ class MissionJustCollect(Mission):
     def exec_mission(self):
         self.start_pickup()
         self.move_along(self.dictname, is_tp=True, is_precise_arrival=False)
+        self.stop_pickup()
+```
+
+示例2: 调查点采集模板
+```python
+class MissionMain(Mission):
+    def __init__(self):
+        super().__init__()
+  
+
+    def exec_mission(self):
+        self.set_puo_crazy_f(True)
+        self.start_pickup()
+        self.move_along(TLPP_FILE, is_tp=True, is_precise_arrival=False)
         self.stop_pickup()
 ```
 
