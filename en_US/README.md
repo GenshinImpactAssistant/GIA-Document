@@ -36,6 +36,8 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 ## Demo Video
 
 
+<https://www.bilibili.com/video/BV1ps4y1T71A> v0.8.3
+
 <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能过期
 
 ## [常见问题 FAQ](FAQ.md)
