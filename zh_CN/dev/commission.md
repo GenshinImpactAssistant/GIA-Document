@@ -30,7 +30,7 @@ P代表+,N代表-.
 
 ## 函数清单
 
-[source/commission/commission.py](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commission.py)
+函数清单和简介位于[source/commission/commission.py](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commission.py)
 
 从该类继承.
 
