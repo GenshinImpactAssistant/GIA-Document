@@ -82,7 +82,7 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 |位置|配置项|内容|
 |----|----|----|
-|config/settings/config.json| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
+|设置-通用设置| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
 
 可以在GUI或直接从文件中修改。  
 更多其他配置项，参见GUI内的设置介绍。

@@ -17,7 +17,7 @@
 
 |位置|配置项|内容|
 |----|----|----|
-|config/settings/config.json| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
+|设置-通用设置| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
 
 ### 原神窗口设置
 
