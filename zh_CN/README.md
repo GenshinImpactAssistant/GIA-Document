@@ -103,7 +103,7 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 |位置|配置项|内容|
 |----|----|----|
-|config/settings/config.json| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
+|设置-通用设置| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
 
 可以在GUI或直接从文件中修改。
 
@@ -173,4 +173,11 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 
 - 数据集标注: [nɡ.](https://space.bilibili.com/396023811)
+
+## 广告
+
+qq群:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+
+开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
+(请确保你已经会使用git以及github)
 

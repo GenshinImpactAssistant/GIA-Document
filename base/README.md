@@ -137,3 +137,9 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 ### 其他贡献/参与者
 
 - 数据集标注: [nɡ.](https://space.bilibili.com/396023811)
+
+## 广告
+qq群:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+
+开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
+(请确保你已经会使用git以及github)

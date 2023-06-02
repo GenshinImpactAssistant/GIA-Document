@@ -103,7 +103,7 @@ Before use, these configuration elements shoule be noted:
 
 |Path|Configuration|Content|
 |----|----|----|
-|config/settings/config.json| `BorderlessWindow` | When using boradless window or full screen, set to true.|
+|设置-通用设置| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
 
 Can be modified in the GUI or directly from the file.
 
@@ -173,4 +173,11 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 
 - Dataset labeling: [nɡ.](https://space.bilibili.com/396023811)
+
+## 广告
+
+qq群:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+
+开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
+(请确保你已经会使用git以及github)
 
