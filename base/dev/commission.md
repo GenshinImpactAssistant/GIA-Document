@@ -10,6 +10,8 @@ Commission的编写方法与Mission基本一致,但文件命名有所不同.因�
 
 你可以在[source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions)找到一些范例.  
 
+参考视频:https://www.bilibili.com/video/BV1Lu411W71q
+
 ## 命名格式
 
 文件名命名: `commission_name`_`commission_position`  

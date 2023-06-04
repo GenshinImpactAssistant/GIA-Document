@@ -14,6 +14,7 @@
 有关更多TLPP的信息，请参阅[TLPP介绍](./TianLiPositioningPath.md)
 
 演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y
+参考视频:https://www.bilibili.com/video/BV1Lu411W71q
 
 ## 参数
 在`video2path.py`中直接修改以下参数：
