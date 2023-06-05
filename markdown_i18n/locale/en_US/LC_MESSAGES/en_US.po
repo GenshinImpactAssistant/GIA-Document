@@ -138,8 +138,7 @@ msgstr "<div align=\"center\">"
 
 #: ../doc\base\README.pygettext:12
 msgid ""
-"基于图像识别和模拟按键的多功能原神自动辅助操作,包括自动战斗,自动刷秘境,自动刷"
-"大世界材料。"
+"基于图像识别和模拟按键的多功能原神自动辅助操作，包括自动战斗，自动刷秘境，自动刷大世界材料等。"
 msgstr ""
 "A multi-functional auto-assist based on image recognition and keystroke "
 "simulation, including auto combat, auto domain and auto claim materials in "
