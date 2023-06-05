@@ -43,7 +43,7 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 ## [常见问题 FAQ](FAQ.md)
 
 
-如果在使用时遇到问题，先看看[FAQ](FAQ.md)
+如果在使用时遇到问题，先看看[FAQ](FAQ.md)：
 
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
