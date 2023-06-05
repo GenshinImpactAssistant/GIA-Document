@@ -43,7 +43,7 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 ## [常见问题 FAQ](FAQ.md)
 
 
-如果在使用时遇到问题，先看看[FAQ](FAQ.md)：
+如果在使用时遇到问题，先看看[FAQ](FAQ.md)
 
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
@@ -103,10 +103,7 @@ Before use, these configuration elements shoule be noted:
 
 Can be modified in the GUI or directly from the file.
 
-For other configurations, see the notes of settings within the GUI.
-
-### [GUI使用](gui.md)
-
+更多其他配置项，参见GUI内的设置介绍：[GUI使用](gui.md)
 
 ## Bug report
 
@@ -117,9 +114,8 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。
 
-> Troubleshooting any problems without the error log is like driving with your eyes closed.
 
-> -- Apache Official Document: Getting Start
+> Troubleshooting any problems without the error log is like driving with your eyes closed. -- Apache Official Document: Getting Start
 
 <!-- ## 错误码
 

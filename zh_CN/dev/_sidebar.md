@@ -1,9 +1,10 @@
 [**说明**](/zh_CN/dev/ "开发指南")
+
 [**返回主页**](/zh_CN/)
 
 * **开发指南**
     * [路径记录器](path_recorder)
-    * [视频转路径(video to path, or V2P)](video2path)
+    * [视频转路径 V2P](video2path)
     * ---
     * [自定义任务](mission)
     * [每日委托任务](commission)

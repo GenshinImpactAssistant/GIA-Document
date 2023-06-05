@@ -84,17 +84,15 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 |设置-通用设置| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
 
 可以在GUI或直接从文件中修改。  
-更多其他配置项，参见GUI内的设置介绍。
-
-### [GUI使用](gui.md)
+更多其他配置项，参见GUI内的设置介绍：[GUI使用](gui.md)
 
 ## 错误报告
 
 如果在使用中遇到问题，可以提交issue反馈。  
 反馈错误前，请务必确认您已经阅读文档和[FAQ](FAQ.md)中的已知问题与解决方案。  
 反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。  
-> Troubleshooting any problems without the error log is like driving with your eyes closed.  
-> -- Apache Official Document: Getting Start
+
+> Troubleshooting any problems without the error log is like driving with your eyes closed. -- Apache Official Document: Getting Start
 
 <!-- ## 错误码
 

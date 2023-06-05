@@ -42,7 +42,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## [常见问题 FAQ](zh_CN/FAQ.md)
 
-如果在使用时遇到问题，先看看[FAQ](zh_CN/FAQ.md)：
+如果在使用时遇到问题，先看看[FAQ](zh_CN/FAQ.md)
 
 ## [功能介绍](zh_CN/functions_detail.md)
 
@@ -104,9 +104,7 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 可以在GUI或直接从文件中修改。
 
-更多其他配置项，参见GUI内的设置介绍。
-
-### [GUI使用](zh_CN/gui.md)
+更多其他配置项，参见GUI内的设置介绍：[GUI使用](zh_CN/gui.md)
 
 
 ## 错误报告
@@ -118,9 +116,7 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。
 
-> Troubleshooting any problems without the error log is like driving with your eyes closed.
-
-> -- Apache Official Document: Getting Start
+> Troubleshooting any problems without the error log is like driving with your eyes closed. -- Apache Official Document: Getting Start
 
 <!-- ## 错误码
 
