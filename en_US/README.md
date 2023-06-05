@@ -31,7 +31,7 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 ## 我是急急国王
 
 
-如果你啥都不想看就想开始用，按照[这个方法](./jijiking.md)操作：
+如果你啥都不想看就想开始用，按照[这个方法](jijiking.md)操作：
 
 ## Demo Video
 
@@ -45,18 +45,14 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 
 如果在使用时遇到问题，先看看[FAQ](FAQ.md)：
 
-[FAQ](FAQ.md)
-
-## [功能介绍](./functions_detail.md)
-
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
 
-如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](./functions_detail.md)
+如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](functions_detail.md)
 
 ## 参与开发
 
-非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](./dev/readme.md)开始。
+非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/)开始。
 
 ## Internationalization
 
@@ -109,7 +105,7 @@ Can be modified in the GUI or directly from the file.
 
 For other configurations, see the notes of settings within the GUI.
 
-### [GUI使用](./gui.md)
+### [GUI使用](gui.md)
 
 
 ## Bug report

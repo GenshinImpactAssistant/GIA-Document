@@ -82,12 +82,17 @@
 
 
 角色定位是角色在队伍中的作用。
-| 类型       | 说明|
+
+| 类型       | 说明 |
 |-----------|--------------------|
 | `Main` | 主输出角色 |
 | `Shield` | 护盾类角色 |
 | `Support`    | 辅助类角色 |
 | `Recovery` | 回血类角色|
+
+角色定位的设置会影响自动战斗的部分功能。
+
+## 优先级 priority
 
 
 优先级从小到大依次降低，0为最高优先级。
@@ -163,9 +168,9 @@ n=角色在队伍中的位置, n∈{1,2,3,4}
 
 文件示例：
 
-[文件示例1 宵宫 钟离 班尼特 云堇](../team_example_1.json)
+[文件示例1 宵宫 钟离 班尼特 云堇](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_1.json)
 
-[文件示例3 凌人 钟离 班尼特 纳西妲](../team_example_3.json)
+[文件示例3 凌人 钟离 班尼特 纳西妲](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_3.json)
 
 在tactic文件夹中也有该示例文件。
 

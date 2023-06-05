@@ -4,9 +4,9 @@
 位置：`source/dev_tool/video2path.py`
 
 ## 介绍
-通过视频生成TLPP(TianLiPositioningPath)文件。原理和[路径记录器](./path_recorder.md)基本一致,但用法不同。  
+通过视频生成TLPP(TianLiPositioningPath)文件。原理和[路径记录器](path_recorder.md)基本一致,但用法不同。  
 运行source/dev_tool/video2path.py文件以开始分析视频。  
-有关更多TLPP的信息，请参阅[TLPP介绍](./TianLiPositioningPath.md)  
+有关更多TLPP的信息，请参阅[TLPP介绍](TianLiPositioningPath.md)  
 演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y
 参考视频:https://www.bilibili.com/video/BV1Lu411W71q
 

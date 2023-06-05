@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GIA Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Document for Genshin Impact Assistant">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
+  <!-- Themes (light + dark) -->
+  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <!-- Custom Styles -->
+  <style>
+    :root {
+      --link-color                        : #0b87da;
+      --link-text-decoration-color        : #0b87da;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'GIA Document',
+      repo: 'https://github.com/infstellar/genshin_impact_assistant',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      loadNavbar: true,
+      auto2top: true,
+      autoHeader: true,
+      // coverpage: true,
+      relativePath: true,
+      nameLink: {
+        '/zh_CN/': '#/zh_CN/',
+        '/en_US/': '#/en_US/',
+        '/': '/'
+      },
+      search: {
+        paths:'auto',
+        placeholder: {
+          '/': '搜索',
+          '/zh_CN/': '搜索',
+          '/en_US/': 'Type to search'
+        },
+        noData: {
+          '/': '找不到结果',
+          '/zh_CN/': '找不到结果',
+          '/en_US/': 'No Results'
+        },
+        pathNamespaces: ['/zh_CN', '/en_US'],
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+</body>
+</html>

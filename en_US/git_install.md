@@ -1,8 +1,8 @@
 ### Install from source code
 
 
-<strong>Note: This is run from source code and requires some programming skills. For quick start, see
-[GIA Launcher Usage](./install.md)</strong>
+<strong>注意: 这里是从源代码运行,需要一定编程基础.快速使用请参见:
+[GIA Launcher自动安装器使用方法](install.md)</strong>
 
 Require:
 

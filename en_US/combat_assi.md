@@ -82,12 +82,17 @@ When the trigger conditions of multiple characters are established, the order of
 
 
 Position is the role of the character in the team.
-| type | description |
+
+| 类型       | 说明 |
 |-----------|--------------------|
 | `Main` | Main damage character |
 | `Shield` | Shield character |
 | `Support` | Support character |
 | `Recovery` | Recovery character |
+
+角色定位的设置会影响自动战斗的部分功能。
+
+## 优先级 priority
 
 
 The priority decreases from smallest to largest, with 0 being the highest priority.
@@ -163,9 +168,9 @@ You cannot modify it directly in the `example json`, otherwise your changes will
 
 File Example:
 
-[File example 1: Yoimiya, Zhongli Bennett Yun Jin](../team_example_1.json)
+[文件示例1 宵宫 钟离 班尼特 云堇](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_1.json)
 
-[File example 3](../team_example_3.json)
+[文件示例3 凌人 钟离 班尼特 纳西妲](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_3.json)
 
 The example file is also available in the tactic folder.
 

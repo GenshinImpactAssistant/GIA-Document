@@ -9,7 +9,7 @@ Mission(自定义任务)是GIA中在大世界执行功能的便携集成化单�
 # 设计你的第一个Mission(快速开始)
 
 目前，简单的Mission主要用于自动采集。因此，下面我们介绍一个简单Mission的编写以开始。创建更复杂的Mission可以参阅之后的介绍。  
-你需要一丁点最基本的python知识以开始。如果你对使用python一无所知，参考[vscode&anaconda python 简单教程(还没写)](./vscode_python.md)
+你需要一丁点最基本的python知识以开始。如果你对使用python一无所知，参考[vscode&anaconda python 简单教程(还没写)](vscode_python.md)
 
 ## 示例
 
@@ -33,7 +33,7 @@ TLPP_FILE = ...
 
 你可以在`missions/MissionQingXin1.py`中找到源代码。
 
-这一段代码的目标是告诉GIA使用`TLPP_FILE`字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](./video2path.md)
+这一段代码的目标是告诉GIA使用`TLPP_FILE`字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](video2path.md)
 
 我们将从这一段代码开始，介绍Mission的各个组成部分。
 

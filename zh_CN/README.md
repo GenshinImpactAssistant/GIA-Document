@@ -19,7 +19,7 @@ GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛�
 
 </div>
 
-# 介绍
+## 介绍
 
 
 基于图像识别的原神自动操作辅助.使用图片识别与模拟键盘操作,不涉及违规操作.
@@ -31,7 +31,7 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 ## 我是急急国王
 
 
-如果你啥都不想看就想开始用，按照[这个方法](./jijiking.md)操作：
+如果你啥都不想看就想开始用，按照[这个方法](jijiking.md)操作：
 
 ## 演示视频
 
@@ -45,18 +45,14 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 如果在使用时遇到问题，先看看[FAQ](FAQ.md)：
 
-[FAQ](FAQ.md)
-
-## [功能介绍](./functions_detail.md)
-
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
 
-如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](./functions_detail.md)
+如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](functions_detail.md)
 
 ## 参与开发
 
-非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](./dev/readme.md)开始。
+非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/)开始。
 
 ## Internationalization
 
@@ -109,7 +105,7 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 更多其他配置项，参见GUI内的设置介绍。
 
-### [GUI使用](./gui.md)
+### [GUI使用](gui.md)
 
 
 ## 错误报告
