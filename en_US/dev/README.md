@@ -17,5 +17,5 @@ GIA开发文档
 - [Flow介绍](flow.md) (编写中...)
 
 ## PR <!-- {docsify-ignore} -->
-为了避免`dev`分支被瞎改导致不能merge,Pull Request需要提交到`alpha`分支.
+为了避免 `dev` 分支被瞎改导致不能merge,Pull Request需要提交到 `alpha` 分支.
 

@@ -4,7 +4,7 @@ TLC(TianLiCopilot)基于TeyvatMoveFlow(TMF)提瓦特移动控制流。
 TLC使用[TLPS](TianLiPositioningSystem)定位.
 
 ## 简介
-TLC包含2种模式:`AUTO`与`PATH`.  
+TLC包含2种模式: `AUTO` 与 `PATH` .  
 AUTO模式下,程序将会结合[TLN](TianLiPositioningSystem)朝目标前进.  
 PATH模式下,程序将会使用[TLPP](TianLiPositioningPath.md)文件沿路线行驶.
 

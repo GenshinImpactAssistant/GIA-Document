@@ -7,7 +7,7 @@ TLC使用[TLPS](TianLiPositioningSystem)定位.
 
 ## 简介
 
-TLC包含2种模式:`AUTO`与`PATH`.
+TLC包含2种模式: `AUTO` 与 `PATH` .
 
 AUTO模式下,程序将会结合[TLN](TianLiPositioningSystem)朝目标前进.
 

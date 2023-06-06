@@ -1,7 +1,7 @@
 # Gettext Markdown
 
 
-使用`py-gettext-markdown`的快速命令。
+使用 `py-gettext-markdown` 的快速命令。
 
 ## Generate pot files
 ```powershell

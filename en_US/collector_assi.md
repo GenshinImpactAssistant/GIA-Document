@@ -35,7 +35,7 @@ Start the Auto Collector from the GUI.
 | key | item |
 |-------------|------------------|
 | collection_name | name of the item to be collected |
-| collection_type | type of collection，devided into `COLLECTION`（general collection）and `ENEMY`（combat drops）|
+| collection_type    | 采集的物品类型，分为 `COLLECTION` （一般采集物）和 `ENEMY` （战斗掉落物）|
 
 ## Collector Log
 

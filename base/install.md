@@ -11,13 +11,13 @@ GIA提供了自动安装/更新器。
 
 ## 使用方式
 
-双击`GIA Launcher.exe`运行。
+双击 `GIA Launcher.exe` 运行。
 
 ## 配置文件
 
-对中国用户来说，可以使用`installer_config_cn.json`配置文件，已经根据中国特色网络环境进行了单独配置。
+对中国用户来说，可以使用 `installer_config_cn.json` 配置文件，已经根据中国特色网络环境进行了单独配置。
 
-使用方法：删除`installer_config.json`，保留`installer_config_cn.json`即自动启用`installer_config_cn.json`。
+使用方法：删除 `installer_config.json` ，保留 `installer_config_cn.json` 即自动启用 `installer_config_cn.json` 。
 
 具体配置(可选)：
 

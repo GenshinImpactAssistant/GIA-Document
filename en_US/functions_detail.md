@@ -12,7 +12,7 @@
 
 
 - Switch Function to AutoCombat and wait for the module to be imported.
-- Press `[` key to start/stop function. Can be edited in `keymap`.
+- 按下 `[` 键启动/停止功能。可在 `keymap.json` 中更改。
 
 其他设置参见[自动战斗辅助介绍](combat_assi.md).
 
@@ -23,7 +23,7 @@
 
 Automatically search and execute daily commissions located in **Mondstadt**. Currently only some commissions that require only combat can be executed.
 
-> For now, it can only complete this request: 
+> 目前仅能完成以下委托：
 > ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,
 > BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger.
 
@@ -31,7 +31,7 @@ Automatically search and execute daily commissions located in **Mondstadt**. Cur
 
 ## 4. [自动地脉衍出](ley_line_ourcrop.md)
 
-自动刷位于**蒙德**的`地脉衍出·启示之花`和`地脉衍出·藏金之花`。
+自动刷位于**蒙德**的 `地脉衍出·启示之花` 和 `地脉衍出·藏金之花` 。
 
 在设置页面中设置次数和类型。
 
@@ -73,5 +73,5 @@ Select the Ley Line Outcrop in the Task list and start the task.
 ## 8. launch genshin
 
 
-帮你点击`点击进入`按钮，不能帮你启动原神。
+帮你点击 `点击进入` 按钮，不能帮你启动原神。
 

@@ -66,7 +66,7 @@ def state_after(self):
 state_in是循环状态，即如果该流程的一些代码需要循环执行，写在这里。  
 最后，上面的规则仅为建议和标准，不遵守也不会出错，只是方便维护。  
 如果你不需要某个状态，不在继承的类里实现它就好了。但是，state_in必须实现。  
-每个状态实现后，如果要切换到下一个state，必须使用```self._next_rfc()```。手动```self._set_rfc(x)```也是可以的。
+每个状态实现后，如果要切换到下一个state，必须使用 `self._next_rfc()` 。手动 `self._set_rfc(x)` 也是可以的。
 
 函数清单：
 
@@ -109,6 +109,6 @@ current_flow_id: 初始流程id。
 同FlowTemplate。区别是
 
 1. 需要填写err_code。ERR_PASS即为无错误。
-2. 流程ID必须包含`$END$`。
+2. 流程ID必须包含 `$END$` 。
 
 

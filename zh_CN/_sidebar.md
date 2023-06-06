@@ -19,4 +19,4 @@
     * [已知问题](known_issues)
 * **其它**
     * [从源代码安装](git_install)
-* [**开发指南**](/zh_CN/dev/)
+    * [**开发指南**](/zh_CN/dev/)

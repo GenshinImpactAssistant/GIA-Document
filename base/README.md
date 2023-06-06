@@ -66,7 +66,7 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ### 原神游戏进度
 
-- 需要解锁`层岩巨渊 地下矿区`的地图。
+- 需要解锁 `层岩巨渊 地下矿区` 的地图。
 - 需要解锁璃月与蒙德的所有传送锚点，副本式秘境
 
 ### 原神窗口设置
@@ -92,11 +92,14 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 反馈错误前，请务必确认您已经阅读文档和[FAQ](FAQ.md)中的已知问题与解决方案。  
 反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。  
 
-> Troubleshooting any problems without the error log is like driving with your eyes closed. -- Apache Official Document: Getting Start
+
+> Troubleshooting any problems without the error log is like driving with your eyes closed.
+> ——Apache Official Document: Getting Start
+
 
 <!-- ## 错误码
 
-如果日志输出了`ERR_CODE`或`WARN_CODE`，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->
+如果日志输出了 `ERR_CODE` 或 `WARN_CODE` ，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->
 
 ## [已知问题 Known Issues](known_issues.md)
 
@@ -104,7 +107,7 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ## 性能需求
 
-- 此程序至少需要`2.5G内存`与`4G存储空间`(完整安装).
+- 此程序至少需要 `2.5G内存` 与 `4G存储空间` (完整安装).
 
 ## 鸣谢
 

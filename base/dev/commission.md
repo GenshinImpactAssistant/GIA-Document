@@ -14,7 +14,7 @@ Commission的编写方法与Mission基本一致,但文件命名有所不同.因�
 
 ## 命名格式
 
-文件名命名: `commission_name`_`commission_position`  
+文件名命名: `commission_name_commission_position`  
 示例: BasicKnowledgeOfTheKnights_P2682N5673.py
 
 commission坐标命名格式:(P/N)xxxC(P/N)xxx  
@@ -42,8 +42,8 @@ commission专有函数清单:
 
 
 ## 获得当前坐标
-如果你是VSCode用户,在`运行和调试`中选择`Python: Get Position`运行,切换到原神即可.  
-否则,请运行`source\commission\dev_tools\get_position.py`文件.
+如果你是VSCode用户,在 `运行和调试` 中选择 `Python: Get Position` 运行,切换到原神即可.  
+否则,请运行 `source\commission\dev_tools\get_position.py` 文件.
 
 ## 调试Commission
 
