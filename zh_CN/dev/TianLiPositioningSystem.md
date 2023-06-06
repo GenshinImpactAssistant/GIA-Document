@@ -20,7 +20,7 @@ TLN是基于A-star寻路的导航算法，工作原理如下：1. 人工标记�
 ### TianLiNavigatorDev
 
 
-TLNDev是用于人工编辑路线的工具，位 于`source/dev_tool/tianli_navigator.py`
+TLNDev是用于人工编辑路线的工具，位于 `source/dev_tool/tianli_navigator.py`
 
 #### TLNDev基本介绍
 
