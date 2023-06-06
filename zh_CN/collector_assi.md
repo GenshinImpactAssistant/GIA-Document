@@ -35,7 +35,7 @@
 | key         | item             |
 |-------------|------------------|
 | collection_name        | 需要采集的物品名称             |
-| collection_type    | 采集的物品类型，分为`COLLECTION`（一般采集物）和`ENEMY`（战斗掉落物）|
+| collection_type    | 采集的物品类型，分为 `COLLECTION` （一般采集物）和 `ENEMY` （战斗掉落物）|
 
 ## 采集日志
 

@@ -31,7 +31,7 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 ## 我是急急国王
 
 
-如果你啥都不想看就想开始用，按照[这个方法](./jijiking.md)操作：
+如果你啥都不想看就想开始用，按照[这个方法](jijiking.md)操作：
 
 ## Demo Video
 
@@ -45,18 +45,14 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 
 如果在使用时遇到问题，先看看[FAQ](FAQ.md)：
 
-[FAQ](FAQ.md)
-
-## [功能介绍](./functions_detail.md)
-
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
 
-如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](./functions_detail.md)
+如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](functions_detail.md)
 
 ## 参与开发
 
-非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](./dev/readme.md)开始。
+非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/)开始。
 
 ## Internationalization
 
@@ -86,7 +82,7 @@ See [Source code running tutorial](git_install.md)
 ### Progress in Genshin
 
 
-- 需要解锁`层岩巨渊 地下矿区`的地图。
+- 需要解锁 `层岩巨渊 地下矿区` 的地图。
 - 需要解锁璃月与蒙德的所有传送锚点，副本式秘境
 
 ### Genshin window settings
@@ -107,10 +103,7 @@ Before use, these configuration elements shoule be noted:
 
 Can be modified in the GUI or directly from the file.
 
-For other configurations, see the notes of settings within the GUI.
-
-### [GUI使用](./gui.md)
-
+更多其他配置项，参见GUI内的设置介绍：[GUI使用](gui.md)
 
 ## Bug report
 
@@ -121,13 +114,13 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。
 
-> Troubleshooting any problems without the error log is like driving with your eyes closed.
 
-> -- Apache Official Document: Getting Start
+> Troubleshooting any problems without the error log is like driving with your eyes closed.
+> ——Apache Official Document: Getting Start
 
 <!-- ## 错误码
 
-如果日志输出了`ERR_CODE`或`WARN_CODE`，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->
+如果日志输出了 `ERR_CODE` 或 `WARN_CODE` ，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->
 
 ## [已知问题 Known Issues](known_issues.md)
 
@@ -137,7 +130,7 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 ## Performance requirements
 
 
-- This program requires at least `2.5G` RAM and `4G` storage space (full installation).
+- 此程序至少需要 `2.5G内存` 与 `4G存储空间` (完整安装).
 
 ## Acknowledgements
 

@@ -123,7 +123,7 @@ class GenerateMarkdownGenerator():
             f.write(f'f.close()')
     
     def run(self):
-        for root, dirs, files in os.walk(self.folder_path+'\\base'):
+        for root, dirs, files in os.walk(os.path.join(self.folder_path,"base")):
             for f in files:
                 if f.split('.')[-1] in ['md', 'markdown']:
                     print(f"generate pygettext {root}/{f}")

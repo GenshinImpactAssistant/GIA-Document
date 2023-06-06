@@ -1,16 +1,16 @@
 # Auto Combat Assist
 
 
-注：自动配置战斗文件默认开启，如果你不想配置，可以不看下面的配置介绍，或者只看`自动配置team文件`。
+注：自动配置战斗文件默认开启，如果你不想配置，可以不看下面的配置介绍，或者只看 `自动配置team文件` 。
 
 ## Introduction
 
 
-- Location: `config/settings/tactic` or CombatSetting in GUI.
+- 位置： `config/settings/tactic`
 - Auto Combat Assist can automatic switch characters, do attack, use E and Q skill accroding to set character name, tactic group, priorities, tiggers, etc.
 - Suitable for characters who do not need to manually aim and use with shield characters. (Barely works with those who need to aim, just barely)
 - Require the Genshin to run in 1080p windowing. Not recommend to set color filters.
-- Need to set `team.json` file. The setting method is shown below.
+- 需要设置 `team.json` 文件，设置方法如下所示。
 - 非常推荐带一个钟离，如果没有钟离可以带4个护盾角色。
 ## tactic_group
 
@@ -31,7 +31,7 @@ Auto Combat Assist support the following tactic:
 | `sp` | Sprint |
 | num | delay, unit is milliseconds. |
 
-Each tactic keyword is separated by `,`; different policy groups are separated by `;`. When the execution of a group of policies is finished, execute the next policy group.
+每个策略关键字用 `,` 分隔；不同策略组用 `;` 分隔。当一组策略执行完毕后，执行下一个策略组。
 
 Attantion:
 
@@ -39,17 +39,15 @@ Attantion:
 - Auto Aim will be
 - Cannot include space.
 
-- In the judgment expressions, the tactic keyword shoule be separated by `.` .
-- In the judgment expressions, the tactic keyword shoule be separated by `.` .
-- In the judgment expressions, the tactic keyword shoule be separated by `.` .
+- 在判断表达式中，策略关键字之间用 `.` 分隔。
 
-A tactic keyword containing `?` tactic keyword usage is similar to the ternary operator, e.g:
+含有 `?` 的策略关键字用法与三元运算符相近，如：
 
-`@e?e:a;`: When Elemental is ready, execute `e`(use Elemental Skill), otherwise execute `a`(normal attack)
+`@e?e:a;` ：当元素战技准备时执行e，否则执行a。
 
-`@e?e.a.a:none;`：When Elemental is ready, execute`e,a,a`，otherwise not execute anything.
+`@e?e.a.a:none;` ：当元素战技准备时执行 `e,a,a` ，否则不执行。
 
-Where `none` can be any other meaningless character, indicating that no action is performed.
+其中， `none` 可以为其他任何无意义字符，表示不执行任何动作。
 
 Attantion:
 
@@ -82,12 +80,17 @@ When the trigger conditions of multiple characters are established, the order of
 
 
 Position is the role of the character in the team.
-| type | description |
+
+| 类型       | 说明 |
 |-----------|--------------------|
 | `Main` | Main damage character |
 | `Shield` | Shield character |
 | `Support` | Support character |
 | `Recovery` | Recovery character |
+
+角色定位的设置会影响自动战斗的部分功能。
+
+## 优先级 priority
 
 
 The priority decreases from smallest to largest, with 0 being the highest priority.
@@ -97,10 +100,10 @@ This is the GIA default priority setting:
 
 n is the character id in the team, n∈{1,2,3,4}
 
-- `Shield`:1000+n
-- `Recovery`:1500+n
-- `Support`:3000+n
-- `Main`:2000+n
+- `Shield` :1000+n
+- `Recovery` :1500+n
+- `Support` :3000+n
+- `Main` :2000+n
 
 You may not use values based on thousands of digits, this is only used to distinguish whether the configuration is automatically generated or not.
 
@@ -126,11 +129,13 @@ The character's position in the team, character priority, and some of the charac
 
 完全支持的角色列表：
 
-```['Albedo', 'Bennett', 'Ningguang', 'Yoimiya', 'Yun Jin', 'Zhongli', 'Ganyu', 'Yelan', 'Kamisato Ayaka', 'Diona', 'Xiangling', 'Shenhe', 'Kaedehara Kazuha', 'Raiden Shogun', 'Hu Tao', 'Mona', 'Qiqi', 'Keqing', 'Sangonomiya Kokomi', 'Xingqiu', 'Lisa']```
+```python
+['Albedo', 'Bennett', 'Ningguang', 'Yoimiya', 'Yun Jin', 'Zhongli', 'Ganyu', 'Yelan', 'Kamisato Ayaka', 'Diona', 'Xiangling', 'Shenhe', 'Kaedehara Kazuha', 'Raiden Shogun', 'Hu Tao', 'Mona', 'Qiqi', 'Keqing', 'Sangonomiya Kokomi', 'Xingqiu', 'Lisa']
+```
 
 其余角色只有基本参数，没有经过核对与适配。如果你有兴趣，欢迎贡献角色参数(ﾉﾟ∀ﾟ)ﾉ
 
-默认角色参数文件位置：`assets/characters_data/characters_parameters.json`
+默认角色参数文件位置： `assets/characters_data/characters_parameters.json`
 
 ## Automatically generate TEAM files
 
@@ -150,22 +155,22 @@ Since the new version, there is no need to set up images.
 - The program may pause when the character's blood level is too low or when a character dies.
 - The program may pause when it is not in the right interface.
 
-由于~~是个非酋~~能力有限，角色较少，默认战斗配置并非最优方案，如果你有更好的方案，随时`issue`
+由于~~是个非酋~~能力有限，角色较少，默认战斗配置并非最优方案，如果你有更好的方案，随时 `issue`
 
-If you encounter a problem that cannot be solved, you can also submit an `issue`.
+如果遇到无法解决的问题，也可提交 `issue` 。
 
-If you have a good character tactic group, welcome to send `issue` too.
+如果有好的角色输出手法可以 `issue` 或者在q群分享~
 
 
-You can create a new tactic file and change the `teamfile` in the CombatSettings to your own file.
+你可以新建新的策略文件并将设置中的 `teamfile` 修改为你自己的文件.
 
-You cannot modify it directly in the `example json`, otherwise your changes will be cleared after the next startup.
+不能在 `示例json` 中直接修改，否则你的修改将在下一次启动后清除。
 
 File Example:
 
-[File example 1: Yoimiya, Zhongli Bennett Yun Jin](../team_example_1.json)
+[文件示例1 宵宫 钟离 班尼特 云堇](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_1.json)
 
-[File example 3](../team_example_3.json)
+[文件示例3 凌人 钟离 班尼特 纳西妲](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_3.json)
 
 The example file is also available in the tactic folder.
 

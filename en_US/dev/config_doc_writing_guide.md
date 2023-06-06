@@ -4,9 +4,9 @@
 ## 命名格式
 
 
-名称一般为目标文档的名字加上`{语言}.jsondoc`的后缀.
+名称一般为目标文档的名字加上 `{语言}.jsondoc` 的后缀.
 
-例如`auto_domain.json`对应的文档名应为`auto_domain.json.zh_CN.jsondoc`.
+例如 `auto_domain.json` 对应的文档名应为 `auto_domain.json.zh_CN.jsondoc` .
 
 ## 存储位置
 
@@ -40,7 +40,7 @@
 
 以前想过这个问题,不过觉得应该可以不用就没写,这次看来是必须写了..
 
-和上边一样,选择框只需要在yaml里加入一个名为`select_items`的项就行了.
+和上边一样,选择框只需要在yaml里加入一个名为 `select_items` 的项就行了.
 
 For example:
 

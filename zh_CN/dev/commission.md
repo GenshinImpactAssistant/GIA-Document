@@ -8,7 +8,7 @@
 
 因为每日委托的稀有性,适配多语言存在困难,因此所有每日委托默认使用**英文**编写和运行.旧版本的Commission可能支持多语言,但此后不再默认支持.
 
-Commission的编写方法与Mission基本一致,但文件命名有所不同.因此,请先看看[自定义任务](./mission.md)
+Commission的编写方法与Mission基本一致,但文件命名有所不同.因此,请先看看[自定义任务](mission.md)
 
 你可以在[source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions)找到一些范例.
 
@@ -18,7 +18,7 @@ Commission的编写方法与Mission基本一致,但文件命名有所不同.因�
 ## 命名格式
 
 
-文件名命名: `commission_name`_`commission_position`
+文件名命名: `commission_name_commission_position`
 
 示例: BasicKnowledgeOfTheKnights_P2682N5673.py
 
@@ -52,9 +52,9 @@ commission专有函数清单:
 
 ## 获得当前坐标
 
-如果你是VSCode用户,在`运行和调试`中选择`Python: Get Position`运行,切换到原神即可.
+如果你是VSCode用户,在 `运行和调试` 中选择 `Python: Get Position` 运行,切换到原神即可.
 
-否则,请运行`source\commission\dev_tools\get_position.py`文件.
+否则,请运行 `source\commission\dev_tools\get_position.py` 文件.
 
 ## 调试Commission
 

@@ -15,7 +15,7 @@ Mission(自定义任务)是GIA中在大世界执行功能的便携集成化单�
 
 目前，简单的Mission主要用于自动采集。因此，下面我们介绍一个简单Mission的编写以开始。创建更复杂的Mission可以参阅之后的介绍。
 
-你需要一丁点最基本的python知识以开始。如果你对使用python一无所知，参考[vscode&anaconda python 简单教程(还没写)](./vscode_python.md)
+你需要一丁点最基本的python知识以开始。如果你对使用python一无所知，参考[vscode&anaconda python 简单教程(还没写)](vscode_python.md)
 
 ## 示例
 
@@ -39,9 +39,9 @@ class MissionMain(MissionJustCollect):
 TLPP_FILE = ...
 ```
 
-你可以在`missions/MissionQingXin1.py`中找到源代码。
+你可以在 `missions/MissionQingXin1.py` 中找到源代码。
 
-这一段代码的目标是告诉GIA使用`TLPP_FILE`字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](./video2path.md)
+这一段代码的目标是告诉GIA使用 `TLPP_FILE` 字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](video2path.md)
 
 我们将从这一段代码开始，介绍Mission的各个组成部分。
 
@@ -70,21 +70,21 @@ META={
     'note':'what-you-want-to-say'
 }
 ```
-VERSION用于标出该Mission的版本。目前(2023.5.20~)使用`1.0.0`进行标记。Mission格式可能会发生修改，若有，将会在文档中说明。
+VERSION用于标出该Mission的版本。目前(2023.5.20~)使用 `1.0.0` 进行标记。Mission格式可能会发生修改，若有，将会在文档中说明。
 Mission META使用python的字典格式。你可能需要先了解什么是python的字典。
 
 对于快速开始，我们只需
 - 复制上面的代码
-- 将`your-mission-name-in-zh_CN`改为你的Mission的中文名称，将`your-mission-name-in-en_US`改为你的Mission的英文名称。
-- 将`your-github-username`改为你的Github用户名(或者你的任意其他名称)
-- 将`when-you-create-the-mission`改为你创建这个Mission的时间(格式：`UTCxxx yyyy-mm-dd`. 例如：`UTC+08 2023-05-03`)
-- 将`what-you-want-to-say`改为你想要说的话(路径位置、说明、鸣谢等)
+- 将 `your-mission-name-in-zh_CN` 改为你的Mission的中文名称，将 `your-mission-name-in-en_US` 改为你的Mission的英文名称。
+- 将 `your-github-username` 改为你的Github用户名(或者你的任意其他名称)
+- 将 `when-you-create-the-mission` 改为你创建这个Mission的时间(格式： `UTCxxx yyyy-mm-dd` . 例如： `UTC+08 2023-05-03` )
+- 将 `what-you-want-to-say` 改为你想要说的话(路径位置、说明、鸣谢等)
 
 如果META中缺少name或缺少对应语言，则会自动使用mission名。
 
 ## 创建Mission类
 
-和示例一样，输入`class MissionMain(MissionJustCollect):`来创建你的Mission类。
+和示例一样，输入 `class MissionMain(MissionJustCollect):` 来创建你的Mission类。
 
 
 ## 创建init函数
@@ -98,9 +98,9 @@ TLPP_FILE = ...
 就可以创建init函数。
 
 
-其中，TLPP_FILE是你的TLPP字典, 将V2P中得到的TLPP字典替换`...`。
+其中，TLPP_FILE是你的TLPP字典, 将V2P中得到的TLPP字典替换 `...` 。
 
-`your-mission-name`是你的Mission名。
+`your-mission-name` 是你的Mission名。
 
 mission的命名规则如下：
 
@@ -133,8 +133,8 @@ TLPP_FILE = ...
 
 要使用这个Mission，我们需要将它加入GIA的Mission Index来让GIA识别这个mission。方法如下：
 
-1. 把你创建的`your-mission-name.py`文件放置到`./missions`目录下
-2. 打开GIA GUI，在`自定义任务配置`页面，点击`编译自定义任务`按钮，完成后按照提示重启GIA
+1. 把你创建的 `your-mission-name.py` 文件放置到 `./missions` 目录下
+2. 打开GIA GUI，在 `自定义任务配置` 页面，点击 `编译自定义任务` 按钮，完成后按照提示重启GIA
 3. 你现在应该可以在重启后的GIA中看到你的Mission了。按照使用一般Mission的方法使用它。
 
 ## 结束
@@ -145,7 +145,7 @@ TLPP_FILE = ...
 
 如果你能够制作自定义任务共享网站,欢迎提交pr或在issue中回复.
 
-> 如果你在阅读`快速开始`文档时，遇到混淆、阻碍或错误，请联系我们或提交issue反馈。
+> 如果你在阅读 `快速开始` 文档时，遇到混淆、阻碍或错误，请联系我们或提交issue反馈。
 
 # Mission详细介绍
 
@@ -166,7 +166,7 @@ class MissionMain(Mission): ...
 ## 方法
 
 
-你可以在[`source/mission/mission.py`](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看方法与介绍。
+你可以在 [`source/mission/mission.py` ](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看方法与介绍。
 
 ## 写一个Mission
 
@@ -210,7 +210,7 @@ if __name__ == '__main__':
 
 ## 函数文档
 
-你可以在[`source/mission/mission.py`](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看所有使用方法和介绍. 如果文档不清晰或想要添加新的功能以适配你的想法,请提交issue.
+你可以在[ `source/mission/mission.py` ](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看所有使用方法和介绍. 如果文档不清晰或想要添加新的功能以适配你的想法,请提交issue.
 
 函数清单:
 
@@ -243,7 +243,7 @@ if __name__ == '__main__':
 
 ## 示例
 
-你可以在`source/mission/missions`,`source/commission/commissions`中找到一些范例.
+你可以在 `source/mission/missions` , `source/commission/commissions` 中找到一些范例.
 
 示例1: MissionJustCollect类的具体实现.
 ```python

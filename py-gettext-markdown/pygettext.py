@@ -257,7 +257,7 @@ def normalize(s, encoding):
         s = '""\n"' + lineterm.join(lines) + '"'
     return s
 
-
+
 def containsAny(str, set):
     """Check whether 'str' contains ANY of the chars in 'set'"""
     return 1 in [c in str for c in set]

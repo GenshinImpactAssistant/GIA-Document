@@ -13,12 +13,12 @@ Q: Program crashed?
 
 - Check if the file path is fully English or underscored
 - Check if the submodule is successfully cloned
-- If prompted with `No module name win32gui`, please restart GIA Launcher.
+- 如果提示 `no module name win32gui` , 请重启GIA Launcher。
 
 Q: What should I do if I get stuck with a lot of text popping up after launching GIA Launcher?
 
 - It is pip copying files, if no error is reported, just wait.
-- Notice if the **Select: GIA Launcher** words `Select` appear in the window. If it appears, press enter to continue the program. The base of GIA Launcher is a bat file and will pause when you click on the command window, so do no click on the command line interface.
+- 注意窗口是否出现 `选择：GIA Launcher` 的<strong>选择</strong>字样。如果出现，请按下回车以继续程序。 GIA Launcher的本体是bat批处理文件，在点击命令窗口后会暂停，所以不要点击命令行界面。
 
 ## Runtime issues
 
@@ -39,6 +39,6 @@ Q: What if I set up a strategy during battle but do not switch to a character wh
 
 Q: What should I do if I always point crookedly in the big map?
 
-- See if the `pre-use configuration` in the readme is set.
+- 看看有没有设置readme中的 `使用前config配置` 。
 - Currently, support for teleporting to the weekly style domain and the Inazuma is not yet complete. It will be adapted in the future.
 

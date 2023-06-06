@@ -33,7 +33,7 @@ The organizational call form for Mission is MissionGroup. A MissionGroup can inc
 
 The auxiliary functions are some semi-automatic function modules that can automatically assist some operations.
 
-Press the hotkey (default is `[`) in the Genshin to start/stop.
+在原神中按下快捷键(默认为 `[` )即可启动/停止。
 
 ## Setup Configuration
 
@@ -45,6 +45,6 @@ Select the file to be configured in the drop-down box and follow the prompts to 
 ## Remote Control
 
 
-Press `Get ip` in the `main` screen to get the LAN connection ip, you can enter that ip on your computer to connect to the GIA control panel and operate the GIA on another computer.
+在 `main` 界面按下 `获取ip` 即可获取局域网连接ip，可以在电脑上输入该ip，连接到GIA控制面板，操作另一台电脑上的GIA。
 
 
