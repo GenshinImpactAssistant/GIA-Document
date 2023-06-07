@@ -1,6 +1,5 @@
 # GUI
 
-
 GIA's GUI is implemented by PyWebIO. The following functions are included:
 
 - Select auto assist mode, status display
@@ -12,7 +11,6 @@ GIA's GUI is implemented by PyWebIO. The following functions are included:
 - Remote Control
 
 ## Function usage
-
 
 ### Task
 
@@ -30,13 +28,11 @@ The organizational call form for Mission is MissionGroup. A MissionGroup can inc
 
 ## Auxiliary Functions
 
-
 The auxiliary functions are some semi-automatic function modules that can automatically assist some operations.
 
 在原神中按下快捷键(默认为 `[` )即可启动/停止。
 
 ## Setup Configuration
-
 
 You can configure the settings in the settings page.
 
@@ -44,7 +40,4 @@ Select the file to be configured in the drop-down box and follow the prompts to 
 
 ## Remote Control
 
-
 在 `main` 界面按下 `获取ip` 即可获取局域网连接ip，可以在电脑上输入该ip，连接到GIA控制面板，操作另一台电脑上的GIA。
-
-

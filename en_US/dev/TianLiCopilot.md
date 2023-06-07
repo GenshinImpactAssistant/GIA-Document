@@ -1,6 +1,5 @@
 # TianLiCopilot 天理自动驾驶
 
-
 TLC(TianLiCopilot)基于TeyvatMoveFlow(TMF)提瓦特移动控制流。
 
 TLC使用[TLPS](TianLiPositioningSystem)定位.
@@ -15,9 +14,7 @@ PATH模式下,程序将会使用[TLPP](TianLiPositioningPath.md)文件沿路线�
 
 ## 工作原理
 
-
 ### AUTO mode
-
 
 AUTO模式会朝着目标坐标方向直行。在走路状态下每1.6s连按2次空格。
 
@@ -27,22 +24,23 @@ AUTO模式会朝着目标坐标方向直行。在走路状态下每1.6s连按2�
 
 ### PATH mode
 
-
 PATH模式会沿着坐标前进。在循环过程中，执行以下3个步骤：
 
-1. 朝着break position（转折点）前进。距离BP小于规定的offset即切换到下一个BP，直到没有更多BP。
-2. 自动识别当前的position，并检测motion并处理。
-3. 如果当前距离距离吸附点小于允许吸附距离，开始向目标吸附点移动
-4. 自动拾取(若启用)
-5. 检测移动是否卡住，卡住就退出
-6. 冲刺(2.5s cd)
-7. 检测W按键是否松开并按下W按键
-8. 检测是否准备结束。若是，检测是否需要精确结束。若是，向终点移动(offset=1)
-9. 打印日志
+01. 朝着break position（转折点）前进。距离BP小于规定的offset即切换到下一个BP，直到没有更多BP。
+02. 自动识别当前的position，并检测motion并处理。
+03. 如果当前距离距离吸附点小于允许吸附距离，开始向目标吸附点移动
+04. 自动拾取(若启用)
+05. 检测移动是否卡住，卡住就退出
+06. 冲刺(2.5s cd)
+07. 检测W按键是否松开并按下W按键
+08. 检测是否准备结束。若是，检测是否需要精确结束。若是，向终点移动(offset=1)
+09. 打印日志
 10. 移动视角朝向BP方向
 
 ## 函数参数
+
 ### TMC
+
 ```python
 def set_parameter(self,
               MODE:str = None,
@@ -76,5 +74,3 @@ Args:
     is_auto_pickup (bool, optional): 是否自动拾取可采集物. Defaults to None.
 """
 ```
-
-

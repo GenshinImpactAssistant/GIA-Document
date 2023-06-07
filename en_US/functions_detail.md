@@ -1,15 +1,12 @@
 # 详细功能介绍
 
-
 ## 1. [领取日常奖励](claim_reward.md)
-
 
 在Task list中选择领取日常奖励，启动任务。
 
 > 最稳定的功能(因为简单..)
 
 ## 2. [战斗辅助](combat_assi.md)
-
 
 - Switch Function to AutoCombat and wait for the module to be imported.
 - 按下 `[` 键启动/停止功能。可在 `keymap.json` 中更改。
@@ -19,7 +16,6 @@
 > ~~单拉出来的一个核心功能,只有这个不是全自动~~
 
 ## 3. [自动每日委托](commission_assi.md)
-
 
 Automatically search and execute daily commissions located in **Mondstadt**. Currently only some commissions that require only combat can be executed.
 
@@ -39,7 +35,6 @@ Select the Ley Line Outcrop in the Task list and start the task.
 
 ## 5. [自动秘境](domain_assi.md)
 
-
 - 目前最好用的功能~!
 
 1. GUI 设置页面中设置挑战秘境的次数等.
@@ -58,7 +53,6 @@ Select the Ley Line Outcrop in the Task list and start the task.
 
 > 非常垃圾，但是通用
 
-
 - 在自定义任务中选择通用自动采集，启动自定义任务
 - 注意阅读[collector_assi.md](collector_assi.md)中的注意事项.
 
@@ -72,6 +66,4 @@ Select the Ley Line Outcrop in the Task list and start the task.
 
 ## 8. launch genshin
 
-
 帮你点击 `点击进入` 按钮，不能帮你启动原神。
-

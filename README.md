@@ -14,13 +14,12 @@ GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛�
 ![GitHub Repo size](https://img.shields.io/github/repo-size/infstellar/genshin_impact_assistant?style=flat-square&color=3cb371)
 [![contributors](https://img.shields.io/github/contributors/infstellar/genshin_impact_assistant?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/graphs/contributors)
 </br></br>
-[![QQ群](https://img.shields.io/badge/QQ群-901372518-blue.svg?style=flat-square&color=12b7f5&logo=qq)](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-901372518-blue.svg?style=flat-square&color=12b7f5&logo=qq)](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 [![Bilibili](https://img.shields.io/badge/bilibili-infstellar-blue.svg?style=flat-square&logo=bilibili)](https://space.bilibili.com/313212782)<!-- ignore gettext -->
 
 </div>
 
 ## 介绍
-
 
 基于图像识别的原神自动操作辅助.使用图片识别与模拟键盘操作,不涉及违规操作.
 
@@ -30,11 +29,9 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## 我是急急国王
 
-
 如果你啥都不想看就想开始用，按照[这个方法](zh_CN/jijiking.md)操作：
 
 ## 演示视频
-
 
 <https://www.bilibili.com/video/BV1ps4y1T71A> v0.8.3
 
@@ -46,7 +43,6 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## [功能介绍](zh_CN/functions_detail.md)
 
-
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
 
 如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](zh_CN/functions_detail.md)
@@ -57,7 +53,6 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## Internationalization
 
-
 GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
 
 English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
@@ -66,28 +61,22 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ## 使用方法
 
-
 ### 快速安装
-
 
 请参见[GIA Launcher自动安装器使用方法](zh_CN/install.md).
 
 ### 从源代码构建
 
-
 请参见[源代码安装方法](zh_CN/git_install.md)
 
 ## 使用前设置
 
-
 ### 原神游戏进度
-
 
 - 需要解锁 `层岩巨渊 地下矿区` 的地图。
 - 需要解锁璃月与蒙德的所有传送锚点，副本式秘境
 
 ### 原神窗口设置
-
 
 - 需要在原神启动后再运行程序.
 - 原神需要以1080p窗口化运行(全屏也可以),设置抗锯齿为SMAA,中或以上特效.
@@ -95,20 +84,17 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ### config配置
 
-
 在使用前，需要注意这些配置内容：
 
-|位置|配置项|内容|
-|----|----|----|
-|设置-通用设置| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
+| 位置      | 配置项                | 内容                   |
+| ------- | ------------------ | -------------------- |
+| 设置-通用设置 | `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。 |
 
 可以在GUI或直接从文件中修改。
 
 更多其他配置项，参见GUI内的设置介绍：[GUI使用](zh_CN/gui.md)
 
-
 ## 错误报告
-
 
 如果在使用中遇到问题，可以提交issue反馈。
 
@@ -124,16 +110,13 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ## [已知问题 Known Issues](zh_CN/known_issues.md)
 
-
 [Known issues](zh_CN/known_issues.md)
 
 ## 性能需求
 
-
 - 此程序至少需要 `2.5G内存` 与 `4G存储空间` (完整安装).
 
 ## 鸣谢
-
 
 感谢所有参与到开发/测试中的朋友们 (\*´▽｀)ノノ
 
@@ -141,14 +124,11 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ### 特别感谢
 
-
 - [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)
 
 ### 开源库
 
-
 #### 原神相关
-
 
 - [空荧酒馆原神地图 kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)
 - [原神-天理坐标系](https://github.com/GengGode/cvAutoTrack)
@@ -157,13 +137,11 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 #### 开源库调用
 
-
 - [opencv](https://github.com/opencv/opencv)
 - [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)
 - [yolox](https://github.com/Megvii-BaseDetection/YOLOX)
 
 ### 其他贡献/参与者
-
 
 - 数据集标注: [nɡ.](https://space.bilibili.com/396023811)
 
@@ -173,4 +151,3 @@ qq群:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 
 开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
 (请确保你已经会使用git以及github)
-

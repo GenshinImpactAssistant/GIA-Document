@@ -1,6 +1,3 @@
 ## ERR Code
 
-
-Check the error code meaning and solution.
-
-
+查看错误码含义及解决方案。

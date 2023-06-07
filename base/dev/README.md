@@ -1,5 +1,6 @@
 # GIA Development Document
-GIA开发文档  
+
+GIA开发文档\
 介绍GIA中各个文件，函数的作用和GIA的整体架构。你可以根据这些进行修改。
 
 ## 目录 <!-- {docsify-ignore} -->
@@ -15,4 +16,5 @@ GIA开发文档
 - [Flow介绍](flow.md) (编写中...)
 
 ## PR <!-- {docsify-ignore} -->
+
 为了避免 `dev` 分支被瞎改导致不能merge,Pull Request需要提交到 `alpha` 分支.

@@ -1,8 +1,6 @@
 # 从源代码安装
 
-
-<strong>注意: 这里是从源代码运行,需要一定编程基础.快速使用请参见:
-[GIA Launcher自动安装器使用方法](install.md)</strong>
+<strong>注意: 这里是从源代码运行,需要一定编程基础.快速使用请参见:[GIA Launcher自动安装器使用方法](install.md)</strong>
 
 要求:
 
@@ -13,13 +11,14 @@
 
 ## 安装
 
-
 1. 输入以下命令以完成源码和依赖的下载:
 
    ```shell
    git clone https://github.com/infstellar/genshin_impact_assistant.git&cd genshin_impact_assistant&python setup.py install&git submodule init&git submodule update
    ```
+
    Windows Powershell
+
    ```shell
    git clone https://github.com/infstellar/genshin_impact_assistant.git;cd genshin_impact_assistant;python setup.py install;git submodule init;git submodule update
    ```
@@ -36,13 +35,11 @@
 
 ## 更新
 
-
 - 使用setup.py更新:
-   ```shell
-   python setup.py update&git submodule update
-   ```
-   Windows Powershell
-   ```powershell
-   python setup.py update;git submodule init;git submodule update
-   ```
-
+  ```shell
+  python setup.py update&git submodule update
+  ```
+  Windows Powershell
+  ```powershell
+  python setup.py update;git submodule init;git submodule update
+  ```

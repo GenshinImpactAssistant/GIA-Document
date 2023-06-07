@@ -1,13 +1,10 @@
 # FAQ
 
-
 ## Windows11相关
-
 
 如果你正在使用Windows11，请Google搜索 Win22H2下Bitblt截图黑屏或白屏 的解决方案，或查看这个[issue](https://github.com/GengGode/cvAutoTrack/issues/9)
 
 ## 无法运行
-
 
 Q: 程序崩溃？
 
@@ -22,8 +19,6 @@ Q: 启动GIA Launcher后跳出大量文字卡住怎么办？
 
 ## 运行时问题
 
-
-Q: 没反应？
 - 如果你是先打开GIA再关闭的原神启动器，试试重启GIA。
 - 检查是否多点击了一次启动按钮
 
@@ -41,4 +36,3 @@ Q: 在大地图总是点歪怎么办？
 
 - 看看有没有设置readme中的 `使用前config配置` 。
 - 目前对传送至周本式秘境，稻妻地图的支持尚不完备。将来会适配。
-
