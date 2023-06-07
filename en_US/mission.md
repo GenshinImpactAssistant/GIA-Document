@@ -8,4 +8,4 @@ Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) 
 
 ## Usage
 
-在自定义任务中启用你要运行的自定义任务，按照提示填写参数，保存后在主界面选择自定义任务，启动GIA。
+Enable the custom task you want to run in the custom task, fill in the parameters according to the prompts, save and select the custom task on the main interface, and start GIA.

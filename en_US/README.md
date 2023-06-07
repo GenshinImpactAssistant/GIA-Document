@@ -25,7 +25,7 @@ An Genshin automatic operation assistance based on image recognization and simil
 
 To those who have not used github: the blue text in the docs is a hyperlink that can be clicked.
 
-> 这里是文档仓库，点star请到主仓库 ~~(如果你需要star文档仓库也可以)~~
+> This is the document warehouse, please click star to go to the main warehouse \~~ (you can also star the document warehouse if you want)\~~
 
 ## Quick Start
 
@@ -43,9 +43,9 @@ If you enconter any problem when using, you can take a look at FAQ frist
 
 ## Function Details
 
-绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
+Most of the functions only need to set the parameters, put the game in the big world, select the function and start it.
 
-如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](functions_detail.md)
+If you have doubts about a function or want to know more information, please refer to [Detailed Function Introduction](functions_detail.md)
 
 ## 参与开发
 
@@ -120,7 +120,7 @@ If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding info
 
 ## Acknowledgements
 
-感谢所有参与到开发/测试中的朋友们 (\*´▽｀)ノノ
+Thanks to all the friends who participated in the development/testing (\*´▽｀)ノノ
 
 [![Contributors](https://contributors-img.web.app/image?repo=infstellar/genshin_impact_assistant)](https://github.com/infstellar/genshin_impact_assistant/graphs/contributors)
 

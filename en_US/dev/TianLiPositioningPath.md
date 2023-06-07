@@ -2,7 +2,7 @@
 
 > 编写中...
 
-TLPP是保存TianLi格式坐标的文件。
+TLPP is a file that saves coordinates in TianLi format.
 
 ## TLPP文件结构
 
@@ -23,21 +23,21 @@ collection_path_dict = {
         }
 ```
 
-| key                 | introduction                  |
-| ------------------- | ----------------------------- |
-| name                | TLPP file name                |
-| time                | TLPP file create time         |
-| start_position      | TLPP开始坐标                      |
-| end_position        | TLPP结束坐标                      |
-| break_position      | 转向点坐标，用于寻路                    |
-| position_list       | 路径中坐标，用于记录角色动作                |
-| additional_info     | 额外信息                          |
-| pickup_points       | BP index of collection points |
-| adsorptive_position | 吸附坐标，TLC会尝试接近这个坐标             |
+| key                 | introduction                                                      |
+| ------------------- | ----------------------------------------------------------------- |
+| name                | TLPP file name                                                    |
+| time                | TLPP file create time                                             |
+| start_position      | TLPP start coordinates                                            |
+| end_position        | TLPP end coordinates                                              |
+| break_position      | Turning point coordinates, used for pathfinding                   |
+| position_list       | Coordinates in the path, used to record character actions         |
+| additional_info     | additional information                                            |
+| pickup_points       | BP index of collection points                                     |
+| adsorptive_position | adsorption coordinates, TLC will try to approach this coordinates |
 
 ## 屏蔽坐标
 
 如果有某个坐标打的不好，你想要手动修改它时：
 
-- 若 `additional_info` `pickup_points` 列表为空，直接删除对应index的BP
-- 否则，将对应index的BP改为与它的上一个BP或下一个BP相同。这是为了避免BP顺序错误。
+- If the `additional_info` `pickup_points` list is empty, directly delete the BP corresponding to the index
+- Otherwise, change the BP corresponding to the index to be the same as its previous or next BP.

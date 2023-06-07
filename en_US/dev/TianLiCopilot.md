@@ -1,43 +1,43 @@
-# TianLiCopilot 天理自动驾驶
+# TianLiCopilot
 
-TLC(TianLiCopilot)基于TeyvatMoveFlow(TMF)提瓦特移动控制流。
+TLC (TianLiCopilot) is based on TeyvatMoveFlow (TMF) Teyvat mobile control flow.
 
-TLC使用[TLPS](TianLiPositioningSystem)定位.
+TLC uses \[TLPS\] (TianLiPositioningSystem) positioning.
 
 ## Introduction
 
-TLC包含2种模式: `AUTO` 与 `PATH` .
+TLC contains 2 modes: `AUTO` and `PATH`.
 
-AUTO模式下,程序将会结合[TLN](TianLiPositioningSystem)朝目标前进.
+In AUTO mode, the program will combine [TLN](TianLiPositioningSystem) to move towards the goal.
 
-PATH模式下,程序将会使用[TLPP](TianLiPositioningPath.md)文件沿路线行驶.
+In PATH mode, the program will use the [TLPP](TianLiPositioningPath.md) file to drive along the route.
 
-## 工作原理
+## Working Principle
 
 ### AUTO mode
 
-AUTO模式会朝着目标坐标方向直行。在走路状态下每1.6s连按2次空格。
+AUTO mode will go straight towards the target coordinate direction.
 
-如果启用了TLN(TianLi Positioning Navigator),会使用TLN进行辅助导航。
+If TLN (TianLi Positioning Navigator) is enabled, TLN will be used for auxiliary navigation.
 
 [TLPS&TLN](TianLiPositioningSystem.md)
 
 ### PATH mode
 
-PATH模式会沿着坐标前进。在循环过程中，执行以下3个步骤：
+PATH mode will advance along the coordinates.
 
-01. 朝着break position（转折点）前进。距离BP小于规定的offset即切换到下一个BP，直到没有更多BP。
-02. 自动识别当前的position，并检测motion并处理。
-03. 如果当前距离距离吸附点小于允许吸附距离，开始向目标吸附点移动
-04. 自动拾取(若启用)
-05. 检测移动是否卡住，卡住就退出
-06. 冲刺(2.5s cd)
-07. 检测W按键是否松开并按下W按键
-08. 检测是否准备结束。若是，检测是否需要精确结束。若是，向终点移动(offset=1)
-09. 打印日志
-10. 移动视角朝向BP方向
+01. Moving towards the break position.
+02. Automatically identify the current position, detect motion and process it.
+03. If the current distance from the adsorption point is less than the allowable adsorption distance, start moving to the target adsorption point
+04. Auto Loot (if enabled)
+05. Detect if the movement is stuck, exit if stuck
+06. Sprint (2.5s cd)
+07. Detect if the W button is released and the W button is pressed
+08. Test readiness to end.
+09. Print log
+10. Move camera towards BP direction
 
-## 函数参数
+## Function parameters
 
 ### TMC
 

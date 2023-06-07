@@ -22,4 +22,4 @@
 
 1. Choose a team first and start it after entering the domain.
 
-2. When you challenge a domain where the view of tree is blocked by walls , please set `isLiYueDomain` to `true` in domain setting.
+2. When you challenge a domain in Liyue where the view of tree is blocked by walls, please set `IsObscuredDomain` to `true` in domain setting.

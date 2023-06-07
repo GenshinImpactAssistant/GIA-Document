@@ -35,34 +35,34 @@ Select the Ley Line Outcrop in the Task list and start the task.
 
 ## 5. [Auto Domain Assist](./domain_assi.md)
 
-- 目前最好用的功能~!
+- The most useful function so far~!
 
-1. GUI 设置页面中设置挑战秘境的次数等.
+1. Set the number of times to challenge the secret realm on the GUI setting page.
 2. Configure the team and enter the domain.
 3. After entering the Domain(also in teyvat world), select DomainTask in the GUI TaskList and click Start Task button
-4. 等待导入完成后切换到原神
-5. 双手离开键盘
+4. Switch to Yuanshin after waiting for the import to complete
+5. Hands off the keyboard
 
 - Be careful to read the notes in [domain_assi.md](./domain_assi.md).
 
 For other settings, sett [Auto Domain Assist introduction](./domain_assi.md).
 
-> ~~冰本的地板会把人冻死，记得多带点奶...~~
+> ~~The floor of the ice book will freeze people to death, remember to bring more healers...~~
 
 ## 6. [Auto Collect Assist](./collector_assi.md)
 
-> 非常垃圾，但是通用
+> Very rubbish, but generic
 
-- 在自定义任务中选择通用自动采集，启动自定义任务
+- Select general automatic collection in the custom task to start the custom task
 - Be careful to read the notes in [collector_assi.md](./collector_assi.md).
 
 For other settings, see[Auto Collector Assist introduction](./collector_assi.md).
 
 ## 7. [自定义任务（素材收集等）](mission.md)
 
-在自定义任务中启用你要运行的自定义任务，按照提示填写参数，保存后在主界面选择自定义任务，启动GIA。
+Enable the custom task you want to run in the custom task, fill in the parameters according to the prompts, save and select the custom task on the main interface, and start GIA.
 
-关于创建自定义任务，参见[创建自定义任务](dev/mission.md)
+For creating a custom task, see [Create a custom task](dev/mission.md)
 
 ## 8. launch genshin
 

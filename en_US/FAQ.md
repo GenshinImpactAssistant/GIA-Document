@@ -19,10 +19,10 @@ Q: What should I do if I get stuck with a lot of text popping up after launching
 
 ## Runtime issues
 
-Q: 没反应？
+Q: No response?
 
-- 如果你是先打开GIA再关闭的原神启动器，试试重启GIA。
-- 检查是否多点击了一次启动按钮
+- If you are a Genshin Launcher that first opened GIA and then closed it, try restarting GIA.
+- Check if the start button is clicked more than once
 
 Q: It shows "ERROR: Screenshot failed". What should I do?
 

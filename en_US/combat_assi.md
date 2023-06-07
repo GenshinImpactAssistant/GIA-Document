@@ -1,6 +1,6 @@
 # Auto Combat Assist
 
-注：自动配置战斗文件默认开启，如果你不想配置，可以不看下面的配置介绍，或者只看 `自动配置team文件` 。
+Note: The automatic configuration of the battle file is enabled by default. If you don't want to configure it, you can ignore the configuration introduction below, or just read `Automatically configure the team file`.
 
 ## Introduction
 
@@ -73,8 +73,7 @@ Allows switching to the character when trigger condition is established.
 | `q_ready`    | When a character Burst Skill is ready, switching is allowed     |
 | `idle`       | always enable                                                   |
 
-Multiple triggers can be used, with commas sparating the trigger. There can be no space.
-When the trigger conditions of multiple characters are established, the order of switching is determinded by the priority.
+Multiple triggers can be used, with commas sparating the trigger. There can be no space. When the trigger conditions of multiple characters are established, the order of switching is determinded by the priority.
 
 ## Position
 
@@ -91,8 +90,7 @@ The character position settings affact some of the feature in the Auto Combat As
 
 ## Priority
 
-The priority decreases from smallest to largest, with 0 being the highest priority.
-The priority can be the same level.
+The priority decreases from smallest to largest, with 0 being the highest priority. The priority can be the same level.
 
 This is the GIA default priority setting:
 
@@ -123,13 +121,13 @@ In the GUI, create a new TEAM file, enter the character name and press AutoFill,
 
 The character's position in the team, character priority, and some of the character's triggers will not be automatically populated.
 
-完全支持的角色列表：
+List of fully supported roles:
 
 ```python
 ['Albedo', 'Bennett', 'Ningguang', 'Yoimiya', 'Yun Jin', 'Zhongli', 'Ganyu', 'Yelan', 'Kamisato Ayaka', 'Diona', 'Xiangling', 'Shenhe', 'Kaedehara Kazuha', 'Raiden Shogun', 'Hu Tao', 'Mona', 'Qiqi', 'Keqing', 'Sangonomiya Kokomi', 'Xingqiu', 'Lisa']
 ```
 
-其余角色只有基本参数，没有经过核对与适配。如果你有兴趣，欢迎贡献角色参数(ﾉﾟ∀ﾟ)ﾉ
+The rest of the characters only have basic parameters, without verification and adaptation.
 
 [List of supported roles](../../assets/characters_data/characters_parameters.json)
 

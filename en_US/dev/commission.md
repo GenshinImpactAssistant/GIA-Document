@@ -1,16 +1,16 @@
 # Automatic Daily Commission
 
-编写执行每日委托的任务脚本.
+Write a task script to execute the daily commission.
 
 ## Introduction
 
-每日委托(Commission)用于执行每日委托.根据委托名与坐标唯一确定单个委托.
+Daily commission (Commission) is used to execute daily commission. A single commission is uniquely determined according to the commission name and coordinates.
 
-因为每日委托的稀有性,适配多语言存在困难,因此所有每日委托默认使用**英文**编写和运行.旧版本的Commission可能支持多语言,但此后不再默认支持.
+Due to the rarity of daily commissions, it is difficult to adapt to multiple languages, so all daily commissions are written and run in **English** by default. Old versions of Commission may support multiple languages, but they will no longer be supported by default after that.
 
-Commission的编写方法与Mission基本一致,但文件命名有所不同.因此,请先看看[自定义任务](mission.md)
+The writing method of Commission is basically the same as that of Mission, but the file naming is different. Therefore, please take a look at [Custom Mission](mission.md)
 
-你可以在[source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions)找到一些范例.
+You can find some examples at [source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions).
 
 Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 
@@ -20,15 +20,15 @@ Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 
 示例: BasicKnowledgeOfTheKnights_P2682N5673.py
 
-commission坐标命名格式:(P/N)xxxC(P/N)xxx
+Commission coordinate naming format: (P/N)xxxC(P/N)xxx
 
-P代表+,N代表-.
+P stands for +, N stands for -.
 
-示例: -1000,1000 => N1000P1000
+Example: -1000,1000 => N1000P1000
 
-类名必须与文件名相同.
+The class name must be the same as the file name.
 
-~~如果你没有看懂,那就直接PR~~
+~~If you don’t understand, then just PR~~
 
 ## 函数清单
 
@@ -38,14 +38,14 @@ P代表+,N代表-.
 
 commission专有函数清单:
 
-| function          | usage                             |
-| ----------------- | --------------------------------- |
-| talk_skip         | Skip talks until back to main UI  |
-| talk_switch       | 选择选项                              |
-| talk_until_switch | 对话直到出现选项                          |
-| talk_wait         | 等待x秒                              |
-| talk_with_npc     | 与指定名称的NPC对话. 会按wasd改变方向来寻找附近的NPC. |
-| exit_talk         | 退出对话, 直到返回主界面.                    |
+| function          | usage                                                                                                           |
+| ----------------- | --------------------------------------------------------------------------------------------------------------- |
+| talk_skip         | Skip talks until back to main UI                                                                                |
+| talk_switch       | select options                                                                                                  |
+| talk_until_switch | talk until options                                                                                              |
+| talk_wait         | wait x seconds                                                                                                  |
+| talk_with_npc     | Talk to the NPC with the specified name. It will change the direction according to wasd to find the nearby NPC. |
+| exit_talk         | Exit the conversation until you return to the main interface.                                                   |
 
 ## 获得当前坐标
 

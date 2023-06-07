@@ -6,13 +6,13 @@ Mission is a portable, integrated unit in GIA that performs functions in the Tey
 
 Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) and walking. The combination of functions allows for fixed route gathering, mission automation and more.
 
-自定义任务是GIA目前添加新功能的重要方向。更精准的自动采集和自动委托都依赖于Mission。
+Custom task is an important direction for GIA to add new functions at present.
 
 # 设计你的第一个Mission(快速开始)
 
-目前，简单的Mission主要用于自动采集。因此，下面我们介绍一个简单Mission的编写以开始。创建更复杂的Mission可以参阅之后的介绍。
+At present, the simple Mission is mainly used for automatic collection.
 
-你需要一丁点最基本的python知识以开始。如果你对使用python一无所知，参考[vscode&anaconda python 简单教程(还没写)](vscode_python.md)
+You need a minimal knowledge of python to get started.
 
 ## 示例
 
@@ -35,11 +35,11 @@ class MissionMain(MissionJustCollect):
 TLPP_FILE = ...
 ```
 
-你可以在 `missions/MissionQingXin1.py` 中找到源代码。
+You can find the source code in `missions/MissionQingXin1.py`.
 
 这一段代码的目标是告诉GIA使用 `TLPP_FILE` 字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](video2path.md)
 
-我们将从这一段代码开始，介绍Mission的各个组成部分。
+We will start with this piece of code and introduce the various components of Mission.
 
 ## 导入Mission模板
 
@@ -70,15 +70,15 @@ META={
 
 VERSION用于标出该Mission的版本。目前(2023.5.20~)使用 `1.0.0` 进行标记。Mission格式可能会发生修改，若有，将会在文档中说明。Mission META使用python的字典格式。你可能需要先了解什么是python的字典。
 
-对于快速开始，我们只需
+For a quick start, we simply
 
-- 复制上面的代码
-- 将 `your-mission-name-in-zh_CN` 改为你的Mission的中文名称，将 `your-mission-name-in-en_US` 改为你的Mission的英文名称。
-- 将 `your-github-username` 改为你的Github用户名(或者你的任意其他名称)
-- 将 `when-you-create-the-mission` 改为你创建这个Mission的时间(格式： `UTCxxx yyyy-mm-dd` . 例如： `UTC+08 2023-05-03` )
-- 将 `what-you-want-to-say` 改为你想要说的话(路径位置、说明、鸣谢等)
+- Copy the above code
+- Change `your-mission-name-in-zh_CN` to the Chinese name of your Mission, and `your-mission-name-in-en_US` to the English name of your Mission.
+- Change `your-github-username` to your Github username (or whatever you want)
+- Change `when-you-create-the-mission` to the time when you created this Mission (format: `UTCxxx yyyy-mm-dd` . For example: `UTC 08 2023-05-03` )
+- Change `what-you-want-to-say` to what you want to say (path location, description, acknowledgments, etc.)
 
-如果META中缺少name或缺少对应语言，则会自动使用mission名。
+If the name or corresponding language is missing in META, the mission name will be used automatically.
 
 ## 创建Mission类
 
@@ -97,23 +97,23 @@ TLPP_FILE = ...
 
 就可以创建init函数。
 
-其中，TLPP_FILE是你的TLPP字典, 将V2P中得到的TLPP字典替换 `...` 。
+Among them, TLPP_FILE is your TLPP dictionary, replace `...` with the TLPP dictionary obtained in V2P.
 
-`your-mission-name` 是你的Mission名。
+`your-mission-name` is your Mission name.
 
 mission的命名规则如下：
 
-1. mission必须为英文
-2. mission各个单词的英文首字母应当大写
-3. mission应当以你的作者名开头以防止混淆(最好是Github用户名)。GIA自带的Mission没有作者名。
+1. The mission must be in English
+2. The first letter of each word of mission should be capitalized
+3. mission should start with your author name to prevent confusion (preferably Github username).
 
-只需指定你要运行的TLPP文件，MissionJustCollect会将它扩展为完整Mission，并调用MissionTemplate类来执行它。
+Just specify the TLPP file you want to run, MissionJustCollect will expand it into a complete Mission, and call the MissionTemplate class to execute it.
 
 ## 将Mission加入GIA
 
 目前，我们就完成了一个Mission的创建。
 
-回顾一下它的样子：
+Here's a look back at what it looks like:
 
 ```python
 from source.mission.template.mission_just_collect import MissionJustCollect
@@ -132,9 +132,9 @@ TLPP_FILE = ...
 
 要使用这个Mission，我们需要将它加入GIA的Mission Index来让GIA识别这个mission。方法如下：
 
-1. 把你创建的 `your-mission-name.py` 文件放置到 `./missions` 目录下
-2. 打开GIA GUI，在 `自定义任务配置` 页面，点击 `编译自定义任务` 按钮，完成后按照提示重启GIA
-3. 你现在应该可以在重启后的GIA中看到你的Mission了。按照使用一般Mission的方法使用它。
+1. Place the `your-mission-name.py` file you created in the `./missions` directory
+2. Open the GIA GUI, click the `Compile Custom Task` button on the `Custom Task Configuration` page, and restart GIA according to the prompts after completion
+3. You should now be able to see your Mission in the restarted GIA.
 
 ## 结束
 
@@ -142,15 +142,15 @@ TLPP_FILE = ...
 
 非常欢迎分享你的自定义任务.
 
-如果你能够制作自定义任务共享网站,欢迎提交pr或在issue中回复.
+If you can make a custom task sharing website, welcome to submit pr or reply in issue.
 
-> 如果你在阅读 `快速开始` 文档时，遇到混淆、阻碍或错误，请联系我们或提交issue反馈。
+> If you encounter confusion, obstacles or errors while reading the `quickstart` documentation, please contact us or submit an issue feedback.
 
 # Mission详细介绍
 
 这是面向有一定python基础的开发者。
 
-你需要掌握python的基础语法。(不需要特别高深的python知识)
+You need to master the basic syntax of python.
 
 ## Usage
 
@@ -163,11 +163,11 @@ class MissionMain(Mission): ...
 
 ## Methods
 
-你可以在 [`source/mission/mission.py` ](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看方法与介绍。
+You can check the method and introduction at [`source/mission/mission.py`](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py).
 
 ## Write a Mission
 
-首先，继承Mission。
+First, inherit Mission.
 
 ```python
 from source.mission.mission import Mission
@@ -178,9 +178,9 @@ class MissionMain(Mission):
         self.setName("MissionTest")
 ```
 
-注意，类名必须为MissionMain。使用首字母大写命名格式。
+Note that the class name must be MissionMain.
 
-然后，实现exec_mission方法。
+Then, implement the exec_mission method.
 
 ```python
     def exec_mission(self):
@@ -188,11 +188,11 @@ class MissionMain(Mission):
         self.collect(MODE="AUTO",pickup_points=[[71, -2205],[65,-2230]])
 ```
 
-这是一个示例。
+Here is an example.
 
-你的程序必须写在exec_mission函数中才能被执行. commission同理.
+Your program must be written in the exec_mission function to be executed. The same is true for commission.
 
-最后，如果你要调试你的mission，在下方加入以下代码：
+Finally, if you want to debug your mission, add the following code below:
 
 ```python
 if __name__ == '__main__':
@@ -201,48 +201,48 @@ if __name__ == '__main__':
     mission.continue_threading()
 ```
 
-运行该文件即可。
+Just run the file.
 
-你可以通过组合函数以执行功能.有关mission提供的函数,请参阅下方的函数文档.
+You can perform functions by combining functions. For the functions provided by mission, please refer to the function documentation below.
 
 ## 函数文档
 
 你可以在[ `source/mission/mission.py` ](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看所有使用方法和介绍. 如果文档不清晰或想要添加新的功能以适配你的想法,请提交issue.
 
-函数清单:
+Function list:
 
-| 函数                            | 用途                                    |
-| ----------------------------- | ------------------------------------- |
-| move_straight                 | 向目的地前进                                |
-| move_along                    | 沿着TLPP行走                              |
-| start_combat                  | 开始战斗                                  |
-| stop_combat                   | 停止战斗                                  |
-| pickup_once                   | 拾取1次                                  |
-| collect                       | 启动收集                                  |
-| circle_search                 | 进入一个循环，以中心坐标为圆心向外移动搜索。当符合stop_rule时退出 |
-| start_pickup                  | 启动自动采集。会采集路上遇到的可交互物品。                 |
-| stop_pickup                   | 停止自动采集。                               |
-| refresh_picked_list           | 刷新已采集物名列表                             |
-| reg_exception_found_enemy     | 注册事件：条件:是否遇敌。此后条件成立则跳出阻塞式任务           |
-| reg_exception_chara_died      | 注册事件：条件:角色是否死亡。此后条件成立则跳出阻塞式任务。        |
-| reg_exception_low_hp          | 注册事件：条件:检测角色是否低血量。此后条件成立则跳出阻塞式任务。     |
-| set_default_arrival_mode      | 设置默认精确到达模式。此后所有移动方法的默认精确到达模式设置为state。 |
-| reg_fight_if_needed           | 注册事件：设置是否遇到可见的敌人就开战。设置为state。         |
-| set_raise_exception           | 设置是否遇到异常时抛出异常并强制退出任务。设置为state。        |
-| set_exception_mode            | 设置阻塞式任务遇到异常时的默认处理方式.                  |
-| set_puo_crazy_f               | 设置是否启用疯狂按f模式.启用后,puo将会在按下f拾取后不停按f若干次. |
-| handle_tmf_stuck_then_skip    | 传入TMF的错误码，如果出错则跳过。                    |
-| handle_tmf_stuck_then_recover | 传入TMF的错误码，如果出错则到七天神像回血。               |
-| handle_tmf_stuck_then_raise   | 传入TMF的错误码，如果出错则抛出异常，退出任务。             |
-| switch_character_to           | 切换角色到指定角色。角色名为英文。                     |
-| use_f                         | 按一下f.                                 |
-| is_combat_end                 | 战斗是否结束.你可以在while循环中判断它.               |
+| function                      | purpose                                                                                                                                   |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| move_straight                 | move towards the destination                                                                                                              |
+| move_along                    | Walk along TLPP                                                                                                                           |
+| start_combat                  | Start Combat                                                                                                                              |
+| stop_combat                   | stop combat                                                                                                                               |
+| pickup_once                   | Pick up 1 time                                                                                                                            |
+| collect                       | start collection                                                                                                                          |
+| circle_search                 | Enter a loop, and search outward with the center coordinates as the center of the circle. Exit when stop_rule is met.                     |
+| start_pickup                  | Start automatic pickup. Interactable items encountered on the road will be collected.                                                     |
+| stop_pickup                   | Stop automatic pickup.                                                                                                                    |
+| refresh_picked_list           | Refresh the list of picked items                                                                                                          |
+| reg_exception_found_enemy     | Register event: Condition: Enemy found or not. After that, if the condition is met, it will jump out of the blocking task.                |
+| reg_exception_chara_died      | Register event: Condition: Whether the character died. After that, if the condition is met, it will jump out of the blocking task.        |
+| reg_exception_low_hp          | Register event: Condition: Check if the character has low HP. After that, if the condition is met, it will jump out of the blocking task. |
+| set_default_arrival_mode      | Set the default accurate arrival mode. The default exact reach mode for all move methods henceforth is set to state.                      |
+| reg_fight_if_needed           | Register event: set whether to start a fight when encountering a visible enemy. Set to state.                                             |
+| set_raise_exception           | Sets whether an exception is thrown and the task is forced to exit when an exception is encountered. Set to state.                        |
+| set_exception_mode            | Set the default processing mode when a blocking task encounters an exception.                                                             |
+| set_puo_crazy_f               | Set whether to enable the crazy pressing f mode. After enabling, puo will keep pressing f several times after pressing f to pick up.      |
+| handle_tmf_stuck_then_skip    | The error code passed in to TMF, if there is an error, it will be skipped.                                                                |
+| handle_tmf_stuck_then_recover | Pass in the error code of TMF, if there is an error, it will return blood from the statue.                                                |
+| handle_tmf_stuck_then_raise   | Pass in the error code of TMF, if there is an error, throw an exception and exit the task.                                                |
+| switch_character_to           | Switch character to specified character.                                                                                                  |
+| use_f                         | Press f.                                                                                                                                  |
+| is_combat_end                 | Whether the combat is over. You can judge it in the while loop.                                                                           |
 
 ## 示例
 
-你可以在 `source/mission/missions` , `source/commission/commissions` 中找到一些范例.
+You can find some examples in `source/mission/missions`, `source/commission/commissions`.
 
-示例1: MissionJustCollect类的具体实现.
+Example 1: Concrete implementation of the MissionJustCollect class.
 
 ```python
 class MissionJustCollect(Mission):
@@ -258,7 +258,7 @@ class MissionJustCollect(Mission):
         self.stop_pickup()
 ```
 
-示例2: 调查点采集模板
+Example 2: Survey point collection template
 
 ```python
 class MissionMain(Mission):

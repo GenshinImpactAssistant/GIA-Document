@@ -4,19 +4,19 @@
 
 ### Introduction
 
-TLPS是基于OpenCV的小地图定位算法，小地图视角识别算法，小地图方向识别算法，大地图定位算法和相关的集成功能。
+TLPS is a small map positioning algorithm based on OpenCV, a small map perspective recognition algorithm, a small map direction recognition algorithm, a large map positioning algorithm and related integration functions.
 
-你可以在source/map中找到相关代码。如果你想要获得更多信息并参与开发，提交issue或联系我们。
+You can find the relevant code in source/map.
 
 ## TianLiNavigator
 
 ### Introduction
 
-TLN是基于A-star寻路的导航算法，工作原理如下：
+TLN is a navigation algorithm based on A-star pathfinding, the working principle is as follows:
 
-1. 人工标记适合行走的点位路线
-2. TeyvatMove中根据开始点与结束点搜索适宜节点
-3. 优先按照路线行走，路线结束后朝目标直线行走。
+1. Manually mark the point routes suitable for walking
+2. In TeyvatMove, search for suitable nodes according to the start point and end point
+3. Prioritize walking according to the route, and walk straight to the goal after the route ends.
 
 ### TianLiNavigatorDev
 
@@ -26,42 +26,42 @@ TLNDev是用于人工编辑路线的工具，位于 `source/dev_tool/tianli_navi
 
 首先，运行tianli_navigator.py。TLND会弹出一个显示了GIMAP图片的窗口，同时命令行会等待输入。
 
-每个点与每个点之间有箭头连接，代表它们之间的link关系。
+There is an arrow connection between each point and each point, representing the link relationship between them.
 
-每个点旁边有它的编号。
+Each point has its number next to it.
 
 ### TLNDev名词解释
 
-- 全连接(full link或fl)：意味着双向连接，比如节点1与节点2全连接意味着1\<->2双向连通。
+- Full link (full link or fl): means two-way connection, such as full connection between node 1 and node 2 means 1\<->2 bidirectional connectivity.
 
 #### TLNDev命令
 
 在命令行中输入命令。
 
-使用 `;` 分割数个命令。不能在 `;` 附近包含空格。
+Use `;` to split several commands.
 
 - undo
 
-  撤销上一次指令。只能撤销一次(懒)
+  Cancel the last command.
 
 - del `id`
-  删除指定id的节点和它的所有相关连接。
+  Delete the node with the specified id and all its related connections.
 
 - del `id1`~`id2`
-  删除指定id1到id2的所有连续id。
+  Delete all consecutive ids from the specified id1 to id2.
 
 - link `id1` `id2`
-  连接id1与id2。
+  Connect id1 and id2.
 
 - add `x`,`y` \[id=`id`\] \[fl=`xxx`\]
-  添加坐标x,y。如果不指定id，则自动使用下一个id。
+  Add coordinates x,y.
 
-  可以指定要与之全连接(full link)的节点id。如果为空，则自动设为上一个id。
+  You can specify the node id to be fully connected with (full link).
 
 - add a
-  当你鼠标左键点击了一下图片时，会记录点击的坐标，输入add a就会自动添加这个坐标，不需要手动输入坐标。id与fl指令均可用。
+  When you click the picture with the left mouse button, the coordinates of the click will be recorded. Inputting add a will automatically add the coordinates, no need to manually enter the coordinates.
 
-连续添加坐标时，通常使用 `add a fl=` 命令。它意味着添加上次鼠标点击的坐标，并自动与上一个id全连接。
+When adding coordinates continuously, the `add a fl=` command is usually used.
 
 - save
-  保存。
+  Save.

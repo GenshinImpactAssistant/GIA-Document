@@ -2,17 +2,17 @@
 
 ## 命名格式
 
-名称一般为目标文档的名字加上 `{语言}.jsondoc` 的后缀.
+The name is generally the name of the target document plus the suffix `{language}.jsondoc`.
 
-例如 `auto_domain.json` 对应的文档名应为 `auto_domain.json.zh_CN.jsondoc` .
+For example, the document name corresponding to `auto_domain.json` should be `auto_domain.json.zh_CN.jsondoc`.
 
-## 存储位置
+## Storage Location
 
-应按命名规范存储在对应配置同目录下.
+It should be stored in the same directory as the corresponding configuration according to the naming convention.
 
-## 翻译
+## Translation
 
-把键对应的翻译写入doc内.例如:
+Write the translation corresponding to the key into the doc. For example:
 
 ```yaml
 {
@@ -31,11 +31,11 @@
 }
 ```
 
-## 选择框
+## Choice Box
 
 以前想过这个问题,不过觉得应该可以不用就没写,这次看来是必须写了..
 
-和上边一样,选择框只需要在yaml里加入一个名为 `select_items` 的项就行了.
+Same as above, the selection box only needs to add an item named `select_items` in yaml.
 
 For example:
 
@@ -53,9 +53,9 @@ For example:
 
 ## Special Key
 
-用于执行特殊方法的标记。
+Flags for executing special methods.
 
 ## Others
 
-- 如果你觉得有一些不必要翻译那可以删掉键值对,程序会自动使用配置的值作为标题.
-- **请不要写入无法解析的yaml文档!!!**
+- If you think there are some unnecessary translations, you can delete the key-value pair, and the program will automatically use the configured value as the title.
+- **Please do not write unparseable yaml documents!!!**

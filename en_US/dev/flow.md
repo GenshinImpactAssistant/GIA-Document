@@ -1,14 +1,14 @@
-# 流程控制单元
+# Flow control Unit
 
-## 什么是Flow？
+## What is Flow?
 
-Flow可以理解为状态机，Flow由Flow Unit（Flow Template）组成，一个Flow Unit可以切换到另一个Flow Unit。
+Flow can be understood as a state machine. Flow is composed of Flow Unit (Flow Template), and one Flow Unit can be switched to another Flow Unit.
 
-Flow Unit内部有5个状态，可以在状态间切换。
+There are 5 states inside the Flow Unit, which can be switched between states.
 
-通过Flow Unit的切换与Unit内部的切换，可以根据不同条件切换不同的状态。
+Through the switching of the Flow Unit and the switching inside the Unit, different states can be switched according to different conditions.
 
-目前，Flow用于自动采集，自动行走和路径记录。你应该不需要写新的Flow，所以可以仅了解它。
+Currently, Flow is used for automatic collection, automatic walking and path recording.
 
 ## FlowTemplate
 
@@ -31,7 +31,7 @@ flow_id: 流程代码：
 
 ## Flow Code
 
-以自动秘境为例，它有以下流程码：
+Taking the automatic secret realm as an example, it has the following process codes:
 
 MOVETO_CHALLENGE
 
@@ -47,21 +47,21 @@ ATTAIN_REAWARD
 
 END_DOMAIN
 
-其中，终止流程码必须包含$END$字符。
+Among them, the termination process code must contain $END$ characters.
 
-所有流程码管理在flow/flow_state.py中。
+All process codes are managed in flow/flow_state.py.
 
-next_flow_id: 该流程结束后运行的下一个流程的Flow id
+next_flow_id: Flow id of the next process to run after the process ends
 
-flow_timeout_time: 流程超时时间。负数则为无限。
+flow_timeout_time: Flow timeout time.
 
-变量：
+Variable:
 
-rfc：return flow code。有以下6个值：0,1,2,3,4,5
+rfc: return flow code.
 
-0~4: 对应state_init, state_before, state_in, state_after, state_end。即FC.INIT, FC.BEFORE, FC.IN, FC.AFTER, FC.END.
+0~4: corresponding to state_init, state_before, state_in, state_after, state_end.
 
-5: 流程结束标志码。即FC.OVER
+5: Process end flag code.
 
 ### 状态执行函数：
 
@@ -69,7 +69,7 @@ rfc：return flow code。有以下6个值：0,1,2,3,4,5
 
 其中，state_init与state_end为单次执行函数，即在一个Flow单元中的一次执行中只执行一次。
 
-state_before和state_after可以来回切换，例如：
+state_before and state_after can switch back and forth, for example:
 
 ```python
 def state_after(self):
@@ -77,58 +77,58 @@ def state_after(self):
     self._set_rfc(FC.BEFORE)
 ```
 
-从而切换回before状态。
+switch back to the before state.
 
-state_in是循环状态，即如果该流程的一些代码需要循环执行，写在这里。
+state_in is a cyclic state, that is, if some code of the process needs to be executed cyclically, write it here.
 
-最后，上面的规则仅为建议和标准，不遵守也不会出错，只是方便维护。
+Finally, the above rules are only suggestions and standards. If you don’t follow them, you won’t go wrong. They are just for maintenance.
 
-如果你不需要某个状态，不在继承的类里实现它就好了。但是，state_in必须实现。
+If you don't need a certain state, just don't implement it in the inherited class.
 
-每个状态实现后，如果要切换到下一个state，必须使用 `self._next_rfc()` 。手动 `self._set_rfc(x)` 也是可以的。
+After each state is achieved, if you want to switch to the next state, you must use `self._next_rfc()`.
 
-函数清单：
+List of functions:
 
-| name               | func           |
-| ------------------ | -------------- |
-| \_next_rfc()       | 切换到下一个FlowCode |
-| \_before_timeout() | 在函数超时之前做点什么    |
-| \_set_nfid()       | 设置下一个流程id      |
+| name               | func                                       |
+| ------------------ | ------------------------------------------ |
+| \_next_rfc()       | Switch to the next FlowCode                |
+| \_before_timeout() | Do something before the function times out |
+| \_set_nfid()       | Set the next process id                    |
 
 ## FlowConnector
 
 流程连接器。
 
-所有的流程变量都应该存放在这里，方便重置与设置。
+All process variables should be stored here for easy reset and setting.
 
-一个FlowController必须有且仅有一个FlowConnector。
+A FlowController must have one and only one FlowConnector.
 
 ## FlowController
 
 流程控制器。
 
-流程的主程序，控制流程流动。
+The main program of the process, which controls the flow of the process.
 
 ```python
 class FlowController(base_threading.BaseThreading):
     def __init__(self, flow_connector:FlowConnector, current_flow_id):
 ```
 
-flow_connector: FlowConnector对象。
+flow_connector: FlowConnector object.
 
-current_flow_id: 初始流程id。
+current_flow_id: The initial flow id.
 
-函数清单：
+List of functions:
 
-| name                  | func                     |
-| --------------------- | ------------------------ |
-| append_flow()         | 添加一个FlowTemplate到流程执行列表中 |
-| \_err_code_exec()     | 错误码分析                    |
-| set_current_flow_id() | 设置流程id                   |
+| name                  | func                                             |
+| --------------------- | ------------------------------------------------ |
+| append_flow()         | Add a FlowTemplate to the process execution list |
+| \_err_code_exec()     | Error code analysis                              |
+| set_current_flow_id() | set flow id                                      |
 
 ## EndFlowTemplate
 
 同FlowTemplate。区别是
 
-1. 需要填写err_code。ERR_PASS即为无错误。
-2. 流程ID必须包含 `$END$` 。
+1. Need to fill in err_code.
+2. The process ID must contain `$END$`.

@@ -1,3 +1,3 @@
 # PR
 
-你的pr需要提交到 `alpha` 分支.
+Your pr needs to be submitted to the `alpha` branch.

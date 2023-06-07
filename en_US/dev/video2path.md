@@ -8,9 +8,9 @@
 
 通过视频生成TLPP(TianLiPositioningPath)文件。原理和[路径记录器](path_recorder.md)基本一致,但用法不同。
 
-运行source/dev_tool/video2path.py文件以开始分析视频。
+Run the source/dev_tool/video2path.py file to start analyzing the video.
 
-有关更多TLPP的信息，请参阅[TLPP介绍](TianLiPositioningPath.md)
+For more information about TLPP, please refer to [TLPP Introduction](TianLiPositioningPath.md)
 
 演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y
 
@@ -18,7 +18,7 @@ Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 
 ## Parameters
 
-在 `video2path.py` 中直接修改以下参数：
+Modify the following parameters directly in `video2path.py`:
 
 ```python
 VIDEO_PATH = r"" # 填写你的视频路径
@@ -32,25 +32,25 @@ IS_PICKUP_MODE = True # 是否为采集路径模式
 
 ## 按键
 
-- 空格：暂停/开始播放
-- a：分析传送锚点坐标
-- .：加速fps
-- ,：降低fps
-- `]` ：开始/停止记录路径
+- Space: pause/start playback
+- a: Analyzing Teleport Anchor Coordinates
+  -.: speed up fps
+- ,: reduce fps
+- `]` : start/stop logging path
 
 ## How to use
 
-- 填写参数，运行程序
-- 在开始移动前，按下按键 `a` ，V2P会开始解析当前位置可能的传送锚点。解析完成后，会在控制台弹出所有可能的传送锚点坐标和index。注意看控制台的提示。
-- 在控制台输入对应的index，按下回车，可以查看该传送锚点附近的地形(使用cv2显示)。如果地形符合，在控制台直接按下空格以确认。注意看控制台的提示。
+- Fill in the parameters and run the program
+- Before starting to move, press the key `a`, V2P will start to analyze the possible teleportation anchors of the current location.
+- Enter the corresponding index in the console and press Enter to view the terrain near the teleportation anchor point (displayed by cv2).
 - 按下 `]` 按键以启动记录。注意看控制台的提示。
 - 一条采集路线将要结束时，按下 `]` 以结束记录。TLPP文件会保存在 `./dev/tlpp` 目录下。注意看控制台的提示。 `./dev/tlpp/QXV220230513083258i0.pydict` 是一个示例文件。
 
 ## Attantion
 
-- 一个连续的路径的开头应该从传送锚点开始
-- 必须是完整流畅的原神游戏录屏
-- 记录路径时，播放速度(fps)应当与真实移动速度接近。
+- The beginning of a continuous path should start from the teleport anchor
+- It must be a complete and smooth screen recording of Genshin Impact Games
+- When recording the path, the playback speed (fps) should be close to the real moving speed.
 
 ## TLPP文件格式
 
