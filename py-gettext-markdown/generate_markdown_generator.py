@@ -45,11 +45,14 @@ class GenerateMarkdownGenerator():
             md_path = f'{file_path.replace("base",self.LANG)}'
             verify_path(os.path.dirname(md_path))
             f.write(f'f = open(r"{md_path}", "w", encoding="utf-8")\n')
-            def write_gettext(x):
+            def write_gettext(x, add_n=True):
                 if x == '':
                     print("ERR: WRONG STR: NONE")
                 else:
-                    f.write(f'f.write(_("{x}")+str(\'\\n\'))\n')
+                    if add_n:
+                        f.write(f'f.write(_("{x}")+str(\'\\n\'))\n')
+                    else:
+                        f.write(f'f.write(_("{x}")+str(\'\\n\'))')
             def write_origin(x):
                 f.write(f'f.write("{x}"+str(\'\\n\'))\n')
             def write_newline():
@@ -62,34 +65,23 @@ class GenerateMarkdownGenerator():
                         write_gettext(ii)
             def write_title(x):
                 if x[0] == '#':
-                    ii = x.split('\\n')
-                    write_gettext(ii[0])
-                    write_newline()
-                    if len(ii) > 1:
-                        write_text = ''
-                        for ii in ii[1:]:
-                            write_text += ii
-                        print(ii, write_text)
-                        write_gettext(write_text)
+                    return True
+                return False
+                
             def write_point(x):
                 if x[0:2] == '- ':
-                    for ii in x.split('\\n'):
-                        write_gettext(ii)
-                else:
-                    write_gettext(x)
+                    return True
+                return False
             
             def write_123(x):
                 for ii in x.split('\\n'):
                     if '. ' in ii:
                         if is_number(ii[:ii.index('. ')]):
-                            write_gettext(ii)
-                        else:
-                            write_gettext(x)
-                    else:
-                        write_gettext(x)
+                            return True
+                return False
             
             code_flag = False
-            
+            special_key = []
             for line in text_list:
                 if "<!-- ignore gettext -->" in line:
                     write_origin(line)
@@ -101,21 +93,38 @@ class GenerateMarkdownGenerator():
                     else:
                         code_flag = not code_flag
                         write_origin(line)
-                elif '- ' in line:
-                    write_point(line)
                 elif line == "":
                     pass
+                elif line == "\\n":
+                    write_newline()   
                 elif line == "\n":
                     write_newline()    
-                elif line == "\\n":
-                    write_newline()
-                elif '#' in line:
-                    write_title(line)
-                elif '. ' in line:
-                    write_123(line)
+                        
                 else:
                     if not code_flag:
-                        write_gettext(line)
+                        output_line = ''
+                        output_flag = False
+                        for single_line in line.split('\\n'):
+                            if '- ' in single_line:
+                                if write_point(single_line):
+                                    output_line = single_line
+                                    output_flag = True
+                            if '#' in single_line:
+                                if write_title(single_line):
+                                    output_line = single_line
+                                    output_flag = True
+                            if '. ' in single_line:
+                                if write_123(single_line):
+                                    output_line = single_line
+                                    output_flag = True
+                            if output_flag:
+                                write_gettext(output_line)
+                                output_line = ''
+                                output_flag = False
+                            else:
+                                output_line+=single_line
+                        if output_line != '':
+                            write_gettext(output_line)
                     else:
                         write_origin(line)
                 write_newline()
@@ -130,5 +139,4 @@ class GenerateMarkdownGenerator():
                     self._write_file(f"{root}/{f}")
       
 if __name__ == "__main__":
-    gmg = GenerateMarkdownGenerator(os.path.abspath('doc'), "zh_CN")
-    gmg.run()
+    gmg = GenerateMarkdownGenerator(os.path.abspath('../'), "zh_CN")
