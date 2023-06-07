@@ -12,7 +12,9 @@
 
 有关更多TLPP的信息，请参阅[TLPP介绍](TianLiPositioningPath.md)
 
-演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y%E5%8F%82%E8%80%83%E8%A7%86%E9%A2%91:https://www.bilibili.com/video/BV1Lu411W71q
+演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y
+
+Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 
 ## Parameters
 
