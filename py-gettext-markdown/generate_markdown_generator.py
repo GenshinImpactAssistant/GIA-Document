@@ -117,8 +117,8 @@ class GenerateMarkdownGenerator():
                                 if write_123(single_line):
                                     output_line = single_line
                                     output_flag = True
-                            if '> ' in single_line:
-                                if '> ' == single_line[:2]:
+                            if '>' in single_line:
+                                if '>' == single_line[:2]:
                                     output_line = single_line
                                     output_flag = True
                             if output_flag:
