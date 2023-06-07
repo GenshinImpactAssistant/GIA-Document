@@ -8,7 +8,7 @@ Require:
 - python version [3.7.6](https://www.python.org/downloads/release/python-376/).
 - [git](https://git-scm.com/download/win).
 
-\*\*Open the command prompt and your IDE with administrator privileges!!! \*\*
+<strong>Open the command prompt and your IDE with administrator privileges!!!</strong>
 
 ## Installation
 
@@ -24,7 +24,7 @@ Require:
    git clone https://github.com/infstellar/genshin_impact_assistant.git;cd genshin_impact_assistant;python setup.py install;git submodule init;git submodule update
    ```
 
-\*\*Notice if the submodule clones successfully at the same time! \*\*
+<strong>Notice if the submodule clones successfully at the same time!</strong>
 
 2. Enter the following command to run the program.
 
@@ -32,7 +32,7 @@ Require:
    python genshin_assistant.py
    ```
 
-\~~ (recommended to use VsCode, so your run and debug will have several shortcuts to run, fat good! And variable coloring Oh (doge))\~~
+<del> (recommended to use VsCode, so your run and debug will have several shortcuts to run, fat good! And variable coloring Oh (doge)) </del>
 
 ## Update
 

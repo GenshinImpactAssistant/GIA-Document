@@ -31,7 +31,7 @@ Write the translation corresponding to the key into the doc. For example:
 }
 ```
 
-## Choice Box
+## Selection Box
 
 以前想过这个问题,不过觉得应该可以不用就没写,这次看来是必须写了..
 

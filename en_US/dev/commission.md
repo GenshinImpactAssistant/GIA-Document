@@ -12,7 +12,7 @@ The writing method of Commission is basically the same as that of Mission, but t
 
 You can find some examples at [source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions).
 
-Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
+Reference video：<https://www.bilibili.com/video/BV1Lu411W71q>
 
 ## 命名格式
 

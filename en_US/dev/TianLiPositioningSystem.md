@@ -59,7 +59,7 @@ Use `;` to split several commands. There should not be spaces around `;`.
   You can specify the node id to be fully connected with (full link).
 
 - add a
-  When you click the picture with the left mouse button, the coordinates of the click will be recorded. Inputting add a will automatically add the coordinates, no need to manually enter the coordinates.
+  When you click the picture with the left mouse button, the coordinates of the click will be recorded. Inputting add a will automatically add the coordinates, no need to manually enter the coordinates. id and fl commands can both be used.
 
 When adding coordinates continuously, the `add a fl=` command is usually used.
 
