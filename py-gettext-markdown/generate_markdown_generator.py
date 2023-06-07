@@ -30,7 +30,7 @@ class GenerateMarkdownGenerator():
 
     def _write_file(self, file_path):
         origin_file = open(file_path, 'r', encoding='utf-8').read()
-        text_list = re.split('  \n|\n{2,999}|<br>',origin_file)
+        text_list = re.split('  \n|\n{2,999}|<br>|\\\\\\n',origin_file)
         # if "README" in file_path:
         #     print(text_list) 
         text_list = [i.replace('\n', '\\n').replace('\"', '\\"') for i in text_list]
@@ -59,7 +59,7 @@ class GenerateMarkdownGenerator():
                 f.write(f'f.write("\\n")\n')
             def write_table(x):
                 for ii in x.split('\\n'):
-                    if "----|----" in ii:
+                    if ("----|----" in ii) or ("---- | ----" in ii):
                         write_origin(ii)
                     else:
                         write_gettext(ii)
@@ -85,7 +85,7 @@ class GenerateMarkdownGenerator():
             for line in text_list:
                 if "<!-- ignore gettext -->" in line:
                     write_origin(line)
-                elif "----|----" in line:
+                elif ("----|----" in line) or ("---- | ----" in line):
                     write_table(line)
                 elif "```" in line:
                     if line.count("```")>=2:
@@ -139,4 +139,5 @@ class GenerateMarkdownGenerator():
                     self._write_file(f"{root}/{f}")
       
 if __name__ == "__main__":
-    gmg = GenerateMarkdownGenerator(os.path.abspath('../'), "zh_CN")
+    gmg = GenerateMarkdownGenerator(os.path.abspath(r'./'), "zh_CN")
+    gmg.run()
