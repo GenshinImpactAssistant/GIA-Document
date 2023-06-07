@@ -75,7 +75,7 @@ msgstr "Q: No response?"
 
 #: ../base\FAQ.pygettext:32
 msgid "- 如果你是先打开GIA再关闭的原神启动器，试试重启GIA。"
-msgstr "- If you are a Genshin Launcher that first opened GIA and then closed it, try restarting GIA."
+msgstr "- If you opened Genshin Launcher before GIA, try restarting GIA."
 
 #: ../base\FAQ.pygettext:33
 msgid "- 检查是否多点击了一次启动按钮"
@@ -151,7 +151,7 @@ msgstr "To those who have not used github: the blue text in the docs is a hyperl
 
 #: ../base\README.pygettext:27
 msgid "> 这里是文档仓库，点star请到主仓库 ~~(如果你需要star文档仓库也可以)~~"
-msgstr "> This is the document warehouse, please click star to go to the main warehouse ~~ (you can also star the document warehouse if you want)~~"
+msgstr "> This is the document repository, please click star to go to the main repository ~~ (you can also star the document repo if you want)~~"
 
 #: ../base\README.pygettext:29
 msgid "## 我是急急国王"
@@ -1304,7 +1304,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:49
 msgid "使用 `;` 分割数个命令。不能在 `;` 附近包含空格。"
-msgstr "Use `;` to split several commands. "
+msgstr "Use `;` to split several commands. There should not be spaces around `;`."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:51
 msgid "- undo"
@@ -1312,7 +1312,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:53
 msgid "  撤销上一次指令。只能撤销一次(懒)"
-msgstr "  Cancel the last command. "
+msgstr "  Cancel the last command. You can only cancel once."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:55
 msgid "- del `id`"
@@ -1584,7 +1584,7 @@ msgstr "Through the switching of the Flow Unit and the switching inside the Unit
 
 #: ../base\dev\flow.pygettext:19
 msgid "目前，Flow用于自动采集，自动行走和路径记录。你应该不需要写新的Flow，所以可以仅了解它。"
-msgstr "Currently, Flow is used for automatic collection, automatic walking and path recording. "
+msgstr "Currently, Flow is used for automatic collection, automatic walking and path recording. You possibly don't need to write a new Flow. It can be understood without the need to master it."
 
 #: ../base\dev\flow.pygettext:21
 msgid "## FlowTemplate"
@@ -1664,7 +1664,7 @@ msgstr "next_flow_id: Flow id of the next process to run after the process ends"
 
 #: ../base\dev\flow.pygettext:61
 msgid "flow_timeout_time: 流程超时时间。负数则为无限。"
-msgstr "flow_timeout_time: Flow timeout time. "
+msgstr "flow_timeout_time: Flow timeout time. INF for negative numbers."
 
 #: ../base\dev\flow.pygettext:63
 msgid "变量："
@@ -1672,11 +1672,11 @@ msgstr "Variable:"
 
 #: ../base\dev\flow.pygettext:65
 msgid "rfc：return flow code。有以下6个值：0,1,2,3,4,5"
-msgstr "rfc: return flow code. "
+msgstr "rfc: return flow code. There are the following 6 values: 0,1,2,3,4,5"
 
 #: ../base\dev\flow.pygettext:67
 msgid "0~4: 对应state_init, state_before, state_in, state_after, state_end。即FC.INIT, FC.BEFORE, FC.IN, FC.AFTER, FC.END."
-msgstr "0~4: corresponding to state_init, state_before, state_in, state_after, state_end. "
+msgstr "0~4: corresponding to state_init, state_before, state_in, state_after, state_end. That is, FC.INIT, FC.BEFORE, FC.IN, FC.AFTER, FC.END."
 
 #: ../base\dev\flow.pygettext:69
 msgid "5: 流程结束标志码。即FC.OVER"
@@ -1712,11 +1712,11 @@ msgstr "Finally, the above rules are only suggestions and standards. If you don�
 
 #: ../base\dev\flow.pygettext:87
 msgid "如果你不需要某个状态，不在继承的类里实现它就好了。但是，state_in必须实现。"
-msgstr "If you don't need a certain state, just don't implement it in the inherited class. "
+msgstr "If you don't need a certain state, just don't implement it in the inherited class. However, state_in must be implemented."
 
 #: ../base\dev\flow.pygettext:89
 msgid "每个状态实现后，如果要切换到下一个state，必须使用 `self._next_rfc()` 。手动 `self._set_rfc(x)` 也是可以的。"
-msgstr "After each state is achieved, if you want to switch to the next state, you must use `self._next_rfc()`. "
+msgstr "After each state is achieved, if you want to switch to the next state, you must use `self._next_rfc()`. Manual `self._set_rfc(x)` is also possible."
 
 #: ../base\dev\flow.pygettext:91 ../base\dev\flow.pygettext:119
 msgid "函数清单："
@@ -1846,7 +1846,7 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:21
 msgid "目前，简单的Mission主要用于自动采集。因此，下面我们介绍一个简单Mission的编写以开始。创建更复杂的Mission可以参阅之后的介绍。"
-msgstr "At present, the simple Mission is mainly used for automatic collection. "
+msgstr "Currently, simple Missions are mainly used for automatic collection. Therefore, below we introduce the writing of a simple Mission to start. To create more complex Missions, please refer to the introduction later."
 
 #: ../base\dev\mission.pygettext:23
 msgid "你需要一丁点最基本的python知识以开始。如果你对使用python一无所知，参考[vscode&anaconda python 简单教程(还没写)](vscode_python.md)"
@@ -1918,7 +1918,7 @@ msgstr "- Change `your-github-username` to your Github username (or whatever you
 
 #: ../base\dev\mission.pygettext:62
 msgid "- 将 `when-you-create-the-mission` 改为你创建这个Mission的时间(格式： `UTCxxx yyyy-mm-dd` . 例如： `UTC+08 2023-05-03` )"
-msgstr "- Change `when-you-create-the-mission` to the time when you created this Mission (format: `UTCxxx yyyy-mm-dd` . For example: `UTC 08 2023-05-03` )"
+msgstr "- Change `when-you-create-the-mission` to the time when you created this Mission (format: `UTCxxx yyyy-mm-dd` . For example: `UTC+08 2023-05-03` )"
 
 #: ../base\dev\mission.pygettext:63
 msgid "- 将 `what-you-want-to-say` 改为你想要说的话(路径位置、说明、鸣谢等)"
@@ -2275,7 +2275,7 @@ msgid "### 运行"
 msgstr "### Run"
 
 #: ../base\dev\path_recorder.pygettext:23
-msgid "1. 按下 `\\` 键，提示 `ready to start recording` 。如果没有，就再按一次。"
+msgid "1. Press the `\\` key, prompt `ready to start recording`. If not, press it again."
 msgstr "1. Press the `\\` key and prompt `ready to start recording`. "
 
 #: ../base\dev\path_recorder.pygettext:24
@@ -2284,23 +2284,23 @@ msgstr "2. After one operation, mention `start recording` to start moving."
 
 #: ../base\dev\path_recorder.pygettext:25
 msgid "3. 移动时，所有的坐标会被记录。同时，角色的动作状态（行走，爬山等）也会被记录。"
-msgstr "3. While moving, all coordinates are recorded. "
+msgstr "3. While moving, all coordinates will be recorded. At the same time, the action state of the character (walking, climbing, etc.) will also be recorded."
 
 #: ../base\dev\path_recorder.pygettext:26
 msgid "4. 角色移动方向改变超过5°时，会记录一次break position。break position之间的距离最小为5.2。"
-msgstr "4. When the character's moving direction changes by more than 5°, a break position will be recorded. "
+msgstr "4. When the movement direction of the character changes by more than 5°, a break position will be recorded. The minimum distance between break positions is 5.2."
 
 #: ../base\dev\path_recorder.pygettext:27
-msgid "5. 走完之后，再次按下 `\\` 键。提示 `ready to stop recording` 。"
+msgid "5. When you're done walking, press the `\\` key again. Prompt `ready to stop recording`."
 msgstr "5. After walking, press the `\\` key again. "
 
 #: ../base\dev\path_recorder.pygettext:28
-msgid "6. 在1秒内应该会提示 `recording save as {jsonname}` 。如果没有，就再按一次 `\\` 。"
+msgid "6. It should prompt `recording save as {jsonname}` within 1 second. If not, press `\\` again."
 msgstr "6. Should prompt `recording save as {jsonname}` within 1 second. "
 
 #: ../base\dev\path_recorder.pygettext:29
 msgid "7. json文件将在 `assets/TeyvatMovePath` 保存为 `name+timestamp.json` 。如果想继续记录，就重复这些步骤。"
-msgstr "7.json file will be saved as `name timestamp.json` in `assets/TeyvatMovePath`. "
+msgstr "7. The json file will be saved as `name+timestamp.json` in `assets/TeyvatMovePath`. Repeat these steps if you want to continue recording."
 
 #: ../base\dev\pr.pygettext:9
 msgid "# PR"
@@ -2364,7 +2364,7 @@ msgstr "- a: Analyzing Teleport Anchor Coordinates"
 
 #: ../base\dev\video2path.pygettext:37
 msgid "- .：加速fps"
-msgstr "-.: speed up fps"
+msgstr "-. : speed up fps"
 
 #: ../base\dev\video2path.pygettext:38
 msgid "- ,：降低fps"
@@ -2433,7 +2433,7 @@ msgstr ""
 
 #: ../base\dev\write_doc.pygettext:12
 msgid "- 在仓库目录运行 `cd py-gettext-markdown;python gettext-markdown.py md -l zh_CN,en_US -f ../ -c true;cd ../;` 生成文档"
-msgstr "- Run `cd py-gettext-markdown;python gettext-markdown.py md -l zh_CN,en_US -f ../ -c true;cd ../;` in the warehouse directory to generate documentation"
+msgstr "- Run `cd py-gettext-markdown;python gettext-markdown.py md -l zh_CN,en_US -f ../ -c true;cd ../;` in the repository directory to generate documentation"
 
 #: ../base\domain_assi.pygettext:9
 msgid "# 自动秘境战斗"
@@ -2581,7 +2581,7 @@ msgstr "3. After entering the Domain(also in teyvat world), select DomainTask in
 
 #: ../base\functions_detail.pygettext:51
 msgid "4. 等待导入完成后切换到原神"
-msgstr "4. Switch to Yuanshin after waiting for the import to complete"
+msgstr "4. Switch to Genshin Impact after waiting for the import to complete"
 
 #: ../base\functions_detail.pygettext:52
 msgid "5. 双手离开键盘"
