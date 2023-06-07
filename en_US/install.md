@@ -7,6 +7,7 @@ GIA provides an automatic installer/updater.
 ## Download
 
 [GIA Launcher v0.6](https://github.com/infstellar/genshin_impact_assistant/releases/download/v0.6.0-beta.542/GIA_Launcher_v0.6.0.7z)
+
 Note: If you have previously downloaded the v0.3 launcher, you will need to delete all files (but not the toolkit folder, to skip duplicate installation dependencies) before launching the new launcher.
 
 ## How to use
