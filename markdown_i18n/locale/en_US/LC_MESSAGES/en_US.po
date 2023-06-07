@@ -27,9 +27,7 @@ msgstr "## Windows11 related"
 
 #: ../base\FAQ.pygettext:13
 msgid "如果你正在使用Windows11，请Google搜索 Win22H2下Bitblt截图黑屏或白屏 的解决方案，或查看这个[issue](https://github.com/GengGode/cvAutoTrack/issues/9)"
-msgstr ""
-"If you are using Windows 11, please Google the solution for Bitblt screenshot black or white screen under Win22H2, or check this [issue](https://github.com/GengGode/"
-"cvAutoTrack/issues/9)"
+msgstr "If you are using Windows 11, please Google the solution for Bitblt screenshot black or white screen under Win22H2, or check this [issue](https://github.com/GengGode/cvAutoTrack/issues/9)"
 
 #: ../base\FAQ.pygettext:15
 msgid "## 无法运行"
@@ -73,15 +71,15 @@ msgstr "## Runtime issues"
 
 #: ../base\FAQ.pygettext:30
 msgid "Q: 没反应？"
-msgstr ""
+msgstr "Q: No response?"
 
 #: ../base\FAQ.pygettext:32
 msgid "- 如果你是先打开GIA再关闭的原神启动器，试试重启GIA。"
-msgstr ""
+msgstr "- If you are a Genshin Launcher that first opened GIA and then closed it, try restarting GIA."
 
 #: ../base\FAQ.pygettext:33
 msgid "- 检查是否多点击了一次启动按钮"
-msgstr ""
+msgstr "- Check if the start button is clicked more than once"
 
 #: ../base\FAQ.pygettext:35
 msgid "Q: 显示ERROR：截图失败 怎么办？"
@@ -129,8 +127,7 @@ msgstr "<div align=\"center\">"
 
 #: ../base\README.pygettext:13
 msgid "基于图像识别和模拟按键的多功能原神自动辅助操作，包括自动战斗，自动刷秘境，自动刷大世界材料等。"
-msgstr ""
-"A multi-functional auto-assist based on image recognition and keystroke simulation, including auto combat, auto domain and auto claim materials in Teyvat world"
+msgstr "A multi-functional auto-assist based on image recognition and keystroke simulation, including auto combat, auto domain and auto claim materials in Teyvat world"
 
 #: ../base\README.pygettext:15
 msgid "GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛街~~养老婆~~"
@@ -154,7 +151,7 @@ msgstr "To those who have not used github: the blue text in the docs is a hyperl
 
 #: ../base\README.pygettext:27
 msgid "> 这里是文档仓库，点star请到主仓库 ~~(如果你需要star文档仓库也可以)~~"
-msgstr ""
+msgstr "> This is the document warehouse, please click star to go to the main warehouse ~~ (you can also star the document warehouse if you want)~~"
 
 #: ../base\README.pygettext:29
 msgid "## 我是急急国王"
@@ -190,11 +187,11 @@ msgstr "## Function Details"
 
 #: ../base\README.pygettext:45
 msgid "绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。"
-msgstr ""
+msgstr "Most of the functions only need to set the parameters, put the game in the big world, select the function and start it."
 
 #: ../base\README.pygettext:47
 msgid "如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](functions_detail.md)"
-msgstr ""
+msgstr "If you have doubts about a function or want to know more information, please refer to [Detailed Function Introduction](functions_detail.md)"
 
 #: ../base\README.pygettext:49
 msgid "## 参与开发"
@@ -270,9 +267,7 @@ msgstr "- The Genshin needs to run in 1080p window (full screen is also possible
 
 #: ../base\README.pygettext:82 ../base\jijiking.pygettext:35
 msgid "- 窗口焦点应在原神窗口上。如果切换焦点窗口，程序会暂停所有键鼠操作并等待。"
-msgstr ""
-"- The focus of windows shoule be on Genshin window. If the focus window is switched to another window, the program will pause all the operation of keyboard and "
-"mouse and wait."
+msgstr "- The focus of windows shoule be on Genshin window. If the focus window is switched to another window, the program will pause all the operation of keyboard and mouse and wait."
 
 #: ../base\README.pygettext:84 ../base\jijiking.pygettext:23
 msgid "### config配置"
@@ -356,7 +351,7 @@ msgstr "## Acknowledgements"
 
 #: ../base\README.pygettext:122
 msgid "感谢所有参与到开发/测试中的朋友们 (\\*´▽｀)ノノ"
-msgstr ""
+msgstr "Thanks to all the friends who participated in the development/testing (\\*´▽｀)ノノ"
 
 #: ../base\README.pygettext:124
 msgid ""
@@ -569,8 +564,7 @@ msgstr "## Collection Selection Priority"
 
 #: ../base\collector_assi.pygettext:56
 msgid "采集物有多个地点时，按照历史采集成功率和距离远近计算权重。"
-msgstr ""
-"When there are multiple locations of the collection, the weights are calculated accroding to the historical collection success rate and distance of collection."
+msgstr "When there are multiple locations of the collection, the weights are calculated accroding to the historical collection success rate and distance of collection."
 
 #: ../base\collector_assi.pygettext:58
 msgid "## 已采集地点"
@@ -598,7 +592,7 @@ msgstr "# Auto Combat Assist"
 
 #: ../base\combat_assi.pygettext:11
 msgid "注：自动配置战斗文件默认开启，如果你不想配置，可以不看下面的配置介绍，或者只看 `自动配置team文件` 。"
-msgstr ""
+msgstr "Note: The automatic configuration of the battle file is enabled by default. If you don't want to configure it, you can ignore the configuration introduction below, or just read `Automatically configure the team file`."
 
 #: ../base\combat_assi.pygettext:15
 msgid "- 位置： `config/settings/tactic`"
@@ -686,9 +680,7 @@ msgstr "| num | delay, unit is milliseconds. |"
 
 #: ../base\combat_assi.pygettext:41
 msgid "每个策略关键字用 `,` 分隔；不同策略组用 `;` 分隔。当一组策略执行完毕后，执行下一个策略组。"
-msgstr ""
-"Each tactic keyword is separated by `,`; different policy groups are separated by `;`. When the execution of a group of policies is finished, execute the next "
-"policy group."
+msgstr "Each tactic keyword is separated by `,`; different policy groups are separated by `;`. When the execution of a group of policies is finished, execute the next policy group."
 
 #: ../base\combat_assi.pygettext:43 ../base\combat_assi.pygettext:61
 msgid "注意："
@@ -780,9 +772,7 @@ msgstr "| `idle` | always enable |"
 
 #: ../base\combat_assi.pygettext:84
 msgid "可以使用多个触发器，触发器之间用逗号分隔。不能有空格。当多个角色的触发条件成立时，切换角色的顺序由优先级决定。"
-msgstr ""
-"Multiple triggers can be used, with commas sparating the trigger. There can be no space.\n"
-"When the trigger conditions of multiple characters are established, the order of switching is determinded by the priority."
+msgstr "Multiple triggers can be used, with commas sparating the trigger. There can be no space. When the trigger conditions of multiple characters are established, the order of switching is determinded by the priority."
 
 #: ../base\combat_assi.pygettext:86
 msgid "## 角色定位 position"
@@ -822,9 +812,7 @@ msgstr "## Priority"
 
 #: ../base\combat_assi.pygettext:101
 msgid "优先级从小到大依次降低，0为最高优先级。优先级可以同级。"
-msgstr ""
-"The priority decreases from smallest to largest, with 0 being the highest priority.\n"
-"The priority can be the same level."
+msgstr "The priority decreases from smallest to largest, with 0 being the highest priority. The priority can be the same level."
 
 #: ../base\combat_assi.pygettext:103
 msgid "这是GIA的默认优先级配置："
@@ -896,8 +884,7 @@ msgstr "## Auto-configure TEAM files"
 
 #: ../base\combat_assi.pygettext:128
 msgid "在GUI中，新建team文件，输入角色名后按下自动填充，所有空输入框和标记为-1的输入框会被自动填充。"
-msgstr ""
-"In the GUI, create a new TEAM file, enter the character name and press AutoFill, all empty input boxes and input boxes marked with -1 will be filled automatically."
+msgstr "In the GUI, create a new TEAM file, enter the character name and press AutoFill, all empty input boxes and input boxes marked with -1 will be filled automatically."
 
 #: ../base\combat_assi.pygettext:130
 msgid "角色在队伍中的位置、角色优先级和部分角色的触发器不会自动填充。"
@@ -905,11 +892,11 @@ msgstr "The character's position in the team, character priority, and some of th
 
 #: ../base\combat_assi.pygettext:132
 msgid "完全支持的角色列表："
-msgstr ""
+msgstr "List of fully supported roles:"
 
 #: ../base\combat_assi.pygettext:136
 msgid "其余角色只有基本参数，没有经过核对与适配。如果你有兴趣，欢迎贡献角色参数(ﾉﾟ∀ﾟ)ﾉ"
-msgstr ""
+msgstr "The rest of the characters only have basic parameters, without verification and adaptation. "
 
 #: ../base\combat_assi.pygettext:138
 msgid "默认角色参数文件位置： `assets/characters_data/characters_parameters.json`"
@@ -921,15 +908,11 @@ msgstr "## Automatically generate TEAM files"
 
 #: ../base\combat_assi.pygettext:142
 msgid "如果在设置中启用了自动生成team文件，则会在战斗开始前扫描角色列表并**优先扫描tactic下的所有策略文件**，选择符合的策略文件。"
-msgstr ""
-"If automatic TEAM file generation is enabled in the settings, the character list will be scanned and all tactic files under tactic folder will be scanned before the "
-"battle starts and the matching tactic files will be selected."
+msgstr "If automatic TEAM file generation is enabled in the settings, the character list will be scanned and all tactic files under tactic folder will be scanned before the battle starts and the matching tactic files will be selected."
 
 #: ../base\combat_assi.pygettext:144
 msgid "如果没有符合的策略文件，则自动生成一套战斗策略。"
-msgstr ""
-"If there is no matching tactic file, then according to [list of supported roles](... /... /assets/characters_data/characters_parameters.json) to automatically "
-"generate a set of battle tactic."
+msgstr "If there is no matching tactic file, then according to [list of supported roles](... /... /assets/characters_data/characters_parameters.json) to automatically generate a set of battle tactic."
 
 #: ../base\combat_assi.pygettext:146
 msgid "## 角色元素战技、元素爆发图片设置"
@@ -1009,51 +992,51 @@ msgstr ""
 
 #: ../base\dev\README.pygettext:11
 msgid "GIA开发文档"
-msgstr ""
+msgstr "GIA Development Documentation"
 
 #: ../base\dev\README.pygettext:13
 msgid "介绍GIA中各个文件，函数的作用和GIA的整体架构。你可以根据这些进行修改。"
-msgstr ""
+msgstr "Introduce each file in GIA, the role of functions and the overall structure of GIA. "
 
 #: ../base\dev\README.pygettext:15
 msgid "## 目录 <!-- {docsify-ignore} -->"
-msgstr ""
+msgstr "## Content <!-- {docsify-ignore} -->"
 
 #: ../base\dev\README.pygettext:17
 msgid "- [自定义任务(Mission)介绍](mission.md)"
-msgstr ""
+msgstr "- [Introduction to custom missions](mission.md)"
 
 #: ../base\dev\README.pygettext:18
 msgid "- [视频转路径(V2P)介绍](video2path.md)"
-msgstr ""
+msgstr "- [Video to path (V2P) introduction] (video2path.md)"
 
 #: ../base\dev\README.pygettext:19
 msgid "- [每日委托任务协议](commission.md) 用于编写自动执行每日委托的脚本"
-msgstr ""
+msgstr "- [Daily commission protocol](commission.md) is used to write scripts to automatically execute daily commissions"
 
 #: ../base\dev\README.pygettext:20
 msgid "- [正在开发,需要帮助的功能](need_help.md)"
-msgstr ""
+msgstr "- [Under development, need help feature](need_help.md)"
 
 #: ../base\dev\README.pygettext:21
 msgid "- [本文档编写说明](write_doc.md)"
-msgstr ""
+msgstr "- [Instructions for writing this document](write_doc.md)"
 
 #: ../base\dev\README.pygettext:22
 msgid "- [天理路径文件(TianLiPositioningPath)介绍](TianLiPositioningPath.md) (编写中...)"
-msgstr ""
+msgstr "- [TianLiPositioningPath Introduction](TianLiPositioningPath.md) (under preparation...)"
 
 #: ../base\dev\README.pygettext:23
 msgid "- [天理自动驾驶(TianLiCopilot)介绍](TianLiCopilot.md) (编写中...)"
-msgstr ""
+msgstr "- [TianLiCopilot Introduction](TianLiCopilot.md) (under preparation...)"
 
 #: ../base\dev\README.pygettext:24
 msgid "- [天理定位系统(TianLiPositioningSystem)介绍](TianLiPositioningSystem.md) (编写中...)"
-msgstr ""
+msgstr "- [Introduction to TianLiPositioningSystem](TianLiPositioningSystem.md) (under preparation...)"
 
 #: ../base\dev\README.pygettext:25
 msgid "- [Flow介绍](flow.md) (编写中...)"
-msgstr ""
+msgstr "- [Flow introduction](flow.md) (under preparation...)"
 
 #: ../base\dev\README.pygettext:27
 msgid "## PR <!-- {docsify-ignore} -->"
@@ -1061,35 +1044,35 @@ msgstr ""
 
 #: ../base\dev\README.pygettext:29
 msgid "为了避免 `dev` 分支被瞎改导致不能merge,Pull Request需要提交到 `alpha` 分支."
-msgstr ""
+msgstr "In order to prevent the `dev` branch from being changed blindly and resulting in failure to merge, the Pull Request needs to be submitted to the `alpha` branch."
 
 #: ../base\dev\TianLiCopilot.pygettext:9
 msgid "# TianLiCopilot 天理自动驾驶"
-msgstr ""
+msgstr "# TianLiCopilot"
 
 #: ../base\dev\TianLiCopilot.pygettext:11
 msgid "TLC(TianLiCopilot)基于TeyvatMoveFlow(TMF)提瓦特移动控制流。"
-msgstr ""
+msgstr "TLC (TianLiCopilot) is based on TeyvatMoveFlow (TMF) Teyvat mobile control flow."
 
 #: ../base\dev\TianLiCopilot.pygettext:13
 msgid "TLC使用[TLPS](TianLiPositioningSystem)定位."
-msgstr ""
+msgstr "TLC uses [TLPS] (TianLiPositioningSystem) positioning."
 
 #: ../base\dev\TianLiCopilot.pygettext:17
 msgid "TLC包含2种模式: `AUTO` 与 `PATH` ."
-msgstr ""
+msgstr "TLC contains 2 modes: `AUTO` and `PATH`."
 
 #: ../base\dev\TianLiCopilot.pygettext:19
 msgid "AUTO模式下,程序将会结合[TLN](TianLiPositioningSystem)朝目标前进."
-msgstr ""
+msgstr "In AUTO mode, the program will combine [TLN](TianLiPositioningSystem) to move towards the goal."
 
 #: ../base\dev\TianLiCopilot.pygettext:21
 msgid "PATH模式下,程序将会使用[TLPP](TianLiPositioningPath.md)文件沿路线行驶."
-msgstr ""
+msgstr "In PATH mode, the program will use the [TLPP](TianLiPositioningPath.md) file to drive along the route."
 
 #: ../base\dev\TianLiCopilot.pygettext:23
 msgid "## 工作原理"
-msgstr ""
+msgstr "## Working Principle"
 
 #: ../base\dev\TianLiCopilot.pygettext:25
 msgid "### AUTO模式"
@@ -1097,15 +1080,15 @@ msgstr "### AUTO mode"
 
 #: ../base\dev\TianLiCopilot.pygettext:27
 msgid "AUTO模式会朝着目标坐标方向直行。在走路状态下每1.6s连按2次空格。"
-msgstr ""
+msgstr "AUTO mode will go straight towards the target coordinate direction. "
 
 #: ../base\dev\TianLiCopilot.pygettext:29
 msgid "如果启用了TLN(TianLi Positioning Navigator),会使用TLN进行辅助导航。"
-msgstr ""
+msgstr "If TLN (TianLi Positioning Navigator) is enabled, TLN will be used for auxiliary navigation."
 
 #: ../base\dev\TianLiCopilot.pygettext:31
 msgid "[TLPS&TLN](TianLiPositioningSystem.md)"
-msgstr ""
+msgstr "[TLPS&TLN](TianLiPositioningSystem.md)"
 
 #: ../base\dev\TianLiCopilot.pygettext:33
 msgid "### PATH模式"
@@ -1113,51 +1096,51 @@ msgstr "### PATH mode"
 
 #: ../base\dev\TianLiCopilot.pygettext:35
 msgid "PATH模式会沿着坐标前进。在循环过程中，执行以下3个步骤："
-msgstr ""
+msgstr "PATH mode will advance along the coordinates. "
 
 #: ../base\dev\TianLiCopilot.pygettext:37
 msgid "01. 朝着break position（转折点）前进。距离BP小于规定的offset即切换到下一个BP，直到没有更多BP。"
-msgstr ""
+msgstr "01. Moving towards the break position. "
 
 #: ../base\dev\TianLiCopilot.pygettext:38
 msgid "02. 自动识别当前的position，并检测motion并处理。"
-msgstr ""
+msgstr "02. Automatically identify the current position, detect motion and process it."
 
 #: ../base\dev\TianLiCopilot.pygettext:39
 msgid "03. 如果当前距离距离吸附点小于允许吸附距离，开始向目标吸附点移动"
-msgstr ""
+msgstr "03. If the current distance from the adsorption point is less than the allowable adsorption distance, start moving to the target adsorption point"
 
 #: ../base\dev\TianLiCopilot.pygettext:40
 msgid "04. 自动拾取(若启用)"
-msgstr ""
+msgstr "04. Auto Loot (if enabled)"
 
 #: ../base\dev\TianLiCopilot.pygettext:41
 msgid "05. 检测移动是否卡住，卡住就退出"
-msgstr ""
+msgstr "05. Detect if the movement is stuck, exit if stuck"
 
 #: ../base\dev\TianLiCopilot.pygettext:42
 msgid "06. 冲刺(2.5s cd)"
-msgstr ""
+msgstr "06. Sprint (2.5s cd)"
 
 #: ../base\dev\TianLiCopilot.pygettext:43
 msgid "07. 检测W按键是否松开并按下W按键"
-msgstr ""
+msgstr "07. Detect if the W button is released and the W button is pressed"
 
 #: ../base\dev\TianLiCopilot.pygettext:44
 msgid "08. 检测是否准备结束。若是，检测是否需要精确结束。若是，向终点移动(offset=1)"
-msgstr ""
+msgstr "08. Test readiness to end. "
 
 #: ../base\dev\TianLiCopilot.pygettext:45
 msgid "09. 打印日志"
-msgstr ""
+msgstr "09. Print log"
 
 #: ../base\dev\TianLiCopilot.pygettext:46
 msgid "10. 移动视角朝向BP方向"
-msgstr ""
+msgstr "10. Move camera towards BP direction"
 
 #: ../base\dev\TianLiCopilot.pygettext:48
 msgid "## 函数参数"
-msgstr ""
+msgstr "## Function parameters"
 
 #: ../base\dev\TianLiCopilot.pygettext:50
 msgid "### TMC"
@@ -1173,7 +1156,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningPath.pygettext:13
 msgid "TLPP是保存TianLi格式坐标的文件。"
-msgstr ""
+msgstr "TLPP is a file that saves coordinates in TianLi format."
 
 #: ../base\dev\TianLiPositioningPath.pygettext:15
 msgid "## TLPP文件结构"
@@ -1197,23 +1180,23 @@ msgstr "| time | TLPP file create time |"
 
 #: ../base\dev\TianLiPositioningPath.pygettext:25
 msgid "| start_position      | TLPP开始坐标          |"
-msgstr ""
+msgstr "| start_position | TLPP start coordinates |"
 
 #: ../base\dev\TianLiPositioningPath.pygettext:26
 msgid "| end_position        | TLPP结束坐标          |"
-msgstr ""
+msgstr "| end_position | TLPP end coordinates |"
 
 #: ../base\dev\TianLiPositioningPath.pygettext:27
 msgid "| break_position      | 转向点坐标，用于寻路        |"
-msgstr ""
+msgstr "| break_position | Turning point coordinates, used for pathfinding |"
 
 #: ../base\dev\TianLiPositioningPath.pygettext:28
 msgid "| position_list       | 路径中坐标，用于记录角色动作    |"
-msgstr ""
+msgstr "| position_list | Coordinates in the path, used to record character actions |"
 
 #: ../base\dev\TianLiPositioningPath.pygettext:29
 msgid "| additional_info     | 额外信息              |"
-msgstr ""
+msgstr "| additional_info | additional information |"
 
 #: ../base\dev\TianLiPositioningPath.pygettext:30
 msgid "| pickup_points       | 采集点的BP的index      |"
@@ -1221,7 +1204,7 @@ msgstr "| pickup_points | BP index of collection points |"
 
 #: ../base\dev\TianLiPositioningPath.pygettext:31
 msgid "| adsorptive_position | 吸附坐标，TLC会尝试接近这个坐标 |"
-msgstr ""
+msgstr "| adsorptive_position | adsorption coordinates, TLC will try to approach this coordinates |"
 
 #: ../base\dev\TianLiPositioningPath.pygettext:33
 msgid "## 屏蔽坐标"
@@ -1233,11 +1216,11 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningPath.pygettext:37
 msgid "- 若 `additional_info` `pickup_points` 列表为空，直接删除对应index的BP"
-msgstr ""
+msgstr "- If the `additional_info` `pickup_points` list is empty, directly delete the BP corresponding to the index"
 
 #: ../base\dev\TianLiPositioningPath.pygettext:38
 msgid "- 否则，将对应index的BP改为与它的上一个BP或下一个BP相同。这是为了避免BP顺序错误。"
-msgstr ""
+msgstr "- Otherwise, change the BP corresponding to the index to be the same as its previous or next BP. "
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:9
 msgid "# TLPS & TLN"
@@ -1253,11 +1236,11 @@ msgstr "### Introduction"
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:15
 msgid "TLPS是基于OpenCV的小地图定位算法，小地图视角识别算法，小地图方向识别算法，大地图定位算法和相关的集成功能。"
-msgstr ""
+msgstr "TLPS is a small map positioning algorithm based on OpenCV, a small map perspective recognition algorithm, a small map direction recognition algorithm, a large map positioning algorithm and related integration functions."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:17
 msgid "你可以在source/map中找到相关代码。如果你想要获得更多信息并参与开发，提交issue或联系我们。"
-msgstr ""
+msgstr "You can find the relevant code in source/map. "
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:19
 msgid "## TianLiNavigator"
@@ -1265,19 +1248,19 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:23
 msgid "TLN是基于A-star寻路的导航算法，工作原理如下："
-msgstr ""
+msgstr "TLN is a navigation algorithm based on A-star pathfinding, the working principle is as follows:"
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:25
 msgid "1. 人工标记适合行走的点位路线"
-msgstr ""
+msgstr "1. Manually mark the point routes suitable for walking"
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:26
 msgid "2. TeyvatMove中根据开始点与结束点搜索适宜节点"
-msgstr ""
+msgstr "2. In TeyvatMove, search for suitable nodes according to the start point and end point"
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:27
 msgid "3. 优先按照路线行走，路线结束后朝目标直线行走。"
-msgstr ""
+msgstr "3. Prioritize walking according to the route, and walk straight to the goal after the route ends."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:29
 msgid "### TianLiNavigatorDev"
@@ -1297,11 +1280,11 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:37
 msgid "每个点与每个点之间有箭头连接，代表它们之间的link关系。"
-msgstr ""
+msgstr "There is an arrow connection between each point and each point, representing the link relationship between them."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:39
 msgid "每个点旁边有它的编号。"
-msgstr ""
+msgstr "Each point has its number next to it."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:41
 msgid "### TLNDev名词解释"
@@ -1309,7 +1292,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:43
 msgid "- 全连接(full link或fl)：意味着双向连接，比如节点1与节点2全连接意味着1\\<->2双向连通。"
-msgstr ""
+msgstr "- Full link (full link or fl): means two-way connection, such as full connection between node 1 and node 2 means 1\\<->2 bidirectional connectivity."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:45
 msgid "#### TLNDev命令"
@@ -1321,7 +1304,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:49
 msgid "使用 `;` 分割数个命令。不能在 `;` 附近包含空格。"
-msgstr ""
+msgstr "Use `;` to split several commands. "
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:51
 msgid "- undo"
@@ -1329,7 +1312,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:53
 msgid "  撤销上一次指令。只能撤销一次(懒)"
-msgstr ""
+msgstr "  Cancel the last command. "
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:55
 msgid "- del `id`"
@@ -1337,7 +1320,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:56
 msgid "  删除指定id的节点和它的所有相关连接。"
-msgstr ""
+msgstr "  Delete the node with the specified id and all its related connections."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:58
 msgid "- del `id1`~`id2`"
@@ -1345,7 +1328,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:59
 msgid "  删除指定id1到id2的所有连续id。"
-msgstr ""
+msgstr "  Delete all consecutive ids from the specified id1 to id2."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:61
 msgid "- link `id1` `id2`"
@@ -1353,7 +1336,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:62
 msgid "  连接id1与id2。"
-msgstr ""
+msgstr "  Connect id1 and id2."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:64
 msgid "- add `x`,`y` \\[id=`id`\\] \\[fl=`xxx`\\]"
@@ -1361,11 +1344,11 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:65
 msgid "  添加坐标x,y。如果不指定id，则自动使用下一个id。"
-msgstr ""
+msgstr "  Add coordinates x,y. "
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:67
 msgid "  可以指定要与之全连接(full link)的节点id。如果为空，则自动设为上一个id。"
-msgstr ""
+msgstr "  You can specify the node id to be fully connected with (full link). "
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:69
 msgid "- add a"
@@ -1373,11 +1356,11 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:70
 msgid "  当你鼠标左键点击了一下图片时，会记录点击的坐标，输入add a就会自动添加这个坐标，不需要手动输入坐标。id与fl指令均可用。"
-msgstr ""
+msgstr "  When you click the picture with the left mouse button, the coordinates of the click will be recorded. Inputting add a will automatically add the coordinates, no need to manually enter the coordinates. "
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:72
 msgid "连续添加坐标时，通常使用 `add a fl=` 命令。它意味着添加上次鼠标点击的坐标，并自动与上一个id全连接。"
-msgstr ""
+msgstr "When adding coordinates continuously, the `add a fl=` command is usually used. "
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:74
 msgid "- save"
@@ -1385,7 +1368,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:75
 msgid "  保存。"
-msgstr ""
+msgstr "  Save."
 
 #: ../base\dev\commission.pygettext:9
 msgid "# 每日委托任务"
@@ -1393,23 +1376,23 @@ msgstr "# Automatic Daily Commission"
 
 #: ../base\dev\commission.pygettext:11
 msgid "编写执行每日委托的任务脚本."
-msgstr ""
+msgstr "Write a task script to execute the daily commission."
 
 #: ../base\dev\commission.pygettext:15
 msgid "每日委托(Commission)用于执行每日委托.根据委托名与坐标唯一确定单个委托."
-msgstr ""
+msgstr "Daily commission (Commission) is used to execute daily commission. A single commission is uniquely determined according to the commission name and coordinates."
 
 #: ../base\dev\commission.pygettext:17
 msgid "因为每日委托的稀有性,适配多语言存在困难,因此所有每日委托默认使用**英文**编写和运行.旧版本的Commission可能支持多语言,但此后不再默认支持."
-msgstr ""
+msgstr "Due to the rarity of daily commissions, it is difficult to adapt to multiple languages, so all daily commissions are written and run in **English** by default. Old versions of Commission may support multiple languages, but they will no longer be supported by default after that."
 
 #: ../base\dev\commission.pygettext:19
 msgid "Commission的编写方法与Mission基本一致,但文件命名有所不同.因此,请先看看[自定义任务](mission.md)"
-msgstr ""
+msgstr "The writing method of Commission is basically the same as that of Mission, but the file naming is different. Therefore, please take a look at [Custom Mission](mission.md)"
 
 #: ../base\dev\commission.pygettext:21
 msgid "你可以在[source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions)找到一些范例."
-msgstr ""
+msgstr "You can find some examples at [source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions)."
 
 #: ../base\dev\commission.pygettext:23
 msgid "参考视频:https://www.bilibili.com/video/BV1Lu411W71q"
@@ -1429,23 +1412,23 @@ msgstr ""
 
 #: ../base\dev\commission.pygettext:31
 msgid "commission坐标命名格式:(P/N)xxxC(P/N)xxx"
-msgstr ""
+msgstr "Commission coordinate naming format: (P/N)xxxC(P/N)xxx"
 
 #: ../base\dev\commission.pygettext:33
 msgid "P代表+,N代表-."
-msgstr ""
+msgstr "P stands for +, N stands for -."
 
 #: ../base\dev\commission.pygettext:35
 msgid "示例: -1000,1000 => N1000P1000"
-msgstr ""
+msgstr "Example: -1000,1000 => N1000P1000"
 
 #: ../base\dev\commission.pygettext:37
 msgid "类名必须与文件名相同."
-msgstr ""
+msgstr "The class name must be the same as the file name."
 
 #: ../base\dev\commission.pygettext:39
 msgid "~~如果你没有看懂,那就直接PR~~"
-msgstr ""
+msgstr "~~If you don’t understand, then just PR~~"
 
 #: ../base\dev\commission.pygettext:41
 msgid "## 函数清单"
@@ -1473,23 +1456,23 @@ msgstr "| talk_skip | Skip talks until back to main UI |"
 
 #: ../base\dev\commission.pygettext:52
 msgid "| talk_switch       | 选择选项                              |"
-msgstr ""
+msgstr "| talk_switch | select options |"
 
 #: ../base\dev\commission.pygettext:53
 msgid "| talk_until_switch | 对话直到出现选项                          |"
-msgstr ""
+msgstr "| talk_until_switch | talk until options |"
 
 #: ../base\dev\commission.pygettext:54
 msgid "| talk_wait         | 等待x秒                              |"
-msgstr ""
+msgstr "| talk_wait | wait x seconds |"
 
 #: ../base\dev\commission.pygettext:55
 msgid "| talk_with_npc     | 与指定名称的NPC对话. 会按wasd改变方向来寻找附近的NPC. |"
-msgstr ""
+msgstr "| talk_with_npc | Talk to the NPC with the specified name. It will change the direction according to wasd to find the nearby NPC. |"
 
 #: ../base\dev\commission.pygettext:56
 msgid "| exit_talk         | 退出对话, 直到返回主界面.                    |"
-msgstr ""
+msgstr "|exit_talk | Exit the conversation until you return to the main interface. |"
 
 #: ../base\dev\commission.pygettext:58
 msgid "## 获得当前坐标"
@@ -1521,31 +1504,31 @@ msgstr ""
 
 #: ../base\dev\config_doc_writing_guide.pygettext:13
 msgid "名称一般为目标文档的名字加上 `{语言}.jsondoc` 的后缀."
-msgstr ""
+msgstr "The name is generally the name of the target document plus the suffix `{language}.jsondoc`."
 
 #: ../base\dev\config_doc_writing_guide.pygettext:15
 msgid "例如 `auto_domain.json` 对应的文档名应为 `auto_domain.json.zh_CN.jsondoc` ."
-msgstr ""
+msgstr "For example, the document name corresponding to `auto_domain.json` should be `auto_domain.json.zh_CN.jsondoc`."
 
 #: ../base\dev\config_doc_writing_guide.pygettext:17
 msgid "## 存储位置"
-msgstr ""
+msgstr "## Storage Location"
 
 #: ../base\dev\config_doc_writing_guide.pygettext:19
 msgid "应按命名规范存储在对应配置同目录下."
-msgstr ""
+msgstr "It should be stored in the same directory as the corresponding configuration according to the naming convention."
 
 #: ../base\dev\config_doc_writing_guide.pygettext:21
 msgid "## 翻译"
-msgstr ""
+msgstr "## Translation"
 
 #: ../base\dev\config_doc_writing_guide.pygettext:23
 msgid "把键对应的翻译写入doc内.例如:"
-msgstr ""
+msgstr "Write the translation corresponding to the key into the doc. For example:"
 
 #: ../base\dev\config_doc_writing_guide.pygettext:31
 msgid "## 选择框"
-msgstr ""
+msgstr "## Choice Box"
 
 #: ../base\dev\config_doc_writing_guide.pygettext:33
 msgid "以前想过这个问题,不过觉得应该可以不用就没写,这次看来是必须写了.."
@@ -1553,7 +1536,7 @@ msgstr ""
 
 #: ../base\dev\config_doc_writing_guide.pygettext:35
 msgid "和上边一样,选择框只需要在yaml里加入一个名为 `select_items` 的项就行了."
-msgstr ""
+msgstr "Same as above, the selection box only needs to add an item named `select_items` in yaml."
 
 #: ../base\dev\config_doc_writing_guide.pygettext:37
 msgid "例如:"
@@ -1565,7 +1548,7 @@ msgstr "## Special Key"
 
 #: ../base\dev\config_doc_writing_guide.pygettext:47
 msgid "用于执行特殊方法的标记。"
-msgstr ""
+msgstr "Flags for executing special methods."
 
 #: ../base\dev\config_doc_writing_guide.pygettext:49
 msgid "## 其他"
@@ -1573,35 +1556,35 @@ msgstr "## Others"
 
 #: ../base\dev\config_doc_writing_guide.pygettext:51
 msgid "- 如果你觉得有一些不必要翻译那可以删掉键值对,程序会自动使用配置的值作为标题."
-msgstr ""
+msgstr "- If you think there are some unnecessary translations, you can delete the key-value pair, and the program will automatically use the configured value as the title."
 
 #: ../base\dev\config_doc_writing_guide.pygettext:52
 msgid "- **请不要写入无法解析的yaml文档!!!**"
-msgstr ""
+msgstr "- **Please do not write unparseable yaml documents!!!**"
 
 #: ../base\dev\flow.pygettext:9
 msgid "# 流程控制单元"
-msgstr ""
+msgstr "# Flow control Unit"
 
 #: ../base\dev\flow.pygettext:11
 msgid "## 什么是Flow？"
-msgstr ""
+msgstr "## What is Flow?"
 
 #: ../base\dev\flow.pygettext:13
 msgid "Flow可以理解为状态机，Flow由Flow Unit（Flow Template）组成，一个Flow Unit可以切换到另一个Flow Unit。"
-msgstr ""
+msgstr "Flow can be understood as a state machine. Flow is composed of Flow Unit (Flow Template), and one Flow Unit can be switched to another Flow Unit."
 
 #: ../base\dev\flow.pygettext:15
 msgid "Flow Unit内部有5个状态，可以在状态间切换。"
-msgstr ""
+msgstr "There are 5 states inside the Flow Unit, which can be switched between states."
 
 #: ../base\dev\flow.pygettext:17
 msgid "通过Flow Unit的切换与Unit内部的切换，可以根据不同条件切换不同的状态。"
-msgstr ""
+msgstr "Through the switching of the Flow Unit and the switching inside the Unit, different states can be switched according to different conditions."
 
 #: ../base\dev\flow.pygettext:19
 msgid "目前，Flow用于自动采集，自动行走和路径记录。你应该不需要写新的Flow，所以可以仅了解它。"
-msgstr ""
+msgstr "Currently, Flow is used for automatic collection, automatic walking and path recording. "
 
 #: ../base\dev\flow.pygettext:21
 msgid "## FlowTemplate"
@@ -1637,7 +1620,7 @@ msgstr "## Flow Code"
 
 #: ../base\dev\flow.pygettext:39
 msgid "以自动秘境为例，它有以下流程码："
-msgstr ""
+msgstr "Taking the automatic secret realm as an example, it has the following process codes:"
 
 #: ../base\dev\flow.pygettext:41
 msgid "MOVETO_CHALLENGE"
@@ -1669,35 +1652,35 @@ msgstr ""
 
 #: ../base\dev\flow.pygettext:55
 msgid "其中，终止流程码必须包含$END$字符。"
-msgstr ""
+msgstr "Among them, the termination process code must contain $END$ characters."
 
 #: ../base\dev\flow.pygettext:57
 msgid "所有流程码管理在flow/flow_state.py中。"
-msgstr ""
+msgstr "All process codes are managed in flow/flow_state.py."
 
 #: ../base\dev\flow.pygettext:59
 msgid "next_flow_id: 该流程结束后运行的下一个流程的Flow id"
-msgstr ""
+msgstr "next_flow_id: Flow id of the next process to run after the process ends"
 
 #: ../base\dev\flow.pygettext:61
 msgid "flow_timeout_time: 流程超时时间。负数则为无限。"
-msgstr ""
+msgstr "flow_timeout_time: Flow timeout time. "
 
 #: ../base\dev\flow.pygettext:63
 msgid "变量："
-msgstr ""
+msgstr "Variable:"
 
 #: ../base\dev\flow.pygettext:65
 msgid "rfc：return flow code。有以下6个值：0,1,2,3,4,5"
-msgstr ""
+msgstr "rfc: return flow code. "
 
 #: ../base\dev\flow.pygettext:67
 msgid "0~4: 对应state_init, state_before, state_in, state_after, state_end。即FC.INIT, FC.BEFORE, FC.IN, FC.AFTER, FC.END."
-msgstr ""
+msgstr "0~4: corresponding to state_init, state_before, state_in, state_after, state_end. "
 
 #: ../base\dev\flow.pygettext:69
 msgid "5: 流程结束标志码。即FC.OVER"
-msgstr ""
+msgstr "5: Process end flag code. "
 
 #: ../base\dev\flow.pygettext:71
 msgid "### 状态执行函数："
@@ -1713,31 +1696,31 @@ msgstr ""
 
 #: ../base\dev\flow.pygettext:77
 msgid "state_before和state_after可以来回切换，例如："
-msgstr ""
+msgstr "state_before and state_after can switch back and forth, for example:"
 
 #: ../base\dev\flow.pygettext:81
 msgid "从而切换回before状态。"
-msgstr ""
+msgstr "switch back to the before state."
 
 #: ../base\dev\flow.pygettext:83
 msgid "state_in是循环状态，即如果该流程的一些代码需要循环执行，写在这里。"
-msgstr ""
+msgstr "state_in is a cyclic state, that is, if some code of the process needs to be executed cyclically, write it here."
 
 #: ../base\dev\flow.pygettext:85
 msgid "最后，上面的规则仅为建议和标准，不遵守也不会出错，只是方便维护。"
-msgstr ""
+msgstr "Finally, the above rules are only suggestions and standards. If you don’t follow them, you won’t go wrong. They are just for maintenance."
 
 #: ../base\dev\flow.pygettext:87
 msgid "如果你不需要某个状态，不在继承的类里实现它就好了。但是，state_in必须实现。"
-msgstr ""
+msgstr "If you don't need a certain state, just don't implement it in the inherited class. "
 
 #: ../base\dev\flow.pygettext:89
 msgid "每个状态实现后，如果要切换到下一个state，必须使用 `self._next_rfc()` 。手动 `self._set_rfc(x)` 也是可以的。"
-msgstr ""
+msgstr "After each state is achieved, if you want to switch to the next state, you must use `self._next_rfc()`. "
 
 #: ../base\dev\flow.pygettext:91 ../base\dev\flow.pygettext:119
 msgid "函数清单："
-msgstr ""
+msgstr "List of functions:"
 
 #: ../base\dev\flow.pygettext:93
 msgid "| name               | func           |"
@@ -1745,15 +1728,15 @@ msgstr "| name | func |"
 
 #: ../base\dev\flow.pygettext:95
 msgid "| \\_next_rfc()       | 切换到下一个FlowCode |"
-msgstr ""
+msgstr "| \\_next_rfc() | Switch to the next FlowCode |"
 
 #: ../base\dev\flow.pygettext:96
 msgid "| \\_before_timeout() | 在函数超时之前做点什么    |"
-msgstr ""
+msgstr "| \\_before_timeout() | Do something before the function times out |"
 
 #: ../base\dev\flow.pygettext:97
 msgid "| \\_set_nfid()       | 设置下一个流程id      |"
-msgstr ""
+msgstr "| \\_set_nfid() | Set the next process id |"
 
 #: ../base\dev\flow.pygettext:99
 msgid "## FlowConnector"
@@ -1765,11 +1748,11 @@ msgstr ""
 
 #: ../base\dev\flow.pygettext:103
 msgid "所有的流程变量都应该存放在这里，方便重置与设置。"
-msgstr ""
+msgstr "All process variables should be stored here for easy reset and setting."
 
 #: ../base\dev\flow.pygettext:105
 msgid "一个FlowController必须有且仅有一个FlowConnector。"
-msgstr ""
+msgstr "A FlowController must have one and only one FlowConnector."
 
 #: ../base\dev\flow.pygettext:107
 msgid "## FlowController"
@@ -1781,31 +1764,31 @@ msgstr ""
 
 #: ../base\dev\flow.pygettext:111
 msgid "流程的主程序，控制流程流动。"
-msgstr ""
+msgstr "The main program of the process, which controls the flow of the process."
 
 #: ../base\dev\flow.pygettext:115
 msgid "flow_connector: FlowConnector对象。"
-msgstr ""
+msgstr "flow_connector: FlowConnector object."
 
 #: ../base\dev\flow.pygettext:117
 msgid "current_flow_id: 初始流程id。"
-msgstr ""
+msgstr "current_flow_id: The initial flow id."
 
 #: ../base\dev\flow.pygettext:121
 msgid "| name                  | func                     |"
-msgstr ""
+msgstr "| name | func |"
 
 #: ../base\dev\flow.pygettext:123
 msgid "| append_flow()         | 添加一个FlowTemplate到流程执行列表中 |"
-msgstr ""
+msgstr "| append_flow() | Add a FlowTemplate to the process execution list |"
 
 #: ../base\dev\flow.pygettext:124
 msgid "| \\_err_code_exec()     | 错误码分析                    |"
-msgstr ""
+msgstr "| \\_err_code_exec() | Error code analysis |"
 
 #: ../base\dev\flow.pygettext:125
 msgid "| set_current_flow_id() | 设置流程id                   |"
-msgstr ""
+msgstr "| set_current_flow_id() | set flow id |"
 
 #: ../base\dev\flow.pygettext:127
 msgid "## EndFlowTemplate"
@@ -1817,11 +1800,11 @@ msgstr ""
 
 #: ../base\dev\flow.pygettext:131
 msgid "1. 需要填写err_code。ERR_PASS即为无错误。"
-msgstr ""
+msgstr "1. Need to fill in err_code. "
 
 #: ../base\dev\flow.pygettext:132
 msgid "2. 流程ID必须包含 `$END$` 。"
-msgstr ""
+msgstr "2. The process ID must contain `$END$`."
 
 #: ../base\dev\gettext-markdown.pygettext:9
 msgid "# Gettext Markdown"
@@ -1855,7 +1838,7 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:17
 msgid "自定义任务是GIA目前添加新功能的重要方向。更精准的自动采集和自动委托都依赖于Mission。"
-msgstr ""
+msgstr "Custom task is an important direction for GIA to add new functions at present. "
 
 #: ../base\dev\mission.pygettext:19
 msgid "# 设计你的第一个Mission(快速开始)"
@@ -1863,11 +1846,11 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:21
 msgid "目前，简单的Mission主要用于自动采集。因此，下面我们介绍一个简单Mission的编写以开始。创建更复杂的Mission可以参阅之后的介绍。"
-msgstr ""
+msgstr "At present, the simple Mission is mainly used for automatic collection. "
 
 #: ../base\dev\mission.pygettext:23
 msgid "你需要一丁点最基本的python知识以开始。如果你对使用python一无所知，参考[vscode&anaconda python 简单教程(还没写)](vscode_python.md)"
-msgstr ""
+msgstr "You need a minimal knowledge of python to get started. "
 
 #: ../base\dev\mission.pygettext:25 ../base\dev\mission.pygettext:194
 msgid "## 示例"
@@ -1879,7 +1862,7 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:35
 msgid "你可以在 `missions/MissionQingXin1.py` 中找到源代码。"
-msgstr ""
+msgstr "You can find the source code in `missions/MissionQingXin1.py`."
 
 #: ../base\dev\mission.pygettext:37
 msgid ""
@@ -1889,7 +1872,7 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:39
 msgid "我们将从这一段代码开始，介绍Mission的各个组成部分。"
-msgstr ""
+msgstr "We will start with this piece of code and introduce the various components of Mission."
 
 #: ../base\dev\mission.pygettext:41
 msgid "## 导入Mission模板"
@@ -1919,31 +1902,31 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:57
 msgid "对于快速开始，我们只需"
-msgstr ""
+msgstr "For a quick start, we simply"
 
 #: ../base\dev\mission.pygettext:59
 msgid "- 复制上面的代码"
-msgstr ""
+msgstr "- Copy the above code"
 
 #: ../base\dev\mission.pygettext:60
 msgid "- 将 `your-mission-name-in-zh_CN` 改为你的Mission的中文名称，将 `your-mission-name-in-en_US` 改为你的Mission的英文名称。"
-msgstr ""
+msgstr "- Change `your-mission-name-in-zh_CN` to the Chinese name of your Mission, and `your-mission-name-in-en_US` to the English name of your Mission."
 
 #: ../base\dev\mission.pygettext:61
 msgid "- 将 `your-github-username` 改为你的Github用户名(或者你的任意其他名称)"
-msgstr ""
+msgstr "- Change `your-github-username` to your Github username (or whatever you want)"
 
 #: ../base\dev\mission.pygettext:62
 msgid "- 将 `when-you-create-the-mission` 改为你创建这个Mission的时间(格式： `UTCxxx yyyy-mm-dd` . 例如： `UTC+08 2023-05-03` )"
-msgstr ""
+msgstr "- Change `when-you-create-the-mission` to the time when you created this Mission (format: `UTCxxx yyyy-mm-dd` . For example: `UTC 08 2023-05-03` )"
 
 #: ../base\dev\mission.pygettext:63
 msgid "- 将 `what-you-want-to-say` 改为你想要说的话(路径位置、说明、鸣谢等)"
-msgstr ""
+msgstr "- Change `what-you-want-to-say` to what you want to say (path location, description, acknowledgments, etc.)"
 
 #: ../base\dev\mission.pygettext:65
 msgid "如果META中缺少name或缺少对应语言，则会自动使用mission名。"
-msgstr ""
+msgstr "If the name or corresponding language is missing in META, the mission name will be used automatically."
 
 #: ../base\dev\mission.pygettext:67
 msgid "## 创建Mission类"
@@ -1967,11 +1950,11 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:81
 msgid "其中，TLPP_FILE是你的TLPP字典, 将V2P中得到的TLPP字典替换 `...` 。"
-msgstr ""
+msgstr "Among them, TLPP_FILE is your TLPP dictionary, replace `...` with the TLPP dictionary obtained in V2P."
 
 #: ../base\dev\mission.pygettext:83
 msgid "`your-mission-name` 是你的Mission名。"
-msgstr ""
+msgstr "`your-mission-name` is your Mission name."
 
 #: ../base\dev\mission.pygettext:85
 msgid "mission的命名规则如下："
@@ -1979,19 +1962,19 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:87
 msgid "1. mission必须为英文"
-msgstr ""
+msgstr "1. The mission must be in English"
 
 #: ../base\dev\mission.pygettext:88
 msgid "2. mission各个单词的英文首字母应当大写"
-msgstr ""
+msgstr "2. The first letter of each word of mission should be capitalized"
 
 #: ../base\dev\mission.pygettext:89
 msgid "3. mission应当以你的作者名开头以防止混淆(最好是Github用户名)。GIA自带的Mission没有作者名。"
-msgstr ""
+msgstr "3. mission should start with your author name to prevent confusion (preferably Github username). "
 
 #: ../base\dev\mission.pygettext:91
 msgid "只需指定你要运行的TLPP文件，MissionJustCollect会将它扩展为完整Mission，并调用MissionTemplate类来执行它。"
-msgstr ""
+msgstr "Just specify the TLPP file you want to run, MissionJustCollect will expand it into a complete Mission, and call the MissionTemplate class to execute it."
 
 #: ../base\dev\mission.pygettext:93
 msgid "## 将Mission加入GIA"
@@ -2003,7 +1986,7 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:97
 msgid "回顾一下它的样子："
-msgstr ""
+msgstr "Here's a look back at what it looks like:"
 
 #: ../base\dev\mission.pygettext:103
 msgid "要使用这个Mission，我们需要将它加入GIA的Mission Index来让GIA识别这个mission。方法如下："
@@ -2011,15 +1994,15 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:105
 msgid "1. 把你创建的 `your-mission-name.py` 文件放置到 `./missions` 目录下"
-msgstr ""
+msgstr "1. Place the `your-mission-name.py` file you created in the `./missions` directory"
 
 #: ../base\dev\mission.pygettext:106
 msgid "2. 打开GIA GUI，在 `自定义任务配置` 页面，点击 `编译自定义任务` 按钮，完成后按照提示重启GIA"
-msgstr ""
+msgstr "2. Open the GIA GUI, click the `Compile Custom Task` button on the `Custom Task Configuration` page, and restart GIA according to the prompts after completion"
 
 #: ../base\dev\mission.pygettext:107
 msgid "3. 你现在应该可以在重启后的GIA中看到你的Mission了。按照使用一般Mission的方法使用它。"
-msgstr ""
+msgstr "3. You should now be able to see your Mission in the restarted GIA. "
 
 #: ../base\dev\mission.pygettext:109
 msgid "## 结束"
@@ -2035,11 +2018,11 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:115
 msgid "如果你能够制作自定义任务共享网站,欢迎提交pr或在issue中回复."
-msgstr ""
+msgstr "If you can make a custom task sharing website, welcome to submit pr or reply in issue."
 
 #: ../base\dev\mission.pygettext:117
 msgid "> 如果你在阅读 `快速开始` 文档时，遇到混淆、阻碍或错误，请联系我们或提交issue反馈。"
-msgstr ""
+msgstr "> If you encounter confusion, obstacles or errors while reading the `quickstart` documentation, please contact us or submit an issue feedback."
 
 #: ../base\dev\mission.pygettext:119
 msgid "# Mission详细介绍"
@@ -2051,7 +2034,7 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:123
 msgid "你需要掌握python的基础语法。(不需要特别高深的python知识)"
-msgstr ""
+msgstr "You need to master the basic syntax of python. "
 
 #: ../base\dev\mission.pygettext:125 ../base\dev\path_recorder.pygettext:13 ../base\mission.pygettext:17
 msgid "## 使用"
@@ -2067,7 +2050,7 @@ msgstr "## Methods"
 
 #: ../base\dev\mission.pygettext:133
 msgid "你可以在 [`source/mission/mission.py` ](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看方法与介绍。"
-msgstr ""
+msgstr "You can check the method and introduction at [`source/mission/mission.py`](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)."
 
 #: ../base\dev\mission.pygettext:135
 msgid "## 写一个Mission"
@@ -2075,35 +2058,35 @@ msgstr "## Write a Mission"
 
 #: ../base\dev\mission.pygettext:137
 msgid "首先，继承Mission。"
-msgstr ""
+msgstr "First, inherit Mission."
 
 #: ../base\dev\mission.pygettext:143
 msgid "注意，类名必须为MissionMain。使用首字母大写命名格式。"
-msgstr ""
+msgstr "Note that the class name must be MissionMain. "
 
 #: ../base\dev\mission.pygettext:145
 msgid "然后，实现exec_mission方法。"
-msgstr ""
+msgstr "Then, implement the exec_mission method."
 
 #: ../base\dev\mission.pygettext:149
 msgid "这是一个示例。"
-msgstr ""
+msgstr "Here is an example."
 
 #: ../base\dev\mission.pygettext:151
 msgid "你的程序必须写在exec_mission函数中才能被执行. commission同理."
-msgstr ""
+msgstr "Your program must be written in the exec_mission function to be executed. The same is true for commission."
 
 #: ../base\dev\mission.pygettext:153
 msgid "最后，如果你要调试你的mission，在下方加入以下代码："
-msgstr ""
+msgstr "Finally, if you want to debug your mission, add the following code below:"
 
 #: ../base\dev\mission.pygettext:157
 msgid "运行该文件即可。"
-msgstr ""
+msgstr "Just run the file."
 
 #: ../base\dev\mission.pygettext:159
 msgid "你可以通过组合函数以执行功能.有关mission提供的函数,请参阅下方的函数文档."
-msgstr ""
+msgstr "You can perform functions by combining functions. For the functions provided by mission, please refer to the function documentation below."
 
 #: ../base\dev\mission.pygettext:161
 msgid "## 函数文档"
@@ -2117,119 +2100,119 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:165
 msgid "函数清单:"
-msgstr ""
+msgstr "Function list:"
 
 #: ../base\dev\mission.pygettext:167
 msgid "| 函数                            | 用途                                    |"
-msgstr ""
+msgstr "| function | purpose |"
 
 #: ../base\dev\mission.pygettext:169
 msgid "| move_straight                 | 向目的地前进                                |"
-msgstr ""
+msgstr "| move_straight | move towards the destination |"
 
 #: ../base\dev\mission.pygettext:170
 msgid "| move_along                    | 沿着TLPP行走                              |"
-msgstr ""
+msgstr "| move_along | Walk along TLPP |"
 
 #: ../base\dev\mission.pygettext:171
 msgid "| start_combat                  | 开始战斗                                  |"
-msgstr ""
+msgstr "| start_combat | Start Combat |"
 
 #: ../base\dev\mission.pygettext:172
 msgid "| stop_combat                   | 停止战斗                                  |"
-msgstr ""
+msgstr "| stop_combat | stop combat |"
 
 #: ../base\dev\mission.pygettext:173
 msgid "| pickup_once                   | 拾取1次                                  |"
-msgstr ""
+msgstr "| pickup_once | Pick up 1 time |"
 
 #: ../base\dev\mission.pygettext:174
 msgid "| collect                       | 启动收集                                  |"
-msgstr ""
+msgstr "| collect | start collection |"
 
 #: ../base\dev\mission.pygettext:175
 msgid "| circle_search                 | 进入一个循环，以中心坐标为圆心向外移动搜索。当符合stop_rule时退出 |"
-msgstr ""
+msgstr "|circle_search|Enter a loop, and search outward with the center coordinates as the center of the circle. Exit when stop_rule is met. |"
 
 #: ../base\dev\mission.pygettext:176
 msgid "| start_pickup                  | 启动自动采集。会采集路上遇到的可交互物品。                 |"
-msgstr ""
+msgstr "| start_pickup | Start automatic pickup. Interactable items encountered on the road will be collected.|"
 
 #: ../base\dev\mission.pygettext:177
 msgid "| stop_pickup                   | 停止自动采集。                               |"
-msgstr ""
+msgstr "| stop_pickup | Stop automatic pickup. |"
 
 #: ../base\dev\mission.pygettext:178
 msgid "| refresh_picked_list           | 刷新已采集物名列表                             |"
-msgstr ""
+msgstr "| refresh_picked_list | Refresh the list of picked items |"
 
 #: ../base\dev\mission.pygettext:179
 msgid "| reg_exception_found_enemy     | 注册事件：条件:是否遇敌。此后条件成立则跳出阻塞式任务           |"
-msgstr ""
+msgstr "| reg_exception_found_enemy | Register event: Condition: Enemy found or not. After that, if the condition is met, it will jump out of the blocking task. |"
 
 #: ../base\dev\mission.pygettext:180
 msgid "| reg_exception_chara_died      | 注册事件：条件:角色是否死亡。此后条件成立则跳出阻塞式任务。        |"
-msgstr ""
+msgstr "| reg_exception_chara_died | Register event: Condition: Whether the character died. After that, if the condition is met, it will jump out of the blocking task. |"
 
 #: ../base\dev\mission.pygettext:181
 msgid "| reg_exception_low_hp          | 注册事件：条件:检测角色是否低血量。此后条件成立则跳出阻塞式任务。     |"
-msgstr ""
+msgstr "| reg_exception_low_hp | Register event: Condition: Check if the character has low HP. After that, if the condition is met, it will jump out of the blocking task. |"
 
 #: ../base\dev\mission.pygettext:182
 msgid "| set_default_arrival_mode      | 设置默认精确到达模式。此后所有移动方法的默认精确到达模式设置为state。 |"
-msgstr ""
+msgstr "|set_default_arrival_mode| Set the default accurate arrival mode. The default exact reach mode for all move methods henceforth is set to state.|"
 
 #: ../base\dev\mission.pygettext:183
 msgid "| reg_fight_if_needed           | 注册事件：设置是否遇到可见的敌人就开战。设置为state。         |"
-msgstr ""
+msgstr "| reg_fight_if_needed | Register event: set whether to start a fight when encountering a visible enemy. Set to state.|"
 
 #: ../base\dev\mission.pygettext:184
 msgid "| set_raise_exception           | 设置是否遇到异常时抛出异常并强制退出任务。设置为state。        |"
-msgstr ""
+msgstr "|set_raise_exception| Sets whether an exception is thrown and the task is forced to exit when an exception is encountered. Set to state.|"
 
 #: ../base\dev\mission.pygettext:185
 msgid "| set_exception_mode            | 设置阻塞式任务遇到异常时的默认处理方式.                  |"
-msgstr ""
+msgstr "| set_exception_mode | Set the default processing mode when a blocking task encounters an exception. |"
 
 #: ../base\dev\mission.pygettext:186
 msgid "| set_puo_crazy_f               | 设置是否启用疯狂按f模式.启用后,puo将会在按下f拾取后不停按f若干次. |"
-msgstr ""
+msgstr "| set_puo_crazy_f | Set whether to enable the crazy pressing f mode. After enabling, puo will keep pressing f several times after pressing f to pick up. |"
 
 #: ../base\dev\mission.pygettext:187
 msgid "| handle_tmf_stuck_then_skip    | 传入TMF的错误码，如果出错则跳过。                    |"
-msgstr ""
+msgstr "| handle_tmf_stuck_then_skip | The error code passed in to TMF, if there is an error, it will be skipped. |"
 
 #: ../base\dev\mission.pygettext:188
 msgid "| handle_tmf_stuck_then_recover | 传入TMF的错误码，如果出错则到七天神像回血。               |"
-msgstr ""
+msgstr "| handle_tmf_stuck_then_recover | Pass in the error code of TMF, if there is an error, it will return blood from the statue. | "
 
 #: ../base\dev\mission.pygettext:189
 msgid "| handle_tmf_stuck_then_raise   | 传入TMF的错误码，如果出错则抛出异常，退出任务。             |"
-msgstr ""
+msgstr "| handle_tmf_stuck_then_raise | Pass in the error code of TMF, if there is an error, throw an exception and exit the task. |"
 
 #: ../base\dev\mission.pygettext:190
 msgid "| switch_character_to           | 切换角色到指定角色。角色名为英文。                     |"
-msgstr ""
+msgstr "| switch_character_to | Switch character to specified character. |"
 
 #: ../base\dev\mission.pygettext:191
 msgid "| use_f                         | 按一下f.                                 |"
-msgstr ""
+msgstr "|use_f| Press f.|"
 
 #: ../base\dev\mission.pygettext:192
 msgid "| is_combat_end                 | 战斗是否结束.你可以在while循环中判断它.               |"
-msgstr ""
+msgstr "| is_combat_end | Whether the combat is over. You can judge it in the while loop. |"
 
 #: ../base\dev\mission.pygettext:196
 msgid "你可以在 `source/mission/missions` , `source/commission/commissions` 中找到一些范例."
-msgstr ""
+msgstr "You can find some examples in `source/mission/missions`, `source/commission/commissions`."
 
 #: ../base\dev\mission.pygettext:198
 msgid "示例1: MissionJustCollect类的具体实现."
-msgstr ""
+msgstr "Example 1: Concrete implementation of the MissionJustCollect class."
 
 #: ../base\dev\mission.pygettext:204
 msgid "示例2: 调查点采集模板"
-msgstr ""
+msgstr "Example 2: Survey point collection template"
 
 #: ../base\dev\mission.pygettext:210
 msgid "## 添加你的Mission"
@@ -2281,11 +2264,11 @@ msgstr ""
 
 #: ../base\dev\path_recorder.pygettext:18
 msgid "2. 等待加载，会出现 `input your path name` 提示，输入你的path名。"
-msgstr ""
+msgstr "2. Waiting for loading, the `input your path name` prompt will appear, enter your path name."
 
 #: ../base\dev\path_recorder.pygettext:19
 msgid "3. 等待提示 `Load over.` `ready to start.` 即准备完成。"
-msgstr ""
+msgstr "3. Wait for the prompt `Load over.` `ready to start.` and the preparation is complete."
 
 #: ../base\dev\path_recorder.pygettext:21
 msgid "### 运行"
@@ -2293,31 +2276,31 @@ msgstr "### Run"
 
 #: ../base\dev\path_recorder.pygettext:23
 msgid "1. 按下 `\\` 键，提示 `ready to start recording` 。如果没有，就再按一次。"
-msgstr ""
+msgstr "1. Press the `\\` key and prompt `ready to start recording`. "
 
 #: ../base\dev\path_recorder.pygettext:24
 msgid "2. 一通操作后，提 `start recording` ,就可以开始移动了。"
-msgstr ""
+msgstr "2. After one operation, mention `start recording` to start moving."
 
 #: ../base\dev\path_recorder.pygettext:25
 msgid "3. 移动时，所有的坐标会被记录。同时，角色的动作状态（行走，爬山等）也会被记录。"
-msgstr ""
+msgstr "3. While moving, all coordinates are recorded. "
 
 #: ../base\dev\path_recorder.pygettext:26
 msgid "4. 角色移动方向改变超过5°时，会记录一次break position。break position之间的距离最小为5.2。"
-msgstr ""
+msgstr "4. When the character's moving direction changes by more than 5°, a break position will be recorded. "
 
 #: ../base\dev\path_recorder.pygettext:27
 msgid "5. 走完之后，再次按下 `\\` 键。提示 `ready to stop recording` 。"
-msgstr ""
+msgstr "5. After walking, press the `\\` key again. "
 
 #: ../base\dev\path_recorder.pygettext:28
 msgid "6. 在1秒内应该会提示 `recording save as {jsonname}` 。如果没有，就再按一次 `\\` 。"
-msgstr ""
+msgstr "6. Should prompt `recording save as {jsonname}` within 1 second. "
 
 #: ../base\dev\path_recorder.pygettext:29
 msgid "7. json文件将在 `assets/TeyvatMovePath` 保存为 `name+timestamp.json` 。如果想继续记录，就重复这些步骤。"
-msgstr ""
+msgstr "7.json file will be saved as `name timestamp.json` in `assets/TeyvatMovePath`. "
 
 #: ../base\dev\pr.pygettext:9
 msgid "# PR"
@@ -2325,7 +2308,7 @@ msgstr ""
 
 #: ../base\dev\pr.pygettext:11
 msgid "你的pr需要提交到 `alpha` 分支."
-msgstr ""
+msgstr "Your pr needs to be submitted to the `alpha` branch."
 
 #: ../base\dev\video2path.pygettext:9
 msgid "# 视频转路径(video to path, or V2P)"
@@ -2345,15 +2328,15 @@ msgstr ""
 
 #: ../base\dev\video2path.pygettext:19
 msgid "运行source/dev_tool/video2path.py文件以开始分析视频。"
-msgstr ""
+msgstr "Run the source/dev_tool/video2path.py file to start analyzing the video."
 
 #: ../base\dev\video2path.pygettext:21
 msgid "有关更多TLPP的信息，请参阅[TLPP介绍](TianLiPositioningPath.md)"
-msgstr ""
+msgstr "For more information about TLPP, please refer to [TLPP Introduction](TianLiPositioningPath.md)"
 
 #: ../base\dev\video2path.pygettext:23
 msgid "演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y参考视频:https://www.bilibili.com/video/BV1Lu411W71q"
-msgstr ""
+msgstr "Demonstration video: https://www.bilibili.com/video/BV1ks4y1Q79y Reference video: https://www.bilibili.com/video/BV1Lu411W71q"
 
 #: ../base\dev\video2path.pygettext:25
 msgid "## 参数"
@@ -2361,7 +2344,7 @@ msgstr "## Parameters"
 
 #: ../base\dev\video2path.pygettext:27
 msgid "在 `video2path.py` 中直接修改以下参数："
-msgstr ""
+msgstr "Modify the following parameters directly in `video2path.py`:"
 
 #: ../base\dev\video2path.pygettext:31
 msgid "如果 `IS_PICKUP_MODE=True` ，务必填写 `COLL_NAME` 。"
@@ -2373,23 +2356,23 @@ msgstr ""
 
 #: ../base\dev\video2path.pygettext:35
 msgid "- 空格：暂停/开始播放"
-msgstr ""
+msgstr "- Space: pause/start playback"
 
 #: ../base\dev\video2path.pygettext:36
 msgid "- a：分析传送锚点坐标"
-msgstr ""
+msgstr "- a: Analyzing Teleport Anchor Coordinates"
 
 #: ../base\dev\video2path.pygettext:37
 msgid "- .：加速fps"
-msgstr ""
+msgstr "-.: speed up fps"
 
 #: ../base\dev\video2path.pygettext:38
 msgid "- ,：降低fps"
-msgstr ""
+msgstr "- ,: reduce fps"
 
 #: ../base\dev\video2path.pygettext:39
 msgid "- `]` ：开始/停止记录路径"
-msgstr ""
+msgstr "- `]` : start/stop logging path"
 
 #: ../base\dev\video2path.pygettext:41
 msgid "## 使用方法："
@@ -2397,15 +2380,15 @@ msgstr "## How to use"
 
 #: ../base\dev\video2path.pygettext:43
 msgid "- 填写参数，运行程序"
-msgstr ""
+msgstr "- Fill in the parameters and run the program"
 
 #: ../base\dev\video2path.pygettext:44
 msgid "- 在开始移动前，按下按键 `a` ，V2P会开始解析当前位置可能的传送锚点。解析完成后，会在控制台弹出所有可能的传送锚点坐标和index。注意看控制台的提示。"
-msgstr ""
+msgstr "- Before starting to move, press the key `a`, V2P will start to analyze the possible teleportation anchors of the current location. "
 
 #: ../base\dev\video2path.pygettext:45
 msgid "- 在控制台输入对应的index，按下回车，可以查看该传送锚点附近的地形(使用cv2显示)。如果地形符合，在控制台直接按下空格以确认。注意看控制台的提示。"
-msgstr ""
+msgstr "- Enter the corresponding index in the console and press Enter to view the terrain near the teleportation anchor point (displayed by cv2). "
 
 #: ../base\dev\video2path.pygettext:46
 msgid "- 按下 `]` 按键以启动记录。注意看控制台的提示。"
@@ -2422,15 +2405,15 @@ msgstr "## Attantion"
 
 #: ../base\dev\video2path.pygettext:51
 msgid "- 一个连续的路径的开头应该从传送锚点开始"
-msgstr ""
+msgstr "- The beginning of a continuous path should start from the teleport anchor"
 
 #: ../base\dev\video2path.pygettext:52
 msgid "- 必须是完整流畅的原神游戏录屏"
-msgstr ""
+msgstr "- It must be a complete and smooth screen recording of Genshin Impact Games"
 
 #: ../base\dev\video2path.pygettext:53
 msgid "- 记录路径时，播放速度(fps)应当与真实移动速度接近。"
-msgstr ""
+msgstr "- When recording the path, the playback speed (fps) should be close to the real moving speed."
 
 #: ../base\dev\video2path.pygettext:55
 msgid "## TLPP文件格式"
@@ -2450,7 +2433,7 @@ msgstr ""
 
 #: ../base\dev\write_doc.pygettext:12
 msgid "- 在仓库目录运行 `cd py-gettext-markdown;python gettext-markdown.py md -l zh_CN,en_US -f ../ -c true;cd ../;` 生成文档"
-msgstr ""
+msgstr "- Run `cd py-gettext-markdown;python gettext-markdown.py md -l zh_CN,en_US -f ../ -c true;cd ../;` in the warehouse directory to generate documentation"
 
 #: ../base\domain_assi.pygettext:9
 msgid "# 自动秘境战斗"
@@ -2492,7 +2475,7 @@ msgstr "1. Choose a team first and start it after entering the domain."
 
 #: ../base\domain_assi.pygettext:33
 msgid "2. 挑战在璃月或部分石化古树被墙壁阻挡视野的秘境时，请将 `IsObscuredDomain` 设置为 `true` 。"
-msgstr "2. When you challenge a domain where the view of tree is blocked by walls , please set `isLiYueDomain` to `true` in domain setting."
+msgstr "2. When you challenge a domain in Liyue where the view of tree is blocked by walls, please set `IsObscuredDomain` to `true` in domain setting."
 
 #: ../base\error_code.pygettext:9
 msgid "# 错误码"
@@ -2582,11 +2565,11 @@ msgstr "## 5. [Auto Domain Assist](./domain_assi.md)"
 
 #: ../base\functions_detail.pygettext:46
 msgid "- 目前最好用的功能~!"
-msgstr ""
+msgstr "- The most useful function so far~!"
 
 #: ../base\functions_detail.pygettext:48
 msgid "1. GUI 设置页面中设置挑战秘境的次数等."
-msgstr ""
+msgstr "1. Set the number of times to challenge the secret realm on the GUI setting page."
 
 #: ../base\functions_detail.pygettext:49
 msgid "2. 手动选择队伍,配置队伍,进入秘境."
@@ -2598,11 +2581,11 @@ msgstr "3. After entering the Domain(also in teyvat world), select DomainTask in
 
 #: ../base\functions_detail.pygettext:51
 msgid "4. 等待导入完成后切换到原神"
-msgstr ""
+msgstr "4. Switch to Yuanshin after waiting for the import to complete"
 
 #: ../base\functions_detail.pygettext:52
 msgid "5. 双手离开键盘"
-msgstr ""
+msgstr "5. Hands off the keyboard"
 
 #: ../base\functions_detail.pygettext:54
 msgid "- 注意阅读[domain_assi.md](domain_assi.md)中的注意事项."
@@ -2614,7 +2597,7 @@ msgstr "For other settings, sett [Auto Domain Assist introduction](./domain_assi
 
 #: ../base\functions_detail.pygettext:58
 msgid "> ~~冰本的地板会把人冻死，记得多带点奶...~~"
-msgstr ""
+msgstr "> ~~The floor of the ice book will freeze people to death, remember to bring more healers...~~"
 
 #: ../base\functions_detail.pygettext:60
 msgid "## 6. [自动采集辅助](collector_assi.md)"
@@ -2622,11 +2605,11 @@ msgstr "## 6. [Auto Collect Assist](./collector_assi.md)"
 
 #: ../base\functions_detail.pygettext:62
 msgid "> 非常垃圾，但是通用"
-msgstr ""
+msgstr "> Very rubbish, but generic"
 
 #: ../base\functions_detail.pygettext:64
 msgid "- 在自定义任务中选择通用自动采集，启动自定义任务"
-msgstr ""
+msgstr "- Select general automatic collection in the custom task to start the custom task"
 
 #: ../base\functions_detail.pygettext:65
 msgid "- 注意阅读[collector_assi.md](collector_assi.md)中的注意事项."
@@ -2642,11 +2625,11 @@ msgstr ""
 
 #: ../base\functions_detail.pygettext:71 ../base\mission.pygettext:19
 msgid "在自定义任务中启用你要运行的自定义任务，按照提示填写参数，保存后在主界面选择自定义任务，启动GIA。"
-msgstr ""
+msgstr "Enable the custom task you want to run in the custom task, fill in the parameters according to the prompts, save and select the custom task on the main interface, and start GIA."
 
 #: ../base\functions_detail.pygettext:73
 msgid "关于创建自定义任务，参见[创建自定义任务](dev/mission.md)"
-msgstr ""
+msgstr "For creating a custom task, see [Create a custom task](dev/mission.md)"
 
 #: ../base\functions_detail.pygettext:75
 msgid "## 8. launch genshin"
