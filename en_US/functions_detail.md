@@ -20,8 +20,8 @@ For other settings, see [Auto Combat Assist introduction](./combat_assi.md).
 Automatically search and execute daily commissions located in **Mondstadt**. Currently only some commissions that require only combat can be executed.
 
 > 目前仅能完成以下委托：
-> ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,
-> For now, it can only complete this request: ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger.
+>
+> ASmallStepForHilichurls, Emergency,IcyIssues, ForTheHarbingers, BigIceColdCrisis, SpreadingEvil, PudgyPyrotechnicians, IncreasingDanger.
 
 For more detiles, see [Auto Daily Commission Assist introduction](./commission_assi.md).
 

@@ -20,8 +20,8 @@
 自动搜索并执行位于**蒙德**的每日委托。目前仅可执行部分仅需要战斗的委托。
 
 > 目前仅能完成以下委托：
-> ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,
-> BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger.
+>
+> ASmallStepForHilichurls, Emergency,IcyIssues, ForTheHarbingers, BigIceColdCrisis, SpreadingEvil, PudgyPyrotechnicians, IncreasingDanger.
 
 详情参见[自动每日委托辅助介绍](commission_assi.md).
 
