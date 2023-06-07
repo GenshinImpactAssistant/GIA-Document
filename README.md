@@ -102,7 +102,9 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。
 
-> Troubleshooting any problems without the error log is like driving with your eyes closed. -- Apache Official Document: Getting Start
+> Troubleshooting any problems without the error log is like driving with your eyes closed.
+> 
+> ——Apache Official Document: Getting Start
 
 <!-- ## 错误码
 
