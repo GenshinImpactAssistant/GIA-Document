@@ -1378,7 +1378,7 @@ msgstr ""
 msgid "  当你鼠标左键点击了一下图片时，会记录点击的坐标，输入add a就会自动添加这个坐标，不需要手动输入坐标。id与fl指令均可用。"
 msgstr ""
 "  When you click the picture with the left mouse button, the coordinates of the click will be recorded. Inputting add a will automatically add the coordinates, no "
-"need to manually enter the coordinates. "
+"need to manually enter the coordinates. id and fl commands can both be used."
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:72
 msgid "连续添加坐标时，通常使用 `add a fl=` 命令。它意味着添加上次鼠标点击的坐标，并自动与上一个id全连接。"
@@ -1423,7 +1423,7 @@ msgstr "You can find some examples at [source/commission/commissions](https://gi
 
 #: ../base\dev\commission.pygettext:23 ../base\dev\video2path.pygettext:25
 msgid "参考视频:https://www.bilibili.com/video/BV1Lu411W71q"
-msgstr "Demo video：<https://www.bilibili.com/video/BV163411Q7fD>"
+msgstr "Reference video：<https://www.bilibili.com/video/BV1Lu411W71q>"
 
 #: ../base\dev\commission.pygettext:25 ../base\dev\config_doc_writing_guide.pygettext:11
 msgid "## 命名格式"
@@ -1555,7 +1555,7 @@ msgstr "Write the translation corresponding to the key into the doc. For example
 
 #: ../base\dev\config_doc_writing_guide.pygettext:31
 msgid "## 选择框"
-msgstr "## Choice Box"
+msgstr "## Selection Box"
 
 #: ../base\dev\config_doc_writing_guide.pygettext:33
 msgid "以前想过这个问题,不过觉得应该可以不用就没写,这次看来是必须写了.."
@@ -2373,7 +2373,7 @@ msgstr "For more information about TLPP, please refer to [TLPP Introduction](Tia
 
 #: ../base\dev\video2path.pygettext:23
 msgid "演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y "
-msgstr "Demo video：<https://www.bilibili.com/video/BV163411Q7fD>"
+msgstr "Demo video：https://www.bilibili.com/video/BV1ks4y1Q79y"
 
 #: ../base\dev\video2path.pygettext:27
 msgid "## 参数"
@@ -2696,7 +2696,7 @@ msgstr "- [git](https://git-scm.com/download/win)."
 
 #: ../base\git_install.pygettext:18
 msgid "**使用管理员权限打开命令提示符和你的代码编写器(IDE)!!!**"
-msgstr "**Open the command prompt and your IDE with administrator privileges!!! **"
+msgstr "<strong>Open the command prompt and your IDE with administrator privileges!!!</strong>"
 
 #: ../base\git_install.pygettext:20
 msgid "## 安装"
@@ -2712,7 +2712,7 @@ msgstr ""
 
 #: ../base\git_install.pygettext:30
 msgid "**注意子模块(submodule)是否同时clone成功！**"
-msgstr "**Notice if the submodule clones successfully at the same time! **"
+msgstr "<strong>Notice if the submodule clones successfully at the same time!</strong>"
 
 #: ../base\git_install.pygettext:32
 msgid "2. 输入以下命令运行程序:"
@@ -2720,7 +2720,7 @@ msgstr "2. Enter the following command to run the program."
 
 #: ../base\git_install.pygettext:36
 msgid "~~（推荐使用VsCode，这样你的运行和调试就会有几个快捷运行方式，肥肠好用！还有变量着色哦(doge)）~~"
-msgstr "~~ (recommended to use VsCode, so your run and debug will have several shortcuts to run, fat good! And variable coloring Oh (doge))~~"
+msgstr "<del> (recommended to use VsCode, so your run and debug will have several shortcuts to run, fat good! And variable coloring Oh (doge)) </del>"
 
 #: ../base\git_install.pygettext:38
 msgid "## 更新"
