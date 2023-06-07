@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-07 21:51+0800\n"
-"PO-Revision-Date: 2023-06-07 22:36+0800\n"
+"POT-Creation-Date: 2023-06-07 22:59+0800\n"
+"PO-Revision-Date: 2023-06-07 23:00+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -158,11 +158,11 @@ msgstr ""
 
 #: ../base\README.pygettext:29
 msgid "## 我是急急国王"
-msgstr ""
+msgstr "## Quick Start"
 
 #: ../base\README.pygettext:31
-msgid "如果你啥都不想看就想开始用，按照[这个方法](jijiking.md)操作："
-msgstr ""
+msgid "如果你啥都不想看就想开始用，按照[这个方法](jijiking.md)操作。"
+msgstr "If you don't want to read anything and just want to get started, follow [this method](jijiking.md)"
 
 #: ../base\README.pygettext:33
 msgid "## 演示视频"
@@ -181,12 +181,12 @@ msgid "## [常见问题 FAQ](FAQ.md)"
 msgstr "## Frequently ask question"
 
 #: ../base\README.pygettext:41
-msgid "如果在使用时遇到问题，先看看[FAQ](FAQ.md)："
-msgstr "If you enconter any problem when using, you can take a look at FAQ frist:"
+msgid "如果在使用时遇到问题，先看看[FAQ](FAQ.md)"
+msgstr "If you enconter any problem when using, you can take a look at FAQ frist"
 
 #: ../base\README.pygettext:43
 msgid "## [功能介绍](functions_detail.md)"
-msgstr ""
+msgstr "## Function Details"
 
 #: ../base\README.pygettext:45
 msgid "绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。"
@@ -336,7 +336,7 @@ msgstr "If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the correspond
 
 #: ../base\README.pygettext:112
 msgid "## [已知问题 Known Issues](known_issues.md)"
-msgstr "[Known issues](known_issues.md)"
+msgstr "## [Known issues](known_issues.md)"
 
 #: ../base\README.pygettext:114
 msgid "[Known issues](known_issues.md)"
@@ -374,11 +374,11 @@ msgstr "- [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)"
 
 #: ../base\README.pygettext:130
 msgid "### 开源库"
-msgstr "#### Open Source Library"
+msgstr "### Open Source Library"
 
 #: ../base\README.pygettext:132
 msgid "#### 原神相关"
-msgstr "### Genshin Related"
+msgstr "#### Genshin Related"
 
 #: ../base\README.pygettext:134
 msgid "- [空荧酒馆原神地图 kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)"
@@ -422,7 +422,7 @@ msgstr "- Dataset labeling: [nɡ.](https://space.bilibili.com/396023811)"
 
 #: ../base\README.pygettext:149
 msgid "## 广告"
-msgstr ""
+msgstr "## Ads"
 
 #: ../base\README.pygettext:151
 msgid "qq群:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)"
@@ -1164,7 +1164,6 @@ msgid "### TMC"
 msgstr ""
 
 #: ../base\dev\TianLiPositioningPath.pygettext:9
-#| msgid "# TianLiPositioningSystem"
 msgid "# TianLiPositioningPath TLPP"
 msgstr ""
 
@@ -1242,7 +1241,7 @@ msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:9
 msgid "# TLPS & TLN"
-msgstr "# TLPS & TLN "
+msgstr "# TLPS & TLN"
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:11
 msgid "## TianLiPositioningSystem"
@@ -1634,7 +1633,7 @@ msgstr ""
 
 #: ../base\dev\flow.pygettext:37
 msgid "## 流程代码"
-msgstr "### Flow Code"
+msgstr "## Flow Code"
 
 #: ../base\dev\flow.pygettext:39
 msgid "以自动秘境为例，它有以下流程码："
@@ -1893,7 +1892,6 @@ msgid "我们将从这一段代码开始，介绍Mission的各个组成部分。
 msgstr ""
 
 #: ../base\dev\mission.pygettext:41
-#| msgid "### Mission"
 msgid "## 导入Mission模板"
 msgstr ""
 
@@ -1906,7 +1904,6 @@ msgid "导入MissionJustCollect模板类。"
 msgstr ""
 
 #: ../base\dev\mission.pygettext:49
-#| msgid "### Mission"
 msgid "## 创建Mission信息"
 msgstr ""
 
@@ -1949,7 +1946,6 @@ msgid "如果META中缺少name或缺少对应语言，则会自动使用mission�
 msgstr ""
 
 #: ../base\dev\mission.pygettext:67
-#| msgid "### Mission"
 msgid "## 创建Mission类"
 msgstr ""
 
@@ -1998,7 +1994,6 @@ msgid "只需指定你要运行的TLPP文件，MissionJustCollect会将它扩展
 msgstr ""
 
 #: ../base\dev\mission.pygettext:93
-#| msgid "### Mission"
 msgid "## 将Mission加入GIA"
 msgstr ""
 
@@ -2047,7 +2042,6 @@ msgid "> 如果你在阅读 `快速开始` 文档时，遇到混淆、阻碍或�
 msgstr ""
 
 #: ../base\dev\mission.pygettext:119
-#| msgid "# Mission"
 msgid "# Mission详细介绍"
 msgstr ""
 
@@ -2138,22 +2132,18 @@ msgid "| move_along                    | 沿着TLPP行走                       
 msgstr ""
 
 #: ../base\dev\mission.pygettext:171
-#| msgid "| 项目                  | 内容                                    |"
 msgid "| start_combat                  | 开始战斗                                  |"
 msgstr ""
 
 #: ../base\dev\mission.pygettext:172
-#| msgid "| 项目                  | 内容                                    |"
 msgid "| stop_combat                   | 停止战斗                                  |"
 msgstr ""
 
 #: ../base\dev\mission.pygettext:173
-#| msgid "| 项目                  | 内容                                    |"
 msgid "| pickup_once                   | 拾取1次                                  |"
 msgstr ""
 
 #: ../base\dev\mission.pygettext:174
-#| msgid "| 项目                  | 内容                                    |"
 msgid "| collect                       | 启动收集                                  |"
 msgstr ""
 
@@ -2166,12 +2156,10 @@ msgid "| start_pickup                  | 启动自动采集。会采集路上遇
 msgstr ""
 
 #: ../base\dev\mission.pygettext:177
-#| msgid "| 项目                  | 内容                                    |"
 msgid "| stop_pickup                   | 停止自动采集。                               |"
 msgstr ""
 
 #: ../base\dev\mission.pygettext:178
-#| msgid "| `sp`          | 冲刺                             |"
 msgid "| refresh_picked_list           | 刷新已采集物名列表                             |"
 msgstr ""
 
@@ -2224,7 +2212,6 @@ msgid "| switch_character_to           | 切换角色到指定角色。角色名
 msgstr ""
 
 #: ../base\dev\mission.pygettext:191
-#| msgid "| 项目                  | 内容                                    |"
 msgid "| use_f                         | 按一下f.                                 |"
 msgstr ""
 
@@ -2509,7 +2496,7 @@ msgstr "2. When you challenge a domain where the view of tree is blocked by wall
 
 #: ../base\error_code.pygettext:9
 msgid "# 错误码"
-msgstr "## ERR Code"
+msgstr "# ERR Code"
 
 #: ../base\error_code.pygettext:11
 msgid "查看错误码含义及解决方案。"
@@ -2671,7 +2658,7 @@ msgstr ""
 
 #: ../base\git_install.pygettext:9
 msgid "# 从源代码安装"
-msgstr "### Install from source code"
+msgstr "# Install from source code"
 
 #: ../base\git_install.pygettext:11
 msgid "<strong>注意: 这里是从源代码运行,需要一定编程基础.快速使用请参见:[GIA Launcher自动安装器使用方法](install.md)</strong>"
@@ -2858,12 +2845,10 @@ msgid "## 配置文件"
 msgstr "## Configuration file"
 
 #: ../base\install.pygettext:25
-#| msgid "对中国用户来说，可以使用`installer_config_cn.json`配置文件，已经根据中国特色网络环境进行了单独配置。"
 msgid "对中国用户来说，可以使用 `installer_config_cn.json` 配置文件，已经根据中国特色网络环境进行了单独配置。"
 msgstr ""
 
 #: ../base\install.pygettext:27
-#| msgid "使用方法：删除`installer_config.json`，保留`installer_config_cn.json`即自动启用`installer_config_cn.json`。"
 msgid "使用方法：删除 `installer_config.json` ，保留 `installer_config_cn.json` 即自动启用 `installer_config_cn.json` 。"
 msgstr ""
 
@@ -2928,7 +2913,7 @@ msgstr "| Branch | The branch where the code will be downloaded. The following b
 
 #: ../base\jijiking.pygettext:9
 msgid "# 急急急"
-msgstr ""
+msgstr "# Quick Start"
 
 #: ../base\jijiking.pygettext:11
 msgid "0. 先看[GIA Launcher自动安装器使用方法](install.md)"
@@ -2974,7 +2959,7 @@ msgstr ""
 
 #: ../base\known_issues.pygettext:9
 msgid "# 已知问题"
-msgstr "# Known issues"
+msgstr "# Known Issues"
 
 #: ../base\known_issues.pygettext:11
 msgid "- 秘境开局会点两下"
