@@ -27,9 +27,9 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 
 > 这里是文档仓库，点star请到主仓库 ~~(如果你需要star文档仓库也可以)~~
 
-## 我是急急国王
+## Quick Start
 
-如果你啥都不想看就想开始用，按照[这个方法](jijiking.md)操作：
+If you don't want to read anything and just want to get started, follow [this method](jijiking.md)
 
 ## Demo Video
 
@@ -39,9 +39,9 @@ Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be
 
 ## Frequently ask question
 
-If you enconter any problem when using, you can take a look at FAQ frist:
+If you enconter any problem when using, you can take a look at FAQ frist
 
-## [功能介绍](functions_detail.md)
+## Function Details
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
 
@@ -110,7 +110,7 @@ Please send the log file in the Logs folder when you feedback.
 
 If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding information in [ERROR_CODE](error_code.md). -->
 
-[Known issues](known_issues.md)
+## [Known issues](known_issues.md)
 
 [Known issues](known_issues.md)
 
@@ -128,9 +128,9 @@ If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding info
 
 - [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)
 
-#### Open Source Library
+### Open Source Library
 
-### Genshin Related
+#### Genshin Related
 
 - [kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)
 - [GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)
@@ -147,7 +147,7 @@ If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding info
 
 - Dataset labeling: [nɡ.](https://space.bilibili.com/396023811)
 
-## 广告
+## Ads
 
 QQ group:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 

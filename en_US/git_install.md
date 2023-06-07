@@ -1,4 +1,4 @@
-### Install from source code
+# Install from source code
 
 <strong>Note: This is run from source code and requires some programming skills. For quick start, see
 [GIA Launcher Usage](./install.md)</strong>

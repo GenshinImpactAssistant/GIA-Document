@@ -1,4 +1,4 @@
-# Known issues
+# Known Issues
 
 - Domain opening will click twice
 - Too close to the map boundary will have image recognition problems

@@ -1,4 +1,4 @@
-# 急急急
+# Quick Start
 
 See [GIA Launcher Auto Installer Tutorial](install.md).
 
