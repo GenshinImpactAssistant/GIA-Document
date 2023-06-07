@@ -1,0 +1,36 @@
+name: Generate Multi Language Documents
+on:
+    push:
+    workflow_dispatch:
+
+jobs:
+    generate_multi_language_documents:
+        strategy:
+            matrix:
+                python-version: ["3.10"]
+                os: [ubuntu-latest]
+        runs-on: ${{ matrix.os }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3.4.0
+            - name: Set up Python ${{ matrix.python-version }}
+              uses: actions/setup-python@v4.5.0
+              with:
+                python-version: ${{ matrix.python-version }}
+            - name: Install dependencies
+              run: |
+                python -m pip install --upgrade pip
+                pip install mdformat-gfm
+            - name: Generate Multi Language Documents from base
+              run: |
+                cd py-gettext-markdown;python gettext-markdown.py md -l zh_CN,en_US -f ../ -c true;cd ../;
+            - name: Lint Markdown
+              run: |
+                mdformat . --number
+            - name: Commit Changes
+              uses: EndBug/add-and-commit@v9.1.3
+              with:
+                committer_name: github-actions[bot]
+                committer_email: github-actions[bot]@users.noreply.github.com
+                message: ':wrench: Generate and format docs by GitHub Actions'
+                add: '*.md'
