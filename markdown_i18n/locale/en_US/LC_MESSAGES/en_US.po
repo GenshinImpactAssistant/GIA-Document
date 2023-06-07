@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-06-07 21:51+0800\n"
-"PO-Revision-Date: 2023-06-07 22:06+0800\n"
+"PO-Revision-Date: 2023-06-07 22:33+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -48,8 +48,6 @@ msgid "- 检查submodule是否clone成功"
 msgstr "- Check if the submodule is successfully cloned"
 
 #: ../base\FAQ.pygettext:21
-#, fuzzy
-#| msgid "- 如果提示`no module name win32gui`, 请重启GIA Launcher。"
 msgid "- 如果提示 `no module name win32gui` , 请重启GIA Launcher。"
 msgstr "- If prompted with `No module name win32gui`, please restart GIA Launcher."
 
@@ -62,10 +60,6 @@ msgid "- 是pip正在复制文件, 如果没有报错, 等待即可."
 msgstr "- It is pip copying files, if no error is reported, just wait."
 
 #: ../base\FAQ.pygettext:26
-#, fuzzy
-#| msgid ""
-#| "- 注意窗口是否出现 `选择：GIA Launcher`的<strong>选择</strong>字样。如果出现，请按下回车以继续程序。 GIA Launcher的本体是bat批处理文件，在点击命令窗口后会暂停，所"
-#| "以不要点击命令行界面。"
 msgid ""
 "- 注意窗口是否出现 `选择：GIA Launcher` 的<strong>选择</strong>字样。如果出现，请按下回车以继续程序。 GIA Launcher的本体是bat批处理文件，在点击命令窗口后会暂停，所以"
 "不要点击命令行界面。"
@@ -118,8 +112,6 @@ msgid "Q: 在大地图总是点歪怎么办？"
 msgstr "Q: What should I do if I always point crookedly in the big map?"
 
 #: ../base\FAQ.pygettext:47
-#, fuzzy
-#| msgid "- 看看有没有设置readme中的`使用前config配置`。"
 msgid "- 看看有没有设置readme中的 `使用前config配置` 。"
 msgstr "- See if the `pre-use configuration` in the readme is set."
 
@@ -128,8 +120,6 @@ msgid "- 目前对传送至周本式秘境，稻妻地图的支持尚不完备�
 msgstr "- Currently, support for teleporting to the weekly style domain and the Inazuma is not yet complete. It will be adapted in the future."
 
 #: ../base\README.pygettext:9
-#, fuzzy
-#| msgid "# genshin_impact_assistant 原神助手"
 msgid "# Genshin Impact Assistant"
 msgstr "# Genshin Impact Assistant"
 
@@ -179,26 +169,18 @@ msgid "## 演示视频"
 msgstr "## Demo Video"
 
 #: ../base\README.pygettext:35
-#, fuzzy
-#| msgid "<https://www.bilibili.com/video/BV1RV4y157m6>(挂了)"
 msgid "<https://www.bilibili.com/video/BV1ps4y1T71A> v0.8.3"
 msgstr "<https://www.bilibili.com/video/BV1RV4y157m6>(hung up)"
 
 #: ../base\README.pygettext:37
-#, fuzzy
-#| msgid "补档 <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能部分过期"
 msgid "<https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能过期"
 msgstr "Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be partially out of date."
 
 #: ../base\README.pygettext:39
-#, fuzzy
-#| msgid "## 常见问题 FAQ"
 msgid "## [常见问题 FAQ](FAQ.md)"
 msgstr "## Frequently ask question"
 
 #: ../base\README.pygettext:41
-#, fuzzy
-#| msgid "如果在使用时遇到问题，可以先看看FAQ："
 msgid "如果在使用时遇到问题，先看看[FAQ](FAQ.md)："
 msgstr "If you enconter any problem when using, you can take a look at FAQ frist:"
 
@@ -305,8 +287,6 @@ msgid "| 位置      | 配置项                | 内容                   |"
 msgstr "| name | configuration | content |"
 
 #: ../base\README.pygettext:90 ../base\jijiking.pygettext:29
-#, fuzzy
-#| msgid "|config/settings/config.json| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|"
 msgid "| 设置-通用设置 | `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。 |"
 msgstr "|config/settings/config.json| `BorderlessWindow` | When using boradless window or full screen, set to true.|"
 
@@ -315,8 +295,6 @@ msgid "可以在GUI或直接从文件中修改。"
 msgstr "Can be modified in the GUI or directly from the file."
 
 #: ../base\README.pygettext:94
-#, fuzzy
-#| msgid "更多其他配置项，参见GUI内的设置介绍。"
 msgid "更多其他配置项，参见GUI内的设置介绍：[GUI使用](gui.md)"
 msgstr "For other configurations, see the notes of settings within the GUI."
 
@@ -325,8 +303,6 @@ msgid "## 错误报告"
 msgstr "## Bug report"
 
 #: ../base\README.pygettext:98
-#, fuzzy
-#| msgid "如果在使用中遇到问题，可以提交issue或在Q群中反馈。"
 msgid "如果在使用中遇到问题，可以提交issue反馈。"
 msgstr "If you encounter ploblems in using, you can create an issue or give a feedback in qq group or discord."
 
@@ -335,8 +311,6 @@ msgid "反馈错误前，请务必确认您已经阅读文档和[FAQ](FAQ.md)中
 msgstr "Please make sure you have read the document and [FAQ](FAQ.md) before feedback bugs."
 
 #: ../base\README.pygettext:102
-#, fuzzy
-#| msgid "反馈错误时，请一并提交 Logs 文件夹中的日志文件。"
 msgid "反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。"
 msgstr "Please send the log file in the Logs folder when you feedback."
 
@@ -353,20 +327,14 @@ msgid "> ——Apache Official Document: Getting Start"
 msgstr ""
 
 #: ../base\README.pygettext:108
-#, fuzzy
-#| msgid "## 错误码"
 msgid "<!-- ## 错误码"
-msgstr "## ERR Code"
+msgstr "<!-- ## ERR Code"
 
 #: ../base\README.pygettext:110
-#, fuzzy
-#| msgid "如果日志输出了`ERR_CODE`或`WARN_CODE`，可以在[ERROR_CODE](error_code.md)中查看对应的信息："
 msgid "如果日志输出了 `ERR_CODE` 或 `WARN_CODE` ，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->"
-msgstr "If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding information in [ERROR_CODE](error_code.md)."
+msgstr "If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding information in [ERROR_CODE](error_code.md). -->"
 
 #: ../base\README.pygettext:112
-#, fuzzy
-#| msgid "[Known issues](known_issues.md)"
 msgid "## [已知问题 Known Issues](known_issues.md)"
 msgstr "[Known issues](known_issues.md)"
 
@@ -379,8 +347,6 @@ msgid "## 性能需求"
 msgstr "## Performance requirements"
 
 #: ../base\README.pygettext:118
-#, fuzzy
-#| msgid "- 此程序至少需要`2.5G内存`与`4G存储空间`(完整安装)."
 msgid "- 此程序至少需要 `2.5G内存` 与 `4G存储空间` (完整安装)."
 msgstr "- This program requires at least `2.5G` RAM and `4G` storage space (full installation)."
 
@@ -419,8 +385,6 @@ msgid "- [空荧酒馆原神地图 kongying-tavern/yuan-shen-map](https://github
 msgstr "- [kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)"
 
 #: ../base\README.pygettext:135
-#, fuzzy
-#| msgid "- [原神-基于图像算法的坐标定位 GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)"
 msgid "- [原神-天理坐标系](https://github.com/GengGode/cvAutoTrack)"
 msgstr "- [GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)"
 
@@ -465,14 +429,10 @@ msgid "qq群:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)"
 msgstr "QQ group:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)"
 
 #: ../base\README.pygettext:153
-#, fuzzy
-#| msgid ""
-#| "开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)\n"
-#| "(请确保你已经会使用git以及github)\n"
 msgid "开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)(请确保你已经会使用git以及github)"
 msgstr ""
 "Developers' Communication Group: [680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)\n"
-"(Make sure you already know how to use git and github)\n"
+"(Make sure you already know how to use git and github)"
 
 #: ../base\claim_reward.pygettext:9
 msgid "# 领取日常奖励"
@@ -568,14 +528,10 @@ msgid "| key             | item                                             |"
 msgstr "| key | item |"
 
 #: ../base\collector_assi.pygettext:40
-#, fuzzy
-#| msgid "| collection_name        | 需要采集的物品名称             |"
 msgid "| collection_name | 需要采集的物品名称                                        |"
 msgstr "| collection_name | name of the item to be collected |"
 
 #: ../base\collector_assi.pygettext:41
-#, fuzzy
-#| msgid "| collection_type    | 采集的物品类型，分为`COLLECTION`（一般采集物）和`ENEMY`（战斗掉落物）|"
 msgid "| collection_type | 采集的物品类型，分为 `COLLECTION` （一般采集物）和 `ENEMY` （战斗掉落物） |"
 msgstr "| collection_type | type of collection，devided into `COLLECTION`（general collection）and `ENEMY`（combat drops）|"
 
@@ -596,8 +552,6 @@ msgid "| time        | 采集时间             |"
 msgstr "| time | collect time |"
 
 #: ../base\collector_assi.pygettext:50
-#, fuzzy
-#| msgid "| id          | 采集物id         |"
 msgid "| id          | 采集物id            |"
 msgstr "| id | collection id |"
 
@@ -647,8 +601,6 @@ msgid "注：自动配置战斗文件默认开启，如果你不想配置，可�
 msgstr ""
 
 #: ../base\combat_assi.pygettext:15
-#, fuzzy
-#| msgid "- 位置：`config/settings/tactic`"
 msgid "- 位置： `config/settings/tactic`"
 msgstr "- Location: `config/settings/tactic` or CombatSetting in GUI."
 
@@ -665,14 +617,10 @@ msgid "- 需要原神以1080p窗口化运行。不建议设置色彩滤镜。"
 msgstr "- Require the Genshin to run in 1080p windowing. Not recommend to set color filters."
 
 #: ../base\combat_assi.pygettext:19
-#, fuzzy
-#| msgid "- 需要设置`team.json`文件，设置方法如下所示。"
 msgid "- 需要设置 `team.json` 文件，设置方法如下所示。"
 msgstr "- Need to set `team.json` file. The setting method is shown below."
 
 #: ../base\combat_assi.pygettext:20
-#, fuzzy
-#| msgid "- 推荐带一个钟离，如果没有钟离可以带4个护盾角色。"
 msgid "- 非常推荐带一个钟离，如果没有钟离可以带4个护盾角色。"
 msgstr "- Recommend to bring Zhongli, if not can bring 3~4 shield characters."
 
@@ -737,8 +685,6 @@ msgid "| 数字            | 延时，单位为`毫秒`                     |"
 msgstr "| num | delay, unit is milliseconds. |"
 
 #: ../base\combat_assi.pygettext:41
-#, fuzzy
-#| msgid "每个策略关键字用`,`分隔；不同策略组用`;`分隔。当一组策略执行完毕后，执行下一个策略组。"
 msgid "每个策略关键字用 `,` 分隔；不同策略组用 `;` 分隔。当一组策略执行完毕后，执行下一个策略组。"
 msgstr ""
 "Each tactic keyword is separated by `,`; different policy groups are separated by `;`. When the execution of a group of policies is finished, execute the next "
@@ -761,32 +707,22 @@ msgid "- 不能添加空格。"
 msgstr "- Cannot include space."
 
 #: ../base\combat_assi.pygettext:51
-#, fuzzy
-#| msgid "- 在判断表达式中，策略关键字之间用`.`分隔。"
 msgid "- 在判断表达式中，策略关键字之间用 `.` 分隔。"
 msgstr "- In the judgment expressions, the tactic keyword shoule be separated by `.` ."
 
 #: ../base\combat_assi.pygettext:53
-#, fuzzy
-#| msgid "含有`?`的策略关键字用法与三元运算符相近，如："
 msgid "含有 `?` 的策略关键字用法与三元运算符相近，如："
 msgstr "A tactic keyword containing `?` tactic keyword usage is similar to the ternary operator, e.g:"
 
 #: ../base\combat_assi.pygettext:55
-#, fuzzy
-#| msgid "`@e?e:a;`：当元素战技准备时执行e，否则执行a。"
 msgid "`@e?e:a;` ：当元素战技准备时执行e，否则执行a。"
 msgstr "`@e?e:a;`: When Elemental is ready, execute `e`(use Elemental Skill), otherwise execute `a`(normal attack)"
 
 #: ../base\combat_assi.pygettext:57
-#, fuzzy
-#| msgid "`@e?e.a.a:none;`：当元素战技准备时执行`e,a,a`，否则不执行。"
 msgid "`@e?e.a.a:none;` ：当元素战技准备时执行 `e,a,a` ，否则不执行。"
 msgstr "`@e?e.a.a:none;`：When Elemental is ready, execute`e,a,a`，otherwise not execute anything."
 
 #: ../base\combat_assi.pygettext:59
-#, fuzzy
-#| msgid "其中，`none` 可以为其他任何无意义字符，表示不执行任何动作。"
 msgid "其中， `none` 可以为其他任何无意义字符，表示不执行任何动作。"
 msgstr "Where `none` can be any other meaningless character, indicating that no action is performed."
 
@@ -843,10 +779,6 @@ msgid "| `idle`    | 始终触发               |"
 msgstr "| `idle` | always enable |"
 
 #: ../base\combat_assi.pygettext:84
-#, fuzzy
-#| msgid ""
-#| "可以使用多个触发器，触发器之间用逗号分隔。不能有空格。\n"
-#| "当多个角色的触发条件成立时，切换角色的顺序由优先级决定。"
 msgid "可以使用多个触发器，触发器之间用逗号分隔。不能有空格。当多个角色的触发条件成立时，切换角色的顺序由优先级决定。"
 msgstr ""
 "Multiple triggers can be used, with commas sparating the trigger. There can be no space.\n"
@@ -861,54 +793,34 @@ msgid "角色定位是角色在队伍中的作用。"
 msgstr "Position is the role of the character in the team."
 
 #: ../base\combat_assi.pygettext:90
-#, fuzzy
-#| msgid "| 类型       | 说明|"
 msgid "| 类型         | 说明    |"
 msgstr "| type | description |"
 
 #: ../base\combat_assi.pygettext:92
-#, fuzzy
-#| msgid "| `Main` | 主输出角色 |"
 msgid "| `Main`     | 主输出角色 |"
 msgstr "| `Main` | Main damage character |"
 
 #: ../base\combat_assi.pygettext:93
-#, fuzzy
-#| msgid "| `Shield` | 护盾类角色 |"
 msgid "| `Shield`   | 护盾类角色 |"
 msgstr "| `Shield` | Shield character |"
 
 #: ../base\combat_assi.pygettext:94
-#, fuzzy
-#| msgid "| `Support`    | 辅助类角色 |"
 msgid "| `Support`  | 辅助类角色 |"
 msgstr "| `Support` | Support character |"
 
 #: ../base\combat_assi.pygettext:95
-#, fuzzy
-#| msgid "| `Recovery` | 回血类角色|"
 msgid "| `Recovery` | 回血类角色 |"
 msgstr "| `Recovery` | Recovery character |"
 
 #: ../base\combat_assi.pygettext:97
-#, fuzzy
-#| msgid ""
-#| "角色定位的设置会影响自动战斗的部分功能。\n"
-#| "## 优先级 priority"
 msgid "角色定位的设置会影响自动战斗的部分功能。"
-msgstr ""
-"The character position settings affact some of the feature in the Auto Combat Assist.\n"
-"## Priority"
+msgstr "The character position settings affact some of the feature in the Auto Combat Assist."
 
 #: ../base\combat_assi.pygettext:99
 msgid "## 优先级 priority"
-msgstr ""
+msgstr "## Priority"
 
 #: ../base\combat_assi.pygettext:101
-#, fuzzy
-#| msgid ""
-#| "优先级从小到大依次降低，0为最高优先级。\n"
-#| "优先级可以同级。"
 msgid "优先级从小到大依次降低，0为最高优先级。优先级可以同级。"
 msgstr ""
 "The priority decreases from smallest to largest, with 0 being the highest priority.\n"
@@ -923,26 +835,18 @@ msgid "n=角色在队伍中的位置, n∈{1,2,3,4}"
 msgstr "n is the character id in the team, n∈{1,2,3,4}"
 
 #: ../base\combat_assi.pygettext:107
-#, fuzzy
-#| msgid "- `Shield`:1000+n"
 msgid "- `Shield` :1000+n"
 msgstr "- `Shield`:1000+n"
 
 #: ../base\combat_assi.pygettext:108
-#, fuzzy
-#| msgid "- `Recovery`:1500+n"
 msgid "- `Recovery` :1500+n"
 msgstr "- `Recovery`:1500+n"
 
 #: ../base\combat_assi.pygettext:109
-#, fuzzy
-#| msgid "- `Support`:3000+n"
 msgid "- `Support` :3000+n"
 msgstr "- `Support`:3000+n"
 
 #: ../base\combat_assi.pygettext:110
-#, fuzzy
-#| msgid "- `Main`:2000+n"
 msgid "- `Main` :2000+n"
 msgstr "- `Main`:2000+n"
 
@@ -1008,8 +912,6 @@ msgid "其余角色只有基本参数，没有经过核对与适配。如果你�
 msgstr ""
 
 #: ../base\combat_assi.pygettext:138
-#, fuzzy
-#| msgid "[支持的角色列表](../../assets/characters_data/characters_parameters.json)"
 msgid "默认角色参数文件位置： `assets/characters_data/characters_parameters.json`"
 msgstr "[List of supported roles](../../assets/characters_data/characters_parameters.json)"
 
@@ -1018,16 +920,12 @@ msgid "## 自动生成team文件"
 msgstr "## Automatically generate TEAM files"
 
 #: ../base\combat_assi.pygettext:142
-#, fuzzy
-#| msgid "如果在设置中启用了自动生成team文件，则会在战斗开始前扫描角色列表并扫描tactic下的所有策略文件，选择符合的策略文件。"
 msgid "如果在设置中启用了自动生成team文件，则会在战斗开始前扫描角色列表并**优先扫描tactic下的所有策略文件**，选择符合的策略文件。"
 msgstr ""
 "If automatic TEAM file generation is enabled in the settings, the character list will be scanned and all tactic files under tactic folder will be scanned before the "
 "battle starts and the matching tactic files will be selected."
 
 #: ../base\combat_assi.pygettext:144
-#, fuzzy
-#| msgid "如果没有符合的策略文件吗，则根据[支持的角色列表](../../assets/characters_data/characters_parameters.json)自动生成一套战斗策略。"
 msgid "如果没有符合的策略文件，则自动生成一套战斗策略。"
 msgstr ""
 "If there is no matching tactic file, then according to [list of supported roles](... /... /assets/characters_data/characters_parameters.json) to automatically "
@@ -1054,42 +952,26 @@ msgid "- 不在合适的界面时，程序可能暂停运行。"
 msgstr "- The program may pause when it is not in the right interface."
 
 #: ../base\combat_assi.pygettext:155
-#, fuzzy
-#| msgid "由于~~是个非酋~~能力有限，角色较少，上述配置并非最优方案，如果你有更好的方案，随时`issue`"
 msgid "由于~~是个非酋~~能力有限，角色较少，默认战斗配置并非最优方案，如果你有更好的方案，随时 `issue`"
 msgstr "Due to limited capacity and fewer characters, the above configuration is not the optimal solution, if you have a better plan, feel free to `issue`."
 
 #: ../base\combat_assi.pygettext:157
-#, fuzzy
-#| msgid "如果遇到无法解决的问题，也可提交`issue`。"
 msgid "如果遇到无法解决的问题，也可提交 `issue` 。"
 msgstr "If you encounter a problem that cannot be solved, you can also submit an `issue`."
 
 #: ../base\combat_assi.pygettext:159
-#, fuzzy
-#| msgid "如果有好的角色输出手法可以发`issue`或者在q群分享~"
 msgid "如果有好的角色输出手法可以 `issue` 或者在q群分享~"
 msgstr "If you have a good character tactic group, welcome to send `issue` too."
 
 #: ../base\combat_assi.pygettext:161
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "## team.json文件示例"
 msgid "## team.json文件示例"
-msgstr ""
-"\n"
-"## team.json file example"
+msgstr "## team.json file example"
 
 #: ../base\combat_assi.pygettext:163
-#, fuzzy
-#| msgid "你可以新建新的策略文件并将设置中的`teamfile`修改为你自己的文件."
 msgid "你可以新建新的策略文件并将设置中的 `teamfile` 修改为你自己的文件."
 msgstr "You can create a new tactic file and change the `teamfile` in the CombatSettings to your own file."
 
 #: ../base\combat_assi.pygettext:165
-#, fuzzy
-#| msgid "不能在`示例json`中直接修改，否则你的修改将在下一次启动后清除。"
 msgid "不能在 `示例json` 中直接修改，否则你的修改将在下一次启动后清除。"
 msgstr "You cannot modify it directly in the `example json`, otherwise your changes will be cleared after the next startup."
 
@@ -1098,22 +980,16 @@ msgid "文件示例："
 msgstr "File Example:"
 
 #: ../base\combat_assi.pygettext:169
-#, fuzzy
-#| msgid "[文件示例1 宵宫 钟离 班尼特 云堇](../team_example_1.json)"
 msgid "[文件示例1 宵宫 钟离 班尼特 云堇](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_1.json)"
 msgstr "[File example 1: Yoimiya, Zhongli Bennett Yun Jin](../team_example_1.json)"
 
 #: ../base\combat_assi.pygettext:171
-#, fuzzy
-#| msgid "[文件示例3 凌人 钟离 班尼特 纳西妲](../team_example_3.json)"
 msgid "[文件示例3 凌人 钟离 班尼特 纳西妲](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_3.json)"
 msgstr "[File example 3](../team_example_3.json)"
 
 #: ../base\combat_assi.pygettext:173
-#, fuzzy
-#| msgid "在tactic文件夹中也有该示例文件。\n"
 msgid "在tactic文件夹中也有该示例文件。"
-msgstr "The example file is also available in the tactic folder.\n"
+msgstr "The example file is also available in the tactic folder."
 
 #: ../base\commission_assi.pygettext:9
 msgid "# 自动每日委托"
@@ -1196,10 +1072,8 @@ msgid "TLC(TianLiCopilot)基于TeyvatMoveFlow(TMF)提瓦特移动控制流。"
 msgstr ""
 
 #: ../base\dev\TianLiCopilot.pygettext:13
-#, fuzzy
-#| msgid "# TianLiPositioningSystem"
 msgid "TLC使用[TLPS](TianLiPositioningSystem)定位."
-msgstr "# TianLiPositioningSystem"
+msgstr ""
 
 #: ../base\dev\TianLiCopilot.pygettext:17
 msgid "TLC包含2种模式: `AUTO` 与 `PATH` ."
@@ -1230,10 +1104,8 @@ msgid "如果启用了TLN(TianLi Positioning Navigator),会使用TLN进行辅助
 msgstr ""
 
 #: ../base\dev\TianLiCopilot.pygettext:31
-#, fuzzy
-#| msgid "# TianLiPositioningSystem"
 msgid "[TLPS&TLN](TianLiPositioningSystem.md)"
-msgstr "# TianLiPositioningSystem"
+msgstr ""
 
 #: ../base\dev\TianLiCopilot.pygettext:33
 msgid "### PATH模式"
@@ -1288,16 +1160,13 @@ msgid "## 函数参数"
 msgstr ""
 
 #: ../base\dev\TianLiCopilot.pygettext:50
-#, fuzzy
-#| msgid "### Task"
 msgid "### TMC"
-msgstr "### Task"
+msgstr ""
 
 #: ../base\dev\TianLiPositioningPath.pygettext:9
-#, fuzzy
 #| msgid "# TianLiPositioningSystem"
 msgid "# TianLiPositioningPath TLPP"
-msgstr "# TianLiPositioningSystem"
+msgstr ""
 
 #: ../base\dev\TianLiPositioningPath.pygettext:11
 msgid "> 编写中..."
@@ -1372,22 +1241,16 @@ msgid "- 否则，将对应index的BP改为与它的上一个BP或下一个BP相
 msgstr ""
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:9
-#, fuzzy
-#| msgid "# TLPS & TLN "
 msgid "# TLPS & TLN"
 msgstr "# TLPS & TLN "
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:11
-#, fuzzy
-#| msgid "# TianLiPositioningSystem"
 msgid "## TianLiPositioningSystem"
-msgstr "# TianLiPositioningSystem"
+msgstr "## TianLiPositioningSystem"
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:13 ../base\dev\TianLiPositioningSystem.pygettext:21
-#, fuzzy
-#| msgid "## 介绍"
 msgid "### 介绍"
-msgstr "## Introduction"
+msgstr "### Introduction"
 
 #: ../base\dev\TianLiPositioningSystem.pygettext:15
 msgid "TLPS是基于OpenCV的小地图定位算法，小地图视角识别算法，小地图方向识别算法，大地图定位算法和相关的集成功能。"
@@ -1526,8 +1389,6 @@ msgid "  保存。"
 msgstr ""
 
 #: ../base\dev\commission.pygettext:9
-#, fuzzy
-#| msgid "# 自动每日委托"
 msgid "# 每日委托任务"
 msgstr "# Automatic Daily Commission"
 
@@ -1552,8 +1413,6 @@ msgid "你可以在[source/commission/commissions](https://github.com/infstellar
 msgstr ""
 
 #: ../base\dev\commission.pygettext:23
-#, fuzzy
-#| msgid "演示视频：<https://www.bilibili.com/video/BV163411Q7fD>"
 msgid "参考视频:https://www.bilibili.com/video/BV1Lu411W71q"
 msgstr "Demo video：<https://www.bilibili.com/video/BV163411Q7fD>"
 
@@ -1646,10 +1505,8 @@ msgid "否则,请运行 `source\\commission\\dev_tools\\get_position.py` 文件.
 msgstr ""
 
 #: ../base\dev\commission.pygettext:64
-#, fuzzy
-#| msgid "### Mission"
 msgid "## 调试Commission"
-msgstr "### Mission"
+msgstr ""
 
 #: ../base\dev\commission.pygettext:68
 msgid "## 添加Commission到GIA"
@@ -1988,14 +1845,10 @@ msgid "# Mission(自定义任务)"
 msgstr ""
 
 #: ../base\dev\mission.pygettext:13
-#, fuzzy
-#| msgid "Mission是GIA中在大世界执行功能的便携集成化单元，使用统一的接口，编写简单，使用方便。"
 msgid "Mission(自定义任务)是GIA中在大世界执行功能的便携集成化单元，使用统一的接口，编写简单，使用方便。"
 msgstr "Mission is a portable, integrated unit in GIA that performs functions in the Teyvat world, using a unified interface that is simple to write and use."
 
 #: ../base\dev\mission.pygettext:15
-#, fuzzy
-#| msgid "Mission可以实现的功能包括采集、战斗、NPC对话(正在制作)与行走。通过功能的组合可以实现固定路线采集、任务自动化等功能。"
 msgid "自定义任务可以实现的功能包括行走、采集、战斗、NPC对话(半成品)。通过功能的组合可以实现固定路线采集、任务自动化等功能。"
 msgstr ""
 "Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) and walking. The combination of functions allows for fixed route gathering, mission "
@@ -2040,10 +1893,9 @@ msgid "我们将从这一段代码开始，介绍Mission的各个组成部分。
 msgstr ""
 
 #: ../base\dev\mission.pygettext:41
-#, fuzzy
 #| msgid "### Mission"
 msgid "## 导入Mission模板"
-msgstr "### Mission"
+msgstr ""
 
 #: ../base\dev\mission.pygettext:43
 msgid "对于简单的采集自定义任务，应当使用"
@@ -2054,10 +1906,9 @@ msgid "导入MissionJustCollect模板类。"
 msgstr ""
 
 #: ../base\dev\mission.pygettext:49
-#, fuzzy
 #| msgid "### Mission"
 msgid "## 创建Mission信息"
-msgstr "### Mission"
+msgstr ""
 
 #: ../base\dev\mission.pygettext:51
 msgid "在导入模板类之后，输入以下代码："
@@ -2098,10 +1949,9 @@ msgid "如果META中缺少name或缺少对应语言，则会自动使用mission�
 msgstr ""
 
 #: ../base\dev\mission.pygettext:67
-#, fuzzy
 #| msgid "### Mission"
 msgid "## 创建Mission类"
-msgstr "### Mission"
+msgstr ""
 
 #: ../base\dev\mission.pygettext:69
 msgid "和示例一样，输入 `class MissionMain(MissionJustCollect):` 来创建你的Mission类。"
@@ -2148,10 +1998,9 @@ msgid "只需指定你要运行的TLPP文件，MissionJustCollect会将它扩展
 msgstr ""
 
 #: ../base\dev\mission.pygettext:93
-#, fuzzy
 #| msgid "### Mission"
 msgid "## 将Mission加入GIA"
-msgstr "### Mission"
+msgstr ""
 
 #: ../base\dev\mission.pygettext:95
 msgid "目前，我们就完成了一个Mission的创建。"
@@ -2198,10 +2047,9 @@ msgid "> 如果你在阅读 `快速开始` 文档时，遇到混淆、阻碍或�
 msgstr ""
 
 #: ../base\dev\mission.pygettext:119
-#, fuzzy
 #| msgid "# Mission"
 msgid "# Mission详细介绍"
-msgstr "# Mission"
+msgstr ""
 
 #: ../base\dev\mission.pygettext:121
 msgid "这是面向有一定python基础的开发者。"
@@ -2216,10 +2064,8 @@ msgid "## 使用"
 msgstr "## Usage"
 
 #: ../base\dev\mission.pygettext:127
-#, fuzzy
-#| msgid "从MissionExecutor类继承。"
 msgid "从Mission类继承。"
-msgstr "## Inherited from the MissionExecutor class."
+msgstr "Inherited from the MissionExecutor class."
 
 #: ../base\dev\mission.pygettext:131
 msgid "## 方法"
@@ -2231,7 +2077,7 @@ msgstr ""
 
 #: ../base\dev\mission.pygettext:135
 msgid "## 写一个Mission"
-msgstr "### Write a Mission"
+msgstr "## Write a Mission"
 
 #: ../base\dev\mission.pygettext:137
 msgid "首先，继承Mission。"
@@ -2423,8 +2269,6 @@ msgid "允许用户上传/下载自定义任务"
 msgstr ""
 
 #: ../base\dev\need_help.pygettext:17
-#, fuzzy
-#| msgid "## 启动"
 msgid "## 启动原神任务"
 msgstr "## Startup"
 
@@ -2442,7 +2286,7 @@ msgstr ""
 
 #: ../base\dev\path_recorder.pygettext:15
 msgid "### 加载"
-msgstr "#### Loading"
+msgstr "### Loading"
 
 #: ../base\dev\path_recorder.pygettext:17
 msgid "1. 运行path_recorder_flow.py。"
@@ -2457,10 +2301,8 @@ msgid "3. 等待提示 `Load over.` `ready to start.` 即准备完成。"
 msgstr ""
 
 #: ../base\dev\path_recorder.pygettext:21
-#, fuzzy
-#| msgid "## 运行"
 msgid "### 运行"
-msgstr "## Run"
+msgstr "### Run"
 
 #: ../base\dev\path_recorder.pygettext:23
 msgid "1. 按下 `\\` 键，提示 `ready to start recording` 。如果没有，就再按一次。"
@@ -2563,8 +2405,6 @@ msgid "- `]` ：开始/停止记录路径"
 msgstr ""
 
 #: ../base\dev\video2path.pygettext:41
-#, fuzzy
-#| msgid "## 使用方法"
 msgid "## 使用方法："
 msgstr "## How to use"
 
@@ -2664,8 +2504,6 @@ msgid "1. 先选好队伍，进入秘境后再启动。"
 msgstr "1. Choose a team first and start it after entering the domain."
 
 #: ../base\domain_assi.pygettext:33
-#, fuzzy
-#| msgid "2. 挑战在璃月或部分石化古树被墙壁阻挡视野的秘境时，请在`config.json`中将`isLiYueDomain`设置为`true`。"
 msgid "2. 挑战在璃月或部分石化古树被墙壁阻挡视野的秘境时，请将 `IsObscuredDomain` 设置为 `true` 。"
 msgstr "2. When you challenge a domain where the view of tree is blocked by walls , please set `isLiYueDomain` to `true` in domain setting."
 
@@ -2674,26 +2512,18 @@ msgid "# 错误码"
 msgstr "## ERR Code"
 
 #: ../base\error_code.pygettext:11
-#, fuzzy
-#| msgid "查看错误码含义及解决方案。\n"
 msgid "查看错误码含义及解决方案。"
-msgstr "Check the error code meaning and solution.\n"
+msgstr "Check the error code meaning and solution."
 
 #: ../base\functions_detail.pygettext:9
-#, fuzzy
-#| msgid "## 功能介绍"
 msgid "# 详细功能介绍"
-msgstr "## Function Introduction"
+msgstr "# Function Introduction"
 
 #: ../base\functions_detail.pygettext:11
-#, fuzzy
-#| msgid "### 5. [每日领取凯瑟琳](./claim_reward.md)"
 msgid "## 1. [领取日常奖励](claim_reward.md)"
-msgstr "### 5. [Claim Daily Reward](./claim_reward.md)"
+msgstr "## 5. [Claim Daily Reward](./claim_reward.md)"
 
 #: ../base\functions_detail.pygettext:13
-#, fuzzy
-#| msgid "在Task list中选择地脉衍出，启动任务。"
 msgid "在Task list中选择领取日常奖励，启动任务。"
 msgstr "Select the Ley Line Outcrop in the Task list and start the task."
 
@@ -2702,24 +2532,18 @@ msgid "> 最稳定的功能(因为简单..)"
 msgstr ""
 
 #: ../base\functions_detail.pygettext:17
-#, fuzzy
-#| msgid "### 1. [自动战斗辅助](./combat_assi.md)"
 msgid "## 2. [战斗辅助](combat_assi.md)"
-msgstr "### 1. [Auto Combat Assist](./combat_assi.md)"
+msgstr "## 2. [Auto Combat Assist](./combat_assi.md)"
 
 #: ../base\functions_detail.pygettext:19
 msgid "- 在GUI中将FlowMode切换到AutoCombat，等待模块导入"
 msgstr "- Switch Function to AutoCombat and wait for the module to be imported."
 
 #: ../base\functions_detail.pygettext:20
-#, fuzzy
-#| msgid "- 按下`[`键启动/停止功能。可在`keymap.json`中更改。"
 msgid "- 按下 `[` 键启动/停止功能。可在 `keymap.json` 中更改。"
 msgstr "- Press `[` key to start/stop function. Can be edited in `keymap`."
 
 #: ../base\functions_detail.pygettext:22
-#, fuzzy
-#| msgid "其他设置参见[自动战斗辅助介绍](./combat_assi.md)."
 msgid "其他设置参见[自动战斗辅助介绍](combat_assi.md)."
 msgstr "For other settings, see [Auto Combat Assist introduction](./combat_assi.md)."
 
@@ -2728,10 +2552,8 @@ msgid "> ~~单拉出来的一个核心功能,只有这个不是全自动~~"
 msgstr ""
 
 #: ../base\functions_detail.pygettext:26
-#, fuzzy
-#| msgid "### 4. [自动每日委托辅助](./commission_assi.md)"
 msgid "## 3. [自动每日委托](commission_assi.md)"
-msgstr "### 4. [Auto Daily Commission Assist](./commission_assi.md)"
+msgstr "## 3. [Auto Daily Commission Assist](./commission_assi.md)"
 
 #: ../base\functions_detail.pygettext:30
 msgid "> 目前仅能完成以下委托："
@@ -2742,34 +2564,24 @@ msgid "> ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,"
 msgstr ""
 
 #: ../base\functions_detail.pygettext:32
-#, fuzzy
-#| msgid "> 目前仅能完成以下委托：ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger."
 msgid "> BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,IncreasingDanger."
 msgstr ""
 "> For now, it can only complete this request: ASmallStepForHilichurls,Emergency,IcyIssues,ForTheHarbingers,BigIceColdCrisis,SpreadingEvil,PudgyPyrotechnicians,"
 "IncreasingDanger."
 
 #: ../base\functions_detail.pygettext:34
-#, fuzzy
-#| msgid "详情参见[自动每日委托辅助介绍](./commission_assi.md)."
 msgid "详情参见[自动每日委托辅助介绍](commission_assi.md)."
 msgstr "For more detiles, see [Auto Daily Commission Assist introduction](./commission_assi.md)."
 
 #: ../base\functions_detail.pygettext:36
-#, fuzzy
-#| msgid "### 6. [自动地脉衍出辅助](./ley_line_ourcrop.md)"
 msgid "## 4. [自动地脉衍出](ley_line_ourcrop.md)"
-msgstr "### 6. [Auto Ley Line Outcrop Assist](./ley_line_ourcrop.md)"
+msgstr "## 4. [Auto Ley Line Outcrop Assist](./ley_line_ourcrop.md)"
 
 #: ../base\functions_detail.pygettext:38 ../base\ley_line_ourcrop.pygettext:11
-#, fuzzy
-#| msgid "自动刷`地脉衍出·启示之花`和`地脉衍出·藏金之花`。"
 msgid "自动刷位于**蒙德**的 `地脉衍出·启示之花` 和 `地脉衍出·藏金之花` 。"
 msgstr "Auto obtain Blossom of Wealth or Revelation."
 
 #: ../base\functions_detail.pygettext:40
-#, fuzzy
-#| msgid "在设置页面可以配置设置。"
 msgid "在设置页面中设置次数和类型。"
 msgstr "You can configure the settings in the settings page."
 
@@ -2778,10 +2590,8 @@ msgid "在Task list中选择地脉衍出，启动任务。"
 msgstr "Select the Ley Line Outcrop in the Task list and start the task."
 
 #: ../base\functions_detail.pygettext:44
-#, fuzzy
-#| msgid "### 2. [自动秘境辅助](./domain_assi.md)"
 msgid "## 5. [自动秘境](domain_assi.md)"
-msgstr "### 2. [Auto Domain Assist](./domain_assi.md)"
+msgstr "## 5. [Auto Domain Assist](./domain_assi.md)"
 
 #: ../base\functions_detail.pygettext:46
 msgid "- 目前最好用的功能~!"
@@ -2796,10 +2606,8 @@ msgid "2. 手动选择队伍,配置队伍,进入秘境."
 msgstr "2. Configure the team and enter the domain."
 
 #: ../base\functions_detail.pygettext:50
-#, fuzzy
-#| msgid "3. 进入秘境后(也可以在大世界),在GUI TaskList中选中DomainTask，点击启动任务"
 msgid "3. 进入秘境后(也可以在大世界,但要正确设置秘境名和关卡名),在GUI TaskList中选中DomainTask，点击启动任务"
-msgstr "- After entering the Domain(also in teyvat world), select DomainTask in the GUI TaskList and click Start Task button"
+msgstr "3. After entering the Domain(also in teyvat world), select DomainTask in the GUI TaskList and click Start Task button"
 
 #: ../base\functions_detail.pygettext:51
 msgid "4. 等待导入完成后切换到原神"
@@ -2810,14 +2618,10 @@ msgid "5. 双手离开键盘"
 msgstr ""
 
 #: ../base\functions_detail.pygettext:54
-#, fuzzy
-#| msgid "- 注意阅读[domain_assi.md](./domain_assi.md)中的注意事项."
 msgid "- 注意阅读[domain_assi.md](domain_assi.md)中的注意事项."
-msgstr "Be careful to read the notes in [domain_assi.md](./domain_assi.md)."
+msgstr "- Be careful to read the notes in [domain_assi.md](./domain_assi.md)."
 
 #: ../base\functions_detail.pygettext:56
-#, fuzzy
-#| msgid "其他设置参见[自动秘境辅助介绍](./domain_assi.md)."
 msgid "其他设置参见[自动秘境辅助介绍](domain_assi.md)."
 msgstr "For other settings, sett [Auto Domain Assist introduction](./domain_assi.md)."
 
@@ -2826,10 +2630,8 @@ msgid "> ~~冰本的地板会把人冻死，记得多带点奶...~~"
 msgstr ""
 
 #: ../base\functions_detail.pygettext:60
-#, fuzzy
-#| msgid "### 3. [自动采集辅助](./collector_assi.md)"
 msgid "## 6. [自动采集辅助](collector_assi.md)"
-msgstr "### 3. [Auto Collect Assist](./collector_assi.md)"
+msgstr "## 6. [Auto Collect Assist](./collector_assi.md)"
 
 #: ../base\functions_detail.pygettext:62
 msgid "> 非常垃圾，但是通用"
@@ -2840,14 +2642,10 @@ msgid "- 在自定义任务中选择通用自动采集，启动自定义任务"
 msgstr ""
 
 #: ../base\functions_detail.pygettext:65
-#, fuzzy
-#| msgid "- 注意阅读[collector_assi.md](./collector_assi.md)中的注意事项."
 msgid "- 注意阅读[collector_assi.md](collector_assi.md)中的注意事项."
 msgstr "- Be careful to read the notes in [collector_assi.md](./collector_assi.md)."
 
 #: ../base\functions_detail.pygettext:67
-#, fuzzy
-#| msgid "其他设置参见[自动采集辅助介绍](./collector_assi.md)."
 msgid "其他设置参见[自动采集辅助介绍](collector_assi.md)."
 msgstr "For other settings, see[Auto Collector Assist introduction](./collector_assi.md)."
 
@@ -2876,10 +2674,6 @@ msgid "# 从源代码安装"
 msgstr "### Install from source code"
 
 #: ../base\git_install.pygettext:11
-#, fuzzy
-#| msgid ""
-#| "<strong>注意: 这里是从源代码运行,需要一定编程基础.快速使用请参见:\n"
-#| "[GIA Launcher自动安装器使用方法](./install.md)</strong>"
 msgid "<strong>注意: 这里是从源代码运行,需要一定编程基础.快速使用请参见:[GIA Launcher自动安装器使用方法](install.md)</strong>"
 msgstr ""
 "<strong>Note: This is run from source code and requires some programming skills. For quick start, see\n"
@@ -3001,8 +2795,6 @@ msgid "辅助功能是一些半自动的功能模块，能够自动辅助部分�
 msgstr "The auxiliary functions are some semi-automatic function modules that can automatically assist some operations."
 
 #: ../base\gui.pygettext:41
-#, fuzzy
-#| msgid "在原神中按下快捷键(默认为`[`)即可启动/停止。"
 msgid "在原神中按下快捷键(默认为 `[` )即可启动/停止。"
 msgstr "Press the hotkey (default is `[`) in the Genshin to start/stop."
 
@@ -3023,12 +2815,10 @@ msgid "## 远程操作"
 msgstr "## Remote Control"
 
 #: ../base\gui.pygettext:51
-#, fuzzy
-#| msgid "在`main`界面按下`获取ip`即可获取局域网连接ip，可以在电脑上输入该ip，连接到GIA控制面板，操作另一台电脑上的GIA。\n"
 msgid "在 `main` 界面按下 `获取ip` 即可获取局域网连接ip，可以在电脑上输入该ip，连接到GIA控制面板，操作另一台电脑上的GIA。"
 msgstr ""
 "Press `Get ip` in the `main` screen to get the LAN connection ip, you can enter that ip on your computer to connect to the GIA control panel and operate the GIA on "
-"another computer.\n"
+"another computer."
 
 #: ../base\install.pygettext:9
 msgid "# 安装方法"
@@ -3047,10 +2837,6 @@ msgid "## 下载"
 msgstr "## Download"
 
 #: ../base\install.pygettext:17
-#, fuzzy
-#| msgid ""
-#| "[GIA Launcher v0.6](https://github.com/infstellar/genshin_impact_assistant/releases/download/v0.6.0-beta.542/GIA_Launcher_v0.6.0.7z)\n"
-#| "注意：如果你之前下载了v0.3版本的启动器，需要全部删除(toolkit文件夹可不删除，跳过重复安装依赖)所有文件后再启动新的启动器。"
 msgid ""
 "[GIA Launcher v0.6](https://github.com/infstellar/genshin_impact_assistant/releases/download/v0.6.0-beta.542/GIA_Launcher_v0.6.0.7z)注意：如果你之前下载了v0.3版本的"
 "启动器，需要全部删除(toolkit文件夹可不删除，跳过重复安装依赖)所有文件后再启动新的启动器。"
@@ -3064,8 +2850,6 @@ msgid "## 使用方式"
 msgstr "## How to use"
 
 #: ../base\install.pygettext:21
-#, fuzzy
-#| msgid "双击`GIA Launcher.exe`运行。"
 msgid "双击 `GIA Launcher.exe` 运行。"
 msgstr "Double click on `GIA Launcher.exe` to run it."
 
@@ -3084,8 +2868,6 @@ msgid "使用方法：删除 `installer_config.json` ，保留 `installer_config
 msgstr ""
 
 #: ../base\install.pygettext:29
-#, fuzzy
-#| msgid "具体配置："
 msgid "具体配置(可选)："
 msgstr "Specific configuration."
 
@@ -3109,8 +2891,6 @@ msgid ""
 msgstr ""
 
 #: ../base\install.pygettext:35
-#, fuzzy
-#| msgid "| PypiMirror          | Pypi镜像网站，国内用户需要设置为 `https://pypi.tuna.tsinghua.edu.cn/simple` 或其他国内镜像源。                  |"
 msgid ""
 "| PypiMirror          | Pypi镜像网站，国内用户需要设置为 `https://pypi.tuna.tsinghua.edu.cn/simple` 或其他国内镜像"
 "源。                                                                                               |"
@@ -3141,8 +2921,6 @@ msgid ""
 msgstr ""
 
 #: ../base\install.pygettext:40
-#, fuzzy
-#| msgid "| Branch              | 代码下载的分支。有以下分支可供选择：                    |"
 msgid ""
 "| Branch              | 代码下载的分支。有以下分支可供选"
 "择：                                                                                                                                                    |"
@@ -3153,8 +2931,6 @@ msgid "# 急急急"
 msgstr ""
 
 #: ../base\jijiking.pygettext:11
-#, fuzzy
-#| msgid "请参见[GIA Launcher自动安装器使用方法](install.md)."
 msgid "0. 先看[GIA Launcher自动安装器使用方法](install.md)"
 msgstr "See [GIA Launcher Auto Installer Tutorial](install.md)."
 
@@ -3185,26 +2961,20 @@ msgid "- 多显示器适配非常混乱，如果截图失败试试单显示器"
 msgstr ""
 
 #: ../base\jijiking.pygettext:19
-#, fuzzy
-#| msgid "- 如果系统是Windows11，请按照这个[issue](https://github.com/GengGode/cvAutoTrack/issues/9)设置"
 msgid "- 如果你的系统是Windows11，看[issue](https://github.com/GengGode/cvAutoTrack/issues/9)"
 msgstr "- If the system is Windows 11, please follow this [issue](https://github.com/GengGode/cvAutoTrack/issues/9) setting "
 
 #: ../base\jijiking.pygettext:21
-#, fuzzy
-#| msgid "## 注意事项"
 msgid "# 注意以下配置"
-msgstr "## Caution"
+msgstr "# Caution"
 
 #: ../base\jijiking.pygettext:40
 msgid "- 需要解锁璃月与蒙德的大部分传送锚点，副本式秘境"
 msgstr ""
 
 #: ../base\known_issues.pygettext:9
-#, fuzzy
-#| msgid "## 已知问题 Known Issues"
 msgid "# 已知问题"
-msgstr "## Known issues"
+msgstr "# Known issues"
 
 #: ../base\known_issues.pygettext:11
 msgid "- 秘境开局会点两下"
