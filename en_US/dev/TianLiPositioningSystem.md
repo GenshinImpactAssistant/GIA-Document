@@ -38,11 +38,11 @@ Each point has its number next to it.
 
 在命令行中输入命令。
 
-Use `;` to split several commands.
+Use `;` to split several commands. There should not be spaces around `;`.
 
 - undo
 
-  Cancel the last command.
+  Cancel the last command. You can only cancel once.
 
 - del `id`
   Delete the node with the specified id and all its related connections.

@@ -40,7 +40,7 @@ Select the Ley Line Outcrop in the Task list and start the task.
 1. Set the number of times to challenge the secret realm on the GUI setting page.
 2. Configure the team and enter the domain.
 3. After entering the Domain(also in teyvat world), select DomainTask in the GUI TaskList and click Start Task button
-4. Switch to Yuanshin after waiting for the import to complete
+4. Switch to Genshin Impact after waiting for the import to complete
 5. Hands off the keyboard
 
 - Be careful to read the notes in [domain_assi.md](./domain_assi.md).

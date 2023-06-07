@@ -10,7 +10,7 @@ Custom task is an important direction for GIA to add new functions at present.
 
 # 设计你的第一个Mission(快速开始)
 
-At present, the simple Mission is mainly used for automatic collection.
+Currently, simple Missions are mainly used for automatic collection. Therefore, below we introduce the writing of a simple Mission to start. To create more complex Missions, please refer to the introduction later.
 
 You need a minimal knowledge of python to get started.
 
@@ -75,7 +75,7 @@ For a quick start, we simply
 - Copy the above code
 - Change `your-mission-name-in-zh_CN` to the Chinese name of your Mission, and `your-mission-name-in-en_US` to the English name of your Mission.
 - Change `your-github-username` to your Github username (or whatever you want)
-- Change `when-you-create-the-mission` to the time when you created this Mission (format: `UTCxxx yyyy-mm-dd` . For example: `UTC 08 2023-05-03` )
+- Change `when-you-create-the-mission` to the time when you created this Mission (format: `UTCxxx yyyy-mm-dd` . For example: `UTC+08 2023-05-03` )
 - Change `what-you-want-to-say` to what you want to say (path location, description, acknowledgments, etc.)
 
 If the name or corresponding language is missing in META, the mission name will be used automatically.

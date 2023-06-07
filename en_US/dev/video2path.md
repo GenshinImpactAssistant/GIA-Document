@@ -34,7 +34,7 @@ IS_PICKUP_MODE = True # 是否为采集路径模式
 
 - Space: pause/start playback
 - a: Analyzing Teleport Anchor Coordinates
-  -.: speed up fps
+  -. : speed up fps
 - ,: reduce fps
 - `]` : start/stop logging path
 

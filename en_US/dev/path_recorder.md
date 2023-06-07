@@ -12,10 +12,10 @@
 
 ### Run
 
-1. Press the `\` key and prompt `ready to start recording`.
+1. 按下 `\` 键，提示 `ready to start recording` 。如果没有，就再按一次。
 2. After one operation, mention `start recording` to start moving.
-3. While moving, all coordinates are recorded.
-4. When the character's moving direction changes by more than 5°, a break position will be recorded.
-5. After walking, press the `\` key again.
-6. Should prompt `recording save as {jsonname}` within 1 second.
-   7.json file will be saved as `name timestamp.json` in `assets/TeyvatMovePath`.
+3. While moving, all coordinates will be recorded. At the same time, the action state of the character (walking, climbing, etc.) will also be recorded.
+4. When the movement direction of the character changes by more than 5°, a break position will be recorded. The minimum distance between break positions is 5.2.
+5. 走完之后，再次按下 `\` 键。提示 `ready to stop recording` 。
+6. 在1秒内应该会提示 `recording save as {jsonname}` 。如果没有，就再按一次 `\` 。
+7. The json file will be saved as `name+timestamp.json` in `assets/TeyvatMovePath`. Repeat these steps if you want to continue recording.

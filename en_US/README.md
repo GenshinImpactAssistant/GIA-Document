@@ -25,7 +25,7 @@ An Genshin automatic operation assistance based on image recognization and simil
 
 To those who have not used github: the blue text in the docs is a hyperlink that can be clicked.
 
-> This is the document warehouse, please click star to go to the main warehouse \~~ (you can also star the document warehouse if you want)\~~
+> This is the document repository, please click star to go to the main repository \~~ (you can also star the document repo if you want)\~~
 
 ## Quick Start
 

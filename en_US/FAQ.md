@@ -21,7 +21,7 @@ Q: What should I do if I get stuck with a lot of text popping up after launching
 
 Q: No response?
 
-- If you are a Genshin Launcher that first opened GIA and then closed it, try restarting GIA.
+- If you opened Genshin Launcher before GIA, try restarting GIA.
 - Check if the start button is clicked more than once
 
 Q: It shows "ERROR: Screenshot failed". What should I do?

@@ -8,7 +8,7 @@ There are 5 states inside the Flow Unit, which can be switched between states.
 
 Through the switching of the Flow Unit and the switching inside the Unit, different states can be switched according to different conditions.
 
-Currently, Flow is used for automatic collection, automatic walking and path recording.
+Currently, Flow is used for automatic collection, automatic walking and path recording. You possibly don't need to write a new Flow. It can be understood without the need to master it.
 
 ## FlowTemplate
 
@@ -53,13 +53,13 @@ All process codes are managed in flow/flow_state.py.
 
 next_flow_id: Flow id of the next process to run after the process ends
 
-flow_timeout_time: Flow timeout time.
+flow_timeout_time: Flow timeout time. INF for negative numbers.
 
 Variable:
 
-rfc: return flow code.
+rfc: return flow code. There are the following 6 values: 0,1,2,3,4,5
 
-0~4: corresponding to state_init, state_before, state_in, state_after, state_end.
+0~4: corresponding to state_init, state_before, state_in, state_after, state_end. That is, FC.INIT, FC.BEFORE, FC.IN, FC.AFTER, FC.END.
 
 5: Process end flag code.
 
@@ -83,9 +83,9 @@ state_in is a cyclic state, that is, if some code of the process needs to be exe
 
 Finally, the above rules are only suggestions and standards. If you don’t follow them, you won’t go wrong. They are just for maintenance.
 
-If you don't need a certain state, just don't implement it in the inherited class.
+If you don't need a certain state, just don't implement it in the inherited class. However, state_in must be implemented.
 
-After each state is achieved, if you want to switch to the next state, you must use `self._next_rfc()`.
+After each state is achieved, if you want to switch to the next state, you must use `self._next_rfc()`. Manual `self._set_rfc(x)` is also possible.
 
 List of functions:
 
