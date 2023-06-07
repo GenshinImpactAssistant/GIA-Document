@@ -14,13 +14,12 @@ The aim of GIA is: let the program play Genshin, and you just need to selected c
 ![GitHub Repo size](https://img.shields.io/github/repo-size/infstellar/genshin_impact_assistant?style=flat-square&color=3cb371)
 [![contributors](https://img.shields.io/github/contributors/infstellar/genshin_impact_assistant?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/graphs/contributors)
 </br></br>
-[![QQ群](https://img.shields.io/badge/QQ群-901372518-blue.svg?style=flat-square&color=12b7f5&logo=qq)](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-901372518-blue.svg?style=flat-square&color=12b7f5&logo=qq)](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 [![Bilibili](https://img.shields.io/badge/bilibili-infstellar-blue.svg?style=flat-square&logo=bilibili)](https://space.bilibili.com/313212782)<!-- ignore gettext -->
 
 </div>
 
 ## Introduction
-
 
 An Genshin automatic operation assistance based on image recognization and similated keyboard operation. Does not involve not-allowed operation.
 
@@ -30,21 +29,19 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 
 ## 我是急急国王
 
-
 如果你啥都不想看就想开始用，按照[这个方法](jijiking.md)操作：
 
 ## Demo Video
 
+<https://www.bilibili.com/video/BV1RV4y157m6>(hung up)
 
-<https://www.bilibili.com/video/BV1ps4y1T71A> v0.8.3
+Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be partially out of date.
 
-<https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能过期
+## Frequently ask question
 
-## [常见问题 FAQ](FAQ.md)
+If you enconter any problem when using, you can take a look at FAQ frist:
 
-
-如果在使用时遇到问题，先看看[FAQ](FAQ.md)：
-
+## [功能介绍](functions_detail.md)
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
 
@@ -56,7 +53,6 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 
 ## Internationalization
 
-
 GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
 
 English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
@@ -65,28 +61,22 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ## How to use
 
-
 ### Quick installation
-
 
 See [GIA Launcher Auto Installer Tutorial](install.md).
 
 ### Run from source code
 
-
 See [Source code running tutorial](git_install.md)
 
 ## Pre-use settings
 
-
 ### Progress in Genshin
-
 
 - 需要解锁 `层岩巨渊 地下矿区` 的地图。
 - 需要解锁璃月与蒙德的所有传送锚点，副本式秘境
 
 ### Genshin window settings
-
 
 - Need to run GIA after the Genshin Impact starts.
 - The Genshin needs to run in 1080p window (full screen is also possible), set anti-aliasing to SMAA, effects to meduim or above.
@@ -94,46 +84,41 @@ See [Source code running tutorial](git_install.md)
 
 ### Config configuration
 
-
 Before use, these configuration elements shoule be noted:
 
-|Path|Configuration|Content|
-|----|----|----|
-|设置-通用设置| `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。|
+| name                        | configuration      | content                                                  |
+| --------------------------- | ------------------ | -------------------------------------------------------- |
+| config/settings/config.json | `BorderlessWindow` | When using boradless window or full screen, set to true. |
 
 Can be modified in the GUI or directly from the file.
 
-更多其他配置项，参见GUI内的设置介绍：[GUI使用](gui.md)
+For other configurations, see the notes of settings within the GUI.
 
 ## Bug report
 
-
-如果在使用中遇到问题，可以提交issue反馈。
+If you encounter ploblems in using, you can create an issue or give a feedback in qq group or discord.
 
 Please make sure you have read the document and [FAQ](FAQ.md) before feedback bugs.
 
-反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。
-
+Please send the log file in the Logs folder when you feedback.
 
 > Troubleshooting any problems without the error log is like driving with your eyes closed.
+>
 > ——Apache Official Document: Getting Start
 
-<!-- ## 错误码
+<!-- ## ERR Code
 
-如果日志输出了 `ERR_CODE` 或 `WARN_CODE` ，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->
+If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding information in [ERROR_CODE](error_code.md). -->
 
-## [已知问题 Known Issues](known_issues.md)
-
+[Known issues](known_issues.md)
 
 [Known issues](known_issues.md)
 
 ## Performance requirements
 
-
-- 此程序至少需要 `2.5G内存` 与 `4G存储空间` (完整安装).
+- This program requires at least `2.5G` RAM and `4G` storage space (full installation).
 
 ## Acknowledgements
-
 
 感谢所有参与到开发/测试中的朋友们 (\*´▽｀)ノノ
 
@@ -141,22 +126,18 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 ### Special Thanks
 
-
 - [Alas](https://github.com/LmeSzinc/AzurLaneAutoScript)
 
 #### Open Source Library
 
-
 ### Genshin Related
 
-
 - [kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)
-- [原神-天理坐标系](https://github.com/GengGode/cvAutoTrack)
+- [GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)
 - [xicri/genshin-dictionary](https://github.com/xicri/genshin-dictionary)
 - [GIS](https://github.com/phonowell/genshin-impact-script)
 
 #### Open source library
-
 
 - [opencv](https://github.com/opencv/opencv)
 - [paddleocr](https://github.com/PaddlePaddle/PaddleOCR)
@@ -164,13 +145,11 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 ### Other Contributors
 
-
 - Dataset labeling: [nɡ.](https://space.bilibili.com/396023811)
 
 ## 广告
 
-qq群:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+QQ group:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 
-开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
-(请确保你已经会使用git以及github)
-
+Developers' Communication Group: [680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
+(Make sure you already know how to use git and github)

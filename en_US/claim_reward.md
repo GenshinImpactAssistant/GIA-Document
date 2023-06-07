@@ -9,4 +9,3 @@ Reset character at the original point.
 ## Startup
 
 Starup from TaskList.
-

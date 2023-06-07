@@ -1,29 +1,26 @@
 # FAQ
 
-
 ## Windows11 related
-
 
 If you are using Windows 11, please Google the solution for Bitblt screenshot black or white screen under Win22H2, or check this [issue](https://github.com/GengGode/cvAutoTrack/issues/9)
 
 ## Not working
 
-
 Q: Program crashed?
 
 - Check if the file path is fully English or underscored
 - Check if the submodule is successfully cloned
-- 如果提示 `no module name win32gui` , 请重启GIA Launcher。
+- If prompted with `No module name win32gui`, please restart GIA Launcher.
 
 Q: What should I do if I get stuck with a lot of text popping up after launching GIA Launcher?
 
 - It is pip copying files, if no error is reported, just wait.
-- 注意窗口是否出现 `选择：GIA Launcher` 的<strong>选择</strong>字样。如果出现，请按下回车以继续程序。 GIA Launcher的本体是bat批处理文件，在点击命令窗口后会暂停，所以不要点击命令行界面。
+- Notice if the **Select: GIA Launcher** words `Select` appear in the window. If it appears, press enter to continue the program. The base of GIA Launcher is a bat file and will pause when you click on the command window, so do no click on the command line interface.
 
 ## Runtime issues
 
-
 Q: 没反应？
+
 - 如果你是先打开GIA再关闭的原神启动器，试试重启GIA。
 - 检查是否多点击了一次启动按钮
 
@@ -31,7 +28,7 @@ Q: It shows "ERROR: Screenshot failed". What should I do?
 
 - If `shape=0,0,4`, pls confirm your Genshin Window not minimized.
 - If shape=xxx,xxx,4, please make sure that the Genshin window resolution is 1080p and that the Genshin launcher window is closed.
-- If the system is Windows 11, please follow this [issue](https://github.com/GengGode/cvAutoTrack/issues/9) setting 
+- If the system is Windows 11, please follow this [issue](https://github.com/GengGode/cvAutoTrack/issues/9) setting
 
 Q: What if I set up a strategy during battle but do not switch to a character whose Q skill is already ready?
 
@@ -39,6 +36,5 @@ Q: What if I set up a strategy during battle but do not switch to a character wh
 
 Q: What should I do if I always point crookedly in the big map?
 
-- 看看有没有设置readme中的 `使用前config配置` 。
+- See if the `pre-use configuration` in the readme is set.
 - Currently, support for teleporting to the weekly style domain and the Inazuma is not yet complete. It will be adapted in the future.
-

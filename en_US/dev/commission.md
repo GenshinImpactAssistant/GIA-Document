@@ -1,4 +1,4 @@
-# 每日委托任务
+# Automatic Daily Commission
 
 编写执行每日委托的任务脚本.
 
@@ -12,11 +12,9 @@ Commission的编写方法与Mission基本一致,但文件命名有所不同.因�
 
 你可以在[source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions)找到一些范例.
 
-
-参考视频:https://www.bilibili.com/video/BV1Lu411W71q
+Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 
 ## 命名格式
-
 
 文件名命名: `commission_name_commission_position`
 
@@ -27,7 +25,6 @@ commission坐标命名格式:(P/N)xxxC(P/N)xxx
 P代表+,N代表-.
 
 示例: -1000,1000 => N1000P1000
-
 
 类名必须与文件名相同.
 
@@ -41,14 +38,14 @@ P代表+,N代表-.
 
 commission专有函数清单:
 
-|函数|用途|
-|----|----|
-|talk_skip|跳过对话,直到回到大世界|
-|talk_switch|选择选项|
-|talk_until_switch|对话直到出现选项|
-|talk_wait|等待x秒|
-|talk_with_npc|与指定名称的NPC对话. 会按wasd改变方向来寻找附近的NPC.|
-|exit_talk|退出对话, 直到返回主界面.|
+| function          | usage                             |
+| ----------------- | --------------------------------- |
+| talk_skip         | Skip talks until back to main UI  |
+| talk_switch       | 选择选项                              |
+| talk_until_switch | 对话直到出现选项                          |
+| talk_wait         | 等待x秒                              |
+| talk_with_npc     | 与指定名称的NPC对话. 会按wasd改变方向来寻找附近的NPC. |
+| exit_talk         | 退出对话, 直到返回主界面.                    |
 
 ## 获得当前坐标
 
@@ -58,7 +55,6 @@ commission专有函数清单:
 
 ## 调试Commission
 
-
 ```python
 if __name__ == '__main__':
     execc = BasicKnowledgeOfTheKnights_P2682N5673()
@@ -67,6 +63,4 @@ if __name__ == '__main__':
 
 ## 添加Commission到GIA
 
-
 这个过程比较麻烦,因此请直接PR你的Commission.
-
