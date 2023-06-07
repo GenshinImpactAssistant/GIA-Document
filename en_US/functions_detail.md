@@ -1,6 +1,6 @@
 # Function Introduction
 
-## 5. [Claim Daily Reward](./claim_reward.md)
+## 1. [Claim Daily Reward](./claim_reward.md)
 
 Select the Ley Line Outcrop in the Task list and start the task.
 
