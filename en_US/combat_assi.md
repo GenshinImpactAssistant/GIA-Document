@@ -112,7 +112,7 @@ You may not use values based on thousands of digits, this is only used to distin
 | `E_short_cd_time` | Short Ecd time, can't be 0                                                       |
 | `Epress_time`     | the time to press and hold E, or 0 if none                                       |
 | `E_long_cd_time`  | long Ecd time, or 0 if none                                                      |
-| `Qcd_time`        | Q技能冷却时间                                                                          |
+| `Qcd_time`        | Q cd time                                                                        |
 | `n`               | The position of the character in the team (1~4), cannot be repeated, cannot be 0 |
 
 ## Auto-configure TEAM files

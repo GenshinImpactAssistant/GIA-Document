@@ -23,17 +23,17 @@ collection_path_dict = {
         }
 ```
 
-| key                 | introduction      |
-| ------------------- | ----------------- |
-| name                | TLPP文件名称          |
-| time                | TLPP文件创建时间        |
-| start_position      | TLPP开始坐标          |
-| end_position        | TLPP结束坐标          |
-| break_position      | 转向点坐标，用于寻路        |
-| position_list       | 路径中坐标，用于记录角色动作    |
-| additional_info     | 额外信息              |
-| pickup_points       | 采集点的BP的index      |
-| adsorptive_position | 吸附坐标，TLC会尝试接近这个坐标 |
+| key                 | introduction                  |
+| ------------------- | ----------------------------- |
+| name                | TLPP file name                |
+| time                | TLPP file create time         |
+| start_position      | TLPP开始坐标                      |
+| end_position        | TLPP结束坐标                      |
+| break_position      | 转向点坐标，用于寻路                    |
+| position_list       | 路径中坐标，用于记录角色动作                |
+| additional_info     | 额外信息                          |
+| pickup_points       | BP index of collection points |
+| adsorptive_position | 吸附坐标，TLC会尝试接近这个坐标             |
 
 ## 屏蔽坐标
 

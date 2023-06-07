@@ -38,9 +38,9 @@ P代表+,N代表-.
 
 commission专有函数清单:
 
-| 函数                | 用途                                |
+| function          | usage                             |
 | ----------------- | --------------------------------- |
-| talk_skip         | 跳过对话,直到回到大世界                      |
+| talk_skip         | Skip talks until back to main UI  |
 | talk_switch       | 选择选项                              |
 | talk_until_switch | 对话直到出现选项                          |
 | talk_wait         | 等待x秒                              |
