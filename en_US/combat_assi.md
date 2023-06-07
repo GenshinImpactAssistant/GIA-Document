@@ -4,12 +4,12 @@
 
 ## Introduction
 
-- 位置： `config/settings/tactic`
+- Location: `config/settings/tactic` or CombatSetting in GUI.
 - Auto Combat Assist can automatic switch characters, do attack, use E and Q skill accroding to set character name, tactic group, priorities, tiggers, etc.
 - Suitable for characters who do not need to manually aim and use with shield characters. (Barely works with those who need to aim, just barely)
 - Require the Genshin to run in 1080p windowing. Not recommend to set color filters.
-- 需要设置 `team.json` 文件，设置方法如下所示。
-- 非常推荐带一个钟离，如果没有钟离可以带4个护盾角色。
+- Need to set `team.json` file. The setting method is shown below.
+- Recommend to bring Zhongli, if not can bring 3~4 shield characters.
 
 ## tactic_group
 
@@ -30,7 +30,7 @@ Auto Combat Assist support the following tactic:
 | `sp`           | Sprint                                                                                               |
 | num            | delay, unit is milliseconds.                                                                         |
 
-每个策略关键字用 `,` 分隔；不同策略组用 `;` 分隔。当一组策略执行完毕后，执行下一个策略组。
+Each tactic keyword is separated by `,`; different policy groups are separated by `;`. When the execution of a group of policies is finished, execute the next policy group.
 
 Attantion:
 
@@ -40,15 +40,15 @@ Attantion:
 
 - Cannot include space.
 
-- 在判断表达式中，策略关键字之间用 `.` 分隔。
+- In the judgment expressions, the tactic keyword shoule be separated by `.` .
 
-含有 `?` 的策略关键字用法与三元运算符相近，如：
+A tactic keyword containing `?` tactic keyword usage is similar to the ternary operator, e.g:
 
-`@e?e:a;` ：当元素战技准备时执行e，否则执行a。
+`@e?e:a;`: When Elemental is ready, execute `e`(use Elemental Skill), otherwise execute `a`(normal attack)
 
-`@e?e.a.a:none;` ：当元素战技准备时执行 `e,a,a` ，否则不执行。
+`@e?e.a.a:none;`：When Elemental is ready, execute`e,a,a`，otherwise not execute anything.
 
-其中， `none` 可以为其他任何无意义字符，表示不执行任何动作。
+Where `none` can be any other meaningless character, indicating that no action is performed.
 
 Attantion:
 
@@ -73,33 +73,35 @@ Allows switching to the character when trigger condition is established.
 | `q_ready`    | When a character Burst Skill is ready, switching is allowed     |
 | `idle`       | always enable                                                   |
 
-可以使用多个触发器，触发器之间用逗号分隔。不能有空格。当多个角色的触发条件成立时，切换角色的顺序由优先级决定。
+Multiple triggers can be used, with commas sparating the trigger. There can be no space.
+When the trigger conditions of multiple characters are established, the order of switching is determinded by the priority.
 
 ## Position
 
 Position is the role of the character in the team.
 
-| 类型         | 说明    |
-| ---------- | ----- |
-| `Main`     | 主输出角色 |
-| `Shield`   | 护盾类角色 |
-| `Support`  | 辅助类角色 |
-| `Recovery` | 回血类角色 |
+| type       | description           |
+| ---------- | --------------------- |
+| `Main`     | Main damage character |
+| `Shield`   | Shield character      |
+| `Support`  | Support character     |
+| `Recovery` | Recovery character    |
 
-角色定位的设置会影响自动战斗的部分功能。
+The character position settings affact some of the feature in the Auto Combat Assist.
 
-## 优先级 priority
+## Priority
 
-优先级从小到大依次降低，0为最高优先级。优先级可以同级。
+The priority decreases from smallest to largest, with 0 being the highest priority.
+The priority can be the same level.
 
 This is the GIA default priority setting:
 
 n is the character id in the team, n∈{1,2,3,4}
 
-- `Shield` :1000+n
-- `Recovery` :1500+n
-- `Support` :3000+n
-- `Main` :2000+n
+- `Shield`:1000+n
+- `Recovery`:1500+n
+- `Support`:3000+n
+- `Main`:2000+n
 
 You may not use values based on thousands of digits, this is only used to distinguish whether the configuration is automatically generated or not.
 
@@ -129,13 +131,13 @@ The character's position in the team, character priority, and some of the charac
 
 其余角色只有基本参数，没有经过核对与适配。如果你有兴趣，欢迎贡献角色参数(ﾉﾟ∀ﾟ)ﾉ
 
-默认角色参数文件位置： `assets/characters_data/characters_parameters.json`
+[List of supported roles](../../assets/characters_data/characters_parameters.json)
 
 ## Automatically generate TEAM files
 
-如果在设置中启用了自动生成team文件，则会在战斗开始前扫描角色列表并**优先扫描tactic下的所有策略文件**，选择符合的策略文件。
+If automatic TEAM file generation is enabled in the settings, the character list will be scanned and all tactic files under tactic folder will be scanned before the battle starts and the matching tactic files will be selected.
 
-如果没有符合的策略文件，则自动生成一套战斗策略。
+If there is no matching tactic file, then according to \[list of supported roles\](... /... /assets/characters_data/characters_parameters.json) to automatically generate a set of battle tactic.
 
 ## Character elemental battle technique, elemental burst picture setting
 
@@ -146,22 +148,22 @@ Since the new version, there is no need to set up images.
 - The program may pause when the character's blood level is too low or when a character dies.
 - The program may pause when it is not in the right interface.
 
-由于~~是个非酋~~能力有限，角色较少，默认战斗配置并非最优方案，如果你有更好的方案，随时 `issue`
+Due to limited capacity and fewer characters, the above configuration is not the optimal solution, if you have a better plan, feel free to `issue`.
 
-如果遇到无法解决的问题，也可提交 `issue` 。
+If you encounter a problem that cannot be solved, you can also submit an `issue`.
 
-如果有好的角色输出手法可以 `issue` 或者在q群分享~
+If you have a good character tactic group, welcome to send `issue` too.
 
-## team.json文件示例
+## team.json file example
 
-你可以新建新的策略文件并将设置中的 `teamfile` 修改为你自己的文件.
+You can create a new tactic file and change the `teamfile` in the CombatSettings to your own file.
 
-不能在 `示例json` 中直接修改，否则你的修改将在下一次启动后清除。
+You cannot modify it directly in the `example json`, otherwise your changes will be cleared after the next startup.
 
 File Example:
 
-[文件示例1 宵宫 钟离 班尼特 云堇](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_1.json)
+[File example 1: Yoimiya, Zhongli Bennett Yun Jin](../team_example_1.json)
 
-[文件示例3 凌人 钟离 班尼特 纳西妲](https://github.com/GenshinImpactAssistant/GIA-Document/blob/main/team_example_3.json)
+[File example 3](../team_example_3.json)
 
-在tactic文件夹中也有该示例文件。
+The example file is also available in the tactic folder.

@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Mission(自定义任务)是GIA中在大世界执行功能的便携集成化单元，使用统一的接口，编写简单，使用方便。
+Mission is a portable, integrated unit in GIA that performs functions in the Teyvat world, using a unified interface that is simple to write and use.
 
-自定义任务可以实现的功能包括行走、采集、战斗、NPC对话(半成品)。通过功能的组合可以实现固定路线采集、任务自动化等功能。
+Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) and walking. The combination of functions allows for fixed route gathering, mission automation and more.
 
 自定义任务是GIA目前添加新功能的重要方向。更精准的自动采集和自动委托都依赖于Mission。
 
@@ -154,7 +154,7 @@ TLPP_FILE = ...
 
 ## Usage
 
-从Mission类继承。
+Inherited from the MissionExecutor class.
 
 ```python
 from source.mission.mission import Mission
@@ -165,7 +165,7 @@ class MissionMain(Mission): ...
 
 你可以在 [`source/mission/mission.py` ](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看方法与介绍。
 
-### Write a Mission
+## Write a Mission
 
 首先，继承Mission。
 

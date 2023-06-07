@@ -33,13 +33,13 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 
 ## Demo Video
 
-<https://www.bilibili.com/video/BV1ps4y1T71A> v0.8.3
+<https://www.bilibili.com/video/BV1RV4y157m6>(hung up)
 
-<https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能过期
+Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be partially out of date.
 
-## [常见问题 FAQ](FAQ.md)
+## Frequently ask question
 
-如果在使用时遇到问题，先看看[FAQ](FAQ.md)：
+If you enconter any problem when using, you can take a look at FAQ frist:
 
 ## [功能介绍](functions_detail.md)
 
@@ -86,37 +86,37 @@ See [Source code running tutorial](git_install.md)
 
 Before use, these configuration elements shoule be noted:
 
-| name    | configuration      | content              |
-| ------- | ------------------ | -------------------- |
-| 设置-通用设置 | `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。 |
+| name                        | configuration      | content                                                  |
+| --------------------------- | ------------------ | -------------------------------------------------------- |
+| config/settings/config.json | `BorderlessWindow` | When using boradless window or full screen, set to true. |
 
 Can be modified in the GUI or directly from the file.
 
-更多其他配置项，参见GUI内的设置介绍：[GUI使用](gui.md)
+For other configurations, see the notes of settings within the GUI.
 
 ## Bug report
 
-如果在使用中遇到问题，可以提交issue反馈。
+If you encounter ploblems in using, you can create an issue or give a feedback in qq group or discord.
 
 Please make sure you have read the document and [FAQ](FAQ.md) before feedback bugs.
 
-反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。
+Please send the log file in the Logs folder when you feedback.
 
 > Troubleshooting any problems without the error log is like driving with your eyes closed.
 >
 > ——Apache Official Document: Getting Start
 
-<!-- ## 错误码
+<!-- ## ERR Code
 
-如果日志输出了 `ERR_CODE` 或 `WARN_CODE` ，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->
+If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding information in [ERROR_CODE](error_code.md). -->
 
-## [已知问题 Known Issues](known_issues.md)
+[Known issues](known_issues.md)
 
 [Known issues](known_issues.md)
 
 ## Performance requirements
 
-- 此程序至少需要 `2.5G内存` 与 `4G存储空间` (完整安装).
+- This program requires at least `2.5G` RAM and `4G` storage space (full installation).
 
 ## Acknowledgements
 
@@ -133,7 +133,7 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 ### Genshin Related
 
 - [kongying-tavern/yuan-shen-map](https://github.com/kongying-tavern/yuan-shen-map)
-- [原神-天理坐标系](https://github.com/GengGode/cvAutoTrack)
+- [GenshinImpact AutoTrack DLL](https://github.com/GengGode/cvAutoTrack)
 - [xicri/genshin-dictionary](https://github.com/xicri/genshin-dictionary)
 - [GIS](https://github.com/phonowell/genshin-impact-script)
 
@@ -151,4 +151,5 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 
 QQ group:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 
-开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)(请确保你已经会使用git以及github)
+Developers' Communication Group: [680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
+(Make sure you already know how to use git and github)

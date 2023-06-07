@@ -1,4 +1,4 @@
-# 每日委托任务
+# Automatic Daily Commission
 
 编写执行每日委托的任务脚本.
 
@@ -12,7 +12,7 @@ Commission的编写方法与Mission基本一致,但文件命名有所不同.因�
 
 你可以在[source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions)找到一些范例.
 
-参考视频:https://www.bilibili.com/video/BV1Lu411W71q
+Demo video：<https://www.bilibili.com/video/BV163411Q7fD>
 
 ## 命名格式
 

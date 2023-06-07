@@ -2,7 +2,7 @@
 
 ## TianLiPositioningSystem
 
-### 介绍
+### Introduction
 
 TLPS是基于OpenCV的小地图定位算法，小地图视角识别算法，小地图方向识别算法，大地图定位算法和相关的集成功能。
 
@@ -10,7 +10,7 @@ TLPS是基于OpenCV的小地图定位算法，小地图视角识别算法，小�
 
 ## TianLiNavigator
 
-### 介绍
+### Introduction
 
 TLN是基于A-star寻路的导航算法，工作原理如下：
 
