@@ -79,12 +79,12 @@ Allows switching to the character when trigger condition is established.
 
 Position is the role of the character in the team.
 
-| 类型         | 说明                    |
-| ---------- | --------------------- |
-| `Main`     | Main damage character |
-| `Shield`   | Shield character      |
-| `Support`  | Support character     |
-| `Recovery` | Recovery character    |
+| 类型         | 说明    |
+| ---------- | ----- |
+| `Main`     | 主输出角色 |
+| `Shield`   | 护盾类角色 |
+| `Support`  | 辅助类角色 |
+| `Recovery` | 回血类角色 |
 
 角色定位的设置会影响自动战斗的部分功能。
 
@@ -112,7 +112,7 @@ You may not use values based on thousands of digits, this is only used to distin
 | `E_short_cd_time` | Short Ecd time, can't be 0                                                       |
 | `Epress_time`     | the time to press and hold E, or 0 if none                                       |
 | `E_long_cd_time`  | long Ecd time, or 0 if none                                                      |
-| `Qcd_time`        | Q skill cooldown time                                                            |
+| `Qcd_time`        | Q技能冷却时间                                                                          |
 | `n`               | The position of the character in the team (1~4), cannot be repeated, cannot be 0 |
 
 ## Auto-configure TEAM files

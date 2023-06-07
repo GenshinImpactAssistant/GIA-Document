@@ -86,7 +86,7 @@ See [Source code running tutorial](git_install.md)
 
 Before use, these configuration elements shoule be noted:
 
-| Path    | Configuration      | Content              |
+| 位置      | 配置项                | 内容                   |
 | ------- | ------------------ | -------------------- |
 | 设置-通用设置 | `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。 |
 
@@ -103,6 +103,7 @@ Please make sure you have read the document and [FAQ](FAQ.md) before feedback bu
 反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。
 
 > Troubleshooting any problems without the error log is like driving with your eyes closed.
+>
 > ——Apache Official Document: Getting Start
 
 <!-- ## 错误码

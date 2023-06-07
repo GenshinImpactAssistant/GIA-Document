@@ -20,13 +20,13 @@ GIA provides an automatic installer/updater.
 
 具体配置(可选)：
 
-| name                | content                                                                                                          |
+| 项目                  | 内容                                                                                                               |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| RequirementsFile    | requirements.txt file location                                                                                   |
-| InstallDependencies | Whether to install dependencies, default is true                                                                 |
-| PypiMirror          | Pypi mirror site.                                                                                                |
+| RequirementsFile    | requirements.txt文件位置                                                                                             |
+| InstallDependencies | 是否安装依赖文件，默认为true                                                                                                 |
+| PypiMirror          | Pypi镜像网站，国内用户需要设置为 `https://pypi.tuna.tsinghua.edu.cn/simple` 或其他国内镜像源。                                          |
 | Repository          | The address of the repository. Default to `https://github.com/GenshinImpactAssistant/GIA_Launcher_Download_Lib`. |
-| GitProxy            | Switch Git SSL authentication. Defaults to false.                                                                |
-| KeepLocalChanges    | Keeps local changes to files. Defaults to false                                                                  |
-| AutoUpdate          | Update automatically. Defaults to true                                                                           |
-| Branch              | The branch where the code will be downloaded. The following branches are available:                              |
+| GitProxy            | 开关Git SSL验证。默认为false                                                                                             |
+| KeepLocalChanges    | 保持本地文件更改。默认为false                                                                                                |
+| AutoUpdate          | 自动更新。默认为true                                                                                                     |
+| Branch              | 代码下载的分支。有以下分支可供选择：                                                                                               |

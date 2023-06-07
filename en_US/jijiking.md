@@ -16,7 +16,7 @@
 
 Before use, these configuration elements shoule be noted:
 
-| Path    | Configuration      | Content              |
+| 位置      | 配置项                | 内容                   |
 | ------- | ------------------ | -------------------- |
 | 设置-通用设置 | `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。 |
 

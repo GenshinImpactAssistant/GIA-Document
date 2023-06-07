@@ -19,6 +19,8 @@ Q: What should I do if I get stuck with a lot of text popping up after launching
 
 ## Runtime issues
 
+Q: 没反应？
+
 - 如果你是先打开GIA再关闭的原神启动器，试试重启GIA。
 - 检查是否多点击了一次启动按钮
 

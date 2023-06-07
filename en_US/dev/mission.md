@@ -46,7 +46,6 @@ TLPP_FILE = ...
 对于简单的采集自定义任务，应当使用
 
 ```python
-
 from source.mission.template.mission_just_collect import MissionJustCollect
 ```
 
@@ -69,8 +68,9 @@ META={
 }
 ```
 
-VERSION用于标出该Mission的版本。目前(2023.5.20~)使用 `1.0.0` 进行标记。Mission格式可能会发生修改，若有，将会在文档中说明。
-Mission META使用python的字典格式。你可能需要先了解什么是python的字典。
+VERSION用于标出该Mission的版本。目前(2023.5.20~)使用 `1.0.0` 进行标记。Mission格式可能会发生修改，若有，将会在文档中说明。Mission META使用python的字典格式。你可能需要先了解什么是python的字典。
+
+对于快速开始，我们只需
 
 - 复制上面的代码
 - 将 `your-mission-name-in-zh_CN` 改为你的Mission的中文名称，将 `your-mission-name-in-en_US` 改为你的Mission的英文名称。

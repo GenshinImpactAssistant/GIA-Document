@@ -42,7 +42,7 @@ TLNDev是用于人工编辑路线的工具，位于 `source/dev_tool/tianli_navi
 
 - undo
 
-撤销上一次指令。只能撤销一次(懒)
+  撤销上一次指令。只能撤销一次(懒)
 
 - del `id`
   删除指定id的节点和它的所有相关连接。
@@ -56,7 +56,7 @@ TLNDev是用于人工编辑路线的工具，位于 `source/dev_tool/tianli_navi
 - add `x`,`y` \[id=`id`\] \[fl=`xxx`\]
   添加坐标x,y。如果不指定id，则自动使用下一个id。
 
-可以指定要与之全连接(full link)的节点id。如果为空，则自动设为上一个id。
+  可以指定要与之全连接(full link)的节点id。如果为空，则自动设为上一个id。
 
 - add a
   当你鼠标左键点击了一下图片时，会记录点击的坐标，输入add a就会自动添加这个坐标，不需要手动输入坐标。id与fl指令均可用。
