@@ -20,7 +20,7 @@ Double click on `GIA Launcher.exe` to run it.
 
 使用方法：删除 `installer_config.json` ，保留 `installer_config_cn.json` 即自动启用 `installer_config_cn.json` 。
 
-Specific configuration.
+Specific configuration (Optional) :
 
 | 项目                  | 内容                                                                                                               |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------- |

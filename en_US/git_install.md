@@ -1,7 +1,6 @@
 # Install from source code
 
-<strong>Note: This is run from source code and requires some programming skills. For quick start, see
-[GIA Launcher Usage](./install.md)</strong>
+<strong>Note: This is run from source code and requires some programming skills. For quick start, see: [GIA Launcher Usage](./install.md)</strong>
 
 Require:
 
@@ -12,7 +11,7 @@ Require:
 
 ## Installation
 
-1. Enter the following command to complete the download of the source code and dependencies.
+1. Enter the following command to complete the download of the source code and dependencies:
 
    ```shell
    git clone https://github.com/infstellar/genshin_impact_assistant.git&cd genshin_impact_assistant&python setup.py install&git submodule init&git submodule update
@@ -36,7 +35,7 @@ Require:
 
 ## Update
 
-- 使用setup.py更新:
+- 使用setup.py更新：
   ```shell
   python setup.py update&git submodule update
   ```

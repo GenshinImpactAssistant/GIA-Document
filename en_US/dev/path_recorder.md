@@ -13,7 +13,7 @@
 ### Run
 
 06. It should prompt `recording save as {jsonname}` within 1 second. If not, press `\` again.
-07. After one operation, mention `start recording` to start moving.
+07. After a series of operations, mention `start recording` to start moving.
 08. While moving, all coordinates will be recorded. At the same time, the action state of the character (walking, climbing, etc.) will also be recorded.
 09. When the movement direction of the character changes by more than 5°, a break position will be recorded. The minimum distance between break positions is 5.2.
 10. When you're done walking, press the `\` key again. Prompt `ready to stop recording`.

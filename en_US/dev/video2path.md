@@ -1,4 +1,4 @@
-# 视频转路径(video to path, or V2P)
+# 视频转路径（video to path, or V2P）
 
 根据视频生成路径。
 
@@ -10,7 +10,7 @@
 
 Run the source/dev_tool/video2path.py file to start analyzing the video.
 
-For more information about TLPP, please refer to [TLPP Introduction](TianLiPositioningPath.md)
+For more information about TLPP, please refer to [TLPP Introduction](TianLiPositioningPath.md).
 
 Demo video：https://www.bilibili.com/video/BV1ks4y1Q79y
 
@@ -48,8 +48,8 @@ IS_PICKUP_MODE = True # 是否为采集路径模式
 
 ## Attantion
 
-- The beginning of a continuous path should start from the teleport anchor
-- It must be a complete and smooth screen recording of Genshin Impact Games
+- The beginning of a continuous path should start from the teleport anchor.
+- It must be a complete and smooth screen recording of Genshin Impact Games.
 - When recording the path, the playback speed (fps) should be close to the real moving speed.
 
 ## TLPP文件格式

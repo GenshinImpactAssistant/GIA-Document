@@ -214,7 +214,7 @@ if __name__ == '__main__':
 | start_pickup                  | 启动自动采集。会采集路上遇到的可交互物品。                 |
 | stop_pickup                   | 停止自动采集。                               |
 | refresh_picked_list           | 刷新已采集物名列表                             |
-| reg_exception_found_enemy     | 注册事件：条件：是否遇敌。此后条件成立则跳出阻塞式任务。           |
+| reg_exception_found_enemy     | 注册事件：条件：是否遇敌。此后条件成立则跳出阻塞式任务。          |
 | reg_exception_chara_died      | 注册事件：条件：角色是否死亡。此后条件成立则跳出阻塞式任务。        |
 | reg_exception_low_hp          | 注册事件：条件：检测角色是否低血量。此后条件成立则跳出阻塞式任务。     |
 | set_default_arrival_mode      | 设置默认精确到达模式。此后所有移动方法的默认精确到达模式设置为state。 |

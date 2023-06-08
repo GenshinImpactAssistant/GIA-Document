@@ -28,14 +28,14 @@ PATH mode will advance along the coordinates.
 
 01. Moving towards the break position.
 02. Automatically identify the current position, detect motion and process it.
-03. If the current distance from the adsorption point is less than the allowable adsorption distance, start moving to the target adsorption point
-04. Auto Loot (if enabled)
-05. Detect if the movement is stuck, exit if stuck
-06. Sprint (2.5s cd)
-07. Detect if the W button is released and the W button is pressed
+03. If the current distance from the adsorption point is less than the allowable adsorption distance, start moving to the target adsorption point.
+04. Auto Loot (if enabled).
+05. Detect if the movement is stuck, exit if stuck.
+06. Sprint (2.5s cd).
+07. Detect if the W button is released and the W button is pressed.
 08. Test readiness to end.
-09. Print log
-10. Move camera towards BP direction
+09. Print log.
+10. Move camera towards BP direction.
 
 ## Function parameters
 

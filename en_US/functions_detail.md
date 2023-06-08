@@ -4,7 +4,7 @@
 
 Select the Ley Line Outcrop in the Task list and start the task.
 
-> 最稳定的功能(因为简单..)
+> 最稳定的功能（因为简单）
 
 ## 2. [Auto Combat Assist](./combat_assi.md)
 
@@ -13,7 +13,7 @@ Select the Ley Line Outcrop in the Task list and start the task.
 
 For other settings, see [Auto Combat Assist introduction](./combat_assi.md).
 
-> ~~单拉出来的一个核心功能,只有这个不是全自动~~
+> ~~单拉出来的一个核心功能，只有这个不是全自动~~
 
 ## 3. [Auto Daily Commission Assist](./commission_assi.md)
 
@@ -38,10 +38,10 @@ Select the Ley Line Outcrop in the Task list and start the task.
 - The most useful function so far~!
 
 1. Set the number of times to challenge the secret realm on the GUI setting page.
-2. Configure the team and enter the domain.
-3. After entering the Domain(also in teyvat world), select DomainTask in the GUI TaskList and click Start Task button
-4. Switch to Genshin Impact after waiting for the import to complete
-5. Hands off the keyboard
+2. Configure the team and enter the secret area.
+3. After entering the Domain(also in teyvat world), select DomainTask in the GUI TaskList and click Start Task button.
+4. Switch to Genshin Impact after waiting for the import to complete.
+5. Hands off the keyboard.
 
 - Be careful to read the notes in [domain_assi.md](./domain_assi.md).
 
@@ -53,7 +53,7 @@ For other settings, sett [Auto Domain Assist introduction](./domain_assi.md).
 
 > Very rubbish, but generic
 
-- Select general automatic collection in the custom task to start the custom task
+- Select general automatic collection in the custom task to start the custom task.
 - Be careful to read the notes in [collector_assi.md](./collector_assi.md).
 
 For other settings, see[Auto Collector Assist introduction](./collector_assi.md).

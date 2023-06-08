@@ -33,7 +33,7 @@ Write the translation corresponding to the key into the doc. For example:
 
 ## Selection Box
 
-以前想过这个问题,不过觉得应该可以不用就没写,这次看来是必须写了..
+以前想过这个问题，不过觉得应该可以不用就没写，这次看来是必须写了……
 
 Same as above, the selection box only needs to add an item named `select_items` in yaml.
 

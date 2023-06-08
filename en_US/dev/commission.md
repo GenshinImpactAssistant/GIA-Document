@@ -8,7 +8,7 @@ Daily commission (Commission) is used to execute daily commission. A single comm
 
 Due to the rarity of daily commissions, it is difficult to adapt to multiple languages, so all daily commissions are written and run in **English** by default. Old versions of Commission may support multiple languages, but they will no longer be supported by default after that.
 
-The writing method of Commission is basically the same as that of Mission, but the file naming is different. Therefore, please take a look at [Custom Mission](mission.md)
+The writing method of Commission is basically the same as that of Mission, but the file naming is different. Therefore, please take a look at [Custom Mission](mission.md).
 
 You can find some examples at [source/commission/commissions](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commissions).
 
@@ -16,9 +16,9 @@ Reference video：<https://www.bilibili.com/video/BV1Lu411W71q>
 
 ## 命名格式
 
-文件名命名: `commission_name_commission_position`
+文件名命名： `commission_name_commission_position`
 
-示例: BasicKnowledgeOfTheKnights_P2682N5673.py
+示例： BasicKnowledgeOfTheKnights_P2682N5673.py
 
 Commission coordinate naming format: (P/N)xxxC(P/N)xxx
 
@@ -34,9 +34,9 @@ The class name must be the same as the file name.
 
 函数清单和简介位于[source/commission/commission.py](https://github.com/infstellar/genshin_impact_assistant/tree/main/source/commission/commission.py)
 
-从该类继承.
+Inherited from the MissionExecutor class.
 
-commission专有函数清单:
+List of functions:
 
 | function          | usage                                                                                                           |
 | ----------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -49,9 +49,9 @@ commission专有函数清单:
 
 ## 获得当前坐标
 
-如果你是VSCode用户,在 `运行和调试` 中选择 `Python: Get Position` 运行,切换到原神即可.
+如果你是VSCode用户，在 `运行和调试` 中选择 `Python: Get Position` 运行，切换到原神即可。
 
-否则,请运行 `source\commission\dev_tools\get_position.py` 文件.
+否则，请运行 `source\commission\dev_tools\get_position.py` 文件。
 
 ## 调试Commission
 
@@ -63,4 +63,4 @@ if __name__ == '__main__':
 
 ## 添加Commission到GIA
 
-这个过程比较麻烦,因此请直接PR你的Commission.
+这个过程比较麻烦，因此请直接PR你的Commission。

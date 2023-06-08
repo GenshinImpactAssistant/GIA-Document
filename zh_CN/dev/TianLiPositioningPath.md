@@ -1,12 +1,12 @@
 # TianLiPositioningPath TLPP
 
-> 编写中...
+> 编写中……
 
 TLPP是保存TianLi格式坐标的文件。
 
 ## TLPP文件结构
 
-TLPP由path_recorder_flow.py文件生成。文件结构如下:
+TLPP由path_recorder_flow.py文件生成。文件结构如下：
 
 ```python
 collection_path_dict = {
@@ -39,5 +39,5 @@ collection_path_dict = {
 
 如果有某个坐标打的不好，你想要手动修改它时：
 
-- 若 `additional_info` `pickup_points` 列表为空，直接删除对应index的BP
+- 若 `additional_info` `pickup_points` 列表为空，直接删除对应index的BP。
 - 否则，将对应index的BP改为与它的上一个BP或下一个BP相同。这是为了避免BP顺序错误。

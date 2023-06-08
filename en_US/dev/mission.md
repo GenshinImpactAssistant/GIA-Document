@@ -1,4 +1,4 @@
-# Mission(自定义任务)
+# Mission（自定义任务）
 
 ## Introduction
 
@@ -8,7 +8,7 @@ Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) 
 
 Custom task is an important direction for GIA to add new functions at present.
 
-# 设计你的第一个Mission(快速开始)
+# 设计你的第一个Mission（快速开始）
 
 Currently, simple Missions are mainly used for automatic collection. Therefore, below we introduce the writing of a simple Mission to start. To create more complex Missions, please refer to the introduction later.
 
@@ -37,13 +37,13 @@ TLPP_FILE = ...
 
 You can find the source code in `missions/MissionQingXin1.py`.
 
-这一段代码的目标是告诉GIA使用 `TLPP_FILE` 字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](video2path.md)
+这一段代码的目标是告诉GIA使用 `TLPP_FILE` 字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](video2path.md)。
 
 We will start with this piece of code and introduce the various components of Mission.
 
 ## 导入Mission模板
 
-对于简单的采集自定义任务，应当使用
+对于简单的采集自定义任务，应当使用：
 
 ```python
 from source.mission.template.mission_just_collect import MissionJustCollect
@@ -70,13 +70,13 @@ META={
 
 VERSION用于标出该Mission的版本。目前(2023.5.20~)使用 `1.0.0` 进行标记。Mission格式可能会发生修改，若有，将会在文档中说明。Mission META使用python的字典格式。你可能需要先了解什么是python的字典。
 
-For a quick start, we simply
+For a quick start, we simply:
 
-- Copy the above code
+- Copy the above code.
 - Change `your-mission-name-in-zh_CN` to the Chinese name of your Mission, and `your-mission-name-in-en_US` to the English name of your Mission.
-- Change `your-github-username` to your Github username (or whatever you want)
-- Change `when-you-create-the-mission` to the time when you created this Mission (format: `UTCxxx yyyy-mm-dd` . For example: `UTC+08 2023-05-03` )
-- Change `what-you-want-to-say` to what you want to say (path location, description, acknowledgments, etc.)
+- Change `your-github-username` to your Github username (or whatever you want).
+- Change `when-you-create-the-mission` to the time when you created this Mission (format: `UTCxxx yyyy-mm-dd` . For example: `UTC+08 2023-05-03` ).
+- Change `what-you-want-to-say` to what you want to say (path location, description, acknowledgments, etc.).
 
 If the name or corresponding language is missing in META, the mission name will be used automatically.
 
@@ -103,8 +103,8 @@ Among them, TLPP_FILE is your TLPP dictionary, replace `...` with the TLPP dicti
 
 mission的命名规则如下：
 
-1. The mission must be in English
-2. The first letter of each word of mission should be capitalized
+1. The mission must be in English.
+2. The first letter of each word of mission should be capitalized.
 3. mission should start with your author name to prevent confusion (preferably Github username).
 
 Just specify the TLPP file you want to run, MissionJustCollect will expand it into a complete Mission, and call the MissionTemplate class to execute it.
@@ -140,7 +140,7 @@ TLPP_FILE = ...
 
 到这里，你应该成功创建并运行了你的第一个采集类自定义任务。
 
-非常欢迎分享你的自定义任务.
+非常欢迎分享你的自定义任务。
 
 If you can make a custom task sharing website, welcome to submit pr or reply in issue.
 
@@ -150,7 +150,7 @@ If you can make a custom task sharing website, welcome to submit pr or reply in 
 
 这是面向有一定python基础的开发者。
 
-You need to master the basic syntax of python.
+You need to understand the basic syntax of python, but you don't need to master it.
 
 ## Usage
 
@@ -207,9 +207,9 @@ You can perform functions by combining functions. For the functions provided by 
 
 ## 函数文档
 
-你可以在[ `source/mission/mission.py` ](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py)查看所有使用方法和介绍. 如果文档不清晰或想要添加新的功能以适配你的想法,请提交issue.
+You can check the method and introduction at [`source/mission/mission.py`](https://github.com/infstellar/genshin_impact_assistant/blob/main/source/mission/mission.py). Please submit an issue if the documentation is not clear or if you want to add new features to suit your ideas.
 
-Function list:
+List of functions:
 
 | function                      | purpose                                                                                                                                   |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |

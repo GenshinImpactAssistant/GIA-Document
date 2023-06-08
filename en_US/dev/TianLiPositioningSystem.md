@@ -14,8 +14,8 @@ You can find the relevant code in source/map.
 
 TLN is a navigation algorithm based on A-star pathfinding, the working principle is as follows:
 
-1. Manually mark the point routes suitable for walking
-2. In TeyvatMove, search for suitable nodes according to the start point and end point
+1. Manually mark the point routes suitable for walking.
+2. In TeyvatMove, search for suitable nodes according to the start point and end point.
 3. Prioritize walking according to the route, and walk straight to the goal after the route ends.
 
 ### TianLiNavigatorDev

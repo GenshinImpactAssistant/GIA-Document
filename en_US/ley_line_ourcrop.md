@@ -4,7 +4,7 @@ Auto obtain Blossom of Wealth or Revelation.
 
 ## Dependency
 
-# Auto Combat Assist
+- Auto Combat Assist.
 
 ## Setup
 

@@ -13,7 +13,7 @@
 ### 运行
 
 1. 按下 `\` 键，提示 `ready to start recording` 。如果没有，就再按一次。
-2. 一通操作后，提 `start recording` ,就可以开始移动了。
+2. 一通操作后，提 `start recording` ，就可以开始移动了。
 3. 移动时，所有的坐标会被记录。同时，角色的动作状态（行走，爬山等）也会被记录。
 4. 角色移动方向改变超过5°时，会记录一次break position。break position之间的距离最小为5.2。
 5. 走完之后，再次按下 `\` 键。提示 `ready to stop recording` 。

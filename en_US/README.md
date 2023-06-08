@@ -2,7 +2,7 @@
 
 <div align="center">
 
-A multi-functional auto-assist based on image recognition and keystroke simulation, including auto combat, auto domain and auto claim materials in Teyvat world
+A multi-functional auto-assist based on image recognition and keystroke simulation, including auto combat, auto domain and auto claim materials in Teyvat world.
 
 The aim of GIA is: let the program play Genshin, and you just need to selected characters and raise them.
 
@@ -39,15 +39,15 @@ Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be
 
 ## Frequently ask question
 
-If you enconter any problem when using, you can take a look at FAQ frist
+If you enconter any problem when using, you can take a look at FAQ frist.
 
 ## Function Details
 
 Most of the functions only need to set the parameters, put the game in the big world, select the function and start it.
 
-If you have doubts about a function or want to know more information, please refer to [Detailed Function Introduction](functions_detail.md)
+If you have doubts about a function or want to know more information, please refer to [Detailed Function Introduction](functions_detail.md).
 
-## 参与开发
+## Participate in Development
 
 非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/)开始。
 
@@ -67,14 +67,14 @@ See [GIA Launcher Auto Installer Tutorial](install.md).
 
 ### Run from source code
 
-See [Source code running tutorial](git_install.md)
+See [Source code running tutorial](git_install.md).
 
 ## Pre-use settings
 
 ### Progress in Genshin
 
 - 需要解锁 `层岩巨渊 地下矿区` 的地图。
-- 需要解锁璃月与蒙德的所有传送锚点，副本式秘境
+- 需要解锁璃月与蒙德的所有传送锚点，副本式秘境。
 
 ### Genshin window settings
 
@@ -112,7 +112,7 @@ If the log outputs `ERR_CODE` or `WARN_CODE`, you can see the corresponding info
 
 ## [Known issues](known_issues.md)
 
-[Known issues](known_issues.md)
+Please see [Known issues](known_issues.md).
 
 ## Performance requirements
 
@@ -152,4 +152,5 @@ Thanks to all the friends who participated in the development/testing (\*´▽�
 QQ group:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 
 Developers' Communication Group: [680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
+
 (Make sure you already know how to use git and github)

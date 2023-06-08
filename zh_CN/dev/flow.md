@@ -16,9 +16,9 @@ Flow Unit内部有5个状态，可以在状态间切换。
 
 ### 基本概念：
 
-Flow id: 存储于模块ST。
+Flow id：存储于模块ST。
 
-Flow Code: 存储于模块FC。
+Flow Code：存储于模块FC。
 
 ```python
 class FlowTemplate():
@@ -27,7 +27,7 @@ class FlowTemplate():
 
 介绍：upper：流程连接器（FlowConnector）单元。
 
-flow_id: 流程代码：
+flow_id：流程代码：
 
 ## 流程代码
 
@@ -51,17 +51,17 @@ END_DOMAIN
 
 所有流程码管理在flow/flow_state.py中。
 
-next_flow_id: 该流程结束后运行的下一个流程的Flow id
+next_flow_id：该流程结束后运行的下一个流程的Flow id
 
-flow_timeout_time: 流程超时时间。负数则为无限。
+flow_timeout_time：流程超时时间。负数则为无限。
 
 变量：
 
 rfc：return flow code。有以下6个值：0,1,2,3,4,5
 
-0~4: 对应state_init, state_before, state_in, state_after, state_end。即FC.INIT, FC.BEFORE, FC.IN, FC.AFTER, FC.END.
+0~4：对应state_init, state_before, state_in, state_after, state_end。即FC.INIT, FC.BEFORE, FC.IN, FC.AFTER, FC.END 。
 
-5: 流程结束标志码。即FC.OVER
+5：流程结束标志码。即FC.OVER。
 
 ### 状态执行函数：
 
@@ -114,9 +114,9 @@ class FlowController(base_threading.BaseThreading):
     def __init__(self, flow_connector:FlowConnector, current_flow_id):
 ```
 
-flow_connector: FlowConnector对象。
+flow_connector：FlowConnector对象。
 
-current_flow_id: 初始流程id。
+current_flow_id：初始流程id。
 
 函数清单：
 

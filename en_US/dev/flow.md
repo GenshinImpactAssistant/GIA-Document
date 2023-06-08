@@ -16,9 +16,9 @@ Currently, Flow is used for automatic collection, automatic walking and path rec
 
 ### 基本概念：
 
-Flow id: 存储于模块ST。
+Flow id：存储于模块ST。
 
-Flow Code: 存储于模块FC。
+Flow Code：存储于模块FC。
 
 ```python
 class FlowTemplate():
@@ -27,7 +27,7 @@ class FlowTemplate():
 
 介绍：upper：流程连接器（FlowConnector）单元。
 
-flow_id: 流程代码：
+flow_id: The index of the flow:
 
 ## Flow Code
 
@@ -61,7 +61,7 @@ rfc: return flow code. There are the following 6 values: 0,1,2,3,4,5
 
 0~4: corresponding to state_init, state_before, state_in, state_after, state_end. That is, FC.INIT, FC.BEFORE, FC.IN, FC.AFTER, FC.END.
 
-5: Process end flag code.
+5: Process end flag code. That is, FC.OVER.
 
 ### 状态执行函数：
 

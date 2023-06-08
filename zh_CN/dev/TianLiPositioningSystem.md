@@ -14,8 +14,8 @@ TLPS是基于OpenCV的小地图定位算法，小地图视角识别算法，小�
 
 TLN是基于A-star寻路的导航算法，工作原理如下：
 
-1. 人工标记适合行走的点位路线
-2. TeyvatMove中根据开始点与结束点搜索适宜节点
+1. 人工标记适合行走的点位路线。
+2. TeyvatMove中根据开始点与结束点搜索适宜节点。
 3. 优先按照路线行走，路线结束后朝目标直线行走。
 
 ### TianLiNavigatorDev
@@ -32,7 +32,7 @@ TLNDev是用于人工编辑路线的工具，位于 `source/dev_tool/tianli_navi
 
 ### TLNDev名词解释
 
-- 全连接(full link或fl)：意味着双向连接，比如节点1与节点2全连接意味着1\<->2双向连通。
+- 全连接（full link或fl）：意味着双向连接，比如节点1与节点2全连接意味着1\<->2双向连通。
 
 #### TLNDev命令
 
@@ -42,7 +42,7 @@ TLNDev是用于人工编辑路线的工具，位于 `source/dev_tool/tianli_navi
 
 - undo
 
-  撤销上一次指令。只能撤销一次(懒)
+  撤销上一次指令。只能撤销一次（懒）。
 
 - del `id`
   删除指定id的节点和它的所有相关连接。
@@ -54,7 +54,7 @@ TLNDev是用于人工编辑路线的工具，位于 `source/dev_tool/tianli_navi
   连接id1与id2。
 
 - add `x`,`y` \[id=`id`\] \[fl=`xxx`\]
-  添加坐标x,y。如果不指定id，则自动使用下一个id。
+  添加坐标x，y。如果不指定id，则自动使用下一个id。
 
   可以指定要与之全连接(full link)的节点id。如果为空，则自动设为上一个id。
 
