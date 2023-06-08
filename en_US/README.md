@@ -25,7 +25,7 @@ An Genshin automatic operation assistance based on image recognization and simil
 
 To those who have not used github: the blue text in the docs is a hyperlink that can be clicked.
 
-> This is the document repository, please click star to go to the main repository ~~ (you can also star the document repo if you want)~~
+> This is the document repository, please click star to go to the main repository \~~ (you can also star the document repo if you want)\~~
 
 ## Quick Start
 
@@ -86,9 +86,9 @@ See [Source code running tutorial](git_install.md).
 
 Before use, these configuration elements shoule be noted:
 
-| name | configuration | content |
-| ------- | ------------------ | -------------------- |
-|config/settings/config.json| `BorderlessWindow` | When using boradless window or full screen, set to true.|
+| name                        | configuration      | content                                                  |
+| --------------------------- | ------------------ | -------------------------------------------------------- |
+| config/settings/config.json | `BorderlessWindow` | When using boradless window or full screen, set to true. |
 
 Can be modified in the GUI or directly from the file.
 
@@ -154,4 +154,3 @@ QQ group:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 Developers' Communication Group: [680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
 
 (Make sure you already know how to use git and github)
-
