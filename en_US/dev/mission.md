@@ -223,7 +223,7 @@ List of functions:
 | start_pickup                  | Start automatic pickup. Interactable items encountered on the road will be collected.                                                     |
 | stop_pickup                   | Stop automatic pickup.                                                                                                                    |
 | refresh_picked_list           | Refresh the list of picked items                                                                                                          |
-| reg_exception_found_enemy     | 注册事件：条件：是否遇敌。此后条件成立则跳出阻塞式任务。                                                                                                              |
+| reg_exception_found_enemy     | Register event: Condition: Enemy found or not. After that, if the condition is met, it will jump out of the blocking task.                |
 | reg_exception_chara_died      | Register event: Condition: Whether the character died. After that, if the condition is met, it will jump out of the blocking task.        |
 | reg_exception_low_hp          | Register event: Condition: Check if the character has low HP. After that, if the condition is met, it will jump out of the blocking task. |
 | set_default_arrival_mode      | Set the default accurate arrival mode. The default exact reach mode for all move methods henceforth is set to state.                      |
