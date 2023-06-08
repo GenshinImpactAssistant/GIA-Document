@@ -140,8 +140,8 @@ class GenerateMarkdownGenerator():
             for f in files:
                 if f.split('.')[-1] in ['md', 'markdown']:
                     print(f"generate pygettext {root}/{f}")
-                    self._write_file(f"{root}/{f}")
-      
+                    self._write_file(os.path.join(root, f))
+
 if __name__ == "__main__":
     gmg = GenerateMarkdownGenerator(os.path.abspath(r'./'), "zh_CN")
     gmg.run()
