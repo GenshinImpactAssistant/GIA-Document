@@ -1,4 +1,4 @@
-# 视频转路径(video to path, or V2P)
+# 视频转路径（video to path, or V2P）
 
 根据视频生成路径。\
 位置： `source/dev_tool/video2path.py`
@@ -7,7 +7,7 @@
 
 通过视频生成TLPP(TianLiPositioningPath)文件。原理和[路径记录器](path_recorder.md)基本一致,但用法不同。\
 运行source/dev_tool/video2path.py文件以开始分析视频。\
-有关更多TLPP的信息，请参阅[TLPP介绍](TianLiPositioningPath.md)\
+有关更多TLPP的信息，请参阅[TLPP介绍](TianLiPositioningPath.md)。\
 演示视频:https://www.bilibili.com/video/BV1ks4y1Q79y \
 参考视频:https://www.bilibili.com/video/BV1Lu411W71q
 
@@ -37,15 +37,15 @@ IS_PICKUP_MODE = True # 是否为采集路径模式
 
 - 填写参数，运行程序
 - 在开始移动前，按下按键 `a` ，V2P会开始解析当前位置可能的传送锚点。解析完成后，会在控制台弹出所有可能的传送锚点坐标和index。注意看控制台的提示。
-- 在控制台输入对应的index，按下回车，可以查看该传送锚点附近的地形(使用cv2显示)。如果地形符合，在控制台直接按下空格以确认。注意看控制台的提示。
+- 在控制台输入对应的index，按下回车，可以查看该传送锚点附近的地形（使用cv2显示）。如果地形符合，在控制台直接按下空格以确认。注意看控制台的提示。
 - 按下 `]` 按键以启动记录。注意看控制台的提示。
 - 一条采集路线将要结束时，按下 `]` 以结束记录。TLPP文件会保存在 `./dev/tlpp` 目录下。注意看控制台的提示。 `./dev/tlpp/QXV220230513083258i0.pydict` 是一个示例文件。
 
 ## 注意
 
-- 一个连续的路径的开头应该从传送锚点开始
-- 必须是完整流畅的原神游戏录屏
-- 记录路径时，播放速度(fps)应当与真实移动速度接近。
+- 一个连续的路径的开头应该从传送锚点开始。
+- 必须是完整流畅的原神游戏录屏。
+- 记录路径时，播放速度（fps）应当与真实移动速度接近。
 
 ## TLPP文件格式
 

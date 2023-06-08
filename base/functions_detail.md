@@ -4,16 +4,16 @@
 
 在Task list中选择领取日常奖励，启动任务。
 
-> 最稳定的功能(因为简单..)
+> 最稳定的功能（因为简单）
 
 ## 2. [战斗辅助](combat_assi.md)
 
-- 在GUI中将FlowMode切换到AutoCombat，等待模块导入
+- 在GUI中将FlowMode切换到AutoCombat，等待模块导入。
 - 按下 `[` 键启动/停止功能。可在 `keymap.json` 中更改。
 
-其他设置参见[自动战斗辅助介绍](combat_assi.md).
+其他设置参见[自动战斗辅助介绍](combat_assi.md)。
 
-> ~~单拉出来的一个核心功能,只有这个不是全自动~~
+> ~~单拉出来的一个核心功能，只有这个不是全自动~~
 
 ## 3. [自动每日委托](commission_assi.md)
 
@@ -23,7 +23,7 @@
 >
 > ASmallStepForHilichurls, Emergency,IcyIssues, ForTheHarbingers, BigIceColdCrisis, SpreadingEvil, PudgyPyrotechnicians, IncreasingDanger.
 
-详情参见[自动每日委托辅助介绍](commission_assi.md).
+详情参见[自动每日委托辅助介绍](commission_assi.md)。
 
 ## 4. [自动地脉衍出](ley_line_ourcrop.md)
 
@@ -35,26 +35,26 @@
 
 - 目前最好用的功能~!
 
-1. GUI 设置页面中设置挑战秘境的次数等.
-2. 手动选择队伍,配置队伍,进入秘境.
-3. 进入秘境后(也可以在大世界,但要正确设置秘境名和关卡名),在GUI TaskList中选中DomainTask，点击启动任务
-4. 等待导入完成后切换到原神
-5. 双手离开键盘
+1. GUI 设置页面中设置挑战秘境的次数等。
+2. 手动选择队伍，配置队伍，进入秘境。
+3. 进入秘境后（也可以在大世界，但要正确设置秘境名和关卡名），在GUI TaskList中选中DomainTask，点击启动任务。
+4. 等待导入完成后切换到原神。
+5. 双手离开键盘。
 
-- 注意阅读[domain_assi.md](domain_assi.md)中的注意事项.
+- 注意阅读[domain_assi.md](domain_assi.md)中的注意事项。
 
-其他设置参见[自动秘境辅助介绍](domain_assi.md).
+其他设置参见[自动秘境辅助介绍](domain_assi.md)。
 
-> ~~冰本的地板会把人冻死，记得多带点奶...~~
+> ~~冰本的地板会把人冻死，记得多带点奶……~~
 
 ## 6. [自动采集辅助](collector_assi.md)
 
 > 非常垃圾，但是通用
 
-- 在自定义任务中选择通用自动采集，启动自定义任务
-- 注意阅读[collector_assi.md](collector_assi.md)中的注意事项.
+- 在自定义任务中选择通用自动采集，启动自定义任务。
+- 注意阅读[collector_assi.md](collector_assi.md)中的注意事项。
 
-其他设置参见[自动采集辅助介绍](collector_assi.md).
+其他设置参见[自动采集辅助介绍](collector_assi.md)。
 
 ## 7. [自定义任务（素材收集等）](mission.md)
 

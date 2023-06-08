@@ -2,9 +2,9 @@
 
 <div align="center">
 
-基于图像识别和模拟按键的多功能原神自动辅助操作，包括自动战斗，自动刷秘境，自动刷大世界材料等。
+基于图像识别和模拟按键的多功能原神自动辅助操作，包括自动战斗、自动刷秘境、自动刷大世界材料等。
 
-GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛街~~养老婆~~
+GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛街~~养老婆~~。
 
 [![GitHub Star](https://img.shields.io/github/stars/infstellar/genshin_impact_assistant?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/stargazers)
 [![Release Download](https://img.shields.io/github/downloads/infstellar/genshin_impact_assistant/total?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/releases/download/v0.3.0/GIA.Launcher.v0.3.0.7z)
@@ -21,10 +21,10 @@ GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛�
 
 ## 介绍
 
-基于图像识别的原神自动操作辅助.使用图片识别与模拟键盘操作,不涉及违规操作.\
-To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打开的.
+基于图像识别的原神自动操作辅助。使用图片识别与模拟键盘操作，不涉及违规操作。\
+To没用过github的小伙伴：描述文档中的蓝色文字是链接，可以打开的。
 
-> 这里是文档仓库，点star请到主仓库 ~~(如果你需要star文档仓库也可以)~~
+> 这里是文档仓库，点star请到主仓库 ~~（如果你需要star文档仓库也可以）~~
 
 ## 我是急急国王
 
@@ -37,12 +37,12 @@ To没用过github的小伙伴: 描述文档中的蓝色文字是链接,可以打
 
 ## [常见问题 FAQ](FAQ.md)
 
-如果在使用时遇到问题，先看看[FAQ](FAQ.md)
+如果在使用时遇到问题，先看看[FAQ](FAQ.md)。
 
 ## [功能介绍](functions_detail.md)
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。\
-如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](functions_detail.md)
+如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](functions_detail.md)。
 
 ## 参与开发
 
@@ -59,23 +59,23 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ### 快速安装
 
-请参见[GIA Launcher自动安装器使用方法](install.md).
+请参见[GIA Launcher自动安装器使用方法](install.md)。
 
 ### 从源代码构建
 
-请参见[源代码安装方法](git_install.md)
+请参见[源代码安装方法](git_install.md)。
 
 ## 使用前设置
 
 ### 原神游戏进度
 
 - 需要解锁 `层岩巨渊 地下矿区` 的地图。
-- 需要解锁璃月与蒙德的所有传送锚点，副本式秘境
+- 需要解锁璃月与蒙德的所有传送锚点，副本式秘境。
 
 ### 原神窗口设置
 
-- 需要在原神启动后再运行程序.
-- 原神需要以1080p窗口化运行(全屏也可以),设置抗锯齿为SMAA,中或以上特效.
+- 需要在原神启动后再运行程序。
+- 原神需要以1080p窗口化运行（全屏也可以），设置抗锯齿为SMAA，中或以上特效。
 - 窗口焦点应在原神窗口上。如果切换焦点窗口，程序会暂停所有键鼠操作并等待。
 
 ### config配置
@@ -87,7 +87,7 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 | 设置-通用设置 | `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。 |
 
 可以在GUI或直接从文件中修改。\
-更多其他配置项，参见GUI内的设置介绍：[GUI使用](gui.md)
+更多其他配置项，参见GUI内的设置介绍：[GUI使用](gui.md)。
 
 ## 错误报告
 
@@ -105,11 +105,11 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ## [已知问题 Known Issues](known_issues.md)
 
-[Known issues](known_issues.md)
+请参见[Known issues](known_issues.md)。
 
 ## 性能需求
 
-- 此程序至少需要 `2.5G内存` 与 `4G存储空间` (完整安装).
+- 此程序至少需要 `2.5G内存` 与 `4G存储空间` （完整安装）。
 
 ## 鸣谢
 
@@ -138,11 +138,12 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ### 其他贡献/参与者
 
-- 数据集标注: [nɡ.](https://space.bilibili.com/396023811)
+- 数据集标注：[nɡ.](https://space.bilibili.com/396023811)
 
 ## 广告
 
-qq群:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+qq群：[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 
-开发者交流群:[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
-(请确保你已经会使用git以及github)
+开发者交流群：[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
+
+（请确保你已经会使用git以及github）
