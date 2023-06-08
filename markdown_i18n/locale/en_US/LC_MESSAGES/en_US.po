@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-09 03:28+0800\n"
-"PO-Revision-Date: 2023-06-09 03:32+0800\n"
+"POT-Creation-Date: 2023-06-09 03:52+0800\n"
+"PO-Revision-Date: 2023-06-09 03:52+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -1522,23 +1522,23 @@ msgid "commission专有函数清单："
 msgstr "List of functions:"
 
 #: ../base\dev\commission.pygettext:49
-msgid "| 函数                | 用途                                |"
+msgid "| 函数                | 用途                               |"
 msgstr "| function | usage |"
 
 #: ../base\dev\commission.pygettext:51
-msgid "| talk_skip         | 跳过对话，直到回到大世界                      |"
+msgid "| talk_skip         | 跳过对话，直到回到大世界                     |"
 msgstr "| talk_skip | Skip talks until back to main UI |"
 
 #: ../base\dev\commission.pygettext:52
-msgid "| talk_switch       | 选择选项                              |"
+msgid "| talk_switch       | 选择选项                             |"
 msgstr "| talk_switch | select options |"
 
 #: ../base\dev\commission.pygettext:53
-msgid "| talk_until_switch | 对话直到出现选项                          |"
+msgid "| talk_until_switch | 对话直到出现选项                         |"
 msgstr "| talk_until_switch | talk until options |"
 
 #: ../base\dev\commission.pygettext:54
-msgid "| talk_wait         | 等待x秒                              |"
+msgid "| talk_wait         | 等待x秒                             |"
 msgstr "| talk_wait | wait x seconds |"
 
 #: ../base\dev\commission.pygettext:55
@@ -2227,7 +2227,7 @@ msgid "| refresh_picked_list           | 刷新已采集物名列表            
 msgstr "| refresh_picked_list | Refresh the list of picked items |"
 
 #: ../base\dev\mission.pygettext:179
-msgid "| reg_exception_found_enemy     | 注册事件：条件：是否遇敌。此后条件成立则跳出阻塞式任务。           |"
+msgid "| reg_exception_found_enemy     | 注册事件：条件：是否遇敌。此后条件成立则跳出阻塞式任务。          |"
 msgstr "| reg_exception_found_enemy | Register event: Condition: Enemy found or not. After that, if the condition is met, it will jump out of the blocking task. |"
 
 #: ../base\dev\mission.pygettext:180
