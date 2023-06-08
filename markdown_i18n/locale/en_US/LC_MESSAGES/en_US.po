@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-09 03:52+0800\n"
-"PO-Revision-Date: 2023-06-09 03:52+0800\n"
+"POT-Creation-Date: 2023-06-09 04:45+0800\n"
+"PO-Revision-Date: 2023-06-09 04:47+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -154,7 +154,7 @@ msgstr "To those who have not used github: the blue text in the docs is a hyperl
 
 #: ../base\README.pygettext:27
 msgid "> 这里是文档仓库，点star请到主仓库 ~~（如果你需要star文档仓库也可以）~~"
-msgstr "> This is the document repository, please click star to go to the main repository ~~ (you can also star the document repo if you want)~~"
+msgstr "> This is the document repository, please click star to go to the main repository <del>(you can also star the document repo if you want)</del>"
 
 #: ../base\README.pygettext:29
 msgid "## 我是急急国王"
