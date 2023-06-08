@@ -7,14 +7,14 @@ A multi-functional auto-assist based on image recognition and keystroke simulati
 The aim of GIA is: let the program play Genshin, and you just need to selected characters and raise them.
 
 [![GitHub Star](https://img.shields.io/github/stars/infstellar/genshin_impact_assistant?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/stargazers)
-[![Release Download](https://img.shields.io/github/downloads/infstellar/genshin_impact_assistant/total?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/releases/download/v0.3.0/GIA.Launcher.v0.3.0.7z)
+[![Release Download](https://img.shields.io/github/downloads/infstellar/genshin_impact_assistant/total?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/releases/download/v0.6.0-beta.542/GIA_Launcher_v0.6.0.7z)
 [![Release Version](https://img.shields.io/github/v/release/infstellar/genshin_impact_assistant?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/releases/latest)
 [![Python Version](https://img.shields.io/badge/python-v3.7.6-blue?style=flat-square)](https://www.python.org/downloads/release/python-376/)
 [![GitHub Repo Languages](https://img.shields.io/github/languages/top/infstellar/genshin_impact_assistant?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/search?l=Python)
-![GitHub Repo size](https://img.shields.io/github/repo-size/infstellar/genshin_impact_assistant?style=flat-square&color=3cb371)
+[![GitHub Repo size](https://img.shields.io/github/repo-size/infstellar/genshin_impact_assistant?style=flat-square&color=3cb371)](https://github.com/infstellar/genshin_impact_assistant/)
 [![contributors](https://img.shields.io/github/contributors/infstellar/genshin_impact_assistant?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/graphs/contributors)
-</br></br>
-[![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-901372518-blue.svg?style=flat-square&color=12b7f5&logo=qq)](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+</br>
+[![QQ Group](https://img.shields.io/badge/QQ%20Group-901372518-blue.svg?style=flat-square&color=12b7f5&logo=tencentqq)](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 [![Bilibili](https://img.shields.io/badge/bilibili-infstellar-blue.svg?style=flat-square&logo=bilibili)](https://space.bilibili.com/313212782)<!-- ignore gettext -->
 
 </div>
@@ -25,7 +25,7 @@ An Genshin automatic operation assistance based on image recognization and simil
 
 To those who have not used github: the blue text in the docs is a hyperlink that can be clicked.
 
-> This is the document repository, please click star to go to the main repository \~~ (you can also star the document repo if you want)\~~
+> This is the document repository, please click star to go to the main repository ~~ (you can also star the document repo if you want)~~
 
 ## Quick Start
 
@@ -86,9 +86,9 @@ See [Source code running tutorial](git_install.md).
 
 Before use, these configuration elements shoule be noted:
 
-| name                        | configuration      | content                                                  |
-| --------------------------- | ------------------ | -------------------------------------------------------- |
-| config/settings/config.json | `BorderlessWindow` | When using boradless window or full screen, set to true. |
+| name | configuration | content |
+| ------- | ------------------ | -------------------- |
+|config/settings/config.json| `BorderlessWindow` | When using boradless window or full screen, set to true.|
 
 Can be modified in the GUI or directly from the file.
 
@@ -154,3 +154,4 @@ QQ group:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
 Developers' Communication Group: [680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
 
 (Make sure you already know how to use git and github)
+
