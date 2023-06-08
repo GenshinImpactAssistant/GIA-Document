@@ -1,7 +1,8 @@
 import os
 def verify_path(root):
+    root = os.path.abspath(root)
     if not os.path.exists(root):
-        verify_path(os.path.join(root, "../"))
+        verify_path(os.path.dirname(root))
         os.mkdir(root)
         print(f"dir {root} has been created")
 

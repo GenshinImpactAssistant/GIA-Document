@@ -39,7 +39,8 @@ class GenerateMarkdownGenerator():
             f.write(f'import gettext, sys\n')
             f.write(f"sys.argv.pop(0)\n")
             f.write(f"LANG = sys.argv[0]\n")
-            f.write(f'l10n = gettext.translation(LANG, localedir = r"{self.folder_path}/markdown_i18n/locale", languages=[LANG])\n')
+            local_dir_path = os.path.join(self.folder_path, "markdown_i18n", "locale")
+            f.write(f'l10n = gettext.translation(LANG, localedir = rf"{local_dir_path}", languages=[LANG])\n')
             f.write('l10n.install()\n')
             f.write(f'_ = l10n.gettext\n')
             md_path = f'{file_path.replace("base",self.LANG)}'
@@ -139,8 +140,9 @@ class GenerateMarkdownGenerator():
         for root, dirs, files in os.walk(os.path.join(self.folder_path,"base")):
             for f in files:
                 if f.split('.')[-1] in ['md', 'markdown']:
-                    print(f"generate pygettext {root}/{f}")
-                    self._write_file(os.path.join(root, f))
+                    filepath = os.path.join(root, f)
+                    print(f"generate pygettext {filepath}")
+                    self._write_file(filepath)
 
 if __name__ == "__main__":
     gmg = GenerateMarkdownGenerator(os.path.abspath(r'./'), "zh_CN")

@@ -13,7 +13,8 @@ class GenerateMarkdown():
 
     def run(self):
         command_head = "python"
-        self.compile_po_file(rf"{self.folder_path}/markdown_i18n/locale/{self.LANG}/LC_MESSAGES/{self.LANG}.po")
+        po_file_name = os.path.join(self.folder_path, "markdown_i18n", "locale", self.LANG, "LC_MESSAGES", f"{self.LANG}.po")
+        self.compile_po_file(po_file_name)
         for root, dirs, files in os.walk(os.path.join(self.folder_path,"base")):
             for f in files:
                 if f.split('.')[-1] == 'pygettext':

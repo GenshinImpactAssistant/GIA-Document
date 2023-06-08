@@ -8,5 +8,6 @@ class CleanFiles():
         for root, dirs, files in os.walk(os.path.join(self.folder_path,"base")):
             for f in files:
                 if f.split('.')[-1] in ['pygettext', 'py']:
-                    os.remove(f"{root}/{f}")
-                    print(f'remove {root}/{f}')
+                    filepath = os.path.join(root, f)
+                    os.remove(filepath)
+                    print(f'remove {filepath}')
