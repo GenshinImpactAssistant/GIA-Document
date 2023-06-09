@@ -1,6 +1,6 @@
-[**说明**](../dev/ "开发指南")
+[**Introduction**](../dev/ "Development Guide")
 
-[**返回主页**](../)
+[**Back to Homepage**](../)
 
 - **Development Guide**
   - [Path Recorder](path_recorder)
