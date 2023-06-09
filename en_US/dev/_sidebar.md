@@ -1,6 +1,6 @@
-[**Introduction**](../dev/ "Development Guide")
+[**Introduction**](/en_US/dev/ "Development Guide")
 
-[**Back to Homepage**](../)
+[**Back to Homepage**](/en_US/)
 
 - **Development Guide**
   - [Path Recorder](path_recorder)

@@ -19,4 +19,4 @@
   - [Known Issues](known_issues)
 - **Other**
   - [Install From Source Code](git_install)
-  - [**Development Guide**](../dev/)
+  - [**Development Guide**](/en_USdev/)
