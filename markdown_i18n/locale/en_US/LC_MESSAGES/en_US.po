@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-09 04:45+0800\n"
-"PO-Revision-Date: 2023-06-09 04:47+0800\n"
+"POT-Creation-Date: 2023-06-09 23:33+0800\n"
+"PO-Revision-Date: 2023-06-09 23:34+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -435,6 +435,92 @@ msgstr "Developers' Communication Group: [680029885](https://jq.qq.com/?_wv=1027
 #: ../base\README.pygettext:155
 msgid "（请确保你已经会使用git以及github）"
 msgstr "(Make sure you already know how to use git and github)"
+
+#: ../base\_sidebar.pygettext:9
+msgid "<!-- docs/_sidebar.md -->"
+msgstr ""
+
+#: ../base\_sidebar.pygettext:11
+msgid "- **入门**"
+msgstr "- **Introduction**"
+
+#: ../base\_sidebar.pygettext:12
+msgid "  - [快速开始](jijiking)"
+msgstr "  - [Quick Start](jijiking)"
+
+#: ../base\_sidebar.pygettext:13
+msgid "  - [安装方法](install)"
+msgstr "  - [Installation method](install)"
+
+#: ../base\_sidebar.pygettext:14
+msgid "  - [GUI](gui)"
+msgstr "  - [GUI](gui)"
+
+#: ../base\_sidebar.pygettext:15
+msgid "  - [详细功能介绍](functions_detail)"
+msgstr "  - [Functions Detail](functions_detail)"
+
+#: ../base\_sidebar.pygettext:16
+msgid "- **主要功能**"
+msgstr "- **Main Functions**"
+
+#: ../base\_sidebar.pygettext:17
+msgid "  - [领取日常奖励](claim_reward)"
+msgstr "  - [Cliam Daily Reward](claim_reward)"
+
+#: ../base\_sidebar.pygettext:18
+msgid "  - [自动战斗辅助](combat_assi)"
+msgstr "  - [Auto Combat Assist](combat_assi)"
+
+#: ../base\_sidebar.pygettext:19
+msgid "  - [自动每日委托](commission_assi)"
+msgstr "  - [Automatic Daily Commission](commission_assi)"
+
+#: ../base\_sidebar.pygettext:20
+msgid "  - [自动地脉衍出辅助](ley_line_ourcrop)"
+msgstr "  - [Auto Ley Line Outcrop Assist](ley_line_ourcrop)"
+
+#: ../base\_sidebar.pygettext:21
+msgid "  - [自动秘境战斗](domain_assi)"
+msgstr "  - [Auto Domain Assist](domain_assi)"
+
+#: ../base\_sidebar.pygettext:22
+msgid "  - [自动采集辅助](collector_assi)"
+msgstr "  - [Auto collector Assist](collector_assi)"
+
+#: ../base\_sidebar.pygettext:23
+msgid "- **进阶使用**"
+msgstr "- **Advanced Usage**"
+
+#: ../base\_sidebar.pygettext:24
+msgid "  - [任务](mission)"
+msgstr "  - [Mission](mission)"
+
+#: ../base\_sidebar.pygettext:25
+msgid "- **帮助**"
+msgstr "- **Help**"
+
+#: ../base\_sidebar.pygettext:26
+msgid "  - [FAQ](FAQ)"
+msgstr "  - [FAQ](FAQ)"
+
+#: ../base\_sidebar.pygettext:27
+msgid "  - [已知问题](known_issues)"
+msgstr "  - [Known Issues](known_issues)"
+
+#: ../base\_sidebar.pygettext:28
+msgid "- **其它**"
+msgstr "- **Other**"
+
+#: ../base\_sidebar.pygettext:29
+msgid "  - [从源代码安装](git_install)"
+msgstr "  - [Install From Source Code](git_install)"
+
+#: ../base\_sidebar.pygettext:30
+#, fuzzy
+#| msgid "  - [**开发指南**](/zh_CN/dev/)"
+msgid "  - [**开发指南**](../dev/)"
+msgstr "  - [**Development Guide**](/en_US/dev/)"
 
 #: ../base\claim_reward.pygettext:9
 msgid "# 领取日常奖励"
@@ -1393,6 +1479,74 @@ msgstr ""
 #: ../base\dev\TianLiPositioningSystem.pygettext:75
 msgid "  保存。"
 msgstr "  Save."
+
+#: ../base\dev\_sidebar.pygettext:9
+msgid "[**说明**](../dev/ \"开发指南\")"
+msgstr "[**Introduction**](../dev/ \"Development Guide\")"
+
+#: ../base\dev\_sidebar.pygettext:11
+msgid "[**返回主页**](../)"
+msgstr "[**Back to Homepage**](../)"
+
+#: ../base\dev\_sidebar.pygettext:13
+msgid "- **开发指南**"
+msgstr "- **Development Guide**"
+
+#: ../base\dev\_sidebar.pygettext:14
+msgid "  - [路径记录器](path_recorder)"
+msgstr "  - [Path Recorder](path_recorder)"
+
+#: ../base\dev\_sidebar.pygettext:15
+msgid "  - [视频转路径 V2P](video2path)"
+msgstr "  - [Video to Path, or V2P](video2path)"
+
+#: ../base\dev\_sidebar.pygettext:16 ../base\dev\_sidebar.pygettext:21 ../base\dev\_sidebar.pygettext:25 ../base\dev\_sidebar.pygettext:28
+msgid "  - ______________________________________________________________________"
+msgstr "  - ______________________________________________________________________"
+
+#: ../base\dev\_sidebar.pygettext:17
+msgid "  - [自定义任务](mission)"
+msgstr "  - [Mission](mission)"
+
+#: ../base\dev\_sidebar.pygettext:18
+msgid "  - [每日委托任务](commission)"
+msgstr "  - [Commission](commission)"
+
+#: ../base\dev\_sidebar.pygettext:19
+msgid "  - [流程控制单元](flow)"
+msgstr "  - [Flow](flow)"
+
+#: ../base\dev\_sidebar.pygettext:20
+msgid "  - [配置文档书写](config_doc_writing_guide)"
+msgstr "  - [Config Doc Writing Guide](config_doc_writing_guide)"
+
+#: ../base\dev\_sidebar.pygettext:22
+msgid "  - [TianLiPositioningPath TLPP 天理路径文件](TianLiPositioningPath)"
+msgstr "  - [TianLi Positioning Path, TLPP](TianLiPositioningPath)"
+
+#: ../base\dev\_sidebar.pygettext:23
+msgid "  - [TianLiCopilot 天理自动驾驶](TianLiCopilot)"
+msgstr "  - [TianLi Copilot](TianLiCopilot)"
+
+#: ../base\dev\_sidebar.pygettext:24
+msgid "  - [TLPS & TLN 天理定位系统](TianLiPositioningSystem)"
+msgstr "  - [TianLi Positioning System](TianLiPositioningSystem)"
+
+#: ../base\dev\_sidebar.pygettext:26
+msgid "  - [如何编写文档](write_doc)"
+msgstr "  - [How to Write Doc](write_doc)"
+
+#: ../base\dev\_sidebar.pygettext:27
+msgid "  - [Gettext Markdown](gettext-markdown)"
+msgstr "  - [Gettext Markdown](gettext-markdown)"
+
+#: ../base\dev\_sidebar.pygettext:29
+msgid "  - [PR](pr)"
+msgstr "  - [PR](pr)"
+
+#: ../base\dev\_sidebar.pygettext:30
+msgid "  - [Help needed](need_help)"
+msgstr "  - [Help needed](need_help)"
 
 #: ../base\dev\code\util.pygettext:9
 msgid "# util.py"
@@ -3069,158 +3223,6 @@ msgstr "## Run"
 #: ../base\mission.pygettext:9
 msgid "# Mission"
 msgstr "# Mission"
-
-#: ../base\_sidebar.pygettext:9
-msgid "<!-- docs/_sidebar.md -->"
-msgstr ""
-
-#: ../base\_sidebar.pygettext:11
-msgid "- **入门**"
-msgstr "- **Introduction**"
-
-#: ../base\_sidebar.pygettext:12
-msgid "  - [快速开始](jijiking)"
-msgstr "  - [Quick Start](jijiking)"
-
-#: ../base\_sidebar.pygettext:13
-msgid "  - [安装方法](install)"
-msgstr "  - [Installation method](install)"
-
-#: ../base\_sidebar.pygettext:14
-msgid "  - [GUI](gui)"
-msgstr "  - [GUI](gui)"
-
-#: ../base\_sidebar.pygettext:15
-msgid "  - [详细功能介绍](functions_detail)"
-msgstr "  - [Functions Detail](functions_detail)"
-
-#: ../base\_sidebar.pygettext:16
-msgid "- **主要功能**"
-msgstr "- **Main Functions**"
-
-#: ../base\_sidebar.pygettext:17
-msgid "  - [领取日常奖励](claim_reward)"
-msgstr "  - [Cliam Daily Reward](claim_reward)"
-
-#: ../base\_sidebar.pygettext:18
-msgid "  - [自动战斗辅助](combat_assi)"
-msgstr "  - [Auto Combat Assist](combat_assi)"
-
-#: ../base\_sidebar.pygettext:19
-msgid "  - [自动每日委托](commission_assi)"
-msgstr "  - [Automatic Daily Commission](commission_assi)"
-
-#: ../base\_sidebar.pygettext:20
-msgid "  - [自动地脉衍出辅助](ley_line_ourcrop)"
-msgstr "  - [Auto Ley Line Outcrop Assist](ley_line_ourcrop)"
-
-#: ../base\_sidebar.pygettext:21
-msgid "  - [自动秘境战斗](domain_assi)"
-msgstr "  - [Auto Domain Assist](domain_assi)"
-
-#: ../base\_sidebar.pygettext:22
-msgid "  - [自动采集辅助](collector_assi)"
-msgstr "  - [Auto collector Assist](collector_assi)"
-
-#: ../base\_sidebar.pygettext:23
-msgid "- **进阶使用**"
-msgstr "- **Advanced Usage**"
-
-#: ../base\_sidebar.pygettext:24
-msgid "  - [任务](mission)"
-msgstr "  - [Mission](mission)"
-
-#: ../base\_sidebar.pygettext:25
-msgid "- **帮助**"
-msgstr "- **Help**"
-
-#: ../base\_sidebar.pygettext:26
-msgid "  - [FAQ](FAQ)"
-msgstr "  - [FAQ](FAQ)"
-
-#: ../base\_sidebar.pygettext:27
-msgid "  - [已知问题](known_issues)"
-msgstr "  - [Known Issues](known_issues)"
-
-#: ../base\_sidebar.pygettext:28
-msgid "- **其它**"
-msgstr "- **Other**"
-
-#: ../base\_sidebar.pygettext:29
-msgid "  - [从源代码安装](git_install)"
-msgstr "  - [Install From Source Code](git_install)"
-
-#: ../base\_sidebar.pygettext:30
-msgid "  - [**开发指南**](/zh_CN/dev/)"
-msgstr "  - [**Development Guide**](/en_US/dev/)"
-
-#: ../base\dev\_sidebar.pygettext:9
-msgid "[**说明**](/zh_CN/dev/ \"开发指南\")"
-msgstr "[**Introduction**](/en_US/dev/ \"Development Guide\")"
-
-#: ../base\dev\_sidebar.pygettext:11
-msgid "[**返回主页**](/zh_CN/)"
-msgstr "[**Back to Homepage**](/en_US/)"
-
-#: ../base\dev\_sidebar.pygettext:13
-msgid "- **开发指南**"
-msgstr "- **Development Guide**"
-
-#: ../base\dev\_sidebar.pygettext:14
-msgid "  - [路径记录器](path_recorder)"
-msgstr "  - [Path Recorder](path_recorder)"
-
-#: ../base\dev\_sidebar.pygettext:15
-msgid "  - [视频转路径 V2P](video2path)"
-msgstr "  - [Video to Path, or V2P](video2path)"
-
-#: ../base\dev\_sidebar.pygettext:16 ../base\dev\_sidebar.pygettext:21 ../base\dev\_sidebar.pygettext:25 ../base\dev\_sidebar.pygettext:28
-msgid "  - ______________________________________________________________________"
-msgstr "  - ______________________________________________________________________"
-
-#: ../base\dev\_sidebar.pygettext:17
-msgid "  - [自定义任务](mission)"
-msgstr "  - [Mission](mission)"
-
-#: ../base\dev\_sidebar.pygettext:18
-msgid "  - [每日委托任务](commission)"
-msgstr "  - [Commission](commission)"
-
-#: ../base\dev\_sidebar.pygettext:19
-msgid "  - [流程控制单元](flow)"
-msgstr "  - [Flow](flow)"
-
-#: ../base\dev\_sidebar.pygettext:20
-msgid "  - [配置文档书写](config_doc_writing_guide)"
-msgstr "  - [Config Doc Writing Guide](config_doc_writing_guide)"
-
-#: ../base\dev\_sidebar.pygettext:22
-msgid "  - [TianLiPositioningPath TLPP 天理路径文件](TianLiPositioningPath)"
-msgstr "  - [TianLi Positioning Path, TLPP](TianLiPositioningPath)"
-
-#: ../base\dev\_sidebar.pygettext:23
-msgid "  - [TianLiCopilot 天理自动驾驶](TianLiCopilot)"
-msgstr "  - [TianLi Copilot](TianLiCopilot)"
-
-#: ../base\dev\_sidebar.pygettext:24
-msgid "  - [TLPS & TLN 天理定位系统](TianLiPositioningSystem)"
-msgstr "  - [TianLi Positioning System](TianLiPositioningSystem)"
-
-#: ../base\dev\_sidebar.pygettext:26
-msgid "  - [如何编写文档](write_doc)"
-msgstr "  - [How to Write Doc](write_doc)"
-
-#: ../base\dev\_sidebar.pygettext:27
-msgid "  - [Gettext Markdown](gettext-markdown)"
-msgstr "  - [Gettext Markdown](gettext-markdown)"
-
-#: ../base\dev\_sidebar.pygettext:29
-msgid "  - [PR](pr)"
-msgstr "  - [PR](pr)"
-
-#: ../base\dev\_sidebar.pygettext:30
-msgid "  - [Help needed](need_help)"
-msgstr "  - [Help needed](need_help)" 
 
 #~ msgid "函数清单:"
 #~ msgstr "Function list:"
