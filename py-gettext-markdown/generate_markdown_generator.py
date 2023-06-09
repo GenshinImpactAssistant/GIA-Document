@@ -70,7 +70,12 @@ class GenerateMarkdownGenerator():
                 return False
                 
             def write_point(x):
-                if x[0:2] == '- ':
+                start_i = 0
+                for i in range(len(x)):
+                    if x[i] != ' ':
+                        start_i = i
+                        break
+                if x[start_i:start_i+2] == '- ':
                     return True
                 return False
             
