@@ -26,15 +26,15 @@ Select the file to be configured in the drop-down box and follow the prompts to 
 
 ## General Setting Page
 
-设置通用设置,自动秘境,快捷键和地脉演出.
+设置通用设置、自动秘境、快捷键和地脉衍出。
 
 ## Auto Combat Setting Page
 
-设置自动战斗设置,设置战斗策略等.
+设置自动战斗设置，设置战斗策略等。
 
 ## Auto Collect Setting Page
 
-设置采集物等.(不推荐使用)
+设置采集物等。（不推荐使用）
 
 # Custom Mission
 
@@ -44,10 +44,10 @@ Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) 
 
 ## 自定义任务设置
 
-设置要启用的任务和优先级.
+设置要启用的任务和优先级。
 
 ## 自定义任务下载
 
-从远端仓库下载自定义任务.
+从远端仓库下载自定义任务。
 
-如果下载失败,可能需要切换远程仓库地址.
+如果下载失败，可能需要切换远程仓库地址。
