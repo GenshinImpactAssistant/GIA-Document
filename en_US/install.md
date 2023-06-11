@@ -2,7 +2,7 @@
 
 GIA provides an automatic installer/updater.
 
-> 临时通知：pip清华源没更新，如果报错换成阿里源（installer_config_cn.json里的PypiMirror改为http://mirrors.aliyun.com/pypi/simple）
+> 临时通知：pip清华源没更新，如果报错换成阿里源（installer_config_cn.json里的PypiMirror改为http://mirrors.aliyun.com/pypi/simple ）
 
 # GIA Auto Install Launcher
 
