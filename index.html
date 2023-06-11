@@ -12,6 +12,8 @@
   <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <!-- Code Style -->
   <!-- <link rel="stylesheet" href="https://unpkg.com/prismjs@1/themes/prism.css""> -->
+  <!-- Banner Style -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css">
   <!-- Custom Styles -->
   <style>
     :root {
@@ -27,6 +29,9 @@
       /* white-space: pre-wrap !important; */
       word-wrap: break-word !important;
       /* word-break: break-all !important; */
+    }
+    #TOPBANNER {
+      padding: 5px 5px;
     }
   </style>
 </head>
@@ -61,6 +66,11 @@
           '/': '找不到结果'
         },
         pathNamespaces: ['/zh_CN', '/en_US'],
+      },
+      topBanner: {
+        content : "⚠️**临时通知**：pip清华源没更新，如果启动时报错请换成阿里源。<u>[**详见此处**](https://genshinimpactassistant.github.io/GIA-Document/#/zh_CN/install)</u>",
+        position: "relative",
+        zIndex: -1,
       }
     }
   </script>
@@ -72,5 +82,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
 </body>
 </html>
