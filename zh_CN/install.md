@@ -2,6 +2,8 @@
 
 GIA提供了自动安装/更新器。
 
+> 临时通知：pip清华源没更新，如果报错换成阿里源（installer_config_cn.json里的PypiMirror改为http://mirrors.aliyun.com/pypi/simple）
+
 # GIA 自动安装启动器
 
 ## 下载
