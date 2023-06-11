@@ -49,7 +49,7 @@ If you have doubts about a function or want to know more information, please ref
 
 ## Participate in Development
 
-非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/)开始。
+PR submissions are very welcome. If you want to participate in the development of GIA, you can start from [GIA Dev Document](dev/).
 
 ## Internationalization
 
@@ -73,8 +73,8 @@ See [Source code running tutorial](git_install.md).
 
 ### Progress in Genshin
 
-- 需要解锁 `层岩巨渊 地下矿区` 的地图。
-- 需要解锁璃月与蒙德的所有传送锚点，副本式秘境。
+- You need to unlock region map of `The Chasm: Underground Mines` first.
+- You need to unlock all the teleportation points and dungeons of Liyue and Mondstadt first.
 
 ### Genshin window settings
 

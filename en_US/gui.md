@@ -10,7 +10,7 @@ When starting, check the checkbox for the corresponding function and press the b
 
 ## 半自动功能
 
-半自动功能是一些半自动的功能模块，能够自动辅助部分操作。
+The auxiliary functions are some semi-automatic function modules that can automatically assist some operations.
 
 Press the hotkey (default is `[`) in the Genshin to start/stop.
 
@@ -18,29 +18,29 @@ Press the hotkey (default is `[`) in the Genshin to start/stop.
 
 Press `Get ip` in the `main` screen to get the LAN connection ip, you can enter that ip on your computer to connect to the GIA control panel and operate the GIA on another computer.
 
-# 设置
+# Setup
 
 You can configure the settings in the settings page.
 
 Select the file to be configured in the drop-down box and follow the prompts to configure it.
 
-## 通用设置页面
+## General Setting Page
 
 设置通用设置,自动秘境,快捷键和地脉演出.
 
-## 自动战斗设置页面
+## Auto Combat Setting Page
 
 设置自动战斗设置,设置战斗策略等.
 
-## 自动采集设置页面
+## Auto Collect Setting Page
 
 设置采集物等.(不推荐使用)
 
-# 自定义任务
+# Custom Mission
 
-自定义任务是GIA中在大世界执行功能的便携集成化单元，使用统一的接口，编写简单，使用方便。
+Mission is a portable, integrated unit in GIA that performs functions in the Teyvat world, using a unified interface that is simple to write and use.
 
-自定义任务可以实现的功能包括采集、战斗、NPC对话与行走。通过功能的组合可以实现固定路线采集、任务自动化等功能。
+Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) and walking. The combination of functions allows for fixed route gathering, mission automation and more.
 
 ## 自定义任务设置
 

@@ -28,5 +28,5 @@ Before use, these configuration elements shoule be noted:
 
 ### Progress in Genshin
 
-- 需要解锁 `层岩巨渊 地下矿区` 的地图。
+- You need to unlock region map of `The Chasm: Underground Mines` first.
 - 需要解锁璃月与蒙德的大部分传送锚点，副本式秘境。
