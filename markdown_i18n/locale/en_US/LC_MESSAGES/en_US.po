@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-11 17:20+0800\n"
-"PO-Revision-Date: 2023-06-11 17:28+0800\n"
+"POT-Creation-Date: 2023-06-11 17:33+0800\n"
+"PO-Revision-Date: 2023-06-11 17:33+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -519,10 +519,6 @@ msgstr "  - [Install From Source Code](git_install)"
 #: ../base\_sidebar.pygettext:30
 msgid "  - [**开发指南**](/zh_CN/dev/)"
 msgstr "  - [**Development Guide**](/en_US/dev/)"
-
-#: ../base\_sidebar.pygettext:31
-msgid "  - "
-msgstr ""
 
 #: ../base\claim_reward.pygettext:9
 msgid "# 领取日常奖励"
@@ -2985,7 +2981,7 @@ msgid "## 通用设置页面"
 msgstr "## General Setting Page"
 
 #: ../base\gui.pygettext:37
-msgid "设置通用设置,自动秘境,快捷键和地脉演出."
+msgid "设置通用设置、自动秘境、快捷键和地脉衍出。"
 msgstr ""
 
 #: ../base\gui.pygettext:39
@@ -2993,7 +2989,7 @@ msgid "## 自动战斗设置页面"
 msgstr "## Auto Combat Setting Page"
 
 #: ../base\gui.pygettext:41
-msgid "设置自动战斗设置,设置战斗策略等."
+msgid "设置自动战斗设置，设置战斗策略等。"
 msgstr ""
 
 #: ../base\gui.pygettext:43
@@ -3001,7 +2997,7 @@ msgid "## 自动采集设置页面"
 msgstr "## Auto Collect Setting Page"
 
 #: ../base\gui.pygettext:45
-msgid "设置采集物等.(不推荐使用)"
+msgid "设置采集物等。（不推荐使用）"
 msgstr ""
 
 #: ../base\gui.pygettext:47
@@ -3023,7 +3019,7 @@ msgid "## 自定义任务设置"
 msgstr ""
 
 #: ../base\gui.pygettext:55
-msgid "设置要启用的任务和优先级."
+msgid "设置要启用的任务和优先级。"
 msgstr ""
 
 #: ../base\gui.pygettext:57
@@ -3031,11 +3027,11 @@ msgid "## 自定义任务下载"
 msgstr ""
 
 #: ../base\gui.pygettext:59
-msgid "从远端仓库下载自定义任务. "
+msgid "从远端仓库下载自定义任务。 "
 msgstr ""
 
 #: ../base\gui.pygettext:61
-msgid "如果下载失败,可能需要切换远程仓库地址."
+msgid "如果下载失败，可能需要切换远程仓库地址。"
 msgstr ""
 
 #: ../base\install.pygettext:9
