@@ -1,6 +1,6 @@
 # 交互核心
 
-## 使用
+## Usage
 
 ```python
 from source.interaction.interaction_core import itt
@@ -8,7 +8,7 @@ from source.interaction.interaction_core import itt
 
 在全局只能存在一个itt变量。
 
-## 方法
+## Methods
 
 itt.appear_then_click(ImgIcon|Button|Text) -> bool
 

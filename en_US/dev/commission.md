@@ -6,7 +6,9 @@ Write a task script to execute the daily commission.
 
 Daily commission (Commission) is used to execute daily commission. A single commission is uniquely determined according to the commission name and coordinates.
 
-Due to the rarity of daily commissions, it is difficult to adapt to multiple languages, so all daily commissions are written and run in **English** by default. Old versions of Commission may support multiple languages, but they will no longer be supported by default after that.
+因为每日委托的稀有性，适配多语言存在困难，因此所有每日委托默认使用**中文**编写和运行。（文件名还是英文，所以可能需要切换一下原神语言查看委托的英文名。）
+
+你可以在初始化类时使用support_lang来设置支持的语言。
 
 The writing method of Commission is basically the same as that of Mission, but the file naming is different. Therefore, please take a look at [Custom Mission](mission.md).
 
