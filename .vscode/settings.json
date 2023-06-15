@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "Tian"
+    ],
+    "i18n-ally.localesPaths": [
+        "markdown_i18n/locale"
     ]
 }
