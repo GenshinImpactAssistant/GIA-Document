@@ -6,7 +6,7 @@
 
 TLPS is a small map positioning algorithm based on OpenCV, a small map perspective recognition algorithm, a small map direction recognition algorithm, a large map positioning algorithm and related integration functions.
 
-You can find the relevant code in source/map.
+你可以在source/map中找到相关代码。如果你想要获得更多信息并参与开发，提交issue或在QQ群讨论。
 
 ## TianLiNavigator
 

@@ -4,13 +4,34 @@ GIA Development Documentation
 
 Introduce each file in GIA, the role of functions and the overall structure of GIA.
 
+如果在开发中遇到问题或者想要讨论，可以提交issue或者加入[开发QQ群](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
+
+[正在开发，需要帮助的功能](need_help.md)
+
 ## Content <!-- {docsify-ignore} -->
 
-- [Introduction to custom missions](mission.md)
-- \[Video to path (V2P) introduction\] (video2path.md)
-- [Daily commission protocol](commission.md) is used to write scripts to automatically execute daily commissions
-- [Under development, need help feature](need_help.md)
+### 教程
+
+开发教程。
+
+#### 自定义任务与每日委托
+
+目前主要开发方向。
+
+添加更多的自定义任务和支持更多每日委托。如果你想参与开发，可以查看以下文档：
+
+- [自定义任务（Mission）](mission.md)
+- [视频转路径（V2P）](video2path.md)
+- [每日委托任务](commission.md)
+
+#### 文档编写
+
 - [Instructions for writing this document](write_doc.md)
+
+### Introduction
+
+原理介绍，有兴趣可以看看。
+
 - [TianLiPositioningPath Introduction](TianLiPositioningPath.md) (under preparation...)
 - [TianLiCopilot Introduction](TianLiCopilot.md) (under preparation...)
 - [Introduction to TianLiPositioningSystem](TianLiPositioningSystem.md) (under preparation...)
@@ -18,4 +39,6 @@ Introduce each file in GIA, the role of functions and the overall structure of G
 
 ## PR <!-- {docsify-ignore} -->
 
-In order to prevent the `dev` branch from being changed blindly and resulting in failure to merge, the Pull Request needs to be submitted to the `alpha` branch.
+bug修复提交到bugfix分支，新功能提交到dev分支。
+
+如果不是很急的bug修复，也可以交到dev分支。

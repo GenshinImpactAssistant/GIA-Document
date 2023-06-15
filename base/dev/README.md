@@ -10,21 +10,24 @@ GIA开发文档\
 ## 目录 <!-- {docsify-ignore} -->
 
 ### 教程
+
 开发教程。
 
 #### 自定义任务与每日委托
-目前主要开发方向。  
+
+目前主要开发方向。\
 添加更多的自定义任务和支持更多每日委托。如果你想参与开发，可以查看以下文档：
 
 - [自定义任务（Mission）](mission.md)
 - [视频转路径（V2P）](video2path.md)
-- [每日委托任务](commission.md) 
+- [每日委托任务](commission.md)
 
 #### 文档编写
 
 - [本文档编写说明](write_doc.md)
 
 ### 介绍
+
 原理介绍，有兴趣可以看看。
 
 - [天理路径文件（TianLiPositioningPath）介绍](TianLiPositioningPath.md) （编写中……）
@@ -34,5 +37,5 @@ GIA开发文档\
 
 ## PR <!-- {docsify-ignore} -->
 
-bug修复提交到bugfix分支，新功能提交到dev分支。  
+bug修复提交到bugfix分支，新功能提交到dev分支。\
 如果不是很急的bug修复，也可以交到dev分支。

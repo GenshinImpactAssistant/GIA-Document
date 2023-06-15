@@ -41,8 +41,6 @@ ImgIcon(path=None,
 
 2. name：名称
 
-   如果不填，按照变量名生成名称。
-
 3. is_bbg：是否为黑色背景的挖空图片
 
 4. cap_posi：截图坐标

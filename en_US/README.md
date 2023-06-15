@@ -37,15 +37,15 @@ If you don't want to read anything and just want to get started, follow [this me
 
 Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be partially out of date.
 
-## Frequently ask question
-
-If you enconter any problem when using, you can take a look at FAQ frist.
-
 ## Function Details
 
 Most of the functions only need to set the parameters, put the game in the big world, select the function and start it.
 
 If you have doubts about a function or want to know more information, please refer to [Detailed Function Introduction](functions_detail.md).
+
+## Frequently ask question
+
+If you enconter any problem when using, you can take a look at FAQ frist.
 
 ## Participate in Development
 
@@ -59,7 +59,7 @@ English language support may not be comprehensive. If you are experiencing probl
 
 GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
 
-## How to use
+## Installation
 
 ### Quick installation
 

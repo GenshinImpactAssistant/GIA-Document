@@ -19,9 +19,9 @@ For other settings, see [Auto Combat Assist introduction](./combat_assi.md).
 
 Automatically search and execute daily commissions located in **Mondstadt**. Currently only some commissions that require only combat can be executed.
 
-> 目前仅能完成以下委托：
+> 目前仅能完成大部分战斗类委托和部分剧情类委托。
 >
-> ASmallStepForHilichurls, Emergency,IcyIssues, ForTheHarbingers, BigIceColdCrisis, SpreadingEvil, PudgyPyrotechnicians, IncreasingDanger.
+> 目前正在添加更多每日委托。非常欢迎参与开发，如果有兴趣可以看看[GIA Dev Document](dev/)。
 
 For more detiles, see [Auto Daily Commission Assist introduction](./commission_assi.md).
 

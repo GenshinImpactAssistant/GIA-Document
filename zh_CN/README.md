@@ -37,15 +37,15 @@ To没用过github的小伙伴：描述文档中的蓝色文字是链接，可以
 
 <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能过期
 
-## [常见问题 FAQ](FAQ.md)
-
-如果在使用时遇到问题，先看看[FAQ](FAQ.md)。
-
 ## [功能介绍](functions_detail.md)
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。
 
 如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](functions_detail.md)。
+
+## [常见问题 FAQ](FAQ.md)
+
+如果在使用时遇到问题，先看看[FAQ](FAQ.md)。
 
 ## 参与开发
 
@@ -59,7 +59,7 @@ English language support may not be comprehensive. If you are experiencing probl
 
 GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
 
-## 使用方法
+## 安装
 
 ### 快速安装
 

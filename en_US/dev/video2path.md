@@ -16,7 +16,29 @@ Demo video：https://www.bilibili.com/video/BV1ks4y1Q79y
 
 Reference video：<https://www.bilibili.com/video/BV1Lu411W71q>
 
-## Parameters
+## Attantion
+
+- The beginning of a continuous path should start from the teleport anchor.
+- It must be a complete and smooth screen recording of Genshin Impact Games.
+- When recording the path, the playback speed (fps) should be close to the real moving speed.
+
+## TLPP文件格式
+
+运行结束后，V2P会生成xxx+timestamp+xxx.pydict文件。将该文件中的内容复制粘贴到你的自定义任务的代码中对应的位置即可。
+
+## GUI版本
+
+现在，V2P有GUI版本可用。
+
+1. 打开DEBUG模式，重启GIA
+2. 在页面中选择视频转路径
+3. 按照教程操作。
+
+## 命令行版本
+
+以下为命令行版本的介绍。推荐使用GUI版本。
+
+### 参数
 
 Modify the following parameters directly in `video2path.py`:
 
@@ -30,7 +52,7 @@ IS_PICKUP_MODE = True # 是否为采集路径模式
 
 如果 `IS_PICKUP_MODE=True` ，务必填写 `COLL_NAME` 。
 
-## 按键
+### 按键
 
 - Space: pause/start playback
 - a: Analyzing Teleport Anchor Coordinates
@@ -38,20 +60,10 @@ IS_PICKUP_MODE = True # 是否为采集路径模式
 - ,: reduce fps
 - `]` : start/stop logging path
 
-## How to use
+### 使用方法：
 
 - Fill in the parameters and run the program
 - Before starting to move, press the key `a`, V2P will start to analyze the possible teleportation anchors of the current location.
 - Enter the corresponding index in the console and press Enter to view the terrain near the teleportation anchor point (displayed by cv2).
 - 按下 `]` 按键以启动记录。注意看控制台的提示。
 - 一条采集路线将要结束时，按下 `]` 以结束记录。TLPP文件会保存在 `./dev/tlpp` 目录下。注意看控制台的提示。 `./dev/tlpp/QXV220230513083258i0.pydict` 是一个示例文件。
-
-## Attantion
-
-- The beginning of a continuous path should start from the teleport anchor.
-- It must be a complete and smooth screen recording of Genshin Impact Games.
-- When recording the path, the playback speed (fps) should be close to the real moving speed.
-
-## TLPP文件格式
-
-运行结束后，V2P会生成xxx+timestamp+xxx.pydict文件。将该文件中的内容复制粘贴到你的自定义任务的代码中对应的位置即可。
