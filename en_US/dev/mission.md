@@ -97,7 +97,7 @@ TLPP_FILE = ...
 
 就可以创建init函数。
 
-Among them, TLPP_FILE is your TLPP dictionary, replace `...` with the TLPP dictionary obtained in V2P.
+其中，TLPP_FILE是你的TLPP字典, 将V2P中得到的TLPP字典直接复制粘贴到python文件中。
 
 `your-mission-name` is your Mission name.
 
@@ -127,7 +127,7 @@ class MissionMain(MissionJustCollect):
     def __init__(self):
         super().__init__(TLPP_FILE, "your-mission-name")
 
-TLPP_FILE = ...
+TLPP_FILE_NAME = ...
 ```
 
 要使用这个Mission，我们需要将它加入GIA的Mission Index来让GIA识别这个mission。方法如下：
