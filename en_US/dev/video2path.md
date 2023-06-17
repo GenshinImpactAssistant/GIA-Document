@@ -30,6 +30,8 @@ Reference video：<https://www.bilibili.com/video/BV1Lu411W71q>
 
 现在，V2P有GUI版本可用。
 
+使用方法：
+
 1. 打开DEBUG模式，重启GIA
 2. 在页面中选择视频转路径
 3. 按照教程操作。

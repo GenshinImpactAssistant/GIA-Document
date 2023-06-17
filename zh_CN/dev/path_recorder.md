@@ -2,6 +2,8 @@
 
 位置：flow/path_recorder_flow.py
 
+**该文件用于游戏内路径记录。目前推荐使用GUI版的VideoToPath达到相似功能。**
+
 ## 使用
 
 ### 加载
@@ -18,4 +20,4 @@
 4. 角色移动方向改变超过5°时，会记录一次break position。break position之间的距离最小为5.2。
 5. 走完之后，再次按下 `\` 键。提示 `ready to stop recording` 。
 6. 在1秒内应该会提示 `recording save as {jsonname}` 。如果没有，就再按一次 `\` 。
-7. json文件将在 `assets/TeyvatMovePath` 保存为 `name+timestamp.json` 。如果想继续记录，就重复这些步骤。
+7. json文件将保存为 `name+timestamp.pydict` 。如果想继续记录，就重复这些步骤。

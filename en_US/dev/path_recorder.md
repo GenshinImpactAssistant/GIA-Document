@@ -2,6 +2,8 @@
 
 位置：flow/path_recorder_flow.py
 
+**该文件用于游戏内路径记录。目前推荐使用GUI版的VideoToPath达到相似功能。**
+
 ## Usage
 
 ### Loading
@@ -18,4 +20,4 @@
 09. When the movement direction of the character changes by more than 5°, a break position will be recorded. The minimum distance between break positions is 5.2.
 10. When you're done walking, press the `\` key again. Prompt `ready to stop recording`.
 11. It should prompt `recording save as {jsonname}` within 1 second. If not, press `\` again.
-12. The json file will be saved as `name+timestamp.json` in `assets/TeyvatMovePath`. Repeat these steps if you want to continue recording.
+12. json文件将保存为 `name+timestamp.pydict` 。如果想继续记录，就重复这些步骤。
