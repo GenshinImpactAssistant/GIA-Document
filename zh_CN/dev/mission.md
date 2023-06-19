@@ -133,16 +133,16 @@ TLPP_FILE_NAME = ...
 要使用这个Mission，我们需要将它加入GIA的Mission Index来让GIA识别这个mission。方法如下：
 
 1. 把你创建的 `your-mission-name.py` 文件放置到 `./missions` 目录下
-2. 打开GIA GUI，在 `自定义任务配置` 页面，点击 `编译自定义任务` 按钮，完成后按照提示重启GIA
+2. 打开GIA GUI，打开 `自定义任务配置` 页面
 3. 你现在应该可以在重启后的GIA中看到你的Mission了。按照使用一般Mission的方法使用它。
+
+- 注：目前，只有将自定义任务PR到[仓库](https://github.com/GenshinImpactAssistant/GIA-Missions)，通过下载的方式才能显示meta信息。
 
 ## 结束
 
 到这里，你应该成功创建并运行了你的第一个采集类自定义任务。
 
-非常欢迎分享你的自定义任务。
-
-如果你能够制作自定义任务共享网站，欢迎提交pr或在issue中回复。
+非常欢迎分享你的自定义任务。如果你愿意分享，请查看 https://github.com/GenshinImpactAssistant/GIA-Missions
 
 > 如果你在阅读 `快速开始` 文档时，遇到混淆、阻碍或错误，请联系我们或提交issue反馈。
 
