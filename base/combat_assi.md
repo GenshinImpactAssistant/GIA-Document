@@ -129,6 +129,8 @@ n=角色在队伍中的位置，n∈{1,2,3,4}
 ['Albedo', 'Bennett', 'Ningguang', 'Yoimiya', 'Yun Jin', 'Zhongli', 'Ganyu', 'Yelan', 'Kamisato Ayaka', 'Diona', 'Xiangling', 'Shenhe', 'Kaedehara Kazuha', 'Raiden Shogun', 'Hu Tao', 'Mona', 'Qiqi', 'Keqing', 'Sangonomiya Kokomi', 'Xingqiu', 'Lisa']
 ```
 
+`阿贝多、班尼特、凝光、宵宫、云堇、钟离、甘雨、夜兰、神里绫华、迪奥娜、香菱、申鹤、枫原万叶、雷电将军、胡桃、莫娜、七七、刻晴、珊瑚宫心海、行秋、丽莎`
+
 其余角色只有基本参数，没有经过核对与适配。如果你有兴趣，欢迎贡献角色参数ヾ(*´▽'*)ﾉ
 
 默认角色参数文件位置： `assets/characters_data/characters_parameters.json`
