@@ -10,5 +10,5 @@ python-git-program-launcher
 
 ## 使用方式
 
-双击 `GIA Launcher.exe` 运行。
+双击 `Launcher.exe` 运行。
 
