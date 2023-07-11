@@ -1,36 +1,15 @@
 # Installation method
 
-GIA provides an automatic installer/updater.
-
-> 临时通知：pip清华源没更新，如果报错换成阿里源（installer_config_cn.json里的PypiMirror改为http://mirrors.aliyun.com/pypi/simple ）
-
-# GIA Auto Install Launcher
+python-git-program-launcher
 
 ## Download
 
-[GIA Launcher v0.6](https://github.com/infstellar/genshin_impact_assistant/releases/download/v0.6.0-beta.542/GIA_Launcher_v0.6.0.7z)
+[python-git-program-launcher](https://github.com/infstellar/python-git-program-launcher)
 
-Note: If you have previously downloaded the v0.3 launcher, you will need to delete all files (but not the toolkit folder, to skip duplicate installation dependencies) before launching the new launcher.
+点击Release，下载最新版本的7z文件并解压，按照提示操作。
+
+启动配置选择自带配置`giachina`或使用链接`https://github.com/infstellar/genshin_impact_assistant`添加配置。
 
 ## How to use
 
-Double click on `GIA Launcher.exe` to run it.
-
-## Configuration file
-
-对中国用户来说，可以使用 `installer_config_cn.json` 配置文件，已经根据中国特色网络环境进行了单独配置。
-
-使用方法：删除 `installer_config.json` ，保留 `installer_config_cn.json` 即自动启用 `installer_config_cn.json` 。
-
-Specific configuration (Optional) :
-
-| 项目                  | 内容                                                                                                               |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| RequirementsFile    | requirements.txt文件位置                                                                                             |
-| InstallDependencies | 是否安装依赖文件，默认为true                                                                                                 |
-| PypiMirror          | Pypi mirror site.                                                                                                |
-| Repository          | The address of the repository. Default to `https://github.com/GenshinImpactAssistant/GIA_Launcher_Download_Lib`. |
-| GitProxy            | 开关Git SSL验证。默认为false                                                                                             |
-| KeepLocalChanges    | 保持本地文件更改。默认为false                                                                                                |
-| AutoUpdate          | 自动更新。默认为true                                                                                                     |
-| Branch              | The branch where the code will be downloaded. The following branches are available:                              |
+双击 `Launcher.exe` 运行。
