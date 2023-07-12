@@ -127,6 +127,8 @@ List of fully supported roles:
 ['Albedo', 'Bennett', 'Ningguang', 'Yoimiya', 'Yun Jin', 'Zhongli', 'Ganyu', 'Yelan', 'Kamisato Ayaka', 'Diona', 'Xiangling', 'Shenhe', 'Kaedehara Kazuha', 'Raiden Shogun', 'Hu Tao', 'Mona', 'Qiqi', 'Keqing', 'Sangonomiya Kokomi', 'Xingqiu', 'Lisa']
 ```
 
+`阿贝多、班尼特、凝光、宵宫、云堇、钟离、甘雨、夜兰、神里绫华、迪奥娜、香菱、申鹤、枫原万叶、雷电将军、胡桃、莫娜、七七、刻晴、珊瑚宫心海、行秋、丽莎`
+
 The rest of the characters only have basic parameters, without verification and adaptation.
 
 [List of supported roles](../../assets/characters_data/characters_parameters.json)
