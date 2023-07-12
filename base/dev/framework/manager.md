@@ -11,7 +11,7 @@ manager负责管理程序的所有资源，包括图片和文字。
 图片路径格式：
 ./assets/imgs/Windows/\[Image-classification\]/\[zh_CN|en_US|common\]/img_name
 图片文件名（img_name）使用以下格式：
-\[Area|Button|Icon\]\[Image-classification\]\[Image-name\].jpg
+\[Area | Button | Icon\]\[Image-classification\]\[Image-name\].jpg
 
 e.g.:
 
@@ -87,3 +87,6 @@ Text(zh='',en='')
 
 3. posi：坐标范围（\[left x,left y,right x,right y\]）\
    如果不填，根据图片路径查找对应图片。如果图片路径为空，根据变量名查找图片。
+
+推荐使用图片标记坐标以方便管理。
+
