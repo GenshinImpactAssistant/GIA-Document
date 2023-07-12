@@ -40,7 +40,11 @@ Attantion:
 
 - Cannot include space.
 
-- In the judgment expressions, the tactic keyword shoule be separated by `.` .
+- **在判断表达式中，策略关键字之间用 `.` 分隔。**
+
+- **在判断表达式中，策略关键字之间用 `.` 分隔。**
+
+- **在判断表达式中，策略关键字之间用 `.` 分隔。**
 
 A tactic keyword containing `?` tactic keyword usage is similar to the ternary operator, e.g:
 

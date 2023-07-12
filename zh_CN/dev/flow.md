@@ -1,5 +1,7 @@
 # 流程控制单元
 
+**不是很推荐写Flow，因为它过于复杂，使用while+函数控制也能达到类似效果。但是一些流程极其复杂的任务用Flow管理可能更好。**
+
 ## 什么是Flow？
 
 Flow可以理解为状态机，Flow由Flow Unit（Flow Template）组成，一个Flow Unit可以切换到另一个Flow Unit。

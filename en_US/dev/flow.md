@@ -1,5 +1,7 @@
 # Flow control Unit
 
+**不是很推荐写Flow，因为它过于复杂，使用while+函数控制也能达到类似效果。但是一些流程极其复杂的任务用Flow管理可能更好。**
+
 ## What is Flow?
 
 Flow can be understood as a state machine. Flow is composed of Flow Unit (Flow Template), and one Flow Unit can be switched to another Flow Unit.
