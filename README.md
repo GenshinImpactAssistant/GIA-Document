@@ -14,7 +14,8 @@ GIA的目标是：让程序负责玩原神，你负责抽卡和带着角色逛�
 [![GitHub Repo size](https://img.shields.io/github/repo-size/infstellar/genshin_impact_assistant?style=flat-square&color=3cb371)](https://github.com/infstellar/genshin_impact_assistant/)
 [![contributors](https://img.shields.io/github/contributors/infstellar/genshin_impact_assistant?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/graphs/contributors)
 </br>
-[![QQ Group](https://img.shields.io/badge/QQ%20Group-901372518-blue.svg?style=flat-square&color=12b7f5&logo=tencentqq)](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+[![QQ Guild](https://img.shields.io/badge/QQ%20Guild-78l224i0o1-blue.svg?style=flat-square&color=12b7f5&logo=tencentqq)](https://pd.qq.com/s/a376nvjoq)
+[![QQ Group](https://img.shields.io/badge/QQ%20Group-883225524-blue.svg?style=flat-square&color=12b7f5&logo=tencentqq)](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3CaUl6AyqWoM8nBm8nzcF5QrJIAPg-hL)
 [![Bilibili](https://img.shields.io/badge/bilibili-infstellar-blue.svg?style=flat-square&logo=bilibili)](https://space.bilibili.com/313212782)<!-- ignore gettext -->
 
 </div>
@@ -28,25 +29,25 @@ To没用过github的小伙伴：描述文档中的蓝色文字是链接，可以
 
 ## 我是急急国王
 
-如果你啥都不想看就想开始用，按照[这个方法](zh_CN/jijiking.md)操作。
+如果你啥都不想看就想开始用，按照[这个方法](jijiking.md)操作。
 
 ## 演示视频
 
 <https://www.bilibili.com/video/BV1ps4y1T71A> v0.8.3\
 <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0的演示视频，可能过期
 
-## [常见问题 FAQ](zh_CN/FAQ.md)
-
-如果在使用时遇到问题，先看看[FAQ](zh_CN/FAQ.md)。
-
-## [功能介绍](zh_CN/functions_detail.md)
+## [功能介绍](functions_detail.md)
 
 绝大部分功能只需要设置好参数后，将游戏置于大世界，选择功能并启动。\
-如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](zh_CN/functions_detail.md)。
+如果你对某个功能存在疑惑或想了解更多信息，请参阅[详细功能介绍](functions_detail.md)。
+
+## [常见问题 FAQ](FAQ.md)
+
+如果在使用时遇到问题，先看看[FAQ](FAQ.md)。
 
 ## 参与开发
 
-非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](zh_CN/dev/)开始。
+非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/)开始。
 
 ## Internationalization
 
@@ -55,15 +56,15 @@ English language support may not be comprehensive. If you are experiencing probl
 
 GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
 
-## 使用方法
+## 安装
 
 ### 快速安装
 
-请参见[GIA Launcher自动安装器使用方法](zh_CN/install.md)。
+请参见[GIA Launcher自动安装器使用方法](install.md)。
 
 ### 从源代码构建
 
-请参见[源代码安装方法](zh_CN/git_install.md)。
+请参见[源代码安装方法](git_install.md)。
 
 ## 使用前设置
 
@@ -87,12 +88,12 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 | 设置-通用设置 | `BorderlessWindow` | 如果是无边框窗口或全屏，设置为true。 |
 
 可以在GUI或直接从文件中修改。\
-更多其他配置项，参见GUI内的设置介绍：[GUI使用](zh_CN/gui.md)。
+更多其他配置项，参见GUI内的设置介绍：[GUI使用](gui.md)。
 
 ## 错误报告
 
 如果在使用中遇到问题，可以提交issue反馈。\
-反馈错误前，请务必确认您已经阅读文档和[FAQ](zh_CN/FAQ.md)中的已知问题与解决方案。\
+反馈错误前，请务必确认您已经阅读文档和[FAQ](FAQ.md)中的已知问题与解决方案。\
 反馈错误时，请一并提交 `Logs` 文件夹中的日志文件。
 
 > Troubleshooting any problems without the error log is like driving with your eyes closed.
@@ -101,11 +102,11 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 <!-- ## 错误码
 
-如果日志输出了 `ERR_CODE` 或 `WARN_CODE` ，可以在[ERROR_CODE](zh_CN/error_code.md)中查看对应的信息： -->
+如果日志输出了 `ERR_CODE` 或 `WARN_CODE` ，可以在[ERROR_CODE](error_code.md)中查看对应的信息： -->
 
-## [已知问题 Known Issues](zh_CN/known_issues.md)
+## [已知问题 Known Issues](known_issues.md)
 
-请参见[Known issues](zh_CN/known_issues.md)。
+请参见[Known issues](known_issues.md)。
 
 ## 性能需求
 
@@ -142,7 +143,9 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ## 广告
 
-qq群：[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+qq群：[883225524](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3CaUl6AyqWoM8nBm8nzcF5QrJIAPg-hL)
+
+qq频道(测试)：[78l224i0o1](https://pd.qq.com/s/a376nvjoq)
 
 开发者交流群：[680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
 
