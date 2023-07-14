@@ -14,7 +14,8 @@ The aim of GIA is: let the program play Genshin, and you just need to selected c
 [![GitHub Repo size](https://img.shields.io/github/repo-size/infstellar/genshin_impact_assistant?style=flat-square&color=3cb371)](https://github.com/infstellar/genshin_impact_assistant/)
 [![contributors](https://img.shields.io/github/contributors/infstellar/genshin_impact_assistant?style=flat-square)](https://github.com/infstellar/genshin_impact_assistant/graphs/contributors)
 </br>
-[![QQ Group](https://img.shields.io/badge/QQ%20Group-901372518-blue.svg?style=flat-square&color=12b7f5&logo=tencentqq)](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+[![QQ Guild](https://img.shields.io/badge/QQ%20Guild-78l224i0o1-blue.svg?style=flat-square&color=12b7f5&logo=tencentqq)](https://pd.qq.com/s/a376nvjoq)
+[![QQ Group](https://img.shields.io/badge/QQ%20Group-883225524-blue.svg?style=flat-square&color=12b7f5&logo=tencentqq)](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3CaUl6AyqWoM8nBm8nzcF5QrJIAPg-hL)
 [![Bilibili](https://img.shields.io/badge/bilibili-infstellar-blue.svg?style=flat-square&logo=bilibili)](https://space.bilibili.com/313212782)<!-- ignore gettext -->
 
 </div>
@@ -149,7 +150,9 @@ Thanks to all the friends who participated in the development/testing (\*´▽�
 
 ## Ads
 
-QQ group:[901372518](https://jq.qq.com/?_wv=1027&k=YLTrqlzX)
+qq群：[883225524](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=3CaUl6AyqWoM8nBm8nzcF5QrJIAPg-hL)
+
+qq频道(测试)：[78l224i0o1](https://pd.qq.com/s/a376nvjoq)
 
 Developers' Communication Group: [680029885](https://jq.qq.com/?_wv=1027&k=CGuTvCXU)
 
