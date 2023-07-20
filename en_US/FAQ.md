@@ -2,7 +2,7 @@
 
 ## Windows11 related
 
-如果你正在使用Windows11，请Google搜索 Win22H2下Bitblt截图黑屏或白屏 的解决方案。
+如果你正在使用Windows11，请按如下设置。![issue](../asset/imgs/Win11.png)
 
 ## Not working
 
@@ -28,7 +28,6 @@ Q: It shows "ERROR: Screenshot failed". What should I do?
 
 - If `shape=0,0,4`, pls confirm your Genshin Window not minimized.
 - If shape=xxx,xxx,4, please make sure that the Genshin window resolution is 1080p and that the Genshin launcher window is closed.
-- If the system is Windows 11, please follow this [issue](https://github.com/GengGode/cvAutoTrack/issues/9) setting.
 
 Q: What if I set up a strategy during battle but do not switch to a character whose Q skill is already ready?
 

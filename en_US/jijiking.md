@@ -6,7 +6,7 @@
 3. 选择网页GUI中的秘境任务，打钩，点击 `开始/启动Task` 旁边的按钮；
 4. 把窗口切换到原神，双手离开键盘。
 
-- 注意：你的队伍角色应该在`阿贝多、班尼特、凝光、宵宫、云堇、钟离、甘雨、夜兰、神里绫华、迪奥娜、香菱、申鹤、枫原万叶、雷电将军、胡桃、莫娜、七七、刻晴、珊瑚宫心海`之中。
+- 注意：你的队伍角色最好在`阿贝多、班尼特、凝光、宵宫、云堇、钟离、甘雨、夜兰、神里绫华、迪奥娜、香菱、申鹤、枫原万叶、雷电将军、胡桃、莫娜、七七、刻晴、珊瑚宫心海、纳西妲`之中。
 - 多显示器适配非常混乱，如果截图失败试试单显示器。
 - If the system is Windows 11, please follow this [issue](https://github.com/GengGode/cvAutoTrack/issues/9) setting.
 
@@ -29,4 +29,4 @@ Before use, these configuration elements shoule be noted:
 ### Progress in Genshin
 
 - You need to unlock region map of `The Chasm: Underground Mines` first.
-- 需要解锁璃月与蒙德的大部分传送锚点，副本式秘境。
+- 需要解锁璃月与蒙德的大部分传送锚点，**副本式**秘境。

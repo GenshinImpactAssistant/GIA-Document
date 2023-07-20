@@ -32,6 +32,8 @@ To those who have not used github: the blue text in the docs is a hyperlink that
 
 If you don't want to read anything and just want to get started, follow [this method](jijiking.md)
 
+- 注意：windows11系统用户请查看FAQ(常见问题)
+
 ## Demo Video
 
 <https://www.bilibili.com/video/BV1RV4y157m6>(hung up)
@@ -43,6 +45,8 @@ Addendum <https://www.youtube.com/watch?v=ZieBDx6Go4A> v0.2.0 demo video, may be
 Most of the functions only need to set the parameters, put the game in the big world, select the function and start it.
 
 If you have doubts about a function or want to know more information, please refer to [Detailed Function Introduction](functions_detail.md).
+
+- 注意：windows11系统用户请查看FAQ(常见问题)
 
 ## Frequently ask question
 
