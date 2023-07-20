@@ -2,7 +2,7 @@
 
 ## Windows11相关
 
-如果你正在使用Windows11，请Google搜索 Win22H2下Bitblt截图黑屏或白屏 的解决方案。
+如果你正在使用Windows11，请按如下设置。![issue](../asset/imgs/Win11.png)
 
 ## 无法运行
 
@@ -28,7 +28,6 @@ Q: 显示ERROR：截图失败 怎么办？
 
 - 若shape=0,0,4 ，那么请确认原神窗口没有最小化。
 - 若shape=xxx,xxx,4 ，那么请确认原神分辨率为1080p，同时确认原神启动器窗口关闭。
-- 如果系统是Windows11，请按照这个[issue](https://github.com/GengGode/cvAutoTrack/issues/9)设置。
 
 Q: 战斗时，设置了策略，但不切换到Q技能已经就绪的角色怎么办？
 
