@@ -5,7 +5,7 @@
   - [安装方法](install)
   - [GUI](gui)
   - [详细功能介绍](functions_detail)
-- **主要功能**
+- **主要功能详细介绍**
   - [领取日常奖励](claim_reward)
   - [自动战斗辅助](combat_assi)
   - [自动每日委托](commission_assi)

@@ -5,7 +5,7 @@
   - [Installation method](install)
   - [GUI](gui)
   - [Functions Detail](functions_detail)
-- **Main Functions**
+- **主要功能详细介绍**
   - [Cliam Daily Reward](claim_reward)
   - [Auto Combat Assist](combat_assi)
   - [Automatic Daily Commission](commission_assi)

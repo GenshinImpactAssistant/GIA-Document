@@ -1,5 +1,9 @@
 # Function Introduction
 
+# 全自动任务
+
+完全自动执行，只需要挂机~
+
 ## 1. [Claim Daily Reward](./claim_reward.md)
 
 Select the Ley Line Outcrop in the Task list and start the task.
@@ -67,3 +71,15 @@ For creating a custom task, see [Create a custom task](dev/mission.md)
 ## 8. launch genshin
 
 帮你点击 `点击进入` 按钮，不能帮你启动原神。
+
+# 游戏内辅助
+
+边玩边用。
+
+## 拾取辅助
+
+自动拾取可采集物。
+
+## 自动剧情
+
+自动检测并快速通过剧情。你可以一直保持开启，只有检测到剧情时快速通过功能才会执行。
