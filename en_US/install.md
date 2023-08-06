@@ -1,7 +1,5 @@
 # Installation method
 
-python-git-program-launcher
-
 ## Download
 
 使用python-git项目通用启动器[python-git-program-launcher](https://github.com/infstellar/python-git-program-launcher)

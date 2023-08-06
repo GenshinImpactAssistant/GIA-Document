@@ -68,11 +68,11 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 
 ### Quick installation
 
-See [GIA Launcher Auto Installer Tutorial](install.md).
+参见[PGPL自动安装器使用方法](install.md)。
 
 ### Run from source code
 
-See [Source code running tutorial](git_install.md).
+参见[源代码安装方法](git_install.md)。
 
 ## Pre-use settings
 
