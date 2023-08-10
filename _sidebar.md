@@ -5,7 +5,7 @@
   - [安装方法](/zh_CN/install)
   - [GUI](/zh_CN/gui)
   - [详细功能介绍](/zh_CN/functions_detail)
-- **主要功能**
+- **主要功能详细介绍**
   - [领取日常奖励](/zh_CN/claim_reward)
   - [自动战斗辅助](/zh_CN/combat_assi)
   - [自动每日委托](/zh_CN/commission_assi)
@@ -21,3 +21,4 @@
   - [从源代码安装](/zh_CN/git_install)
   - [**开发指南**](/zh_CN/dev/)
   - </br>
+  
