@@ -2,7 +2,7 @@
 
 ## Windows11 related
 
-如果你正在使用Windows11，请按如下设置。![issue](../asset/imgs/Win11.png)
+如果你正在使用Windows11，请按如下设置。![issue](asset/imgs/Win11.png)
 
 ## Not working
 
