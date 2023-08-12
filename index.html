@@ -41,13 +41,15 @@
     window.$docsify = {
       name: 'GIA Document',
       repo: 'https://github.com/infstellar/genshin_impact_assistant',
-      // homepage: "/zh_CN/README.md",
+      homepage: "/zh_CN/README.md",
+      alias: {
+        '^/([^/]+)$': '/zh_CN/$1'
+      },
       loadSidebar: true,
       subMaxLevel: 2,
       loadNavbar: true,
       auto2top: true,
       autoHeader: true,
-      // coverpage: ["/zh_CN/","/en_US/"],
       relativePath: true,
       nameLink: {
         '/zh_CN/': '#/zh_CN/',
