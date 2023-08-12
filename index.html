@@ -43,7 +43,8 @@
       repo: 'https://github.com/infstellar/genshin_impact_assistant',
       homepage: "/zh_CN/README.md",
       alias: {
-        '^/([^/]+)$': '/zh_CN/$1'
+        '^/([^/]+)$': '/zh_CN/$1',
+        '^/\.\./(.*)': '/$1' /* ROOT/../asset would be redirected to ROOT/asset */
       },
       loadSidebar: true,
       subMaxLevel: 2,
