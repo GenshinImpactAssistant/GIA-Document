@@ -115,16 +115,16 @@ You may not use values based on thousands of digits, this is only used to distin
 
 ## Other Settings
 
-| Settings           | Introduction                                                                     |
-| ------------------ | -------------------------------------------------------------------------------- |
-| `Elast_time`       | E skill duration, or 0 if none                                                   |
-| `Qlast_time`       | Q skill duration, or 0 if none                                                   |
-| `E_short_cd_time`  | Short Ecd time, can't be 0                                                       |
-| `Epress_time`      | the time to press and hold E, or 0 if none                                       |
-| `E_long_cd_time`   | long Ecd time, or 0 if none                                                      |
-| `Qcd_time`         | Q cd time                                                                        |
-| `n`                | The position of the character in the team (1~4), cannot be repeated, cannot be 0 |
-| `long_attack_time` | 重击时间                                                                             |
+| 设置项                | 介绍                       |
+| ------------------ | ------------------------ |
+| `Elast_time`       | E技能持续时间，没有则为0            |
+| `Qlast_time`       | Q技能持续时间，没有则为0            |
+| `E_short_cd_time`  | 短Ecd时间，不能为0              |
+| `Epress_time`      | 长按E的时间，没有则为0             |
+| `E_long_cd_time`   | 长Ecd时间，没有则为0             |
+| `Qcd_time`         | Q技能冷却时间                  |
+| `n`                | 角色在队伍中的位置（1~4），不可重复，不可为0 |
+| `long_attack_time` | 重击时间                     |
 
 ## Auto-configure TEAM files
 
