@@ -14,6 +14,8 @@
   - [Auto collector Assist](collector_assi)
 - **Advanced Usage**
   - [Mission](mission)
+  - [从空荧酒馆路线创建自定义任务](convert_tavern_route_to_mission)
+  - [创建自定义任务](/zh_CN/dev/mission)
 - **Help**
   - [FAQ](FAQ)
   - [Known Issues](known_issues)
