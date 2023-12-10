@@ -28,12 +28,12 @@
 
 - 采集物是否在悬崖上
 - 是否禁用自动吸附
-  - 是否在路径点处启动主动采集
+- 是否在路径点处启动主动采集
 - 是否需要纳西妲
 
-[自动吸附功能介绍](./dev/TianLiCopilot.md)
+[自动吸附功能介绍](../zh_CN/dev/TianLiCopilot.md)
 
-[主动采集介绍](./dev/TianLiCopilot.md)
+[主动采集介绍](../zh_CN/dev/TianLiCopilot.md)
 
 ### 注意事项
 
