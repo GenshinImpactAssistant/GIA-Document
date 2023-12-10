@@ -17,11 +17,38 @@ collection_path_dict = {
             "end_position":[],
             "position_list":[],
             "additional_info":{
-                "pickup_points":[]
+                "pickup_points":[],
+                "adsorptive_position": [],
+                "is_cliff_collection":True|False,
+                "is_active_pickup_in_bp":True|False,
             },
             "adsorptive_position":[]
         }
 ```
+
+由tavern2mission生成的版本：
+```python
+collection_path_dict = {
+            "name":"",
+            "time":"",
+            "start_position":[],
+            "break_position":[],
+            "end_position":[],
+            "position_list":[],
+            "additional_info":{
+                "pickup_points":[],
+                "kyt2m_version": "1.0", 
+                "pickup_points": [], 
+                "adsorptive_position": [],
+                "is_cliff_collection":True|False,
+                "is_active_pickup_in_bp":True|False,
+                "ads_offset":float=10
+                "bp_ads_offset":float=30
+            },
+            "adsorptive_position":[]
+        }
+```
+
 
 | key                 | introduction      |
 | ------------------- | ----------------- |
@@ -34,6 +61,8 @@ collection_path_dict = {
 | additional_info     | 额外信息              |
 | pickup_points       | 采集点的BP的index      |
 | adsorptive_position | 吸附坐标，TLC会尝试接近这个坐标 |
+| is_cliff_collection | 采集物是否在悬崖上|
+| is_active_pickup_in_bp | 是否在BP处激活主动采集 |
 
 ## 屏蔽坐标
 
