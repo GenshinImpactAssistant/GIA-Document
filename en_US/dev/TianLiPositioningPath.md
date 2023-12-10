@@ -17,23 +17,52 @@ collection_path_dict = {
             "end_position":[],
             "position_list":[],
             "additional_info":{
-                "pickup_points":[]
+                "pickup_points":[],
+                "adsorptive_position": [],
+                "is_cliff_collection":True|False,
+                "is_active_pickup_in_bp":True|False,
             },
             "adsorptive_position":[]
         }
 ```
 
-| key                 | introduction                                                      |
-| ------------------- | ----------------------------------------------------------------- |
-| name                | TLPP file name                                                    |
-| time                | TLPP file create time                                             |
-| start_position      | TLPP start coordinates                                            |
-| end_position        | TLPP end coordinates                                              |
-| break_position      | Turning point coordinates, used for pathfinding                   |
-| position_list       | Coordinates in the path, used to record character actions         |
-| additional_info     | additional information                                            |
-| pickup_points       | BP index of collection points                                     |
-| adsorptive_position | adsorption coordinates, TLC will try to approach this coordinates |
+由tavern2mission生成的版本：
+
+```python
+collection_path_dict = {
+            "name":"",
+            "time":"",
+            "start_position":[],
+            "break_position":[],
+            "end_position":[],
+            "position_list":[],
+            "additional_info":{
+                "pickup_points":[],
+                "kyt2m_version": "1.0", 
+                "pickup_points": [], 
+                "adsorptive_position": [],
+                "is_cliff_collection":True|False,
+                "is_active_pickup_in_bp":True|False,
+                "ads_offset":float=10
+                "bp_ads_offset":float=30
+            },
+            "adsorptive_position":[]
+        }
+```
+
+| key                    | introduction                                                      |
+| ---------------------- | ----------------------------------------------------------------- |
+| name                   | TLPP file name                                                    |
+| time                   | TLPP file create time                                             |
+| start_position         | TLPP start coordinates                                            |
+| end_position           | TLPP end coordinates                                              |
+| break_position         | Turning point coordinates, used for pathfinding                   |
+| position_list          | Coordinates in the path, used to record character actions         |
+| additional_info        | additional information                                            |
+| pickup_points          | BP index of collection points                                     |
+| adsorptive_position    | adsorption coordinates, TLC will try to approach this coordinates |
+| is_cliff_collection    | 采集物是否在悬崖上                                                         |
+| is_active_pickup_in_bp | 是否在BP处激活主动采集                                                      |
 
 ## 屏蔽坐标
 

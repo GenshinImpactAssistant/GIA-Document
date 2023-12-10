@@ -66,11 +66,34 @@ Args:
     is_tp (bool, optional): 是否在移动前TP. Defaults to None.
     to_next_posi_offset (float, optional): 到下一个posi的offset。一般无需设置. Defaults to None.
     special_keys_posi_offset (float, optional): SK的offset。无需设置. Defaults to None.
-    reaction_to_enemy (str, optional): 对敌反应。无效设置. Defaults to None.
+    reaction_to_enemy (str, optional): 对敌反应。目前为无效设置. Defaults to None.
     tp_type (list, optional): tp类型。列表可包含`Domain` `Teleporter` `Statue`. Defaults to None.
     is_reinit (bool, optional): 是否重初始化TLPS小地图. Defaults to None.
     is_precise_arrival (bool, optional): 是否需要准确到达移动终点. Defaults to None.
     stop_offset (_type_, optional): 停止范围，小于时停止. Defaults to None.
-    is_auto_pickup (bool, optional): 是否自动拾取可采集物. Defaults to None.
+    is_auto_pickup (bool, optional): 是否自动拾取可采集物.仅执行被动采集. Defaults to None.
 """
+```
+
+## 采集模式
+
+TLC有被动采集和主动采集两种模式。
+
+### 被动采集
+
+路过就捡
+
+### 主动采集
+
+主动采集会在吸附点(adsorptive_position)处触发。
+
+吸附行为：
+
+```
+当纳西妲存在于队伍中:
+    切换纳西妲
+    扫一圈
+    换回原来的角色
+否则:
+    试图接近吸附点，并启用被动采集。
 ```

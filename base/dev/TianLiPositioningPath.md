@@ -27,6 +27,7 @@ collection_path_dict = {
 ```
 
 由tavern2mission生成的版本：
+
 ```python
 collection_path_dict = {
             "name":"",
@@ -49,20 +50,19 @@ collection_path_dict = {
         }
 ```
 
-
-| key                 | introduction      |
-| ------------------- | ----------------- |
-| name                | TLPP文件名称          |
-| time                | TLPP文件创建时间        |
-| start_position      | TLPP开始坐标          |
-| end_position        | TLPP结束坐标          |
-| break_position      | 转向点坐标，用于寻路        |
-| position_list       | 路径中坐标，用于记录角色动作    |
-| additional_info     | 额外信息              |
-| pickup_points       | 采集点的BP的index      |
-| adsorptive_position | 吸附坐标，TLC会尝试接近这个坐标 |
-| is_cliff_collection | 采集物是否在悬崖上|
-| is_active_pickup_in_bp | 是否在BP处激活主动采集 |
+| key                    | introduction      |
+| ---------------------- | ----------------- |
+| name                   | TLPP文件名称          |
+| time                   | TLPP文件创建时间        |
+| start_position         | TLPP开始坐标          |
+| end_position           | TLPP结束坐标          |
+| break_position         | 转向点坐标，用于寻路        |
+| position_list          | 路径中坐标，用于记录角色动作    |
+| additional_info        | 额外信息              |
+| pickup_points          | 采集点的BP的index      |
+| adsorptive_position    | 吸附坐标，TLC会尝试接近这个坐标 |
+| is_cliff_collection    | 采集物是否在悬崖上         |
+| is_active_pickup_in_bp | 是否在BP处激活主动采集      |
 
 ## 屏蔽坐标
 

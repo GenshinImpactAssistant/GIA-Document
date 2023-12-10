@@ -11,6 +11,12 @@ Note: The automatic configuration of the battle file is enabled by default. If y
 - Need to set `team.json` file. The setting method is shown below.
 - Recommend to bring Zhongli, if not can bring 3~4 shield characters.
 
+## 特殊角色
+
+- 钟离: e技能优化
+- 纳西妲: e技能转圈
+- 那维莱特: 重击转圈(重击开始即转圈，转圈时间取决于`long_attack_time`)
+
 ## tactic_group
 
 Auto Combat Assist support the following tactic:
@@ -109,15 +115,16 @@ You may not use values based on thousands of digits, this is only used to distin
 
 ## Other Settings
 
-| Settings          | Introduction                                                                     |
-| ----------------- | -------------------------------------------------------------------------------- |
-| `Elast_time`      | E skill duration, or 0 if none                                                   |
-| `Qlast_time`      | Q skill duration, or 0 if none                                                   |
-| `E_short_cd_time` | Short Ecd time, can't be 0                                                       |
-| `Epress_time`     | the time to press and hold E, or 0 if none                                       |
-| `E_long_cd_time`  | long Ecd time, or 0 if none                                                      |
-| `Qcd_time`        | Q cd time                                                                        |
-| `n`               | The position of the character in the team (1~4), cannot be repeated, cannot be 0 |
+| Settings           | Introduction                                                                     |
+| ------------------ | -------------------------------------------------------------------------------- |
+| `Elast_time`       | E skill duration, or 0 if none                                                   |
+| `Qlast_time`       | Q skill duration, or 0 if none                                                   |
+| `E_short_cd_time`  | Short Ecd time, can't be 0                                                       |
+| `Epress_time`      | the time to press and hold E, or 0 if none                                       |
+| `E_long_cd_time`   | long Ecd time, or 0 if none                                                      |
+| `Qcd_time`         | Q cd time                                                                        |
+| `n`                | The position of the character in the team (1~4), cannot be repeated, cannot be 0 |
+| `long_attack_time` | 重击时间                                                                             |
 
 ## Auto-configure TEAM files
 

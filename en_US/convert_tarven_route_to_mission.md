@@ -1,10 +1,10 @@
 # 转换空荧酒馆路线为自定义任务
 
-## 简介
+## Introduction
 
 将空荧酒馆的路线转换为自定义任务。
 
-## 方法
+## Methods
 
 > `方形控制点`=`路径点`=`BP`
 
@@ -31,7 +31,8 @@
   - 是否在路径点处启动主动采集
 - 是否需要纳西妲
 
-[自动吸附功能介绍](./dev/TianLiCopilot.md)\
+[自动吸附功能介绍](./dev/TianLiCopilot.md)
+
 [主动采集介绍](./dev/TianLiCopilot.md)
 
 ### 注意事项
