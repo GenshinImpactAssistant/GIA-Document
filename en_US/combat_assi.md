@@ -2,6 +2,8 @@
 
 Note: The automatic configuration of the battle file is enabled by default. If you don't want to configure it, you can ignore the configuration introduction below, or just read `Automatically configure the team file`.
 
+> 自动生成team文件不支持流浪者和男女主角。如需使用，请手动编写策略文件并在设置里禁用`自动生成team文件`
+
 ## Introduction
 
 - Location: `config/settings/tactic` or CombatSetting in GUI.
