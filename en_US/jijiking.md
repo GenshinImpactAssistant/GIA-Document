@@ -23,7 +23,7 @@ Before use, these configuration elements shoule be noted:
 ### Genshin window settings
 
 - Need to run GIA after the Genshin Impact starts.
-- The Genshin needs to run in 1080p window (full screen is also possible), set anti-aliasing to SMAA, effects to meduim or above.
+- 原神需要以1080p窗口化运行（全屏也可以），设置抗锯齿为SMAA，中或以上特效，开启动态模糊。
 - The focus of windows shoule be on Genshin window. If the focus window is switched to another window, the program will pause all the operation of keyboard and mouse and wait.
 
 ### Progress in Genshin

@@ -4,6 +4,27 @@
 
 如果你正在使用Windows11，请按如下设置。![issue](asset/imgs/Win11.png)
 
+## 注意以下配置
+
+### Config configuration
+
+Before use, these configuration elements shoule be noted:
+
+| name                        | configuration      | content                                                  |
+| --------------------------- | ------------------ | -------------------------------------------------------- |
+| config/settings/config.json | `BorderlessWindow` | When using boradless window or full screen, set to true. |
+
+### Genshin window settings
+
+- Need to run GIA after the Genshin Impact starts.
+- 原神需要以1080p窗口化运行（全屏也可以），设置抗锯齿为SMAA，中或以上特效，开启动态模糊。
+- The focus of windows shoule be on Genshin window. If the focus window is switched to another window, the program will pause all the operation of keyboard and mouse and wait.
+
+### Progress in Genshin
+
+- You need to unlock region map of `The Chasm: Underground Mines` first.
+- 需要解锁璃月与蒙德的大部分传送锚点，**副本式**秘境。
+
 ## Not working
 
 Q: Program crashed?
