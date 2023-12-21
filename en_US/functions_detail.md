@@ -8,6 +8,8 @@
 
 Select the Ley Line Outcrop in the Task list and start the task.
 
+可以领取每日委托，纪行，探索派遣。
+
 > 最稳定的功能（因为简单）
 
 ## 2. [Auto Combat Assist](./combat_assi.md)
@@ -51,16 +53,15 @@ Select the Ley Line Outcrop in the Task list and start the task.
 
 For other settings, sett [Auto Domain Assist introduction](./domain_assi.md).
 
-> ~~The floor of the ice book will freeze people to death, remember to bring more healers...~~
+> 打不过就猛带盾和奶（
 
-## 6. [Auto Collect Assist](./collector_assi.md)
+~~## 6. [自动采集辅助](collector_assi.md)~~
 
-> Very rubbish, but generic
+~~> 非常垃圾，但是通用~~
 
-- Select general automatic collection in the custom task to start the custom task.
-- Be careful to read the notes in [collector_assi.md](./collector_assi.md).
+~~- 在自定义任务中选择通用自动采集，启动自定义任务。~~~~- 注意阅读[collector_assi.md](collector_assi.md)中的注意事项。~~
 
-For other settings, see[Auto Collector Assist introduction](./collector_assi.md).
+~~其他设置参见[自动采集辅助介绍](collector_assi.md)。~~
 
 ## 7. [自定义任务（素材收集等）](mission.md)
 
@@ -70,7 +71,7 @@ For creating a custom task, see [Create a custom task](dev/mission.md)
 
 ## 8. launch genshin
 
-帮你点击 `点击进入` 按钮，不能帮你启动原神。
+帮你点击 `点击进入` 按钮，~~不能帮你启动原神~~ **可以原神启动！**
 
 # 游戏内辅助
 

@@ -1,6 +1,6 @@
 # Cliam Daily Reward
 
-You can recieve the rewards of expedition and daily commission.
+可以领取每日委托，纪行，探索派遣。
 
 ## Expedition
 

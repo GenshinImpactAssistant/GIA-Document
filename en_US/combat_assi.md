@@ -84,6 +84,7 @@ Allows switching to the character when trigger condition is established.
 | `e_ready`    | When a character Elemental Skill is ready, switching is allowed |
 | `q_ready`    | When a character Burst Skill is ready, switching is allowed     |
 | `idle`       | always enable                                                   |
+| `disable`    | 永不触发                                                            |
 
 Multiple triggers can be used, with commas sparating the trigger. There can be no space. When the trigger conditions of multiple characters are established, the order of switching is determinded by the priority.
 
