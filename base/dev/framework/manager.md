@@ -9,8 +9,11 @@ manager负责管理程序的所有资源，包括图片和文字。
 使用开头大写。
 
 图片路径格式：
+
 ./assets/imgs/Windows/\[Image-classification\]/\[zh_CN|en_US|common\]/img_name
+
 图片文件名（img_name）使用以下格式：
+
 \[Area | Button | Icon\]\[Image-classification\]\[Image-name\].jpg
 
 e.g.:
