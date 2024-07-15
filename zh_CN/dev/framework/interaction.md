@@ -6,7 +6,7 @@
 from source.interaction.interaction_core import itt
 ```
 
-在全局只能存在一个itt变量。默认已创建。
+在全局只能存在一个itt变量。
 
 ## 方法
 

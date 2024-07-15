@@ -14,19 +14,21 @@ Introduce each file in GIA, the role of functions and the overall structure of G
 
 开发教程。
 
-#### 自定义任务与每日委托
+#### 底层框架
 
-目前主要开发方向。
+- [框架介绍](./framework)
+
+#### 文档编写
+
+- [Instructions for writing this document](write_doc.md)
+
+#### 自定义任务与每日委托
 
 添加更多的自定义任务和支持更多每日委托。如果你想参与开发，可以查看以下文档：
 
 - [自定义任务（Mission）](mission.md)
 - [视频转路径（V2P）](video2path.md)
 - [每日委托任务](commission.md)
-
-#### 文档编写
-
-- [Instructions for writing this document](write_doc.md)
 
 ### Introduction
 

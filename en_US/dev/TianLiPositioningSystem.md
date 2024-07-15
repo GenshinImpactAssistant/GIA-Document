@@ -30,9 +30,7 @@ There is an arrow connection between each point and each point, representing the
 
 Each point has its number next to it.
 
-### TLNDev名词解释
-
-- Full link (full link or fl): means two-way connection, such as full connection between node 1 and node 2 means 1\<->2 bidirectional connectivity.
+备注：全连接（full link或fl）：意味着双向连接，比如节点1与节点2全连接意味着1\<->2双向连通。
 
 #### TLNDev命令
 

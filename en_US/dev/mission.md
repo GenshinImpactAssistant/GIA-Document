@@ -37,7 +37,10 @@ TLPP_FILE = ...
 
 You can find the source code in `missions/MissionQingXin1.py`.
 
-这一段代码的目标是告诉GIA使用 `TLPP_FILE` 字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅[TLPP Video to Path](video2path.md)。
+这一段代码的目标是告诉GIA使用 `TLPP_FILE` 字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅：
+
+- [TLPP Record Path](record_path.md)(易于上手)
+- [TLPP Video to Path](video2path.md)
 
 We will start with this piece of code and introduce the various components of Mission.
 
@@ -127,7 +130,7 @@ class MissionMain(MissionJustCollect):
     def __init__(self):
         super().__init__(TLPP_FILE, "your-mission-name")
 
-TLPP_FILE_NAME = ...
+TLPP_FILE = ...
 ```
 
 要使用这个Mission，我们需要将它加入GIA的Mission Index来让GIA识别这个mission。方法如下：

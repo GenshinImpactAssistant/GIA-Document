@@ -13,7 +13,7 @@
   - ______________________________________________________________________
   - [TianLi Positioning Path, TLPP](TianLiPositioningPath)
   - [TianLi Copilot](TianLiCopilot)
-  - [TianLi Positioning System](TianLiPositioningSystem)
+  - [TLPS & TLN 天理定位系统(高德地图)](TianLiPositioningSystem)
   - ______________________________________________________________________
   - [How to Write Doc](write_doc)
   - [Gettext Markdown](gettext-markdown)
