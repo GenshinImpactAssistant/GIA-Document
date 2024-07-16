@@ -43,12 +43,6 @@ def _switch_to_area(self, tp_region):
         itt.appear_then_click(asset.ButtonBigmapCloseMarkTableInTP)
 ```
 
-[//]: # ()[//]: # (在上面示例代码中，如果陷入死循环，GIA 会抛出异常。)
-
-[//]: # ()[//]: # (- \*\*`GameStuckError` \*\* 无操作连续截图超过 1 分钟。战斗中和客户端启动中，将延长至 5 分钟。)
-
-[//]: # ()[//]: # (这两个异常只会在最顶层捕获。捕获后，Alas 会将 log 和最近截图保存在单独的文件夹，并处理其中可能会暴露用户身份的信息，包括混淆路径名称，遮挡游戏昵称等。处理完成后 Alas 停止。)
-
 ## 基于图片的 assets 管理
 
 手动写坐标会给后期维护带来麻烦，因为没人知道这个坐标是在哪里。它也会大量占据开发者的时间，以至于脚本的规模受限。
@@ -58,6 +52,8 @@ area = (790, 275, 911, 321)
 ```
 
 GIA使用变量名标记图片路径。
+
+e.g.:  General/common/ButtonGeneralUseCondensedResin.jpg: 按钮格式图片，General分类，图片名为UseCondensedResin.
 
 - 打开图片即可方便地查看这个区域在哪里，以及这个区域所包含的内容，方便后期维护。
 - 设置好 PhotoShop 动作后，制作一张 assets，比手动输入坐标快。
@@ -91,5 +87,3 @@ Returns:
     bool: Map swiped.
 """
 ```
-
-[//]: # "## 处理死循环"
