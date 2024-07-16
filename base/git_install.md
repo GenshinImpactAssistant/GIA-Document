@@ -31,7 +31,7 @@
    ```shell
    python genshin_assistant.py
    ```
-   
+
 ## 更新
 
 - 使用setup.py更新：

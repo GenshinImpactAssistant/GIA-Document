@@ -31,8 +31,6 @@ Require:
    python genshin_assistant.py
    ```
 
-<del> (recommended to use VsCode, so your run and debug will have several shortcuts to run, fat good! And variable coloring Oh (doge)) </del>
-
 ## Update
 
 - 使用setup.py更新：

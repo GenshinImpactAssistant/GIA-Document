@@ -4,6 +4,9 @@
 
 **该文件用于游戏内路径记录。目前推荐使用GUI版的VideoToPath达到相似功能。**
 
+- [TLPP 游戏内路径记录](record_path.md)(易于上手)
+- [TLPP 视频转路径](video2path.md)
+
 ## 使用
 
 ### 加载

@@ -54,15 +54,7 @@ To没用过github的小伙伴：描述文档中的蓝色文字是链接，可以
 
 ## 参与开发
 
-非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/)开始。
-
-## Internationalization
-
-GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
-
-English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
-
-GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
+非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/README.md)开始。
 
 ## 安装
 
@@ -122,6 +114,14 @@ GIA is using `py-gettext-markdown` to support document internationalization. The
 ## 性能需求
 
 - 此程序至少需要 `2.5G内存` 与 `4G存储空间` （完整安装）。
+
+## Internationalization
+
+GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
+
+English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
+
+GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
 
 ## 鸣谢
 

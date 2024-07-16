@@ -37,7 +37,9 @@ TLPP_FILE = ...
 
 You can find the source code in `missions/MissionQingXin1.py`.
 
-这一段代码的目标是告诉GIA使用 `TLPP_FILE` 字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。有关如何获得TLPP文件，请参阅：
+这一段代码的目标是告诉GIA使用 `TLPP_FILE` 字典中的TLPP(TianLiPositioningPath)文件，沿着该TLPP文件行走并采集沿途的清心。
+
+有关如何获得TLPP文件，请参阅：
 
 - [TLPP Record Path](record_path.md)(易于上手)
 - [TLPP Video to Path](video2path.md)
@@ -135,9 +137,9 @@ TLPP_FILE = ...
 
 要使用这个Mission，我们需要将它加入GIA的Mission Index来让GIA识别这个mission。方法如下：
 
-1. Place the `your-mission-name.py` file you created in the `./missions` directory
+1. 把你创建的 `your-mission-name.py` 文件放置到 `./local_edit_missions` 目录下
 2. 打开GIA GUI，打开 `自定义任务配置` 页面
-3. You should now be able to see your Mission in the restarted GIA.
+3. 你现在应该可以在重启后的GIA中看到你的Mission了。本地的自定义任务将会加粗显示。按照使用一般Mission的方法使用它。
 
 - 注：目前，只有将自定义任务PR到[仓库](https://github.com/GenshinImpactAssistant/GIA-Missions)，通过下载的方式才能显示meta信息。
 

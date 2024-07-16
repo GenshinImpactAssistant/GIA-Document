@@ -53,7 +53,6 @@ To没用过github的小伙伴：描述文档中的蓝色文字是链接，可以
 
 非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/README.md)开始。
 
-
 ## 安装
 
 ### 快速安装

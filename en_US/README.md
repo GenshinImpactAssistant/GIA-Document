@@ -54,15 +54,7 @@ If you enconter any problem when using, you can take a look at FAQ frist.
 
 ## Participate in Development
 
-PR submissions are very welcome. If you want to participate in the development of GIA, you can start from [GIA Dev Document](dev/).
-
-## Internationalization
-
-GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
-
-English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
-
-GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
+非常欢迎提交PR。如果你想参与GIA的开发，可以从[GIA Dev Document](dev/README.md)开始。
 
 ## Installation
 
@@ -122,6 +114,14 @@ Please see [Known issues](known_issues.md).
 ## Performance requirements
 
 - This program requires at least `2.5G` RAM and `4G` storage space (full installation).
+
+## Internationalization
+
+GIA supports Simplified Chinese(zh_CN,zh_MO,zh_HK,zh_TW,zh_SG) and English(other) now.
+
+English language support may not be comprehensive. If you are experiencing problems, please submit an issue for feedback.
+
+GIA is using `py-gettext-markdown` to support document internationalization. The English version of docs may be delayed.
 
 ## Acknowledgements
 
