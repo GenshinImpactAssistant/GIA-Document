@@ -13,8 +13,9 @@
   - [Auto Domain Assist](domain_assi)
   - [Auto collector Assist](collector_assi)
 - **Advanced Usage**
-  - [Mission](mission)
+  - [自定义任务（采集，战斗，……）](mission)
   - [从空荧酒馆路线创建自定义任务](convert_tavern_route_to_mission)
+  - [在游戏内记录路径，并自动采集](convert_TianLiPath_to_mission)
   - [创建自定义任务](/zh_CN/dev/mission)
 - **Help**
   - [FAQ](FAQ)

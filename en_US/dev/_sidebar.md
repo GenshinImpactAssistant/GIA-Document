@@ -3,8 +3,8 @@
 [**Back to Homepage**](/en_US/)
 
 - **Development Guide**
-  - [Path Recorder](path_recorder)
   - [Video to Path, or V2P](video2path)
+  - [游戏内路径记录](record_path)
   - ______________________________________________________________________
   - [Mission](mission)
   - [Commission](commission)
@@ -17,6 +17,7 @@
   - ______________________________________________________________________
   - [How to Write Doc](write_doc)
   - [Gettext Markdown](gettext-markdown)
+  - [Path Recorder](path_recorder)
   - ______________________________________________________________________
   - [PR](pr)
   - [Help needed](need_help)
