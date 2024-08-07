@@ -8,7 +8,13 @@ Mission can achieve the functions of gathering, combat, NPC dialogue (crafting) 
 
 Custom task is an important direction for GIA to add new functions at present.
 
-# 设计你的第一个Mission（快速开始）
+# 设计你的第一个Mission（快速开始） - 从GUI界面创建
+
+GIA 1.2.0版本之后，你可以从GUI中轻松完成自定义任务的创建。
+
+参考[在GUI中创建自定义任务](../create_mission_in_GUI.md)
+
+# 从代码创建
 
 Currently, simple Missions are mainly used for automatic collection. Therefore, below we introduce the writing of a simple Mission to start. To create more complex Missions, please refer to the introduction later.
 
@@ -41,7 +47,7 @@ You can find the source code in `missions/MissionQingXin1.py`.
 
 有关如何获得TLPP文件，请参阅：
 
-- [TLPP Record Path](record_path.md)(易于上手)
+- [TLPP Record Path](../record_path.md)(易于上手)
 - [TLPP Video to Path](video2path.md)
 
 We will start with this piece of code and introduce the various components of Mission.

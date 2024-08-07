@@ -4,7 +4,7 @@
 
 - **Development Guide**
   - [Video to Path, or V2P](video2path)
-  - [游戏内路径记录](record_path)
+  - [游戏内路径记录](../record_path.md)
   - ______________________________________________________________________
   - [Mission](mission)
   - [Commission](commission)

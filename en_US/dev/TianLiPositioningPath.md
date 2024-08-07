@@ -63,10 +63,3 @@ collection_path_dict = {
 | adsorptive_position    | 吸附坐标，TLC会尝试接近这个坐标 |
 | is_cliff_collection    | 采集物是否在悬崖上         |
 | is_active_pickup_in_bp | 是否在BP处激活主动采集      |
-
-## 屏蔽坐标
-
-如果有某个坐标打的不好，你想要手动修改它时：
-
-- If the `additional_info` `pickup_points` list is empty, directly delete the BP corresponding to the index.
-- Otherwise, change the BP corresponding to the index to be the same as its previous or next BP.

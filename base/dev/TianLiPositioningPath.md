@@ -63,5 +63,3 @@ collection_path_dict = {
 | adsorptive_position    | 吸附坐标，TLC会尝试接近这个坐标 |
 | is_cliff_collection    | 采集物是否在悬崖上         |
 | is_active_pickup_in_bp | 是否在BP处激活主动采集      |
-
-

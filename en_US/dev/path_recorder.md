@@ -6,7 +6,7 @@
 
 **这是路径记录的底层实现，推荐使用以下两个包装后的功能记录路径：**
 
-- [TLPP 游戏内路径记录](record_path.md)(易于上手)
+- [TLPP 游戏内路径记录](../record_path.md)(易于上手)
 - [TLPP 视频转路径](video2path.md)
 
 ## Usage

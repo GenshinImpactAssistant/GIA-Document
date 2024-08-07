@@ -34,7 +34,8 @@
 
 ## 更新
 
-  Windows Powershell
-  ```powershell
-  git pull;python setup.py update;git submodule update
-  ```
+Windows Powershell
+
+```powershell
+git pull;python setup.py update;git submodule update
+```
