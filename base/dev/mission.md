@@ -6,7 +6,13 @@ Mission（自定义任务）是GIA中在大世界执行功能的便携集成化�
 自定义任务可以实现的功能包括行走、采集、战斗、NPC对话（半成品）。通过功能的组合可以实现固定路线采集、任务自动化等功能。\
 自定义任务是GIA目前添加新功能的重要方向。更精准的自动采集和自动委托都依赖于Mission。
 
-# 设计你的第一个Mission（快速开始）
+# 设计你的第一个Mission（快速开始） - 从GUI界面创建
+
+GIA 1.2.0版本之后，你可以从GUI中轻松完成自定义任务的创建。
+
+参考[在GUI中创建自定义任务](../create_mission_in_GUI.md)
+
+# 从代码创建
 
 目前，简单的Mission主要用于自动采集。因此，下面我们介绍一个简单Mission的编写以开始。创建更复杂的Mission可以参阅之后的介绍。\
 你需要一丁点最基本的python知识以开始。如果你对使用python一无所知，参考[vscode&anaconda python 简单教程（还没写）](vscode_python.md)。
@@ -38,7 +44,7 @@ TLPP_FILE = ...
 
 有关如何获得TLPP文件，请参阅：
 
-- [TLPP Record Path](record_path.md)(易于上手)
+- [TLPP Record Path](../record_path.md)(易于上手)
 - [TLPP Video to Path](video2path.md)
 
 我们将从这一段代码开始，介绍Mission的各个组成部分。

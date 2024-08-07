@@ -34,11 +34,7 @@
 
 ## 更新
 
-- 使用setup.py更新：
-  ```shell
-  python setup.py update&git submodule update
-  ```
   Windows Powershell
   ```powershell
-  python setup.py update;git submodule init;git submodule update
+  git pull;python setup.py update;git submodule update
   ```
