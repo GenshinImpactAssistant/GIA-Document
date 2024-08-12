@@ -18,4 +18,6 @@
 
 json文件可用于在GIA主界面中，用于“编辑路径和创建自定义任务”功能。
 
+有关在GUI中创建自定义任务，参见[Mission in GUI](create_mission_in_GUI.md)
+
 有关自定义任务，参见[Mission](dev/mission.md)
