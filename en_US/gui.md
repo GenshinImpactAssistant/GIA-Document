@@ -32,10 +32,6 @@ Select the file to be configured in the drop-down box and follow the prompts to 
 
 设置自动战斗设置，设置战斗策略等。
 
-## Auto Collect Setting Page
-
-设置采集物等。（不推荐使用）
-
 # Custom Mission
 
 Mission is a portable, integrated unit in GIA that performs functions in the Teyvat world, using a unified interface that is simple to write and use.

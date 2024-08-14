@@ -4,7 +4,7 @@
 
 - The ability to automatically and continuously brush most of Domain, including automatically starting challenges, automatically fighting and automatically collecting rewards.
 
-- After entering the Domain, select DomainTask in the GUI TaskList and click Start Task.
+- 进入秘境后，在任务列表中选中秘境任务，点击启动任务。
 
 - Please configure the auto-combat before starting the auto-domain function. See [autocombat assist](combat_assi.md) for the auto-battle section.
 
@@ -12,7 +12,7 @@
 
 ## How to use
 
-1. Set the number of challenges and other settings in the config. See [config setting](config.md).
+1. 点击设置页面，在下拉框中选择秘境设置，按照提示操作。
 
 2. Configure the team and enter the secret area.
 
