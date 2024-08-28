@@ -91,11 +91,11 @@ state_in是循环状态，即如果该流程的一些代码需要循环执行，
 
 函数清单：
 
-| name               | func           |
-| ------------------ | -------------- |
-| \_next_rfc()       | 切换到下一个FlowCode |
-| \_before_timeout() | 在函数超时之前做点什么    |
-| \_set_nfid()       | 设置下一个流程id      |
+| name               | func                   |
+| ------------------ | ---------------------- |
+| \_next_rfc()       | 切换到下一个FlowCode   |
+| \_before_timeout() | 在函数超时之前做点什么 |
+| \_set_nfid()       | 设置下一个流程id       |
 
 ## FlowConnector
 
@@ -122,11 +122,11 @@ current_flow_id：初始流程id。
 
 函数清单：
 
-| name                  | func                     |
-| --------------------- | ------------------------ |
+| name                  | func                                 |
+| --------------------- | ------------------------------------ |
 | append_flow()         | 添加一个FlowTemplate到流程执行列表中 |
-| \_err_code_exec()     | 错误码分析                    |
-| set_current_flow_id() | 设置流程id                   |
+| \_err_code_exec()     | 错误码分析                           |
+| set_current_flow_id() | 设置流程id                           |
 
 ## EndFlowTemplate
 

@@ -222,32 +222,32 @@ if __name__ == '__main__':
 
 函数清单：
 
-| 函数                            | 用途                                    |
-| ----------------------------- | ------------------------------------- |
-| move_straight                 | 向目的地前进                                |
-| move_along                    | 沿着TLPP行走                              |
-| start_combat                  | 开始战斗                                  |
-| stop_combat                   | 停止战斗                                  |
-| pickup_once                   | 拾取1次                                  |
-| collect                       | 启动收集                                  |
-| circle_search                 | 进入一个循环，以中心坐标为圆心向外移动搜索。当符合stop_rule时退出 |
-| start_pickup                  | 启动自动采集。会采集路上遇到的可交互物品。                 |
-| stop_pickup                   | 停止自动采集。                               |
-| refresh_picked_list           | 刷新已采集物名列表                             |
-| reg_exception_found_enemy     | 注册事件：条件：是否遇敌。此后条件成立则跳出阻塞式任务。          |
-| reg_exception_chara_died      | 注册事件：条件：角色是否死亡。此后条件成立则跳出阻塞式任务。        |
-| reg_exception_low_hp          | 注册事件：条件：检测角色是否低血量。此后条件成立则跳出阻塞式任务。     |
+| 函数                          | 用途                                                                  |
+| ----------------------------- | --------------------------------------------------------------------- |
+| move_straight                 | 向目的地前进                                                          |
+| move_along                    | 沿着TLPP行走                                                          |
+| start_combat                  | 开始战斗                                                              |
+| stop_combat                   | 停止战斗                                                              |
+| pickup_once                   | 拾取1次                                                               |
+| collect                       | 启动收集                                                              |
+| circle_search                 | 进入一个循环，以中心坐标为圆心向外移动搜索。当符合stop_rule时退出     |
+| start_pickup                  | 启动自动采集。会采集路上遇到的可交互物品。                            |
+| stop_pickup                   | 停止自动采集。                                                        |
+| refresh_picked_list           | 刷新已采集物名列表                                                    |
+| reg_exception_found_enemy     | 注册事件：条件：是否遇敌。此后条件成立则跳出阻塞式任务。              |
+| reg_exception_chara_died      | 注册事件：条件：角色是否死亡。此后条件成立则跳出阻塞式任务。          |
+| reg_exception_low_hp          | 注册事件：条件：检测角色是否低血量。此后条件成立则跳出阻塞式任务。    |
 | set_default_arrival_mode      | 设置默认精确到达模式。此后所有移动方法的默认精确到达模式设置为state。 |
-| reg_fight_if_needed           | 注册事件：设置是否遇到可见的敌人就开战。设置为state。         |
-| set_raise_exception           | 设置是否遇到异常时抛出异常并强制退出任务。设置为state。        |
-| set_exception_mode            | 设置阻塞式任务遇到异常时的默认处理方式。                  |
-| set_puo_crazy_f               | 设置是否启用疯狂按f模式。启用后，puo将会在按下f拾取后不停按f若干次。 |
-| handle_tmf_stuck_then_skip    | 传入TMF的错误码，如果出错则跳过。                    |
-| handle_tmf_stuck_then_recover | 传入TMF的错误码，如果出错则到七天神像回血。               |
-| handle_tmf_stuck_then_raise   | 传入TMF的错误码，如果出错则抛出异常，退出任务。             |
-| switch_character_to           | 切换角色到指定角色。角色名为英文。                     |
-| use_f                         | 按一下f。                                 |
-| is_combat_end                 | 战斗是否结束。你可以在while循环中判断它。               |
+| reg_fight_if_needed           | 注册事件：设置是否遇到可见的敌人就开战。设置为state。                 |
+| set_raise_exception           | 设置是否遇到异常时抛出异常并强制退出任务。设置为state。               |
+| set_exception_mode            | 设置阻塞式任务遇到异常时的默认处理方式。                              |
+| set_puo_crazy_f               | 设置是否启用疯狂按f模式。启用后，puo将会在按下f拾取后不停按f若干次。  |
+| handle_tmf_stuck_then_skip    | 传入TMF的错误码，如果出错则跳过。                                     |
+| handle_tmf_stuck_then_recover | 传入TMF的错误码，如果出错则到七天神像回血。                           |
+| handle_tmf_stuck_then_raise   | 传入TMF的错误码，如果出错则抛出异常，退出任务。                       |
+| switch_character_to           | 切换角色到指定角色。角色名为英文。                                    |
+| use_f                         | 按一下f。                                                             |
+| is_combat_end                 | 战斗是否结束。你可以在while循环中判断它。                             |
 
 ## 示例
 

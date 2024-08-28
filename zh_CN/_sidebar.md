@@ -20,5 +20,6 @@
   - [已知问题](known_issues)
 - **其它**
   - [从源代码安装](git_install)
+  - [图片采集](collect_images)
   - [**开发指南**](/zh_CN/dev/)
   - </br>

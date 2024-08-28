@@ -20,5 +20,6 @@
   - [Known Issues](known_issues)
 - **Other**
   - [Install From Source Code](git_install)
+  - [图片采集](collect_images)
   - [**Development Guide**](/en_US/dev/)
   - </br>

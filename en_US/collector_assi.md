@@ -27,9 +27,9 @@ Start the Auto Collector from the GUI.
 
 - Recommanded editing in the GUI
 
-| key             | item                                                                                      |
-| --------------- | ----------------------------------------------------------------------------------------- |
-| collection_name | name of the item to be collected                                                          |
+| key             | item                                                                                           |
+| --------------- | ---------------------------------------------------------------------------------------------- |
+| collection_name | name of the item to be collected                                                               |
 | collection_type | type of collection，devided into `COLLECTION`（general collection）and `ENEMY`（combat drops） |
 
 ## Collector Log
