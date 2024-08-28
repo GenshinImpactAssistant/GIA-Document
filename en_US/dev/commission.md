@@ -40,14 +40,14 @@ Inherited from the MissionExecutor class.
 
 List of functions:
 
-| function          | usage                                                                                                           |
+| 函数              | 用途                                                                                                            |
 | ----------------- | --------------------------------------------------------------------------------------------------------------- |
-| talk_skip         | Skip talks until back to main UI                                                                                |
-| talk_switch       | select options                                                                                                  |
-| talk_until_switch | talk until options                                                                                              |
-| talk_wait         | wait x seconds                                                                                                  |
+| talk_skip         | 跳过对话，直到回到大世界                                                                                        |
+| talk_switch       | 选择选项                                                                                                        |
+| talk_until_switch | 对话直到出现选项                                                                                                |
+| talk_wait         | 等待x秒                                                                                                         |
 | talk_with_npc     | Talk to the NPC with the specified name. It will change the direction according to wasd to find the nearby NPC. |
-| exit_talk         | Exit the conversation until you return to the main interface.                                                   |
+| exit_talk         | 退出对话，直到返回主界面。                                                                                      |
 
 ## 获得当前坐标
 

@@ -23,4 +23,4 @@ QQ群：680029885 | 883225524
 
 QQ频道：https://pd.qq.com/s/f8ilad9qw
 
-邮箱：
+邮箱：Infstellar@qq.com

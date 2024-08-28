@@ -91,11 +91,11 @@ After each state is achieved, if you want to switch to the next state, you must 
 
 List of functions:
 
-| name               | func                                       |
-| ------------------ | ------------------------------------------ |
-| \_next_rfc()       | Switch to the next FlowCode                |
-| \_before_timeout() | Do something before the function times out |
-| \_set_nfid()       | Set the next process id                    |
+| name               | func                   |
+| ------------------ | ---------------------- |
+| \_next_rfc()       | 切换到下一个FlowCode   |
+| \_before_timeout() | 在函数超时之前做点什么 |
+| \_set_nfid()       | 设置下一个流程id       |
 
 ## FlowConnector
 
@@ -125,8 +125,8 @@ List of functions:
 | name                  | func                                             |
 | --------------------- | ------------------------------------------------ |
 | append_flow()         | Add a FlowTemplate to the process execution list |
-| \_err_code_exec()     | Error code analysis                              |
-| set_current_flow_id() | set flow id                                      |
+| \_err_code_exec()     | 错误码分析                                       |
+| set_current_flow_id() | 设置流程id                                       |
 
 ## EndFlowTemplate
 

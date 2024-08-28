@@ -222,32 +222,32 @@ You can check the method and introduction at [`source/mission/mission.py`](https
 
 List of functions:
 
-| function                      | purpose                                                                                                                                   |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| move_straight                 | move towards the destination                                                                                                              |
-| move_along                    | Walk along TLPP                                                                                                                           |
-| start_combat                  | Start Combat                                                                                                                              |
-| stop_combat                   | stop combat                                                                                                                               |
-| pickup_once                   | Pick up 1 time                                                                                                                            |
-| collect                       | start collection                                                                                                                          |
-| circle_search                 | Enter a loop, and search outward with the center coordinates as the center of the circle. Exit when stop_rule is met.                     |
-| start_pickup                  | Start automatic pickup. Interactable items encountered on the road will be collected.                                                     |
-| stop_pickup                   | Stop automatic pickup.                                                                                                                    |
-| refresh_picked_list           | Refresh the list of picked items                                                                                                          |
-| reg_exception_found_enemy     | Register event: Condition: Enemy found or not. After that, if the condition is met, it will jump out of the blocking task.                |
-| reg_exception_chara_died      | Register event: Condition: Whether the character died. After that, if the condition is met, it will jump out of the blocking task.        |
-| reg_exception_low_hp          | Register event: Condition: Check if the character has low HP. After that, if the condition is met, it will jump out of the blocking task. |
-| set_default_arrival_mode      | Set the default accurate arrival mode. The default exact reach mode for all move methods henceforth is set to state.                      |
-| reg_fight_if_needed           | Register event: set whether to start a fight when encountering a visible enemy. Set to state.                                             |
-| set_raise_exception           | Sets whether an exception is thrown and the task is forced to exit when an exception is encountered. Set to state.                        |
-| set_exception_mode            | Set the default processing mode when a blocking task encounters an exception.                                                             |
-| set_puo_crazy_f               | Set whether to enable the crazy pressing f mode. After enabling, puo will keep pressing f several times after pressing f to pick up.      |
-| handle_tmf_stuck_then_skip    | The error code passed in to TMF, if there is an error, it will be skipped.                                                                |
-| handle_tmf_stuck_then_recover | Pass in the error code of TMF, if there is an error, it will return blood from the statue.                                                |
-| handle_tmf_stuck_then_raise   | Pass in the error code of TMF, if there is an error, throw an exception and exit the task.                                                |
-| switch_character_to           | Switch character to specified character.                                                                                                  |
-| use_f                         | Press f.                                                                                                                                  |
-| is_combat_end                 | Whether the combat is over. You can judge it in the while loop.                                                                           |
+| 函数                          | 用途                                                                                                                 |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| move_straight                 | 向目的地前进                                                                                                         |
+| move_along                    | 沿着TLPP行走                                                                                                         |
+| start_combat                  | 开始战斗                                                                                                             |
+| stop_combat                   | 停止战斗                                                                                                             |
+| pickup_once                   | 拾取1次                                                                                                              |
+| collect                       | 启动收集                                                                                                             |
+| circle_search                 | 进入一个循环，以中心坐标为圆心向外移动搜索。当符合stop_rule时退出                                                    |
+| start_pickup                  | 启动自动采集。会采集路上遇到的可交互物品。                                                                           |
+| stop_pickup                   | 停止自动采集。                                                                                                       |
+| refresh_picked_list           | 刷新已采集物名列表                                                                                                   |
+| reg_exception_found_enemy     | 注册事件：条件：是否遇敌。此后条件成立则跳出阻塞式任务。                                                             |
+| reg_exception_chara_died      | 注册事件：条件：角色是否死亡。此后条件成立则跳出阻塞式任务。                                                         |
+| reg_exception_low_hp          | 注册事件：条件：检测角色是否低血量。此后条件成立则跳出阻塞式任务。                                                   |
+| set_default_arrival_mode      | Set the default accurate arrival mode. The default exact reach mode for all move methods henceforth is set to state. |
+| reg_fight_if_needed           | 注册事件：设置是否遇到可见的敌人就开战。设置为state。                                                                |
+| set_raise_exception           | 设置是否遇到异常时抛出异常并强制退出任务。设置为state。                                                              |
+| set_exception_mode            | 设置阻塞式任务遇到异常时的默认处理方式。                                                                             |
+| set_puo_crazy_f               | 设置是否启用疯狂按f模式。启用后，puo将会在按下f拾取后不停按f若干次。                                                 |
+| handle_tmf_stuck_then_skip    | 传入TMF的错误码，如果出错则跳过。                                                                                    |
+| handle_tmf_stuck_then_recover | 传入TMF的错误码，如果出错则到七天神像回血。                                                                          |
+| handle_tmf_stuck_then_raise   | 传入TMF的错误码，如果出错则抛出异常，退出任务。                                                                      |
+| switch_character_to           | 切换角色到指定角色。角色名为英文。                                                                                   |
+| use_f                         | 按一下f。                                                                                                            |
+| is_combat_end                 | 战斗是否结束。你可以在while循环中判断它。                                                                            |
 
 ## 示例
 

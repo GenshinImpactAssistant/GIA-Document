@@ -23,20 +23,20 @@ Note: The automatic configuration of the battle file is enabled by default. If y
 
 Auto Combat Assist support the following tactic:
 
-| Tactic Keyword | Description                                                                                          |
-| -------------- | ---------------------------------------------------------------------------------------------------- |
-| `>`            | Skip to next group immediately                                                                       |
-| `@e?A:B`       | Detect whether the Elemental Skill is in effetc. If it take effect, execute A. Otherwise, execute B. |
-| `e?A:B`        | Detect whether the Elemental Skill is ready. If ready, execute A, otherwise execute B.               |
-| `q?A:B`        | Detect whether the Elemental Burst is ready. If ready, execute A, otherwise execute B.               |
-| `#@e?A:B`      | Detect whether Elemental Skill is ongoing. If it is ongoing, loop execute A, otherwise execute B.    |
-| `#@q?A:B`      | Detect whether Elemental is ongoing. If it is ongoing, loop execute A, otherwise execute B.          |
-| `a`/`a~`/`da`  | Normal Attack/Heavy Attack/Drop Attack                                                               |
-| `e`/`e~`       | Use Elemental Skill (short/long)                                                                     |
-| `j`            | jump                                                                                                 |
-| `ja`           | jump and attack                                                                                      |
-| `sp`           | Sprint                                                                                               |
-| num            | delay, unit is milliseconds.                                                                         |
+| 策略关键字    | 说明                                                                                              |
+| ------------- | ------------------------------------------------------------------------------------------------- |
+| `>`           | 立刻跳转至下一组                                                                                  |
+| `@e?A:B`      | 元素战技是否生效。生效执行A，否则执行B。                                                          |
+| `e?A:B`       | 元素战技是否就绪。就绪执行A，否则执行B。                                                          |
+| `q?A:B`       | 元素爆发是否就绪。就绪执行A，否则执行B。                                                          |
+| `#@e?A:B`     | Detect whether Elemental Skill is ongoing. If it is ongoing, loop execute A, otherwise execute B. |
+| `#@q?A:B`     | Detect whether Elemental is ongoing. If it is ongoing, loop execute A, otherwise execute B.       |
+| `a`/`a~`/`da` | 普通攻击/重击/下落攻击                                                                            |
+| `e`/`e~`      | 使用元素战技（点按/长按）                                                                         |
+| `j`           | 跳跃                                                                                              |
+| `ja`          | 跳跃攻击                                                                                          |
+| `sp`          | 冲刺                                                                                              |
+| 数字          | 延时，单位为`毫秒`                                                                                |
 
 Each tactic keyword is separated by `,`; different policy groups are separated by `;`. When the execution of a group of policies is finished, execute the next policy group.
 
@@ -69,22 +69,22 @@ Attantion:
 
 Example:
 
-| Character | Tactic               |
-| --------- | -------------------- |
-| zhongli   | `e?e~:none;q?q:none` |
-| Yun Jin   | `e?e~:none;q?q:none` |
-| Yoimiya   | `e?e:none;#@e?a:q;`  |
+| 角色    | 策略                 |
+| ------- | -------------------- |
+| zhongli | `e?e~:none;q?q:none` |
+| Yun Jin | `e?e~:none;q?q:none` |
+| Yoimiya | `e?e:none;#@e?a:q;`  |
 
 ## Trigger
 
 Allows switching to the character when trigger condition is established.
 
-| trigger type | description                                                     |
-| ------------ | --------------------------------------------------------------- |
-| `e_ready`    | When a character Elemental Skill is ready, switching is allowed |
-| `q_ready`    | When a character Burst Skill is ready, switching is allowed     |
-| `idle`       | always enable                                                   |
-| `disable`    | 永不触发                                                        |
+| 触发器    | 说明                                                            |
+| --------- | --------------------------------------------------------------- |
+| `e_ready` | When a character Elemental Skill is ready, switching is allowed |
+| `q_ready` | When a character Burst Skill is ready, switching is allowed     |
+| `idle`    | 始终触发                                                        |
+| `disable` | 永不触发                                                        |
 
 Multiple triggers can be used, with commas sparating the trigger. There can be no space. When the trigger conditions of multiple characters are established, the order of switching is determinded by the priority.
 
@@ -92,7 +92,7 @@ Multiple triggers can be used, with commas sparating the trigger. There can be n
 
 Position is the role of the character in the team.
 
-| type       | description           |
+| 类型       | 说明                  |
 | ---------- | --------------------- |
 | `Main`     | Main damage character |
 | `Shield`   | Shield character      |

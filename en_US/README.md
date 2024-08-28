@@ -83,7 +83,7 @@ If you enconter any problem when using, you can take a look at FAQ frist.
 
 Before use, these configuration elements shoule be noted:
 
-| name                        | configuration      | content                                                  |
+| 位置                        | 配置项             | 内容                                                     |
 | --------------------------- | ------------------ | -------------------------------------------------------- |
 | config/settings/config.json | `BorderlessWindow` | When using boradless window or full screen, set to true. |
 
